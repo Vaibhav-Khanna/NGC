@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="NGC.Pages.ContactListDetailPage"
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    Title="{resources:Translate Person}">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Text="{resources:Translate Modify}" Command="{Binding ModifyCommand}" Priority="1" />
+    </base:BasePage.ToolbarItems>
+    
+    <base:BasePage.Content>
+        
+    </base:BasePage.Content>
+</base:BasePage>
