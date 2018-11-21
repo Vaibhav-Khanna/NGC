@@ -6,21 +6,21 @@ using NGC.Models;
 
 namespace NGC.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class MockDataStore : IDataStore<BaseDataObject>
     {
-        List<Item> items;
+        List<BaseDataObject> items;
 
         public MockDataStore()
         {
-            items = new List<Item>();
-            var mockItems = new List<Item>
+            items = new List<BaseDataObject>();
+            var mockItems = new List<BaseDataObject>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new BaseDataObject { Id = Guid.NewGuid().ToString(),  },
+                new BaseDataObject { Id = Guid.NewGuid().ToString(), },
+                new BaseDataObject { Id = Guid.NewGuid().ToString(), },
+                 new BaseDataObject { Id = Guid.NewGuid().ToString(), },
+                 new BaseDataObject { Id = Guid.NewGuid().ToString(), },
+                 new BaseDataObject { Id = Guid.NewGuid().ToString(), }
             };
 
             foreach (var item in mockItems)
@@ -29,16 +29,16 @@ namespace NGC.Services
             }
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        public async Task<bool> AddItemAsync(BaseDataObject item)
         {
             items.Add(item);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Item item)
+        public async Task<bool> UpdateItemAsync(BaseDataObject item)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == item.Id).FirstOrDefault();
+            var oldItem = items.Where((BaseDataObject arg) => arg.Id == item.Id).FirstOrDefault();
             items.Remove(oldItem);
             items.Add(item);
 
@@ -47,18 +47,18 @@ namespace NGC.Services
 
         public async Task<bool> DeleteItemAsync(string id)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == id).FirstOrDefault();
+            var oldItem = items.Where((BaseDataObject arg) => arg.Id == id).FirstOrDefault();
             items.Remove(oldItem);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<Item> GetItemAsync(string id)
+        public async Task<BaseDataObject> GetItemAsync(string id)
         {
             return await Task.FromResult(items.FirstOrDefault(s => s.Id == id));
         }
 
-        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<BaseDataObject>> GetItemsAsync(bool forceRefresh = false)
         {
             return await Task.FromResult(items);
         }

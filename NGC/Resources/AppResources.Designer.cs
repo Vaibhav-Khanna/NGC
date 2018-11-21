@@ -160,5 +160,11 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("More", resourceCulture);
             }
         }
+        
+        internal static string Filter {
+            get {
+                return ResourceManager.GetString("Filter", resourceCulture);
+            }
+        }
     }
 }

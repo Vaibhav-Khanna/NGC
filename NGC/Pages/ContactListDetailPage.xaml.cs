@@ -11,5 +11,6 @@ namespace NGC.Pages
         {
             InitializeComponent();
         }
+
     }
 }

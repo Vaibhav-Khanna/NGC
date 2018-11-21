@@ -26,6 +26,2101 @@ namespace NGC.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_fade_in = global::NGC.Droid.Resource.Animation.abc_fade_in;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_fade_out = global::NGC.Droid.Resource.Animation.abc_fade_out;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::NGC.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_popup_enter = global::NGC.Droid.Resource.Animation.abc_popup_enter;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_popup_exit = global::NGC.Droid.Resource.Animation.abc_popup_exit;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::NGC.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_slide_in_bottom = global::NGC.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_slide_in_top = global::NGC.Droid.Resource.Animation.abc_slide_in_top;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_slide_out_bottom = global::NGC.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::EntryAutoComplete.Droid.Resource.Animation.abc_slide_out_top = global::NGC.Droid.Resource.Animation.abc_slide_out_top;
+			global::EntryAutoComplete.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::NGC.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::EntryAutoComplete.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::NGC.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::EntryAutoComplete.Droid.Resource.Animation.design_snackbar_in = global::NGC.Droid.Resource.Animation.design_snackbar_in;
+			global::EntryAutoComplete.Droid.Resource.Animation.design_snackbar_out = global::NGC.Droid.Resource.Animation.design_snackbar_out;
+			global::EntryAutoComplete.Droid.Resource.Animator.design_appbar_state_list_animator = global::NGC.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarDivider = global::NGC.Droid.Resource.Attribute.actionBarDivider;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarItemBackground = global::NGC.Droid.Resource.Attribute.actionBarItemBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarPopupTheme = global::NGC.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarSize = global::NGC.Droid.Resource.Attribute.actionBarSize;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarSplitStyle = global::NGC.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarStyle = global::NGC.Droid.Resource.Attribute.actionBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarTabBarStyle = global::NGC.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarTabStyle = global::NGC.Droid.Resource.Attribute.actionBarTabStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarTabTextStyle = global::NGC.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarTheme = global::NGC.Droid.Resource.Attribute.actionBarTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionBarWidgetTheme = global::NGC.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionButtonStyle = global::NGC.Droid.Resource.Attribute.actionButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionDropDownStyle = global::NGC.Droid.Resource.Attribute.actionDropDownStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionLayout = global::NGC.Droid.Resource.Attribute.actionLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionMenuTextAppearance = global::NGC.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionMenuTextColor = global::NGC.Droid.Resource.Attribute.actionMenuTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeBackground = global::NGC.Droid.Resource.Attribute.actionModeBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::NGC.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeCloseDrawable = global::NGC.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeCopyDrawable = global::NGC.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeCutDrawable = global::NGC.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeFindDrawable = global::NGC.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModePasteDrawable = global::NGC.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModePopupWindowStyle = global::NGC.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::NGC.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeShareDrawable = global::NGC.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeSplitBackground = global::NGC.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeStyle = global::NGC.Droid.Resource.Attribute.actionModeStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::NGC.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionOverflowButtonStyle = global::NGC.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionOverflowMenuStyle = global::NGC.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionProviderClass = global::NGC.Droid.Resource.Attribute.actionProviderClass;
+			global::EntryAutoComplete.Droid.Resource.Attribute.actionViewClass = global::NGC.Droid.Resource.Attribute.actionViewClass;
+			global::EntryAutoComplete.Droid.Resource.Attribute.activityChooserViewStyle = global::NGC.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::NGC.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.alertDialogCenterButtons = global::NGC.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::EntryAutoComplete.Droid.Resource.Attribute.alertDialogStyle = global::NGC.Droid.Resource.Attribute.alertDialogStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.alertDialogTheme = global::NGC.Droid.Resource.Attribute.alertDialogTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.allowStacking = global::NGC.Droid.Resource.Attribute.allowStacking;
+			global::EntryAutoComplete.Droid.Resource.Attribute.alpha = global::NGC.Droid.Resource.Attribute.alpha;
+			global::EntryAutoComplete.Droid.Resource.Attribute.arrowHeadLength = global::NGC.Droid.Resource.Attribute.arrowHeadLength;
+			global::EntryAutoComplete.Droid.Resource.Attribute.arrowShaftLength = global::NGC.Droid.Resource.Attribute.arrowShaftLength;
+			global::EntryAutoComplete.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::NGC.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.background = global::NGC.Droid.Resource.Attribute.background;
+			global::EntryAutoComplete.Droid.Resource.Attribute.backgroundSplit = global::NGC.Droid.Resource.Attribute.backgroundSplit;
+			global::EntryAutoComplete.Droid.Resource.Attribute.backgroundStacked = global::NGC.Droid.Resource.Attribute.backgroundStacked;
+			global::EntryAutoComplete.Droid.Resource.Attribute.backgroundTint = global::NGC.Droid.Resource.Attribute.backgroundTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.backgroundTintMode = global::NGC.Droid.Resource.Attribute.backgroundTintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.barLength = global::NGC.Droid.Resource.Attribute.barLength;
+			global::EntryAutoComplete.Droid.Resource.Attribute.behavior_autoHide = global::NGC.Droid.Resource.Attribute.behavior_autoHide;
+			global::EntryAutoComplete.Droid.Resource.Attribute.behavior_hideable = global::NGC.Droid.Resource.Attribute.behavior_hideable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.behavior_overlapTop = global::NGC.Droid.Resource.Attribute.behavior_overlapTop;
+			global::EntryAutoComplete.Droid.Resource.Attribute.behavior_peekHeight = global::NGC.Droid.Resource.Attribute.behavior_peekHeight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.behavior_skipCollapsed = global::NGC.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::EntryAutoComplete.Droid.Resource.Attribute.borderWidth = global::NGC.Droid.Resource.Attribute.borderWidth;
+			global::EntryAutoComplete.Droid.Resource.Attribute.borderlessButtonStyle = global::NGC.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.bottomSheetDialogTheme = global::NGC.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.bottomSheetStyle = global::NGC.Droid.Resource.Attribute.bottomSheetStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonBarButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonBarStyle = global::NGC.Droid.Resource.Attribute.buttonBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonGravity = global::NGC.Droid.Resource.Attribute.buttonGravity;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonPanelSideLayout = global::NGC.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonStyle = global::NGC.Droid.Resource.Attribute.buttonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonStyleSmall = global::NGC.Droid.Resource.Attribute.buttonStyleSmall;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonTint = global::NGC.Droid.Resource.Attribute.buttonTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.buttonTintMode = global::NGC.Droid.Resource.Attribute.buttonTintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.cardBackgroundColor = global::NGC.Droid.Resource.Attribute.cardBackgroundColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.cardCornerRadius = global::NGC.Droid.Resource.Attribute.cardCornerRadius;
+			global::EntryAutoComplete.Droid.Resource.Attribute.cardElevation = global::NGC.Droid.Resource.Attribute.cardElevation;
+			global::EntryAutoComplete.Droid.Resource.Attribute.cardMaxElevation = global::NGC.Droid.Resource.Attribute.cardMaxElevation;
+			global::EntryAutoComplete.Droid.Resource.Attribute.cardPreventCornerOverlap = global::NGC.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::EntryAutoComplete.Droid.Resource.Attribute.cardUseCompatPadding = global::NGC.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.checkboxStyle = global::NGC.Droid.Resource.Attribute.checkboxStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.checkedTextViewStyle = global::NGC.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.closeIcon = global::NGC.Droid.Resource.Attribute.closeIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.closeItemLayout = global::NGC.Droid.Resource.Attribute.closeItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.collapseContentDescription = global::NGC.Droid.Resource.Attribute.collapseContentDescription;
+			global::EntryAutoComplete.Droid.Resource.Attribute.collapseIcon = global::NGC.Droid.Resource.Attribute.collapseIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.collapsedTitleGravity = global::NGC.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::EntryAutoComplete.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::NGC.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.color = global::NGC.Droid.Resource.Attribute.color;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorAccent = global::NGC.Droid.Resource.Attribute.colorAccent;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorBackgroundFloating = global::NGC.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorButtonNormal = global::NGC.Droid.Resource.Attribute.colorButtonNormal;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorControlActivated = global::NGC.Droid.Resource.Attribute.colorControlActivated;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorControlHighlight = global::NGC.Droid.Resource.Attribute.colorControlHighlight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorControlNormal = global::NGC.Droid.Resource.Attribute.colorControlNormal;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorPrimary = global::NGC.Droid.Resource.Attribute.colorPrimary;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorPrimaryDark = global::NGC.Droid.Resource.Attribute.colorPrimaryDark;
+			global::EntryAutoComplete.Droid.Resource.Attribute.colorSwitchThumbNormal = global::NGC.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::EntryAutoComplete.Droid.Resource.Attribute.commitIcon = global::NGC.Droid.Resource.Attribute.commitIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentInsetEnd = global::NGC.Droid.Resource.Attribute.contentInsetEnd;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentInsetEndWithActions = global::NGC.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentInsetLeft = global::NGC.Droid.Resource.Attribute.contentInsetLeft;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentInsetRight = global::NGC.Droid.Resource.Attribute.contentInsetRight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentInsetStart = global::NGC.Droid.Resource.Attribute.contentInsetStart;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::NGC.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentPadding = global::NGC.Droid.Resource.Attribute.contentPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentPaddingBottom = global::NGC.Droid.Resource.Attribute.contentPaddingBottom;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentPaddingLeft = global::NGC.Droid.Resource.Attribute.contentPaddingLeft;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentPaddingRight = global::NGC.Droid.Resource.Attribute.contentPaddingRight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentPaddingTop = global::NGC.Droid.Resource.Attribute.contentPaddingTop;
+			global::EntryAutoComplete.Droid.Resource.Attribute.contentScrim = global::NGC.Droid.Resource.Attribute.contentScrim;
+			global::EntryAutoComplete.Droid.Resource.Attribute.controlBackground = global::NGC.Droid.Resource.Attribute.controlBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.counterEnabled = global::NGC.Droid.Resource.Attribute.counterEnabled;
+			global::EntryAutoComplete.Droid.Resource.Attribute.counterMaxLength = global::NGC.Droid.Resource.Attribute.counterMaxLength;
+			global::EntryAutoComplete.Droid.Resource.Attribute.counterOverflowTextAppearance = global::NGC.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.counterTextAppearance = global::NGC.Droid.Resource.Attribute.counterTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.customNavigationLayout = global::NGC.Droid.Resource.Attribute.customNavigationLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.defaultQueryHint = global::NGC.Droid.Resource.Attribute.defaultQueryHint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dialogPreferredPadding = global::NGC.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dialogTheme = global::NGC.Droid.Resource.Attribute.dialogTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.displayOptions = global::NGC.Droid.Resource.Attribute.displayOptions;
+			global::EntryAutoComplete.Droid.Resource.Attribute.divider = global::NGC.Droid.Resource.Attribute.divider;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dividerHorizontal = global::NGC.Droid.Resource.Attribute.dividerHorizontal;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dividerPadding = global::NGC.Droid.Resource.Attribute.dividerPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dividerVertical = global::NGC.Droid.Resource.Attribute.dividerVertical;
+			global::EntryAutoComplete.Droid.Resource.Attribute.drawableSize = global::NGC.Droid.Resource.Attribute.drawableSize;
+			global::EntryAutoComplete.Droid.Resource.Attribute.drawerArrowStyle = global::NGC.Droid.Resource.Attribute.drawerArrowStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dropDownListViewStyle = global::NGC.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::NGC.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.editTextBackground = global::NGC.Droid.Resource.Attribute.editTextBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.editTextColor = global::NGC.Droid.Resource.Attribute.editTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.editTextStyle = global::NGC.Droid.Resource.Attribute.editTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.elevation = global::NGC.Droid.Resource.Attribute.elevation;
+			global::EntryAutoComplete.Droid.Resource.Attribute.errorEnabled = global::NGC.Droid.Resource.Attribute.errorEnabled;
+			global::EntryAutoComplete.Droid.Resource.Attribute.errorTextAppearance = global::NGC.Droid.Resource.Attribute.errorTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NGC.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expanded = global::NGC.Droid.Resource.Attribute.expanded;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleGravity = global::NGC.Droid.Resource.Attribute.expandedTitleGravity;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleMargin = global::NGC.Droid.Resource.Attribute.expandedTitleMargin;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleMarginBottom = global::NGC.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleMarginEnd = global::NGC.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleMarginStart = global::NGC.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleMarginTop = global::NGC.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::EntryAutoComplete.Droid.Resource.Attribute.expandedTitleTextAppearance = global::NGC.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::NGC.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.fabSize = global::NGC.Droid.Resource.Attribute.fabSize;
+			global::EntryAutoComplete.Droid.Resource.Attribute.foregroundInsidePadding = global::NGC.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.gapBetweenBars = global::NGC.Droid.Resource.Attribute.gapBetweenBars;
+			global::EntryAutoComplete.Droid.Resource.Attribute.goIcon = global::NGC.Droid.Resource.Attribute.goIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.headerLayout = global::NGC.Droid.Resource.Attribute.headerLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.height = global::NGC.Droid.Resource.Attribute.height;
+			global::EntryAutoComplete.Droid.Resource.Attribute.hideOnContentScroll = global::NGC.Droid.Resource.Attribute.hideOnContentScroll;
+			global::EntryAutoComplete.Droid.Resource.Attribute.hintAnimationEnabled = global::NGC.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::EntryAutoComplete.Droid.Resource.Attribute.hintEnabled = global::NGC.Droid.Resource.Attribute.hintEnabled;
+			global::EntryAutoComplete.Droid.Resource.Attribute.hintTextAppearance = global::NGC.Droid.Resource.Attribute.hintTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.homeAsUpIndicator = global::NGC.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::EntryAutoComplete.Droid.Resource.Attribute.homeLayout = global::NGC.Droid.Resource.Attribute.homeLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.icon = global::NGC.Droid.Resource.Attribute.icon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.iconifiedByDefault = global::NGC.Droid.Resource.Attribute.iconifiedByDefault;
+			global::EntryAutoComplete.Droid.Resource.Attribute.imageButtonStyle = global::NGC.Droid.Resource.Attribute.imageButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.indeterminateProgressStyle = global::NGC.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.initialActivityCount = global::NGC.Droid.Resource.Attribute.initialActivityCount;
+			global::EntryAutoComplete.Droid.Resource.Attribute.insetForeground = global::NGC.Droid.Resource.Attribute.insetForeground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.isLightTheme = global::NGC.Droid.Resource.Attribute.isLightTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.itemBackground = global::NGC.Droid.Resource.Attribute.itemBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.itemIconTint = global::NGC.Droid.Resource.Attribute.itemIconTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.itemPadding = global::NGC.Droid.Resource.Attribute.itemPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.itemTextAppearance = global::NGC.Droid.Resource.Attribute.itemTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.itemTextColor = global::NGC.Droid.Resource.Attribute.itemTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.keylines = global::NGC.Droid.Resource.Attribute.keylines;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout = global::NGC.Droid.Resource.Attribute.layout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layoutManager = global::NGC.Droid.Resource.Attribute.layoutManager;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_anchor = global::NGC.Droid.Resource.Attribute.layout_anchor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_anchorGravity = global::NGC.Droid.Resource.Attribute.layout_anchorGravity;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_behavior = global::NGC.Droid.Resource.Attribute.layout_behavior;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_collapseMode = global::NGC.Droid.Resource.Attribute.layout_collapseMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::NGC.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::NGC.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_insetEdge = global::NGC.Droid.Resource.Attribute.layout_insetEdge;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_keyline = global::NGC.Droid.Resource.Attribute.layout_keyline;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_scrollFlags = global::NGC.Droid.Resource.Attribute.layout_scrollFlags;
+			global::EntryAutoComplete.Droid.Resource.Attribute.layout_scrollInterpolator = global::NGC.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::NGC.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listDividerAlertDialog = global::NGC.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listItemLayout = global::NGC.Droid.Resource.Attribute.listItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listLayout = global::NGC.Droid.Resource.Attribute.listLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listMenuViewStyle = global::NGC.Droid.Resource.Attribute.listMenuViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listPopupWindowStyle = global::NGC.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listPreferredItemHeight = global::NGC.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::NGC.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::NGC.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::NGC.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EntryAutoComplete.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::NGC.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.logo = global::NGC.Droid.Resource.Attribute.logo;
+			global::EntryAutoComplete.Droid.Resource.Attribute.logoDescription = global::NGC.Droid.Resource.Attribute.logoDescription;
+			global::EntryAutoComplete.Droid.Resource.Attribute.maxActionInlineWidth = global::NGC.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::EntryAutoComplete.Droid.Resource.Attribute.maxButtonHeight = global::NGC.Droid.Resource.Attribute.maxButtonHeight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.measureWithLargestChild = global::NGC.Droid.Resource.Attribute.measureWithLargestChild;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteButtonStyle = global::NGC.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::NGC.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::NGC.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::NGC.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteStopDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteTheme = global::NGC.Droid.Resource.Attribute.mediaRouteTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.menu = global::NGC.Droid.Resource.Attribute.menu;
+			global::EntryAutoComplete.Droid.Resource.Attribute.multiChoiceItemLayout = global::NGC.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.navigationContentDescription = global::NGC.Droid.Resource.Attribute.navigationContentDescription;
+			global::EntryAutoComplete.Droid.Resource.Attribute.navigationIcon = global::NGC.Droid.Resource.Attribute.navigationIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.navigationMode = global::NGC.Droid.Resource.Attribute.navigationMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.overlapAnchor = global::NGC.Droid.Resource.Attribute.overlapAnchor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.paddingBottomNoButtons = global::NGC.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::EntryAutoComplete.Droid.Resource.Attribute.paddingEnd = global::NGC.Droid.Resource.Attribute.paddingEnd;
+			global::EntryAutoComplete.Droid.Resource.Attribute.paddingStart = global::NGC.Droid.Resource.Attribute.paddingStart;
+			global::EntryAutoComplete.Droid.Resource.Attribute.paddingTopNoTitle = global::NGC.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.panelBackground = global::NGC.Droid.Resource.Attribute.panelBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.panelMenuListTheme = global::NGC.Droid.Resource.Attribute.panelMenuListTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.panelMenuListWidth = global::NGC.Droid.Resource.Attribute.panelMenuListWidth;
+			global::EntryAutoComplete.Droid.Resource.Attribute.passwordToggleContentDescription = global::NGC.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::EntryAutoComplete.Droid.Resource.Attribute.passwordToggleDrawable = global::NGC.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::EntryAutoComplete.Droid.Resource.Attribute.passwordToggleEnabled = global::NGC.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::EntryAutoComplete.Droid.Resource.Attribute.passwordToggleTint = global::NGC.Droid.Resource.Attribute.passwordToggleTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.passwordToggleTintMode = global::NGC.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.popupMenuStyle = global::NGC.Droid.Resource.Attribute.popupMenuStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.popupTheme = global::NGC.Droid.Resource.Attribute.popupTheme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.popupWindowStyle = global::NGC.Droid.Resource.Attribute.popupWindowStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.preserveIconSpacing = global::NGC.Droid.Resource.Attribute.preserveIconSpacing;
+			global::EntryAutoComplete.Droid.Resource.Attribute.pressedTranslationZ = global::NGC.Droid.Resource.Attribute.pressedTranslationZ;
+			global::EntryAutoComplete.Droid.Resource.Attribute.progressBarPadding = global::NGC.Droid.Resource.Attribute.progressBarPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.progressBarStyle = global::NGC.Droid.Resource.Attribute.progressBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.queryBackground = global::NGC.Droid.Resource.Attribute.queryBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.queryHint = global::NGC.Droid.Resource.Attribute.queryHint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.radioButtonStyle = global::NGC.Droid.Resource.Attribute.radioButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.ratingBarStyle = global::NGC.Droid.Resource.Attribute.ratingBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.ratingBarStyleIndicator = global::NGC.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::EntryAutoComplete.Droid.Resource.Attribute.ratingBarStyleSmall = global::NGC.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::EntryAutoComplete.Droid.Resource.Attribute.reverseLayout = global::NGC.Droid.Resource.Attribute.reverseLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.rippleColor = global::NGC.Droid.Resource.Attribute.rippleColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.scrimAnimationDuration = global::NGC.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::EntryAutoComplete.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::NGC.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::EntryAutoComplete.Droid.Resource.Attribute.searchHintIcon = global::NGC.Droid.Resource.Attribute.searchHintIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.searchIcon = global::NGC.Droid.Resource.Attribute.searchIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.searchViewStyle = global::NGC.Droid.Resource.Attribute.searchViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.seekBarStyle = global::NGC.Droid.Resource.Attribute.seekBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.selectableItemBackground = global::NGC.Droid.Resource.Attribute.selectableItemBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::NGC.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EntryAutoComplete.Droid.Resource.Attribute.showAsAction = global::NGC.Droid.Resource.Attribute.showAsAction;
+			global::EntryAutoComplete.Droid.Resource.Attribute.showDividers = global::NGC.Droid.Resource.Attribute.showDividers;
+			global::EntryAutoComplete.Droid.Resource.Attribute.showText = global::NGC.Droid.Resource.Attribute.showText;
+			global::EntryAutoComplete.Droid.Resource.Attribute.showTitle = global::NGC.Droid.Resource.Attribute.showTitle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.singleChoiceItemLayout = global::NGC.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.spanCount = global::NGC.Droid.Resource.Attribute.spanCount;
+			global::EntryAutoComplete.Droid.Resource.Attribute.spinBars = global::NGC.Droid.Resource.Attribute.spinBars;
+			global::EntryAutoComplete.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::NGC.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.spinnerStyle = global::NGC.Droid.Resource.Attribute.spinnerStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.splitTrack = global::NGC.Droid.Resource.Attribute.splitTrack;
+			global::EntryAutoComplete.Droid.Resource.Attribute.srcCompat = global::NGC.Droid.Resource.Attribute.srcCompat;
+			global::EntryAutoComplete.Droid.Resource.Attribute.stackFromEnd = global::NGC.Droid.Resource.Attribute.stackFromEnd;
+			global::EntryAutoComplete.Droid.Resource.Attribute.state_above_anchor = global::NGC.Droid.Resource.Attribute.state_above_anchor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.state_collapsed = global::NGC.Droid.Resource.Attribute.state_collapsed;
+			global::EntryAutoComplete.Droid.Resource.Attribute.state_collapsible = global::NGC.Droid.Resource.Attribute.state_collapsible;
+			global::EntryAutoComplete.Droid.Resource.Attribute.statusBarBackground = global::NGC.Droid.Resource.Attribute.statusBarBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.statusBarScrim = global::NGC.Droid.Resource.Attribute.statusBarScrim;
+			global::EntryAutoComplete.Droid.Resource.Attribute.subMenuArrow = global::NGC.Droid.Resource.Attribute.subMenuArrow;
+			global::EntryAutoComplete.Droid.Resource.Attribute.submitBackground = global::NGC.Droid.Resource.Attribute.submitBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.subtitle = global::NGC.Droid.Resource.Attribute.subtitle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.subtitleTextAppearance = global::NGC.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.subtitleTextColor = global::NGC.Droid.Resource.Attribute.subtitleTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.subtitleTextStyle = global::NGC.Droid.Resource.Attribute.subtitleTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.suggestionRowLayout = global::NGC.Droid.Resource.Attribute.suggestionRowLayout;
+			global::EntryAutoComplete.Droid.Resource.Attribute.switchMinWidth = global::NGC.Droid.Resource.Attribute.switchMinWidth;
+			global::EntryAutoComplete.Droid.Resource.Attribute.switchPadding = global::NGC.Droid.Resource.Attribute.switchPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.switchStyle = global::NGC.Droid.Resource.Attribute.switchStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.switchTextAppearance = global::NGC.Droid.Resource.Attribute.switchTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabBackground = global::NGC.Droid.Resource.Attribute.tabBackground;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabContentStart = global::NGC.Droid.Resource.Attribute.tabContentStart;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabGravity = global::NGC.Droid.Resource.Attribute.tabGravity;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabIndicatorColor = global::NGC.Droid.Resource.Attribute.tabIndicatorColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabIndicatorHeight = global::NGC.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabMaxWidth = global::NGC.Droid.Resource.Attribute.tabMaxWidth;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabMinWidth = global::NGC.Droid.Resource.Attribute.tabMinWidth;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabMode = global::NGC.Droid.Resource.Attribute.tabMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabPadding = global::NGC.Droid.Resource.Attribute.tabPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabPaddingBottom = global::NGC.Droid.Resource.Attribute.tabPaddingBottom;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabPaddingEnd = global::NGC.Droid.Resource.Attribute.tabPaddingEnd;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabPaddingStart = global::NGC.Droid.Resource.Attribute.tabPaddingStart;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabPaddingTop = global::NGC.Droid.Resource.Attribute.tabPaddingTop;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabSelectedTextColor = global::NGC.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabTextAppearance = global::NGC.Droid.Resource.Attribute.tabTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tabTextColor = global::NGC.Droid.Resource.Attribute.tabTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAllCaps = global::NGC.Droid.Resource.Attribute.textAllCaps;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::NGC.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceListItem = global::NGC.Droid.Resource.Attribute.textAppearanceListItem;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::NGC.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceListItemSmall = global::NGC.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::NGC.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::NGC.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::NGC.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::NGC.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textColorAlertDialogListItem = global::NGC.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textColorError = global::NGC.Droid.Resource.Attribute.textColorError;
+			global::EntryAutoComplete.Droid.Resource.Attribute.textColorSearchUrl = global::NGC.Droid.Resource.Attribute.textColorSearchUrl;
+			global::EntryAutoComplete.Droid.Resource.Attribute.theme = global::NGC.Droid.Resource.Attribute.theme;
+			global::EntryAutoComplete.Droid.Resource.Attribute.thickness = global::NGC.Droid.Resource.Attribute.thickness;
+			global::EntryAutoComplete.Droid.Resource.Attribute.thumbTextPadding = global::NGC.Droid.Resource.Attribute.thumbTextPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.thumbTint = global::NGC.Droid.Resource.Attribute.thumbTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.thumbTintMode = global::NGC.Droid.Resource.Attribute.thumbTintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tickMark = global::NGC.Droid.Resource.Attribute.tickMark;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tickMarkTint = global::NGC.Droid.Resource.Attribute.tickMarkTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tickMarkTintMode = global::NGC.Droid.Resource.Attribute.tickMarkTintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tint = global::NGC.Droid.Resource.Attribute.tint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.tintMode = global::NGC.Droid.Resource.Attribute.tintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.title = global::NGC.Droid.Resource.Attribute.title;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleEnabled = global::NGC.Droid.Resource.Attribute.titleEnabled;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleMargin = global::NGC.Droid.Resource.Attribute.titleMargin;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleMarginBottom = global::NGC.Droid.Resource.Attribute.titleMarginBottom;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleMarginEnd = global::NGC.Droid.Resource.Attribute.titleMarginEnd;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleMarginStart = global::NGC.Droid.Resource.Attribute.titleMarginStart;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleMarginTop = global::NGC.Droid.Resource.Attribute.titleMarginTop;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleMargins = global::NGC.Droid.Resource.Attribute.titleMargins;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleTextAppearance = global::NGC.Droid.Resource.Attribute.titleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleTextColor = global::NGC.Droid.Resource.Attribute.titleTextColor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.titleTextStyle = global::NGC.Droid.Resource.Attribute.titleTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.toolbarId = global::NGC.Droid.Resource.Attribute.toolbarId;
+			global::EntryAutoComplete.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::NGC.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.toolbarStyle = global::NGC.Droid.Resource.Attribute.toolbarStyle;
+			global::EntryAutoComplete.Droid.Resource.Attribute.track = global::NGC.Droid.Resource.Attribute.track;
+			global::EntryAutoComplete.Droid.Resource.Attribute.trackTint = global::NGC.Droid.Resource.Attribute.trackTint;
+			global::EntryAutoComplete.Droid.Resource.Attribute.trackTintMode = global::NGC.Droid.Resource.Attribute.trackTintMode;
+			global::EntryAutoComplete.Droid.Resource.Attribute.useCompatPadding = global::NGC.Droid.Resource.Attribute.useCompatPadding;
+			global::EntryAutoComplete.Droid.Resource.Attribute.voiceIcon = global::NGC.Droid.Resource.Attribute.voiceIcon;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowActionBar = global::NGC.Droid.Resource.Attribute.windowActionBar;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowActionBarOverlay = global::NGC.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowActionModeOverlay = global::NGC.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowFixedHeightMajor = global::NGC.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowFixedHeightMinor = global::NGC.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowFixedWidthMajor = global::NGC.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowFixedWidthMinor = global::NGC.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowMinWidthMajor = global::NGC.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowMinWidthMinor = global::NGC.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::EntryAutoComplete.Droid.Resource.Attribute.windowNoTitle = global::NGC.Droid.Resource.Attribute.windowNoTitle;
+			global::EntryAutoComplete.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::NGC.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EntryAutoComplete.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::NGC.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::EntryAutoComplete.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NGC.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EntryAutoComplete.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::NGC.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::EntryAutoComplete.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::NGC.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::NGC.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::NGC.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::NGC.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_btn_colored_text_material = global::NGC.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_color_highlight_material = global::NGC.Droid.Resource.Color.abc_color_highlight_material;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_hint_foreground_material_dark = global::NGC.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_hint_foreground_material_light = global::NGC.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_input_method_navigation_guard = global::NGC.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::NGC.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::NGC.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_primary_text_material_dark = global::NGC.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_primary_text_material_light = global::NGC.Droid.Resource.Color.abc_primary_text_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_search_url_text = global::NGC.Droid.Resource.Color.abc_search_url_text;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_search_url_text_normal = global::NGC.Droid.Resource.Color.abc_search_url_text_normal;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_search_url_text_pressed = global::NGC.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_search_url_text_selected = global::NGC.Droid.Resource.Color.abc_search_url_text_selected;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_secondary_text_material_dark = global::NGC.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_secondary_text_material_light = global::NGC.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_tint_btn_checkable = global::NGC.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_tint_default = global::NGC.Droid.Resource.Color.abc_tint_default;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_tint_edittext = global::NGC.Droid.Resource.Color.abc_tint_edittext;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_tint_seek_thumb = global::NGC.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_tint_spinner = global::NGC.Droid.Resource.Color.abc_tint_spinner;
+			global::EntryAutoComplete.Droid.Resource.Color.abc_tint_switch_track = global::NGC.Droid.Resource.Color.abc_tint_switch_track;
+			global::EntryAutoComplete.Droid.Resource.Color.accent_material_dark = global::NGC.Droid.Resource.Color.accent_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.accent_material_light = global::NGC.Droid.Resource.Color.accent_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.background_floating_material_dark = global::NGC.Droid.Resource.Color.background_floating_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.background_floating_material_light = global::NGC.Droid.Resource.Color.background_floating_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.background_material_dark = global::NGC.Droid.Resource.Color.background_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.background_material_light = global::NGC.Droid.Resource.Color.background_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::NGC.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.bright_foreground_disabled_material_light = global::NGC.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::NGC.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.bright_foreground_inverse_material_light = global::NGC.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.bright_foreground_material_dark = global::NGC.Droid.Resource.Color.bright_foreground_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.bright_foreground_material_light = global::NGC.Droid.Resource.Color.bright_foreground_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.button_material_dark = global::NGC.Droid.Resource.Color.button_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.button_material_light = global::NGC.Droid.Resource.Color.button_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.cardview_dark_background = global::NGC.Droid.Resource.Color.cardview_dark_background;
+			global::EntryAutoComplete.Droid.Resource.Color.cardview_light_background = global::NGC.Droid.Resource.Color.cardview_light_background;
+			global::EntryAutoComplete.Droid.Resource.Color.cardview_shadow_end_color = global::NGC.Droid.Resource.Color.cardview_shadow_end_color;
+			global::EntryAutoComplete.Droid.Resource.Color.cardview_shadow_start_color = global::NGC.Droid.Resource.Color.cardview_shadow_start_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::NGC.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_error = global::NGC.Droid.Resource.Color.design_error;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_shadow_end_color = global::NGC.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_shadow_mid_color = global::NGC.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_shadow_start_color = global::NGC.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::NGC.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::NGC.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::NGC.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::NGC.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_snackbar_background_color = global::NGC.Droid.Resource.Color.design_snackbar_background_color;
+			global::EntryAutoComplete.Droid.Resource.Color.design_tint_password_toggle = global::NGC.Droid.Resource.Color.design_tint_password_toggle;
+			global::EntryAutoComplete.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::NGC.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.dim_foreground_disabled_material_light = global::NGC.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.dim_foreground_material_dark = global::NGC.Droid.Resource.Color.dim_foreground_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.dim_foreground_material_light = global::NGC.Droid.Resource.Color.dim_foreground_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.foreground_material_dark = global::NGC.Droid.Resource.Color.foreground_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.foreground_material_light = global::NGC.Droid.Resource.Color.foreground_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.highlighted_text_material_dark = global::NGC.Droid.Resource.Color.highlighted_text_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.highlighted_text_material_light = global::NGC.Droid.Resource.Color.highlighted_text_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.material_blue_grey_800 = global::NGC.Droid.Resource.Color.material_blue_grey_800;
+			global::EntryAutoComplete.Droid.Resource.Color.material_blue_grey_900 = global::NGC.Droid.Resource.Color.material_blue_grey_900;
+			global::EntryAutoComplete.Droid.Resource.Color.material_blue_grey_950 = global::NGC.Droid.Resource.Color.material_blue_grey_950;
+			global::EntryAutoComplete.Droid.Resource.Color.material_deep_teal_200 = global::NGC.Droid.Resource.Color.material_deep_teal_200;
+			global::EntryAutoComplete.Droid.Resource.Color.material_deep_teal_500 = global::NGC.Droid.Resource.Color.material_deep_teal_500;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_100 = global::NGC.Droid.Resource.Color.material_grey_100;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_300 = global::NGC.Droid.Resource.Color.material_grey_300;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_50 = global::NGC.Droid.Resource.Color.material_grey_50;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_600 = global::NGC.Droid.Resource.Color.material_grey_600;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_800 = global::NGC.Droid.Resource.Color.material_grey_800;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_850 = global::NGC.Droid.Resource.Color.material_grey_850;
+			global::EntryAutoComplete.Droid.Resource.Color.material_grey_900 = global::NGC.Droid.Resource.Color.material_grey_900;
+			global::EntryAutoComplete.Droid.Resource.Color.notification_action_color_filter = global::NGC.Droid.Resource.Color.notification_action_color_filter;
+			global::EntryAutoComplete.Droid.Resource.Color.notification_icon_bg_color = global::NGC.Droid.Resource.Color.notification_icon_bg_color;
+			global::EntryAutoComplete.Droid.Resource.Color.notification_material_background_media_default_color = global::NGC.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_dark_material_dark = global::NGC.Droid.Resource.Color.primary_dark_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_dark_material_light = global::NGC.Droid.Resource.Color.primary_dark_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_material_dark = global::NGC.Droid.Resource.Color.primary_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_material_light = global::NGC.Droid.Resource.Color.primary_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_text_default_material_dark = global::NGC.Droid.Resource.Color.primary_text_default_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_text_default_material_light = global::NGC.Droid.Resource.Color.primary_text_default_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_text_disabled_material_dark = global::NGC.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.primary_text_disabled_material_light = global::NGC.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.ripple_material_dark = global::NGC.Droid.Resource.Color.ripple_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.ripple_material_light = global::NGC.Droid.Resource.Color.ripple_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.secondary_text_default_material_dark = global::NGC.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.secondary_text_default_material_light = global::NGC.Droid.Resource.Color.secondary_text_default_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.secondary_text_disabled_material_dark = global::NGC.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.secondary_text_disabled_material_light = global::NGC.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::NGC.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.switch_thumb_disabled_material_light = global::NGC.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.switch_thumb_material_dark = global::NGC.Droid.Resource.Color.switch_thumb_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.switch_thumb_material_light = global::NGC.Droid.Resource.Color.switch_thumb_material_light;
+			global::EntryAutoComplete.Droid.Resource.Color.switch_thumb_normal_material_dark = global::NGC.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Color.switch_thumb_normal_material_light = global::NGC.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::NGC.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::NGC.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::NGC.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::NGC.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_button_min_height_material = global::NGC.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_button_min_width_material = global::NGC.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::NGC.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::NGC.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::NGC.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::NGC.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::NGC.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::NGC.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_control_corner_material = global::NGC.Droid.Resource.Dimension.abc_control_corner_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_control_inset_material = global::NGC.Droid.Resource.Dimension.abc_control_inset_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_control_padding_material = global::NGC.Droid.Resource.Dimension.abc_control_padding_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::NGC.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::NGC.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_min_width_major = global::NGC.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::NGC.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_padding_material = global::NGC.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::NGC.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::NGC.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::NGC.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::NGC.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::NGC.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::NGC.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::NGC.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::NGC.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::NGC.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_floating_window_z = global::NGC.Droid.Resource.Dimension.abc_floating_window_z;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_panel_menu_list_width = global::NGC.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_progress_bar_height_material = global::NGC.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_search_view_preferred_height = global::NGC.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_search_view_preferred_width = global::NGC.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::NGC.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::NGC.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::NGC.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_switch_padding = global::NGC.Droid.Resource.Dimension.abc_switch_padding;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_body_1_material = global::NGC.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_body_2_material = global::NGC.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_button_material = global::NGC.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_caption_material = global::NGC.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_display_1_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_display_2_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_display_3_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_display_4_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_headline_material = global::NGC.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_large_material = global::NGC.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_medium_material = global::NGC.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::NGC.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_menu_material = global::NGC.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_small_material = global::NGC.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_subhead_material = global::NGC.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NGC.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_title_material = global::NGC.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::EntryAutoComplete.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::NGC.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EntryAutoComplete.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::NGC.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::EntryAutoComplete.Droid.Resource.Dimension.cardview_default_elevation = global::NGC.Droid.Resource.Dimension.cardview_default_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.cardview_default_radius = global::NGC.Droid.Resource.Dimension.cardview_default_radius;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_appbar_elevation = global::NGC.Droid.Resource.Dimension.design_appbar_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_height = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_margin = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::NGC.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::NGC.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::NGC.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_fab_border_width = global::NGC.Droid.Resource.Dimension.design_fab_border_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_fab_elevation = global::NGC.Droid.Resource.Dimension.design_fab_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_fab_image_size = global::NGC.Droid.Resource.Dimension.design_fab_image_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_fab_size_mini = global::NGC.Droid.Resource.Dimension.design_fab_size_mini;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_fab_size_normal = global::NGC.Droid.Resource.Dimension.design_fab_size_normal;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::NGC.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_navigation_elevation = global::NGC.Droid.Resource.Dimension.design_navigation_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_navigation_icon_padding = global::NGC.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_navigation_icon_size = global::NGC.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_navigation_max_width = global::NGC.Droid.Resource.Dimension.design_navigation_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_navigation_padding_bottom = global::NGC.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::NGC.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::NGC.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::NGC.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_elevation = global::NGC.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::NGC.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_max_width = global::NGC.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_min_width = global::NGC.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::NGC.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::NGC.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::NGC.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_snackbar_text_size = global::NGC.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_tab_max_width = global::NGC.Droid.Resource.Dimension.design_tab_max_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::NGC.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_tab_text_size = global::NGC.Droid.Resource.Dimension.design_tab_text_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.design_tab_text_size_2line = global::NGC.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::EntryAutoComplete.Droid.Resource.Dimension.disabled_alpha_material_dark = global::NGC.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Dimension.disabled_alpha_material_light = global::NGC.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::EntryAutoComplete.Droid.Resource.Dimension.highlight_alpha_material_colored = global::NGC.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::EntryAutoComplete.Droid.Resource.Dimension.highlight_alpha_material_dark = global::NGC.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Dimension.highlight_alpha_material_light = global::NGC.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::EntryAutoComplete.Droid.Resource.Dimension.hint_alpha_material_dark = global::NGC.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Dimension.hint_alpha_material_light = global::NGC.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::EntryAutoComplete.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::NGC.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EntryAutoComplete.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::NGC.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EntryAutoComplete.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NGC.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::EntryAutoComplete.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NGC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::EntryAutoComplete.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NGC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::EntryAutoComplete.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::EntryAutoComplete.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::NGC.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::EntryAutoComplete.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::NGC.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_action_icon_size = global::NGC.Droid.Resource.Dimension.notification_action_icon_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_action_text_size = global::NGC.Droid.Resource.Dimension.notification_action_text_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_big_circle_margin = global::NGC.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_content_margin_start = global::NGC.Droid.Resource.Dimension.notification_content_margin_start;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_large_icon_height = global::NGC.Droid.Resource.Dimension.notification_large_icon_height;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_large_icon_width = global::NGC.Droid.Resource.Dimension.notification_large_icon_width;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_main_column_padding_top = global::NGC.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_media_narrow_margin = global::NGC.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_right_icon_size = global::NGC.Droid.Resource.Dimension.notification_right_icon_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_right_side_padding_top = global::NGC.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_small_icon_background_padding = global::NGC.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::NGC.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_subtext_size = global::NGC.Droid.Resource.Dimension.notification_subtext_size;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_top_pad = global::NGC.Droid.Resource.Dimension.notification_top_pad;
+			global::EntryAutoComplete.Droid.Resource.Dimension.notification_top_pad_large_text = global::NGC.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::NGC.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_borderless_material = global::NGC.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_check_material = global::NGC.Droid.Resource.Drawable.abc_btn_check_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::NGC.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::NGC.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_colored_material = global::NGC.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::NGC.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_radio_material = global::NGC.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::NGC.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::NGC.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::NGC.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::NGC.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::NGC.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_cab_background_top_material = global::NGC.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_control_background_material = global::NGC.Droid.Resource.Drawable.abc_control_background_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_dialog_material_background = global::NGC.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_edit_text_material = global::NGC.Droid.Resource.Drawable.abc_edit_text_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_ab_back_material = global::NGC.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::NGC.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_clear_material = global::NGC.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::NGC.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::NGC.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_search_api_material = global::NGC.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::NGC.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_item_background_holo_dark = global::NGC.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_item_background_holo_light = global::NGC.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_focused_holo = global::NGC.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_longpressed_holo = global::NGC.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_list_selector_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::NGC.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::NGC.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::NGC.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ratingbar_material = global::NGC.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_ratingbar_small_material = global::NGC.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::NGC.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::NGC.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::NGC.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::NGC.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_seekbar_track_material = global::NGC.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::NGC.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::NGC.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_switch_thumb_material = global::NGC.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_tab_indicator_material = global::NGC.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_cursor_material = global::NGC.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::NGC.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::NGC.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::NGC.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::NGC.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::NGC.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::NGC.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_textfield_search_material = global::NGC.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::EntryAutoComplete.Droid.Resource.Drawable.abc_vector_test = global::NGC.Droid.Resource.Drawable.abc_vector_test;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_hide_password = global::NGC.Droid.Resource.Drawable.avd_hide_password;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_hide_password_1 = global::NGC.Droid.Resource.Drawable.avd_hide_password_1;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_hide_password_2 = global::NGC.Droid.Resource.Drawable.avd_hide_password_2;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_hide_password_3 = global::NGC.Droid.Resource.Drawable.avd_hide_password_3;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_show_password = global::NGC.Droid.Resource.Drawable.avd_show_password;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_show_password_1 = global::NGC.Droid.Resource.Drawable.avd_show_password_1;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_show_password_2 = global::NGC.Droid.Resource.Drawable.avd_show_password_2;
+			global::EntryAutoComplete.Droid.Resource.Drawable.avd_show_password_3 = global::NGC.Droid.Resource.Drawable.avd_show_password_3;
+			global::EntryAutoComplete.Droid.Resource.Drawable.baseline_close_black_24 = global::NGC.Droid.Resource.Drawable.baseline_close_black_24;
+			global::EntryAutoComplete.Droid.Resource.Drawable.baseline_search_black_24 = global::NGC.Droid.Resource.Drawable.baseline_search_black_24;
+			global::EntryAutoComplete.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::NGC.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::EntryAutoComplete.Droid.Resource.Drawable.design_fab_background = global::NGC.Droid.Resource.Drawable.design_fab_background;
+			global::EntryAutoComplete.Droid.Resource.Drawable.design_ic_visibility = global::NGC.Droid.Resource.Drawable.design_ic_visibility;
+			global::EntryAutoComplete.Droid.Resource.Drawable.design_ic_visibility_off = global::NGC.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::EntryAutoComplete.Droid.Resource.Drawable.design_password_eye = global::NGC.Droid.Resource.Drawable.design_password_eye;
+			global::EntryAutoComplete.Droid.Resource.Drawable.design_snackbar_background = global::NGC.Droid.Resource.Drawable.design_snackbar_background;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_audiotrack_dark = global::NGC.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_audiotrack_light = global::NGC.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_dialog_close_dark = global::NGC.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_dialog_close_light = global::NGC.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_00 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_01 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_02 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_03 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_04 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_05 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_06 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_07 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_08 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_09 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_10 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_11 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_12 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_13 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_14 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_collapse_15 = global::NGC.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_00 = global::NGC.Droid.Resource.Drawable.ic_group_expand_00;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_01 = global::NGC.Droid.Resource.Drawable.ic_group_expand_01;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_02 = global::NGC.Droid.Resource.Drawable.ic_group_expand_02;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_03 = global::NGC.Droid.Resource.Drawable.ic_group_expand_03;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_04 = global::NGC.Droid.Resource.Drawable.ic_group_expand_04;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_05 = global::NGC.Droid.Resource.Drawable.ic_group_expand_05;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_06 = global::NGC.Droid.Resource.Drawable.ic_group_expand_06;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_07 = global::NGC.Droid.Resource.Drawable.ic_group_expand_07;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_08 = global::NGC.Droid.Resource.Drawable.ic_group_expand_08;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_09 = global::NGC.Droid.Resource.Drawable.ic_group_expand_09;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_10 = global::NGC.Droid.Resource.Drawable.ic_group_expand_10;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_11 = global::NGC.Droid.Resource.Drawable.ic_group_expand_11;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_12 = global::NGC.Droid.Resource.Drawable.ic_group_expand_12;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_13 = global::NGC.Droid.Resource.Drawable.ic_group_expand_13;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_14 = global::NGC.Droid.Resource.Drawable.ic_group_expand_14;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_group_expand_15 = global::NGC.Droid.Resource.Drawable.ic_group_expand_15;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_media_pause_dark = global::NGC.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_media_pause_light = global::NGC.Droid.Resource.Drawable.ic_media_pause_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_media_play_dark = global::NGC.Droid.Resource.Drawable.ic_media_play_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_media_play_light = global::NGC.Droid.Resource.Drawable.ic_media_play_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_media_stop_dark = global::NGC.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_media_stop_light = global::NGC.Droid.Resource.Drawable.ic_media_stop_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::NGC.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::NGC.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_mr_button_grey = global::NGC.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::NGC.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::NGC.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::NGC.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::NGC.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::NGC.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.ic_vol_type_tv_light = global::NGC.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_button_connected_dark = global::NGC.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_button_connected_light = global::NGC.Droid.Resource.Drawable.mr_button_connected_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_button_connecting_dark = global::NGC.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_button_connecting_light = global::NGC.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_button_dark = global::NGC.Droid.Resource.Drawable.mr_button_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_button_light = global::NGC.Droid.Resource.Drawable.mr_button_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_dialog_close_dark = global::NGC.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_dialog_close_light = global::NGC.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::NGC.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_dialog_material_background_light = global::NGC.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_group_collapse = global::NGC.Droid.Resource.Drawable.mr_group_collapse;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_group_expand = global::NGC.Droid.Resource.Drawable.mr_group_expand;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_media_pause_dark = global::NGC.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_media_pause_light = global::NGC.Droid.Resource.Drawable.mr_media_pause_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_media_play_dark = global::NGC.Droid.Resource.Drawable.mr_media_play_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_media_play_light = global::NGC.Droid.Resource.Drawable.mr_media_play_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_media_stop_dark = global::NGC.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_media_stop_light = global::NGC.Droid.Resource.Drawable.mr_media_stop_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::NGC.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::EntryAutoComplete.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::NGC.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::EntryAutoComplete.Droid.Resource.Drawable.navigation_empty_icon = global::NGC.Droid.Resource.Drawable.navigation_empty_icon;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_action_background = global::NGC.Droid.Resource.Drawable.notification_action_background;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_bg = global::NGC.Droid.Resource.Drawable.notification_bg;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_bg_low = global::NGC.Droid.Resource.Drawable.notification_bg_low;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_bg_low_normal = global::NGC.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_bg_low_pressed = global::NGC.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_bg_normal = global::NGC.Droid.Resource.Drawable.notification_bg_normal;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_bg_normal_pressed = global::NGC.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_icon_background = global::NGC.Droid.Resource.Drawable.notification_icon_background;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_template_icon_bg = global::NGC.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_template_icon_low_bg = global::NGC.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notification_tile_bg = global::NGC.Droid.Resource.Drawable.notification_tile_bg;
+			global::EntryAutoComplete.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::NGC.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EntryAutoComplete.Droid.Resource.Id.action0 = global::NGC.Droid.Resource.Id.action0;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar = global::NGC.Droid.Resource.Id.action_bar;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar_activity_content = global::NGC.Droid.Resource.Id.action_bar_activity_content;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar_container = global::NGC.Droid.Resource.Id.action_bar_container;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar_root = global::NGC.Droid.Resource.Id.action_bar_root;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar_spinner = global::NGC.Droid.Resource.Id.action_bar_spinner;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar_subtitle = global::NGC.Droid.Resource.Id.action_bar_subtitle;
+			global::EntryAutoComplete.Droid.Resource.Id.action_bar_title = global::NGC.Droid.Resource.Id.action_bar_title;
+			global::EntryAutoComplete.Droid.Resource.Id.action_container = global::NGC.Droid.Resource.Id.action_container;
+			global::EntryAutoComplete.Droid.Resource.Id.action_context_bar = global::NGC.Droid.Resource.Id.action_context_bar;
+			global::EntryAutoComplete.Droid.Resource.Id.action_divider = global::NGC.Droid.Resource.Id.action_divider;
+			global::EntryAutoComplete.Droid.Resource.Id.action_image = global::NGC.Droid.Resource.Id.action_image;
+			global::EntryAutoComplete.Droid.Resource.Id.action_menu_divider = global::NGC.Droid.Resource.Id.action_menu_divider;
+			global::EntryAutoComplete.Droid.Resource.Id.action_menu_presenter = global::NGC.Droid.Resource.Id.action_menu_presenter;
+			global::EntryAutoComplete.Droid.Resource.Id.action_mode_bar = global::NGC.Droid.Resource.Id.action_mode_bar;
+			global::EntryAutoComplete.Droid.Resource.Id.action_mode_bar_stub = global::NGC.Droid.Resource.Id.action_mode_bar_stub;
+			global::EntryAutoComplete.Droid.Resource.Id.action_mode_close_button = global::NGC.Droid.Resource.Id.action_mode_close_button;
+			global::EntryAutoComplete.Droid.Resource.Id.action_text = global::NGC.Droid.Resource.Id.action_text;
+			global::EntryAutoComplete.Droid.Resource.Id.actions = global::NGC.Droid.Resource.Id.actions;
+			global::EntryAutoComplete.Droid.Resource.Id.activity_chooser_view_content = global::NGC.Droid.Resource.Id.activity_chooser_view_content;
+			global::EntryAutoComplete.Droid.Resource.Id.add = global::NGC.Droid.Resource.Id.add;
+			global::EntryAutoComplete.Droid.Resource.Id.alertTitle = global::NGC.Droid.Resource.Id.alertTitle;
+			global::EntryAutoComplete.Droid.Resource.Id.all = global::NGC.Droid.Resource.Id.all;
+			global::EntryAutoComplete.Droid.Resource.Id.always = global::NGC.Droid.Resource.Id.always;
+			global::EntryAutoComplete.Droid.Resource.Id.auto = global::NGC.Droid.Resource.Id.auto;
+			global::EntryAutoComplete.Droid.Resource.Id.beginning = global::NGC.Droid.Resource.Id.beginning;
+			global::EntryAutoComplete.Droid.Resource.Id.bottom = global::NGC.Droid.Resource.Id.bottom;
+			global::EntryAutoComplete.Droid.Resource.Id.buttonPanel = global::NGC.Droid.Resource.Id.buttonPanel;
+			global::EntryAutoComplete.Droid.Resource.Id.cancel_action = global::NGC.Droid.Resource.Id.cancel_action;
+			global::EntryAutoComplete.Droid.Resource.Id.center = global::NGC.Droid.Resource.Id.center;
+			global::EntryAutoComplete.Droid.Resource.Id.center_horizontal = global::NGC.Droid.Resource.Id.center_horizontal;
+			global::EntryAutoComplete.Droid.Resource.Id.center_vertical = global::NGC.Droid.Resource.Id.center_vertical;
+			global::EntryAutoComplete.Droid.Resource.Id.checkbox = global::NGC.Droid.Resource.Id.checkbox;
+			global::EntryAutoComplete.Droid.Resource.Id.chronometer = global::NGC.Droid.Resource.Id.chronometer;
+			global::EntryAutoComplete.Droid.Resource.Id.clip_horizontal = global::NGC.Droid.Resource.Id.clip_horizontal;
+			global::EntryAutoComplete.Droid.Resource.Id.clip_vertical = global::NGC.Droid.Resource.Id.clip_vertical;
+			global::EntryAutoComplete.Droid.Resource.Id.collapseActionView = global::NGC.Droid.Resource.Id.collapseActionView;
+			global::EntryAutoComplete.Droid.Resource.Id.container = global::NGC.Droid.Resource.Id.container;
+			global::EntryAutoComplete.Droid.Resource.Id.contentPanel = global::NGC.Droid.Resource.Id.contentPanel;
+			global::EntryAutoComplete.Droid.Resource.Id.coordinator = global::NGC.Droid.Resource.Id.coordinator;
+			global::EntryAutoComplete.Droid.Resource.Id.custom = global::NGC.Droid.Resource.Id.custom;
+			global::EntryAutoComplete.Droid.Resource.Id.customPanel = global::NGC.Droid.Resource.Id.customPanel;
+			global::EntryAutoComplete.Droid.Resource.Id.decor_content_parent = global::NGC.Droid.Resource.Id.decor_content_parent;
+			global::EntryAutoComplete.Droid.Resource.Id.default_activity_button = global::NGC.Droid.Resource.Id.default_activity_button;
+			global::EntryAutoComplete.Droid.Resource.Id.design_bottom_sheet = global::NGC.Droid.Resource.Id.design_bottom_sheet;
+			global::EntryAutoComplete.Droid.Resource.Id.design_menu_item_action_area = global::NGC.Droid.Resource.Id.design_menu_item_action_area;
+			global::EntryAutoComplete.Droid.Resource.Id.design_menu_item_action_area_stub = global::NGC.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::EntryAutoComplete.Droid.Resource.Id.design_menu_item_text = global::NGC.Droid.Resource.Id.design_menu_item_text;
+			global::EntryAutoComplete.Droid.Resource.Id.design_navigation_view = global::NGC.Droid.Resource.Id.design_navigation_view;
+			global::EntryAutoComplete.Droid.Resource.Id.disableHome = global::NGC.Droid.Resource.Id.disableHome;
+			global::EntryAutoComplete.Droid.Resource.Id.edit_query = global::NGC.Droid.Resource.Id.edit_query;
+			global::EntryAutoComplete.Droid.Resource.Id.end = global::NGC.Droid.Resource.Id.end;
+			global::EntryAutoComplete.Droid.Resource.Id.end_padder = global::NGC.Droid.Resource.Id.end_padder;
+			global::EntryAutoComplete.Droid.Resource.Id.enterAlways = global::NGC.Droid.Resource.Id.enterAlways;
+			global::EntryAutoComplete.Droid.Resource.Id.enterAlwaysCollapsed = global::NGC.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::EntryAutoComplete.Droid.Resource.Id.exitUntilCollapsed = global::NGC.Droid.Resource.Id.exitUntilCollapsed;
+			global::EntryAutoComplete.Droid.Resource.Id.expand_activities_button = global::NGC.Droid.Resource.Id.expand_activities_button;
+			global::EntryAutoComplete.Droid.Resource.Id.expanded_menu = global::NGC.Droid.Resource.Id.expanded_menu;
+			global::EntryAutoComplete.Droid.Resource.Id.fill = global::NGC.Droid.Resource.Id.fill;
+			global::EntryAutoComplete.Droid.Resource.Id.fill_horizontal = global::NGC.Droid.Resource.Id.fill_horizontal;
+			global::EntryAutoComplete.Droid.Resource.Id.fill_vertical = global::NGC.Droid.Resource.Id.fill_vertical;
+			global::EntryAutoComplete.Droid.Resource.Id.@fixed = global::NGC.Droid.Resource.Id.@fixed;
+			global::EntryAutoComplete.Droid.Resource.Id.home = global::NGC.Droid.Resource.Id.home;
+			global::EntryAutoComplete.Droid.Resource.Id.homeAsUp = global::NGC.Droid.Resource.Id.homeAsUp;
+			global::EntryAutoComplete.Droid.Resource.Id.icon = global::NGC.Droid.Resource.Id.icon;
+			global::EntryAutoComplete.Droid.Resource.Id.icon_group = global::NGC.Droid.Resource.Id.icon_group;
+			global::EntryAutoComplete.Droid.Resource.Id.ifRoom = global::NGC.Droid.Resource.Id.ifRoom;
+			global::EntryAutoComplete.Droid.Resource.Id.image = global::NGC.Droid.Resource.Id.image;
+			global::EntryAutoComplete.Droid.Resource.Id.info = global::NGC.Droid.Resource.Id.info;
+			global::EntryAutoComplete.Droid.Resource.Id.item_touch_helper_previous_elevation = global::NGC.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::EntryAutoComplete.Droid.Resource.Id.largeLabel = global::NGC.Droid.Resource.Id.largeLabel;
+			global::EntryAutoComplete.Droid.Resource.Id.left = global::NGC.Droid.Resource.Id.left;
+			global::EntryAutoComplete.Droid.Resource.Id.line1 = global::NGC.Droid.Resource.Id.line1;
+			global::EntryAutoComplete.Droid.Resource.Id.line3 = global::NGC.Droid.Resource.Id.line3;
+			global::EntryAutoComplete.Droid.Resource.Id.listMode = global::NGC.Droid.Resource.Id.listMode;
+			global::EntryAutoComplete.Droid.Resource.Id.list_item = global::NGC.Droid.Resource.Id.list_item;
+			global::EntryAutoComplete.Droid.Resource.Id.masked = global::NGC.Droid.Resource.Id.masked;
+			global::EntryAutoComplete.Droid.Resource.Id.media_actions = global::NGC.Droid.Resource.Id.media_actions;
+			global::EntryAutoComplete.Droid.Resource.Id.middle = global::NGC.Droid.Resource.Id.middle;
+			global::EntryAutoComplete.Droid.Resource.Id.mini = global::NGC.Droid.Resource.Id.mini;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_art = global::NGC.Droid.Resource.Id.mr_art;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_chooser_list = global::NGC.Droid.Resource.Id.mr_chooser_list;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_chooser_route_desc = global::NGC.Droid.Resource.Id.mr_chooser_route_desc;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_chooser_route_icon = global::NGC.Droid.Resource.Id.mr_chooser_route_icon;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_chooser_route_name = global::NGC.Droid.Resource.Id.mr_chooser_route_name;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_chooser_title = global::NGC.Droid.Resource.Id.mr_chooser_title;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_close = global::NGC.Droid.Resource.Id.mr_close;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_control_divider = global::NGC.Droid.Resource.Id.mr_control_divider;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_control_playback_ctrl = global::NGC.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_control_subtitle = global::NGC.Droid.Resource.Id.mr_control_subtitle;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_control_title = global::NGC.Droid.Resource.Id.mr_control_title;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_control_title_container = global::NGC.Droid.Resource.Id.mr_control_title_container;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_custom_control = global::NGC.Droid.Resource.Id.mr_custom_control;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_default_control = global::NGC.Droid.Resource.Id.mr_default_control;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_dialog_area = global::NGC.Droid.Resource.Id.mr_dialog_area;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_expandable_area = global::NGC.Droid.Resource.Id.mr_expandable_area;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_group_expand_collapse = global::NGC.Droid.Resource.Id.mr_group_expand_collapse;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_media_main_control = global::NGC.Droid.Resource.Id.mr_media_main_control;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_name = global::NGC.Droid.Resource.Id.mr_name;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_playback_control = global::NGC.Droid.Resource.Id.mr_playback_control;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_title_bar = global::NGC.Droid.Resource.Id.mr_title_bar;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_volume_control = global::NGC.Droid.Resource.Id.mr_volume_control;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_volume_group_list = global::NGC.Droid.Resource.Id.mr_volume_group_list;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_volume_item_icon = global::NGC.Droid.Resource.Id.mr_volume_item_icon;
+			global::EntryAutoComplete.Droid.Resource.Id.mr_volume_slider = global::NGC.Droid.Resource.Id.mr_volume_slider;
+			global::EntryAutoComplete.Droid.Resource.Id.multiply = global::NGC.Droid.Resource.Id.multiply;
+			global::EntryAutoComplete.Droid.Resource.Id.navigation_header_container = global::NGC.Droid.Resource.Id.navigation_header_container;
+			global::EntryAutoComplete.Droid.Resource.Id.never = global::NGC.Droid.Resource.Id.never;
+			global::EntryAutoComplete.Droid.Resource.Id.none = global::NGC.Droid.Resource.Id.none;
+			global::EntryAutoComplete.Droid.Resource.Id.normal = global::NGC.Droid.Resource.Id.normal;
+			global::EntryAutoComplete.Droid.Resource.Id.notification_background = global::NGC.Droid.Resource.Id.notification_background;
+			global::EntryAutoComplete.Droid.Resource.Id.notification_main_column = global::NGC.Droid.Resource.Id.notification_main_column;
+			global::EntryAutoComplete.Droid.Resource.Id.notification_main_column_container = global::NGC.Droid.Resource.Id.notification_main_column_container;
+			global::EntryAutoComplete.Droid.Resource.Id.parallax = global::NGC.Droid.Resource.Id.parallax;
+			global::EntryAutoComplete.Droid.Resource.Id.parentPanel = global::NGC.Droid.Resource.Id.parentPanel;
+			global::EntryAutoComplete.Droid.Resource.Id.pin = global::NGC.Droid.Resource.Id.pin;
+			global::EntryAutoComplete.Droid.Resource.Id.progress_circular = global::NGC.Droid.Resource.Id.progress_circular;
+			global::EntryAutoComplete.Droid.Resource.Id.progress_horizontal = global::NGC.Droid.Resource.Id.progress_horizontal;
+			global::EntryAutoComplete.Droid.Resource.Id.radio = global::NGC.Droid.Resource.Id.radio;
+			global::EntryAutoComplete.Droid.Resource.Id.right = global::NGC.Droid.Resource.Id.right;
+			global::EntryAutoComplete.Droid.Resource.Id.right_icon = global::NGC.Droid.Resource.Id.right_icon;
+			global::EntryAutoComplete.Droid.Resource.Id.right_side = global::NGC.Droid.Resource.Id.right_side;
+			global::EntryAutoComplete.Droid.Resource.Id.screen = global::NGC.Droid.Resource.Id.screen;
+			global::EntryAutoComplete.Droid.Resource.Id.scroll = global::NGC.Droid.Resource.Id.scroll;
+			global::EntryAutoComplete.Droid.Resource.Id.scrollIndicatorDown = global::NGC.Droid.Resource.Id.scrollIndicatorDown;
+			global::EntryAutoComplete.Droid.Resource.Id.scrollIndicatorUp = global::NGC.Droid.Resource.Id.scrollIndicatorUp;
+			global::EntryAutoComplete.Droid.Resource.Id.scrollView = global::NGC.Droid.Resource.Id.scrollView;
+			global::EntryAutoComplete.Droid.Resource.Id.scrollable = global::NGC.Droid.Resource.Id.scrollable;
+			global::EntryAutoComplete.Droid.Resource.Id.search_badge = global::NGC.Droid.Resource.Id.search_badge;
+			global::EntryAutoComplete.Droid.Resource.Id.search_bar = global::NGC.Droid.Resource.Id.search_bar;
+			global::EntryAutoComplete.Droid.Resource.Id.search_button = global::NGC.Droid.Resource.Id.search_button;
+			global::EntryAutoComplete.Droid.Resource.Id.search_close_btn = global::NGC.Droid.Resource.Id.search_close_btn;
+			global::EntryAutoComplete.Droid.Resource.Id.search_edit_frame = global::NGC.Droid.Resource.Id.search_edit_frame;
+			global::EntryAutoComplete.Droid.Resource.Id.search_go_btn = global::NGC.Droid.Resource.Id.search_go_btn;
+			global::EntryAutoComplete.Droid.Resource.Id.search_mag_icon = global::NGC.Droid.Resource.Id.search_mag_icon;
+			global::EntryAutoComplete.Droid.Resource.Id.search_plate = global::NGC.Droid.Resource.Id.search_plate;
+			global::EntryAutoComplete.Droid.Resource.Id.search_src_text = global::NGC.Droid.Resource.Id.search_src_text;
+			global::EntryAutoComplete.Droid.Resource.Id.search_voice_btn = global::NGC.Droid.Resource.Id.search_voice_btn;
+			global::EntryAutoComplete.Droid.Resource.Id.select_dialog_listview = global::NGC.Droid.Resource.Id.select_dialog_listview;
+			global::EntryAutoComplete.Droid.Resource.Id.shortcut = global::NGC.Droid.Resource.Id.shortcut;
+			global::EntryAutoComplete.Droid.Resource.Id.showCustom = global::NGC.Droid.Resource.Id.showCustom;
+			global::EntryAutoComplete.Droid.Resource.Id.showHome = global::NGC.Droid.Resource.Id.showHome;
+			global::EntryAutoComplete.Droid.Resource.Id.showTitle = global::NGC.Droid.Resource.Id.showTitle;
+			global::EntryAutoComplete.Droid.Resource.Id.smallLabel = global::NGC.Droid.Resource.Id.smallLabel;
+			global::EntryAutoComplete.Droid.Resource.Id.snackbar_action = global::NGC.Droid.Resource.Id.snackbar_action;
+			global::EntryAutoComplete.Droid.Resource.Id.snackbar_text = global::NGC.Droid.Resource.Id.snackbar_text;
+			global::EntryAutoComplete.Droid.Resource.Id.snap = global::NGC.Droid.Resource.Id.snap;
+			global::EntryAutoComplete.Droid.Resource.Id.spacer = global::NGC.Droid.Resource.Id.spacer;
+			global::EntryAutoComplete.Droid.Resource.Id.split_action_bar = global::NGC.Droid.Resource.Id.split_action_bar;
+			global::EntryAutoComplete.Droid.Resource.Id.src_atop = global::NGC.Droid.Resource.Id.src_atop;
+			global::EntryAutoComplete.Droid.Resource.Id.src_in = global::NGC.Droid.Resource.Id.src_in;
+			global::EntryAutoComplete.Droid.Resource.Id.src_over = global::NGC.Droid.Resource.Id.src_over;
+			global::EntryAutoComplete.Droid.Resource.Id.start = global::NGC.Droid.Resource.Id.start;
+			global::EntryAutoComplete.Droid.Resource.Id.status_bar_latest_event_content = global::NGC.Droid.Resource.Id.status_bar_latest_event_content;
+			global::EntryAutoComplete.Droid.Resource.Id.submenuarrow = global::NGC.Droid.Resource.Id.submenuarrow;
+			global::EntryAutoComplete.Droid.Resource.Id.submit_area = global::NGC.Droid.Resource.Id.submit_area;
+			global::EntryAutoComplete.Droid.Resource.Id.tabMode = global::NGC.Droid.Resource.Id.tabMode;
+			global::EntryAutoComplete.Droid.Resource.Id.text = global::NGC.Droid.Resource.Id.text;
+			global::EntryAutoComplete.Droid.Resource.Id.text2 = global::NGC.Droid.Resource.Id.text2;
+			global::EntryAutoComplete.Droid.Resource.Id.textSpacerNoButtons = global::NGC.Droid.Resource.Id.textSpacerNoButtons;
+			global::EntryAutoComplete.Droid.Resource.Id.textSpacerNoTitle = global::NGC.Droid.Resource.Id.textSpacerNoTitle;
+			global::EntryAutoComplete.Droid.Resource.Id.text_input_password_toggle = global::NGC.Droid.Resource.Id.text_input_password_toggle;
+			global::EntryAutoComplete.Droid.Resource.Id.textinput_counter = global::NGC.Droid.Resource.Id.textinput_counter;
+			global::EntryAutoComplete.Droid.Resource.Id.textinput_error = global::NGC.Droid.Resource.Id.textinput_error;
+			global::EntryAutoComplete.Droid.Resource.Id.time = global::NGC.Droid.Resource.Id.time;
+			global::EntryAutoComplete.Droid.Resource.Id.title = global::NGC.Droid.Resource.Id.title;
+			global::EntryAutoComplete.Droid.Resource.Id.titleDividerNoCustom = global::NGC.Droid.Resource.Id.titleDividerNoCustom;
+			global::EntryAutoComplete.Droid.Resource.Id.title_template = global::NGC.Droid.Resource.Id.title_template;
+			global::EntryAutoComplete.Droid.Resource.Id.top = global::NGC.Droid.Resource.Id.top;
+			global::EntryAutoComplete.Droid.Resource.Id.topPanel = global::NGC.Droid.Resource.Id.topPanel;
+			global::EntryAutoComplete.Droid.Resource.Id.touch_outside = global::NGC.Droid.Resource.Id.touch_outside;
+			global::EntryAutoComplete.Droid.Resource.Id.transition_current_scene = global::NGC.Droid.Resource.Id.transition_current_scene;
+			global::EntryAutoComplete.Droid.Resource.Id.transition_scene_layoutid_cache = global::NGC.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::EntryAutoComplete.Droid.Resource.Id.up = global::NGC.Droid.Resource.Id.up;
+			global::EntryAutoComplete.Droid.Resource.Id.useLogo = global::NGC.Droid.Resource.Id.useLogo;
+			global::EntryAutoComplete.Droid.Resource.Id.view_offset_helper = global::NGC.Droid.Resource.Id.view_offset_helper;
+			global::EntryAutoComplete.Droid.Resource.Id.visible = global::NGC.Droid.Resource.Id.visible;
+			global::EntryAutoComplete.Droid.Resource.Id.volume_item_container = global::NGC.Droid.Resource.Id.volume_item_container;
+			global::EntryAutoComplete.Droid.Resource.Id.withText = global::NGC.Droid.Resource.Id.withText;
+			global::EntryAutoComplete.Droid.Resource.Id.wrap_content = global::NGC.Droid.Resource.Id.wrap_content;
+			global::EntryAutoComplete.Droid.Resource.Integer.abc_config_activityDefaultDur = global::NGC.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::EntryAutoComplete.Droid.Resource.Integer.abc_config_activityShortDur = global::NGC.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::EntryAutoComplete.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::NGC.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::EntryAutoComplete.Droid.Resource.Integer.bottom_sheet_slide_duration = global::NGC.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::EntryAutoComplete.Droid.Resource.Integer.cancel_button_image_alpha = global::NGC.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::EntryAutoComplete.Droid.Resource.Integer.design_snackbar_text_max_lines = global::NGC.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::EntryAutoComplete.Droid.Resource.Integer.hide_password_duration = global::NGC.Droid.Resource.Integer.hide_password_duration;
+			global::EntryAutoComplete.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::NGC.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::EntryAutoComplete.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::NGC.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::EntryAutoComplete.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::NGC.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::EntryAutoComplete.Droid.Resource.Integer.show_password_duration = global::NGC.Droid.Resource.Integer.show_password_duration;
+			global::EntryAutoComplete.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::NGC.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EntryAutoComplete.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::NGC.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::EntryAutoComplete.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::NGC.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_action_bar_title_item = global::NGC.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_action_bar_up_container = global::NGC.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_action_menu_item_layout = global::NGC.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_action_menu_layout = global::NGC.Droid.Resource.Layout.abc_action_menu_layout;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_action_mode_bar = global::NGC.Droid.Resource.Layout.abc_action_mode_bar;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_action_mode_close_item_material = global::NGC.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_activity_chooser_view = global::NGC.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::NGC.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::NGC.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_alert_dialog_material = global::NGC.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_alert_dialog_title_material = global::NGC.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_dialog_title_material = global::NGC.Droid.Resource.Layout.abc_dialog_title_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_expanded_menu_layout = global::NGC.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::NGC.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_list_menu_item_icon = global::NGC.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_list_menu_item_layout = global::NGC.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_list_menu_item_radio = global::NGC.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::NGC.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_popup_menu_item_layout = global::NGC.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_screen_content_include = global::NGC.Droid.Resource.Layout.abc_screen_content_include;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_screen_simple = global::NGC.Droid.Resource.Layout.abc_screen_simple;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::NGC.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_screen_toolbar = global::NGC.Droid.Resource.Layout.abc_screen_toolbar;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::NGC.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_search_view = global::NGC.Droid.Resource.Layout.abc_search_view;
+			global::EntryAutoComplete.Droid.Resource.Layout.abc_select_dialog_material = global::NGC.Droid.Resource.Layout.abc_select_dialog_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_bottom_navigation_item = global::NGC.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_bottom_sheet_dialog = global::NGC.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_layout_snackbar = global::NGC.Droid.Resource.Layout.design_layout_snackbar;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_layout_snackbar_include = global::NGC.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_layout_tab_icon = global::NGC.Droid.Resource.Layout.design_layout_tab_icon;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_layout_tab_text = global::NGC.Droid.Resource.Layout.design_layout_tab_text;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_menu_item_action_area = global::NGC.Droid.Resource.Layout.design_menu_item_action_area;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_navigation_item = global::NGC.Droid.Resource.Layout.design_navigation_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_navigation_item_header = global::NGC.Droid.Resource.Layout.design_navigation_item_header;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_navigation_item_separator = global::NGC.Droid.Resource.Layout.design_navigation_item_separator;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_navigation_item_subheader = global::NGC.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_navigation_menu = global::NGC.Droid.Resource.Layout.design_navigation_menu;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_navigation_menu_item = global::NGC.Droid.Resource.Layout.design_navigation_menu_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.design_text_input_password_icon = global::NGC.Droid.Resource.Layout.design_text_input_password_icon;
+			global::EntryAutoComplete.Droid.Resource.Layout.mr_chooser_dialog = global::NGC.Droid.Resource.Layout.mr_chooser_dialog;
+			global::EntryAutoComplete.Droid.Resource.Layout.mr_chooser_list_item = global::NGC.Droid.Resource.Layout.mr_chooser_list_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.mr_controller_material_dialog_b = global::NGC.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::EntryAutoComplete.Droid.Resource.Layout.mr_controller_volume_item = global::NGC.Droid.Resource.Layout.mr_controller_volume_item;
+			global::EntryAutoComplete.Droid.Resource.Layout.mr_playback_control = global::NGC.Droid.Resource.Layout.mr_playback_control;
+			global::EntryAutoComplete.Droid.Resource.Layout.mr_volume_control = global::NGC.Droid.Resource.Layout.mr_volume_control;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_action = global::NGC.Droid.Resource.Layout.notification_action;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_action_tombstone = global::NGC.Droid.Resource.Layout.notification_action_tombstone;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_media_action = global::NGC.Droid.Resource.Layout.notification_media_action;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_media_cancel_action = global::NGC.Droid.Resource.Layout.notification_media_cancel_action;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_big_media = global::NGC.Droid.Resource.Layout.notification_template_big_media;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_big_media_custom = global::NGC.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_big_media_narrow = global::NGC.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::NGC.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_custom_big = global::NGC.Droid.Resource.Layout.notification_template_custom_big;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_icon_group = global::NGC.Droid.Resource.Layout.notification_template_icon_group;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_lines_media = global::NGC.Droid.Resource.Layout.notification_template_lines_media;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_media = global::NGC.Droid.Resource.Layout.notification_template_media;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_media_custom = global::NGC.Droid.Resource.Layout.notification_template_media_custom;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_part_chronometer = global::NGC.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::EntryAutoComplete.Droid.Resource.Layout.notification_template_part_time = global::NGC.Droid.Resource.Layout.notification_template_part_time;
+			global::EntryAutoComplete.Droid.Resource.Layout.select_dialog_item_material = global::NGC.Droid.Resource.Layout.select_dialog_item_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.select_dialog_multichoice_material = global::NGC.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.select_dialog_singlechoice_material = global::NGC.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::EntryAutoComplete.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::NGC.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EntryAutoComplete.Droid.Resource.String.abc_action_bar_home_description = global::NGC.Droid.Resource.String.abc_action_bar_home_description;
+			global::EntryAutoComplete.Droid.Resource.String.abc_action_bar_up_description = global::NGC.Droid.Resource.String.abc_action_bar_up_description;
+			global::EntryAutoComplete.Droid.Resource.String.abc_action_menu_overflow_description = global::NGC.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::EntryAutoComplete.Droid.Resource.String.abc_action_mode_done = global::NGC.Droid.Resource.String.abc_action_mode_done;
+			global::EntryAutoComplete.Droid.Resource.String.abc_activity_chooser_view_see_all = global::NGC.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::EntryAutoComplete.Droid.Resource.String.abc_activitychooserview_choose_application = global::NGC.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::EntryAutoComplete.Droid.Resource.String.abc_capital_off = global::NGC.Droid.Resource.String.abc_capital_off;
+			global::EntryAutoComplete.Droid.Resource.String.abc_capital_on = global::NGC.Droid.Resource.String.abc_capital_on;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_body_1_material = global::NGC.Droid.Resource.String.abc_font_family_body_1_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_body_2_material = global::NGC.Droid.Resource.String.abc_font_family_body_2_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_button_material = global::NGC.Droid.Resource.String.abc_font_family_button_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_caption_material = global::NGC.Droid.Resource.String.abc_font_family_caption_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_display_1_material = global::NGC.Droid.Resource.String.abc_font_family_display_1_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_display_2_material = global::NGC.Droid.Resource.String.abc_font_family_display_2_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_display_3_material = global::NGC.Droid.Resource.String.abc_font_family_display_3_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_display_4_material = global::NGC.Droid.Resource.String.abc_font_family_display_4_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_headline_material = global::NGC.Droid.Resource.String.abc_font_family_headline_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_menu_material = global::NGC.Droid.Resource.String.abc_font_family_menu_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_subhead_material = global::NGC.Droid.Resource.String.abc_font_family_subhead_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_font_family_title_material = global::NGC.Droid.Resource.String.abc_font_family_title_material;
+			global::EntryAutoComplete.Droid.Resource.String.abc_search_hint = global::NGC.Droid.Resource.String.abc_search_hint;
+			global::EntryAutoComplete.Droid.Resource.String.abc_searchview_description_clear = global::NGC.Droid.Resource.String.abc_searchview_description_clear;
+			global::EntryAutoComplete.Droid.Resource.String.abc_searchview_description_query = global::NGC.Droid.Resource.String.abc_searchview_description_query;
+			global::EntryAutoComplete.Droid.Resource.String.abc_searchview_description_search = global::NGC.Droid.Resource.String.abc_searchview_description_search;
+			global::EntryAutoComplete.Droid.Resource.String.abc_searchview_description_submit = global::NGC.Droid.Resource.String.abc_searchview_description_submit;
+			global::EntryAutoComplete.Droid.Resource.String.abc_searchview_description_voice = global::NGC.Droid.Resource.String.abc_searchview_description_voice;
+			global::EntryAutoComplete.Droid.Resource.String.abc_shareactionprovider_share_with = global::NGC.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::EntryAutoComplete.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::NGC.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EntryAutoComplete.Droid.Resource.String.abc_toolbar_collapse_description = global::NGC.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::EntryAutoComplete.Droid.Resource.String.appbar_scrolling_view_behavior = global::NGC.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::EntryAutoComplete.Droid.Resource.String.bottom_sheet_behavior = global::NGC.Droid.Resource.String.bottom_sheet_behavior;
+			global::EntryAutoComplete.Droid.Resource.String.character_counter_pattern = global::NGC.Droid.Resource.String.character_counter_pattern;
+			global::EntryAutoComplete.Droid.Resource.String.mr_button_content_description = global::NGC.Droid.Resource.String.mr_button_content_description;
+			global::EntryAutoComplete.Droid.Resource.String.mr_cast_button_connected = global::NGC.Droid.Resource.String.mr_cast_button_connected;
+			global::EntryAutoComplete.Droid.Resource.String.mr_cast_button_connecting = global::NGC.Droid.Resource.String.mr_cast_button_connecting;
+			global::EntryAutoComplete.Droid.Resource.String.mr_cast_button_disconnected = global::NGC.Droid.Resource.String.mr_cast_button_disconnected;
+			global::EntryAutoComplete.Droid.Resource.String.mr_chooser_searching = global::NGC.Droid.Resource.String.mr_chooser_searching;
+			global::EntryAutoComplete.Droid.Resource.String.mr_chooser_title = global::NGC.Droid.Resource.String.mr_chooser_title;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_album_art = global::NGC.Droid.Resource.String.mr_controller_album_art;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_casting_screen = global::NGC.Droid.Resource.String.mr_controller_casting_screen;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_close_description = global::NGC.Droid.Resource.String.mr_controller_close_description;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_collapse_group = global::NGC.Droid.Resource.String.mr_controller_collapse_group;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_disconnect = global::NGC.Droid.Resource.String.mr_controller_disconnect;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_expand_group = global::NGC.Droid.Resource.String.mr_controller_expand_group;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_no_info_available = global::NGC.Droid.Resource.String.mr_controller_no_info_available;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_no_media_selected = global::NGC.Droid.Resource.String.mr_controller_no_media_selected;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_pause = global::NGC.Droid.Resource.String.mr_controller_pause;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_play = global::NGC.Droid.Resource.String.mr_controller_play;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_stop = global::NGC.Droid.Resource.String.mr_controller_stop;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_stop_casting = global::NGC.Droid.Resource.String.mr_controller_stop_casting;
+			global::EntryAutoComplete.Droid.Resource.String.mr_controller_volume_slider = global::NGC.Droid.Resource.String.mr_controller_volume_slider;
+			global::EntryAutoComplete.Droid.Resource.String.mr_system_route_name = global::NGC.Droid.Resource.String.mr_system_route_name;
+			global::EntryAutoComplete.Droid.Resource.String.mr_user_route_category_name = global::NGC.Droid.Resource.String.mr_user_route_category_name;
+			global::EntryAutoComplete.Droid.Resource.String.password_toggle_content_description = global::NGC.Droid.Resource.String.password_toggle_content_description;
+			global::EntryAutoComplete.Droid.Resource.String.path_password_eye = global::NGC.Droid.Resource.String.path_password_eye;
+			global::EntryAutoComplete.Droid.Resource.String.path_password_eye_mask_strike_through = global::NGC.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::EntryAutoComplete.Droid.Resource.String.path_password_eye_mask_visible = global::NGC.Droid.Resource.String.path_password_eye_mask_visible;
+			global::EntryAutoComplete.Droid.Resource.String.path_password_strike_through = global::NGC.Droid.Resource.String.path_password_strike_through;
+			global::EntryAutoComplete.Droid.Resource.String.search_menu_title = global::NGC.Droid.Resource.String.search_menu_title;
+			global::EntryAutoComplete.Droid.Resource.String.status_bar_notification_info_overflow = global::NGC.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.AlertDialog_AppCompat = global::NGC.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::NGC.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Animation_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::NGC.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EntryAutoComplete.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::NGC.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::NGC.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::NGC.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_CardView = global::NGC.Droid.Resource.Style.Base_CardView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::NGC.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::NGC.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NGC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_Design_AppBarLayout = global::NGC.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::NGC.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.CardView = global::NGC.Droid.Resource.Style.CardView;
+			global::EntryAutoComplete.Droid.Resource.Style.CardView_Dark = global::NGC.Droid.Resource.Style.CardView_Dark;
+			global::EntryAutoComplete.Droid.Resource.Style.CardView_Light = global::NGC.Droid.Resource.Style.CardView_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_AppCompat = global::NGC.Droid.Resource.Style.Platform_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::NGC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::NGC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V11_AppCompat = global::NGC.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V14_AppCompat = global::NGC.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V21_AppCompat = global::NGC.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V25_AppCompat = global::NGC.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::NGC.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::NGC.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::NGC.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EntryAutoComplete.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::NGC.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::NGC.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_Counter = global::NGC.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::NGC.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_Error = global::NGC.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_Hint = global::NGC.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::NGC.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Design_Tab = global::NGC.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::NGC.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::NGC.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::NGC.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NGC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EntryAutoComplete.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::NGC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat = global::NGC.Droid.Resource.Style.Theme_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::NGC.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::NGC.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NGC.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_Design = global::NGC.Droid.Resource.Style.Theme_Design;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::NGC.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_Design_Light = global::NGC.Droid.Resource.Style.Theme_Design_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::NGC.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::NGC.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_Design_NoActionBar = global::NGC.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_MediaRouter = global::NGC.Droid.Resource.Style.Theme_MediaRouter;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_MediaRouter_Light = global::NGC.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::NGC.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::EntryAutoComplete.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::NGC.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::NGC.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::EntryAutoComplete.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::NGC.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Button = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::NGC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::NGC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::NGC.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::NGC.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ListView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::NGC.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::NGC.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::NGC.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::NGC.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::NGC.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_SearchView = global::NGC.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::NGC.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Spinner = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::NGC.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_AppBarLayout = global::NGC.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::NGC.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::NGC.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::NGC.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::NGC.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::NGC.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_NavigationView = global::NGC.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::NGC.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_Snackbar = global::NGC.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_TabLayout = global::NGC.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_Design_TextInputLayout = global::NGC.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::NGC.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::EntryAutoComplete.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::NGC.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar = global::NGC.Droid.Resource.Styleable.ActionBar;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_background = global::NGC.Droid.Resource.Styleable.ActionBar_background;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::NGC.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::NGC.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::NGC.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_displayOptions = global::NGC.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_divider = global::NGC.Droid.Resource.Styleable.ActionBar_divider;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_elevation = global::NGC.Droid.Resource.Styleable.ActionBar_elevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_height = global::NGC.Droid.Resource.Styleable.ActionBar_height;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::NGC.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::NGC.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_homeLayout = global::NGC.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_icon = global::NGC.Droid.Resource.Styleable.ActionBar_icon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::NGC.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_itemPadding = global::NGC.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_logo = global::NGC.Droid.Resource.Styleable.ActionBar_logo;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_navigationMode = global::NGC.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_popupTheme = global::NGC.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::NGC.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::NGC.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_subtitle = global::NGC.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::NGC.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_title = global::NGC.Droid.Resource.Styleable.ActionBar_title;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::NGC.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBarLayout = global::NGC.Droid.Resource.Styleable.ActionBarLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::NGC.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMenuItemView = global::NGC.Droid.Resource.Styleable.ActionMenuItemView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::NGC.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMenuView = global::NGC.Droid.Resource.Styleable.ActionMenuView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode = global::NGC.Droid.Resource.Styleable.ActionMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode_background = global::NGC.Droid.Resource.Styleable.ActionMode_background;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::NGC.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::NGC.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode_height = global::NGC.Droid.Resource.Styleable.ActionMode_height;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::NGC.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::NGC.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActivityChooserView = global::NGC.Droid.Resource.Styleable.ActivityChooserView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::NGC.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::NGC.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog = global::NGC.Droid.Resource.Styleable.AlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_android_layout = global::NGC.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_listLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_showTitle = global::NGC.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout = global::NGC.Droid.Resource.Styleable.AppBarLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout_android_background = global::NGC.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout_elevation = global::NGC.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout_expanded = global::NGC.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayoutStates = global::NGC.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::NGC.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::NGC.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout_Layout = global::NGC.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::NGC.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::NGC.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatImageView = global::NGC.Droid.Resource.Styleable.AppCompatImageView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatImageView_android_src = global::NGC.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::NGC.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatImageView_tint = global::NGC.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::NGC.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatSeekBar = global::NGC.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::NGC.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::NGC.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::NGC.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::NGC.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::NGC.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextView = global::NGC.Droid.Resource.Styleable.AppCompatTextView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::NGC.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::NGC.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::NGC.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::NGC.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::NGC.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::NGC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::NGC.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomNavigationView = global::NGC.Droid.Resource.Styleable.BottomNavigationView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomNavigationView_elevation = global::NGC.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::NGC.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::NGC.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::NGC.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomNavigationView_menu = global::NGC.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::NGC.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::NGC.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::NGC.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::NGC.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ButtonBarLayout = global::NGC.Droid.Resource.Styleable.ButtonBarLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::NGC.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView = global::NGC.Droid.Resource.Styleable.CardView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_android_minHeight = global::NGC.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_android_minWidth = global::NGC.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::NGC.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_cardCornerRadius = global::NGC.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_cardElevation = global::NGC.Droid.Resource.Styleable.CardView_cardElevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_cardMaxElevation = global::NGC.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::NGC.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::NGC.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_contentPadding = global::NGC.Droid.Resource.Styleable.CardView_contentPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_contentPaddingRight = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CardView_contentPaddingTop = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ColorStateListItem = global::NGC.Droid.Resource.Styleable.ColorStateListItem;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ColorStateListItem_alpha = global::NGC.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::NGC.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ColorStateListItem_android_color = global::NGC.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CompoundButton = global::NGC.Droid.Resource.Styleable.CompoundButton;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CompoundButton_android_button = global::NGC.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CompoundButton_buttonTint = global::NGC.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::NGC.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout = global::NGC.Droid.Resource.Styleable.CoordinatorLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::EntryAutoComplete.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DesignTheme = global::NGC.Droid.Resource.Styleable.DesignTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::NGC.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::NGC.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DesignTheme_textColorError = global::NGC.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_color = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EntryAutoComplete.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton = global::NGC.Droid.Resource.Styleable.FloatingActionButton;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::NGC.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::NGC.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::NGC.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_elevation = global::NGC.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::NGC.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::NGC.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::NGC.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::NGC.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::NGC.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::NGC.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ForegroundLinearLayout = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ListPopupWindow = global::NGC.Droid.Resource.Styleable.ListPopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NGC.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NGC.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MediaRouteButton = global::NGC.Droid.Resource.Styleable.MediaRouteButton;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::NGC.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::NGC.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::NGC.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup = global::NGC.Droid.Resource.Styleable.MenuGroup;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NGC.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup_android_enabled = global::NGC.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup_android_id = global::NGC.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::NGC.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::NGC.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuGroup_android_visible = global::NGC.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem = global::NGC.Droid.Resource.Styleable.MenuItem;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_actionLayout = global::NGC.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::NGC.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_actionViewClass = global::NGC.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::NGC.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_checkable = global::NGC.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_checked = global::NGC.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_enabled = global::NGC.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_icon = global::NGC.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_id = global::NGC.Droid.Resource.Styleable.MenuItem_android_id;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::NGC.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::NGC.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_onClick = global::NGC.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::NGC.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_title = global::NGC.Droid.Resource.Styleable.MenuItem_android_title;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::NGC.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_android_visible = global::NGC.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuItem_showAsAction = global::NGC.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView = global::NGC.Droid.Resource.Styleable.MenuView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_headerBackground = global::NGC.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::NGC.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_itemBackground = global::NGC.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::NGC.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::NGC.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::NGC.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::NGC.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::NGC.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EntryAutoComplete.Droid.Resource.Styleable.MenuView_subMenuArrow = global::NGC.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView = global::NGC.Droid.Resource.Styleable.NavigationView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_android_background = global::NGC.Droid.Resource.Styleable.NavigationView_android_background;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::NGC.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::NGC.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_elevation = global::NGC.Droid.Resource.Styleable.NavigationView_elevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_headerLayout = global::NGC.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_itemBackground = global::NGC.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_itemIconTint = global::NGC.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::NGC.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_itemTextColor = global::NGC.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.NavigationView_menu = global::NGC.Droid.Resource.Styleable.NavigationView_menu;
+			global::EntryAutoComplete.Droid.Resource.Styleable.PopupWindow = global::NGC.Droid.Resource.Styleable.PopupWindow;
+			global::EntryAutoComplete.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::NGC.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::NGC.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::NGC.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.PopupWindowBackgroundState = global::NGC.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::EntryAutoComplete.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::NGC.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecycleListView = global::NGC.Droid.Resource.Styleable.RecycleListView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::NGC.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::NGC.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView = global::NGC.Droid.Resource.Styleable.RecyclerView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::NGC.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView_android_orientation = global::NGC.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView_layoutManager = global::NGC.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::NGC.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView_spanCount = global::NGC.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::EntryAutoComplete.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::NGC.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::NGC.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::NGC.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::NGC.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::NGC.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView = global::NGC.Droid.Resource.Styleable.SearchView;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_android_focusable = global::NGC.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_android_imeOptions = global::NGC.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_android_inputType = global::NGC.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_android_maxWidth = global::NGC.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_closeIcon = global::NGC.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_commitIcon = global::NGC.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::NGC.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_goIcon = global::NGC.Droid.Resource.Styleable.SearchView_goIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::NGC.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_layout = global::NGC.Droid.Resource.Styleable.SearchView_layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_queryBackground = global::NGC.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_queryHint = global::NGC.Droid.Resource.Styleable.SearchView_queryHint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_searchHintIcon = global::NGC.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_searchIcon = global::NGC.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_submitBackground = global::NGC.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::NGC.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SearchView_voiceIcon = global::NGC.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SnackbarLayout = global::NGC.Droid.Resource.Styleable.SnackbarLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::NGC.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SnackbarLayout_elevation = global::NGC.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::NGC.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Spinner = global::NGC.Droid.Resource.Styleable.Spinner;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::NGC.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Spinner_android_entries = global::NGC.Droid.Resource.Styleable.Spinner_android_entries;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Spinner_android_popupBackground = global::NGC.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Spinner_android_prompt = global::NGC.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Spinner_popupTheme = global::NGC.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat = global::NGC.Droid.Resource.Styleable.SwitchCompat;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::NGC.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::NGC.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::NGC.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_showText = global::NGC.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::NGC.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::NGC.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::NGC.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::NGC.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::NGC.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::NGC.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::NGC.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_track = global::NGC.Droid.Resource.Styleable.SwitchCompat_track;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_trackTint = global::NGC.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::NGC.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabItem = global::NGC.Droid.Resource.Styleable.TabItem;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabItem_android_icon = global::NGC.Droid.Resource.Styleable.TabItem_android_icon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabItem_android_layout = global::NGC.Droid.Resource.Styleable.TabItem_android_layout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabItem_android_text = global::NGC.Droid.Resource.Styleable.TabItem_android_text;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout = global::NGC.Droid.Resource.Styleable.TabLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabBackground = global::NGC.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabContentStart = global::NGC.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabGravity = global::NGC.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::NGC.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::NGC.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::NGC.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::NGC.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabMode = global::NGC.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabPadding = global::NGC.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::NGC.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::NGC.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TabLayout_tabTextColor = global::NGC.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance = global::NGC.Droid.Resource.Styleable.TextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_textColor = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_textSize = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_android_typeface = global::NGC.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::NGC.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout = global::NGC.Droid.Resource.Styleable.TextInputLayout;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_android_hint = global::NGC.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::NGC.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::NGC.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::NGC.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::NGC.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::NGC.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar = global::NGC.Droid.Resource.Styleable.Toolbar;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_android_gravity = global::NGC.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_android_minHeight = global::NGC.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_buttonGravity = global::NGC.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::NGC.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_collapseIcon = global::NGC.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_logo = global::NGC.Droid.Resource.Styleable.Toolbar_logo;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_logoDescription = global::NGC.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::NGC.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::NGC.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_navigationIcon = global::NGC.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_popupTheme = global::NGC.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_subtitle = global::NGC.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::NGC.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::NGC.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_title = global::NGC.Droid.Resource.Styleable.Toolbar_title;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleMargin = global::NGC.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleMargins = global::NGC.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::NGC.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EntryAutoComplete.Droid.Resource.Styleable.Toolbar_titleTextColor = global::NGC.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::EntryAutoComplete.Droid.Resource.Styleable.View = global::NGC.Droid.Resource.Styleable.View;
+			global::EntryAutoComplete.Droid.Resource.Styleable.View_android_focusable = global::NGC.Droid.Resource.Styleable.View_android_focusable;
+			global::EntryAutoComplete.Droid.Resource.Styleable.View_android_theme = global::NGC.Droid.Resource.Styleable.View_android_theme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.View_paddingEnd = global::NGC.Droid.Resource.Styleable.View_paddingEnd;
+			global::EntryAutoComplete.Droid.Resource.Styleable.View_paddingStart = global::NGC.Droid.Resource.Styleable.View_paddingStart;
+			global::EntryAutoComplete.Droid.Resource.Styleable.View_theme = global::NGC.Droid.Resource.Styleable.View_theme;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewBackgroundHelper = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewStubCompat = global::NGC.Droid.Resource.Styleable.ViewStubCompat;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewStubCompat_android_id = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EntryAutoComplete.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::JulMar.Resource.String.ApplicationName = global::NGC.Droid.Resource.String.ApplicationName;
 			global::JulMar.Resource.String.Hello = global::NGC.Droid.Resource.String.Hello;
 			global::JulMar.Internal.Resource.String.ApplicationName = global::NGC.Droid.Resource.String.ApplicationName;
@@ -2133,6 +4228,1676 @@ namespace NGC.Droid
 			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_fade_in = global::NGC.Droid.Resource.Animation.abc_fade_in;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_fade_out = global::NGC.Droid.Resource.Animation.abc_fade_out;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::NGC.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_popup_enter = global::NGC.Droid.Resource.Animation.abc_popup_enter;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_popup_exit = global::NGC.Droid.Resource.Animation.abc_popup_exit;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::NGC.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_slide_in_bottom = global::NGC.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_slide_in_top = global::NGC.Droid.Resource.Animation.abc_slide_in_top;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_slide_out_bottom = global::NGC.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.abc_slide_out_top = global::NGC.Droid.Resource.Animation.abc_slide_out_top;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::NGC.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::NGC.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.design_snackbar_in = global::NGC.Droid.Resource.Animation.design_snackbar_in;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Animation.design_snackbar_out = global::NGC.Droid.Resource.Animation.design_snackbar_out;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarDivider = global::NGC.Droid.Resource.Attribute.actionBarDivider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarItemBackground = global::NGC.Droid.Resource.Attribute.actionBarItemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarPopupTheme = global::NGC.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarSize = global::NGC.Droid.Resource.Attribute.actionBarSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarSplitStyle = global::NGC.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarStyle = global::NGC.Droid.Resource.Attribute.actionBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarTabBarStyle = global::NGC.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarTabStyle = global::NGC.Droid.Resource.Attribute.actionBarTabStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarTabTextStyle = global::NGC.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarTheme = global::NGC.Droid.Resource.Attribute.actionBarTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionBarWidgetTheme = global::NGC.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionButtonStyle = global::NGC.Droid.Resource.Attribute.actionButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionDropDownStyle = global::NGC.Droid.Resource.Attribute.actionDropDownStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionLayout = global::NGC.Droid.Resource.Attribute.actionLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionMenuTextAppearance = global::NGC.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionMenuTextColor = global::NGC.Droid.Resource.Attribute.actionMenuTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeBackground = global::NGC.Droid.Resource.Attribute.actionModeBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::NGC.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeCloseDrawable = global::NGC.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeCopyDrawable = global::NGC.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeCutDrawable = global::NGC.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeFindDrawable = global::NGC.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModePasteDrawable = global::NGC.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModePopupWindowStyle = global::NGC.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::NGC.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeShareDrawable = global::NGC.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeSplitBackground = global::NGC.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeStyle = global::NGC.Droid.Resource.Attribute.actionModeStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::NGC.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionOverflowButtonStyle = global::NGC.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionOverflowMenuStyle = global::NGC.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionProviderClass = global::NGC.Droid.Resource.Attribute.actionProviderClass;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.actionViewClass = global::NGC.Droid.Resource.Attribute.actionViewClass;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.activityChooserViewStyle = global::NGC.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::NGC.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.alertDialogCenterButtons = global::NGC.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.alertDialogStyle = global::NGC.Droid.Resource.Attribute.alertDialogStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.alertDialogTheme = global::NGC.Droid.Resource.Attribute.alertDialogTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.allowStacking = global::NGC.Droid.Resource.Attribute.allowStacking;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.arrowHeadLength = global::NGC.Droid.Resource.Attribute.arrowHeadLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.arrowShaftLength = global::NGC.Droid.Resource.Attribute.arrowShaftLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::NGC.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.background = global::NGC.Droid.Resource.Attribute.background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.backgroundSplit = global::NGC.Droid.Resource.Attribute.backgroundSplit;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.backgroundStacked = global::NGC.Droid.Resource.Attribute.backgroundStacked;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.backgroundTint = global::NGC.Droid.Resource.Attribute.backgroundTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.backgroundTintMode = global::NGC.Droid.Resource.Attribute.backgroundTintMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.barLength = global::NGC.Droid.Resource.Attribute.barLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.behavior_hideable = global::NGC.Droid.Resource.Attribute.behavior_hideable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.behavior_overlapTop = global::NGC.Droid.Resource.Attribute.behavior_overlapTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.behavior_peekHeight = global::NGC.Droid.Resource.Attribute.behavior_peekHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.borderWidth = global::NGC.Droid.Resource.Attribute.borderWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.borderlessButtonStyle = global::NGC.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.bottomSheetDialogTheme = global::NGC.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.bottomSheetStyle = global::NGC.Droid.Resource.Attribute.bottomSheetStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonBarButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::NGC.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonBarStyle = global::NGC.Droid.Resource.Attribute.buttonBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonPanelSideLayout = global::NGC.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonStyle = global::NGC.Droid.Resource.Attribute.buttonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonStyleSmall = global::NGC.Droid.Resource.Attribute.buttonStyleSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonTint = global::NGC.Droid.Resource.Attribute.buttonTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.buttonTintMode = global::NGC.Droid.Resource.Attribute.buttonTintMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.cardBackgroundColor = global::NGC.Droid.Resource.Attribute.cardBackgroundColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.cardCornerRadius = global::NGC.Droid.Resource.Attribute.cardCornerRadius;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.cardElevation = global::NGC.Droid.Resource.Attribute.cardElevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.cardMaxElevation = global::NGC.Droid.Resource.Attribute.cardMaxElevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.cardPreventCornerOverlap = global::NGC.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.cardUseCompatPadding = global::NGC.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.checkboxStyle = global::NGC.Droid.Resource.Attribute.checkboxStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.checkedTextViewStyle = global::NGC.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.closeIcon = global::NGC.Droid.Resource.Attribute.closeIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.closeItemLayout = global::NGC.Droid.Resource.Attribute.closeItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.collapseContentDescription = global::NGC.Droid.Resource.Attribute.collapseContentDescription;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.collapseIcon = global::NGC.Droid.Resource.Attribute.collapseIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.collapsedTitleGravity = global::NGC.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::NGC.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.color = global::NGC.Droid.Resource.Attribute.color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorAccent = global::NGC.Droid.Resource.Attribute.colorAccent;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorButtonNormal = global::NGC.Droid.Resource.Attribute.colorButtonNormal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorControlActivated = global::NGC.Droid.Resource.Attribute.colorControlActivated;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorControlHighlight = global::NGC.Droid.Resource.Attribute.colorControlHighlight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorControlNormal = global::NGC.Droid.Resource.Attribute.colorControlNormal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorPrimary = global::NGC.Droid.Resource.Attribute.colorPrimary;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorPrimaryDark = global::NGC.Droid.Resource.Attribute.colorPrimaryDark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.colorSwitchThumbNormal = global::NGC.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.commitIcon = global::NGC.Droid.Resource.Attribute.commitIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentInsetEnd = global::NGC.Droid.Resource.Attribute.contentInsetEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentInsetLeft = global::NGC.Droid.Resource.Attribute.contentInsetLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentInsetRight = global::NGC.Droid.Resource.Attribute.contentInsetRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentInsetStart = global::NGC.Droid.Resource.Attribute.contentInsetStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentPadding = global::NGC.Droid.Resource.Attribute.contentPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentPaddingBottom = global::NGC.Droid.Resource.Attribute.contentPaddingBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentPaddingLeft = global::NGC.Droid.Resource.Attribute.contentPaddingLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentPaddingRight = global::NGC.Droid.Resource.Attribute.contentPaddingRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentPaddingTop = global::NGC.Droid.Resource.Attribute.contentPaddingTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.contentScrim = global::NGC.Droid.Resource.Attribute.contentScrim;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.controlBackground = global::NGC.Droid.Resource.Attribute.controlBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.counterEnabled = global::NGC.Droid.Resource.Attribute.counterEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.counterMaxLength = global::NGC.Droid.Resource.Attribute.counterMaxLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.counterOverflowTextAppearance = global::NGC.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.counterTextAppearance = global::NGC.Droid.Resource.Attribute.counterTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.customNavigationLayout = global::NGC.Droid.Resource.Attribute.customNavigationLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.defaultQueryHint = global::NGC.Droid.Resource.Attribute.defaultQueryHint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dialogPreferredPadding = global::NGC.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dialogTheme = global::NGC.Droid.Resource.Attribute.dialogTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.displayOptions = global::NGC.Droid.Resource.Attribute.displayOptions;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.divider = global::NGC.Droid.Resource.Attribute.divider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dividerHorizontal = global::NGC.Droid.Resource.Attribute.dividerHorizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dividerPadding = global::NGC.Droid.Resource.Attribute.dividerPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dividerVertical = global::NGC.Droid.Resource.Attribute.dividerVertical;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.drawableSize = global::NGC.Droid.Resource.Attribute.drawableSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.drawerArrowStyle = global::NGC.Droid.Resource.Attribute.drawerArrowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dropDownListViewStyle = global::NGC.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::NGC.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.editTextBackground = global::NGC.Droid.Resource.Attribute.editTextBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.editTextColor = global::NGC.Droid.Resource.Attribute.editTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.editTextStyle = global::NGC.Droid.Resource.Attribute.editTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.elevation = global::NGC.Droid.Resource.Attribute.elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.errorEnabled = global::NGC.Droid.Resource.Attribute.errorEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.errorTextAppearance = global::NGC.Droid.Resource.Attribute.errorTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NGC.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expanded = global::NGC.Droid.Resource.Attribute.expanded;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleGravity = global::NGC.Droid.Resource.Attribute.expandedTitleGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleMargin = global::NGC.Droid.Resource.Attribute.expandedTitleMargin;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleMarginBottom = global::NGC.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleMarginEnd = global::NGC.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleMarginStart = global::NGC.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleMarginTop = global::NGC.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.expandedTitleTextAppearance = global::NGC.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::NGC.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.fabSize = global::NGC.Droid.Resource.Attribute.fabSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.foregroundInsidePadding = global::NGC.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.gapBetweenBars = global::NGC.Droid.Resource.Attribute.gapBetweenBars;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.goIcon = global::NGC.Droid.Resource.Attribute.goIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.headerLayout = global::NGC.Droid.Resource.Attribute.headerLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.height = global::NGC.Droid.Resource.Attribute.height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.hideOnContentScroll = global::NGC.Droid.Resource.Attribute.hideOnContentScroll;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.hintAnimationEnabled = global::NGC.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.hintEnabled = global::NGC.Droid.Resource.Attribute.hintEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.hintTextAppearance = global::NGC.Droid.Resource.Attribute.hintTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.homeAsUpIndicator = global::NGC.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.homeLayout = global::NGC.Droid.Resource.Attribute.homeLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.icon = global::NGC.Droid.Resource.Attribute.icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.iconifiedByDefault = global::NGC.Droid.Resource.Attribute.iconifiedByDefault;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.imageButtonStyle = global::NGC.Droid.Resource.Attribute.imageButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.indeterminateProgressStyle = global::NGC.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.initialActivityCount = global::NGC.Droid.Resource.Attribute.initialActivityCount;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.insetForeground = global::NGC.Droid.Resource.Attribute.insetForeground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.isLightTheme = global::NGC.Droid.Resource.Attribute.isLightTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.itemBackground = global::NGC.Droid.Resource.Attribute.itemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.itemIconTint = global::NGC.Droid.Resource.Attribute.itemIconTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.itemPadding = global::NGC.Droid.Resource.Attribute.itemPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.itemTextAppearance = global::NGC.Droid.Resource.Attribute.itemTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.itemTextColor = global::NGC.Droid.Resource.Attribute.itemTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.keylines = global::NGC.Droid.Resource.Attribute.keylines;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout = global::NGC.Droid.Resource.Attribute.layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layoutManager = global::NGC.Droid.Resource.Attribute.layoutManager;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_anchor = global::NGC.Droid.Resource.Attribute.layout_anchor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_anchorGravity = global::NGC.Droid.Resource.Attribute.layout_anchorGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_behavior = global::NGC.Droid.Resource.Attribute.layout_behavior;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_collapseMode = global::NGC.Droid.Resource.Attribute.layout_collapseMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::NGC.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_keyline = global::NGC.Droid.Resource.Attribute.layout_keyline;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_scrollFlags = global::NGC.Droid.Resource.Attribute.layout_scrollFlags;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.layout_scrollInterpolator = global::NGC.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::NGC.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listDividerAlertDialog = global::NGC.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listItemLayout = global::NGC.Droid.Resource.Attribute.listItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listLayout = global::NGC.Droid.Resource.Attribute.listLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listPopupWindowStyle = global::NGC.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listPreferredItemHeight = global::NGC.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::NGC.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::NGC.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::NGC.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::NGC.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.logo = global::NGC.Droid.Resource.Attribute.logo;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.logoDescription = global::NGC.Droid.Resource.Attribute.logoDescription;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.maxActionInlineWidth = global::NGC.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.maxButtonHeight = global::NGC.Droid.Resource.Attribute.maxButtonHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.measureWithLargestChild = global::NGC.Droid.Resource.Attribute.measureWithLargestChild;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteButtonStyle = global::NGC.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::NGC.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::NGC.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::NGC.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.menu = global::NGC.Droid.Resource.Attribute.menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.multiChoiceItemLayout = global::NGC.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.navigationContentDescription = global::NGC.Droid.Resource.Attribute.navigationContentDescription;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.navigationIcon = global::NGC.Droid.Resource.Attribute.navigationIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.navigationMode = global::NGC.Droid.Resource.Attribute.navigationMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.overlapAnchor = global::NGC.Droid.Resource.Attribute.overlapAnchor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.paddingEnd = global::NGC.Droid.Resource.Attribute.paddingEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.paddingStart = global::NGC.Droid.Resource.Attribute.paddingStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.panelBackground = global::NGC.Droid.Resource.Attribute.panelBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.panelMenuListTheme = global::NGC.Droid.Resource.Attribute.panelMenuListTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.panelMenuListWidth = global::NGC.Droid.Resource.Attribute.panelMenuListWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.popupMenuStyle = global::NGC.Droid.Resource.Attribute.popupMenuStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.popupTheme = global::NGC.Droid.Resource.Attribute.popupTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.popupWindowStyle = global::NGC.Droid.Resource.Attribute.popupWindowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.preserveIconSpacing = global::NGC.Droid.Resource.Attribute.preserveIconSpacing;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.pressedTranslationZ = global::NGC.Droid.Resource.Attribute.pressedTranslationZ;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.progressBarPadding = global::NGC.Droid.Resource.Attribute.progressBarPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.progressBarStyle = global::NGC.Droid.Resource.Attribute.progressBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.queryBackground = global::NGC.Droid.Resource.Attribute.queryBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.queryHint = global::NGC.Droid.Resource.Attribute.queryHint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.radioButtonStyle = global::NGC.Droid.Resource.Attribute.radioButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.ratingBarStyle = global::NGC.Droid.Resource.Attribute.ratingBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.ratingBarStyleIndicator = global::NGC.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.ratingBarStyleSmall = global::NGC.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.reverseLayout = global::NGC.Droid.Resource.Attribute.reverseLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.rippleColor = global::NGC.Droid.Resource.Attribute.rippleColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.searchHintIcon = global::NGC.Droid.Resource.Attribute.searchHintIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.searchIcon = global::NGC.Droid.Resource.Attribute.searchIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.searchViewStyle = global::NGC.Droid.Resource.Attribute.searchViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.seekBarStyle = global::NGC.Droid.Resource.Attribute.seekBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.selectableItemBackground = global::NGC.Droid.Resource.Attribute.selectableItemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::NGC.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.showAsAction = global::NGC.Droid.Resource.Attribute.showAsAction;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.showDividers = global::NGC.Droid.Resource.Attribute.showDividers;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.showText = global::NGC.Droid.Resource.Attribute.showText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.singleChoiceItemLayout = global::NGC.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.spanCount = global::NGC.Droid.Resource.Attribute.spanCount;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.spinBars = global::NGC.Droid.Resource.Attribute.spinBars;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::NGC.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.spinnerStyle = global::NGC.Droid.Resource.Attribute.spinnerStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.splitTrack = global::NGC.Droid.Resource.Attribute.splitTrack;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.srcCompat = global::NGC.Droid.Resource.Attribute.srcCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.stackFromEnd = global::NGC.Droid.Resource.Attribute.stackFromEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.state_above_anchor = global::NGC.Droid.Resource.Attribute.state_above_anchor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.statusBarBackground = global::NGC.Droid.Resource.Attribute.statusBarBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.statusBarScrim = global::NGC.Droid.Resource.Attribute.statusBarScrim;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.submitBackground = global::NGC.Droid.Resource.Attribute.submitBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.subtitle = global::NGC.Droid.Resource.Attribute.subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.subtitleTextAppearance = global::NGC.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.subtitleTextColor = global::NGC.Droid.Resource.Attribute.subtitleTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.subtitleTextStyle = global::NGC.Droid.Resource.Attribute.subtitleTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.suggestionRowLayout = global::NGC.Droid.Resource.Attribute.suggestionRowLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.switchMinWidth = global::NGC.Droid.Resource.Attribute.switchMinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.switchPadding = global::NGC.Droid.Resource.Attribute.switchPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.switchStyle = global::NGC.Droid.Resource.Attribute.switchStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.switchTextAppearance = global::NGC.Droid.Resource.Attribute.switchTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabBackground = global::NGC.Droid.Resource.Attribute.tabBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabContentStart = global::NGC.Droid.Resource.Attribute.tabContentStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabGravity = global::NGC.Droid.Resource.Attribute.tabGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabIndicatorColor = global::NGC.Droid.Resource.Attribute.tabIndicatorColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabIndicatorHeight = global::NGC.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabMaxWidth = global::NGC.Droid.Resource.Attribute.tabMaxWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabMinWidth = global::NGC.Droid.Resource.Attribute.tabMinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabMode = global::NGC.Droid.Resource.Attribute.tabMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabPadding = global::NGC.Droid.Resource.Attribute.tabPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabPaddingBottom = global::NGC.Droid.Resource.Attribute.tabPaddingBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabPaddingEnd = global::NGC.Droid.Resource.Attribute.tabPaddingEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabPaddingStart = global::NGC.Droid.Resource.Attribute.tabPaddingStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabPaddingTop = global::NGC.Droid.Resource.Attribute.tabPaddingTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabSelectedTextColor = global::NGC.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabTextAppearance = global::NGC.Droid.Resource.Attribute.tabTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.tabTextColor = global::NGC.Droid.Resource.Attribute.tabTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAllCaps = global::NGC.Droid.Resource.Attribute.textAllCaps;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::NGC.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAppearanceListItem = global::NGC.Droid.Resource.Attribute.textAppearanceListItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAppearanceListItemSmall = global::NGC.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::NGC.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::NGC.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::NGC.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textColorAlertDialogListItem = global::NGC.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textColorError = global::NGC.Droid.Resource.Attribute.textColorError;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.textColorSearchUrl = global::NGC.Droid.Resource.Attribute.textColorSearchUrl;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.theme = global::NGC.Droid.Resource.Attribute.theme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.thickness = global::NGC.Droid.Resource.Attribute.thickness;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.thumbTextPadding = global::NGC.Droid.Resource.Attribute.thumbTextPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.title = global::NGC.Droid.Resource.Attribute.title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleEnabled = global::NGC.Droid.Resource.Attribute.titleEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleMarginBottom = global::NGC.Droid.Resource.Attribute.titleMarginBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleMarginEnd = global::NGC.Droid.Resource.Attribute.titleMarginEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleMarginStart = global::NGC.Droid.Resource.Attribute.titleMarginStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleMarginTop = global::NGC.Droid.Resource.Attribute.titleMarginTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleMargins = global::NGC.Droid.Resource.Attribute.titleMargins;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleTextAppearance = global::NGC.Droid.Resource.Attribute.titleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleTextColor = global::NGC.Droid.Resource.Attribute.titleTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.titleTextStyle = global::NGC.Droid.Resource.Attribute.titleTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.toolbarId = global::NGC.Droid.Resource.Attribute.toolbarId;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::NGC.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.toolbarStyle = global::NGC.Droid.Resource.Attribute.toolbarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.track = global::NGC.Droid.Resource.Attribute.track;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.useCompatPadding = global::NGC.Droid.Resource.Attribute.useCompatPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.voiceIcon = global::NGC.Droid.Resource.Attribute.voiceIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowActionBar = global::NGC.Droid.Resource.Attribute.windowActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowActionBarOverlay = global::NGC.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowActionModeOverlay = global::NGC.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowFixedHeightMajor = global::NGC.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowFixedHeightMinor = global::NGC.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowFixedWidthMajor = global::NGC.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowFixedWidthMinor = global::NGC.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowMinWidthMajor = global::NGC.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowMinWidthMinor = global::NGC.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Attribute.windowNoTitle = global::NGC.Droid.Resource.Attribute.windowNoTitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::NGC.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::NGC.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NGC.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::NGC.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::NGC.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::NGC.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::NGC.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_color_highlight_material = global::NGC.Droid.Resource.Color.abc_color_highlight_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_input_method_navigation_guard = global::NGC.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::NGC.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::NGC.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_primary_text_material_dark = global::NGC.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_primary_text_material_light = global::NGC.Droid.Resource.Color.abc_primary_text_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_search_url_text = global::NGC.Droid.Resource.Color.abc_search_url_text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_search_url_text_normal = global::NGC.Droid.Resource.Color.abc_search_url_text_normal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_search_url_text_pressed = global::NGC.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_search_url_text_selected = global::NGC.Droid.Resource.Color.abc_search_url_text_selected;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_secondary_text_material_dark = global::NGC.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.abc_secondary_text_material_light = global::NGC.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.accent_material_dark = global::NGC.Droid.Resource.Color.accent_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.accent_material_light = global::NGC.Droid.Resource.Color.accent_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.background_floating_material_dark = global::NGC.Droid.Resource.Color.background_floating_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.background_floating_material_light = global::NGC.Droid.Resource.Color.background_floating_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.background_material_dark = global::NGC.Droid.Resource.Color.background_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.background_material_light = global::NGC.Droid.Resource.Color.background_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::NGC.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.bright_foreground_disabled_material_light = global::NGC.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::NGC.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.bright_foreground_inverse_material_light = global::NGC.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.bright_foreground_material_dark = global::NGC.Droid.Resource.Color.bright_foreground_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.bright_foreground_material_light = global::NGC.Droid.Resource.Color.bright_foreground_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.button_material_dark = global::NGC.Droid.Resource.Color.button_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.button_material_light = global::NGC.Droid.Resource.Color.button_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.cardview_dark_background = global::NGC.Droid.Resource.Color.cardview_dark_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.cardview_light_background = global::NGC.Droid.Resource.Color.cardview_light_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.cardview_shadow_end_color = global::NGC.Droid.Resource.Color.cardview_shadow_end_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.cardview_shadow_start_color = global::NGC.Droid.Resource.Color.cardview_shadow_start_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_shadow_end_color = global::NGC.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_shadow_mid_color = global::NGC.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_shadow_start_color = global::NGC.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::NGC.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::NGC.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::NGC.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::NGC.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.design_snackbar_background_color = global::NGC.Droid.Resource.Color.design_snackbar_background_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::NGC.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.dim_foreground_disabled_material_light = global::NGC.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.dim_foreground_material_dark = global::NGC.Droid.Resource.Color.dim_foreground_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.dim_foreground_material_light = global::NGC.Droid.Resource.Color.dim_foreground_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.foreground_material_dark = global::NGC.Droid.Resource.Color.foreground_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.foreground_material_light = global::NGC.Droid.Resource.Color.foreground_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.highlighted_text_material_dark = global::NGC.Droid.Resource.Color.highlighted_text_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.highlighted_text_material_light = global::NGC.Droid.Resource.Color.highlighted_text_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_blue_grey_800 = global::NGC.Droid.Resource.Color.material_blue_grey_800;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_blue_grey_900 = global::NGC.Droid.Resource.Color.material_blue_grey_900;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_blue_grey_950 = global::NGC.Droid.Resource.Color.material_blue_grey_950;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_deep_teal_200 = global::NGC.Droid.Resource.Color.material_deep_teal_200;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_deep_teal_500 = global::NGC.Droid.Resource.Color.material_deep_teal_500;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_100 = global::NGC.Droid.Resource.Color.material_grey_100;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_300 = global::NGC.Droid.Resource.Color.material_grey_300;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_50 = global::NGC.Droid.Resource.Color.material_grey_50;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_600 = global::NGC.Droid.Resource.Color.material_grey_600;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_800 = global::NGC.Droid.Resource.Color.material_grey_800;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_850 = global::NGC.Droid.Resource.Color.material_grey_850;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.material_grey_900 = global::NGC.Droid.Resource.Color.material_grey_900;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_dark_material_dark = global::NGC.Droid.Resource.Color.primary_dark_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_dark_material_light = global::NGC.Droid.Resource.Color.primary_dark_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_material_dark = global::NGC.Droid.Resource.Color.primary_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_material_light = global::NGC.Droid.Resource.Color.primary_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_text_default_material_dark = global::NGC.Droid.Resource.Color.primary_text_default_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_text_default_material_light = global::NGC.Droid.Resource.Color.primary_text_default_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_text_disabled_material_dark = global::NGC.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.primary_text_disabled_material_light = global::NGC.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.ripple_material_dark = global::NGC.Droid.Resource.Color.ripple_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.ripple_material_light = global::NGC.Droid.Resource.Color.ripple_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.secondary_text_default_material_dark = global::NGC.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.secondary_text_default_material_light = global::NGC.Droid.Resource.Color.secondary_text_default_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.secondary_text_disabled_material_dark = global::NGC.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.secondary_text_disabled_material_light = global::NGC.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::NGC.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.switch_thumb_disabled_material_light = global::NGC.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.switch_thumb_material_dark = global::NGC.Droid.Resource.Color.switch_thumb_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.switch_thumb_material_light = global::NGC.Droid.Resource.Color.switch_thumb_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.switch_thumb_normal_material_dark = global::NGC.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Color.switch_thumb_normal_material_light = global::NGC.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::NGC.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::NGC.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::NGC.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::NGC.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_button_min_height_material = global::NGC.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_button_min_width_material = global::NGC.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::NGC.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::NGC.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::NGC.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::NGC.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::NGC.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_control_corner_material = global::NGC.Droid.Resource.Dimension.abc_control_corner_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_control_inset_material = global::NGC.Droid.Resource.Dimension.abc_control_inset_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_control_padding_material = global::NGC.Droid.Resource.Dimension.abc_control_padding_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::NGC.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_min_width_major = global::NGC.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::NGC.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_padding_material = global::NGC.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::NGC.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::NGC.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::NGC.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::NGC.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::NGC.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::NGC.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::NGC.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::NGC.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_floating_window_z = global::NGC.Droid.Resource.Dimension.abc_floating_window_z;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::NGC.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_panel_menu_list_width = global::NGC.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_search_view_preferred_width = global::NGC.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::NGC.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::NGC.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::NGC.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_switch_padding = global::NGC.Droid.Resource.Dimension.abc_switch_padding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_body_1_material = global::NGC.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_body_2_material = global::NGC.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_button_material = global::NGC.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_caption_material = global::NGC.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_display_1_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_display_2_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_display_3_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_display_4_material = global::NGC.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_headline_material = global::NGC.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_large_material = global::NGC.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_medium_material = global::NGC.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_menu_material = global::NGC.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_small_material = global::NGC.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_subhead_material = global::NGC.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NGC.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_title_material = global::NGC.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::NGC.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::NGC.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.cardview_default_elevation = global::NGC.Droid.Resource.Dimension.cardview_default_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.cardview_default_radius = global::NGC.Droid.Resource.Dimension.cardview_default_radius;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_appbar_elevation = global::NGC.Droid.Resource.Dimension.design_appbar_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::NGC.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_fab_border_width = global::NGC.Droid.Resource.Dimension.design_fab_border_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_fab_elevation = global::NGC.Droid.Resource.Dimension.design_fab_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_fab_image_size = global::NGC.Droid.Resource.Dimension.design_fab_image_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_fab_size_mini = global::NGC.Droid.Resource.Dimension.design_fab_size_mini;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_fab_size_normal = global::NGC.Droid.Resource.Dimension.design_fab_size_normal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::NGC.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_navigation_elevation = global::NGC.Droid.Resource.Dimension.design_navigation_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_navigation_icon_padding = global::NGC.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_navigation_icon_size = global::NGC.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_navigation_max_width = global::NGC.Droid.Resource.Dimension.design_navigation_max_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_navigation_padding_bottom = global::NGC.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::NGC.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::NGC.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::NGC.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_elevation = global::NGC.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::NGC.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_max_width = global::NGC.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_min_width = global::NGC.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::NGC.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::NGC.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::NGC.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_snackbar_text_size = global::NGC.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_tab_max_width = global::NGC.Droid.Resource.Dimension.design_tab_max_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::NGC.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_tab_text_size = global::NGC.Droid.Resource.Dimension.design_tab_text_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.design_tab_text_size_2line = global::NGC.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.disabled_alpha_material_dark = global::NGC.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.disabled_alpha_material_light = global::NGC.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.highlight_alpha_material_colored = global::NGC.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.highlight_alpha_material_dark = global::NGC.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.highlight_alpha_material_light = global::NGC.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NGC.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NGC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NGC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::NGC.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::NGC.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::NGC.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.notification_large_icon_height = global::NGC.Droid.Resource.Dimension.notification_large_icon_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.notification_large_icon_width = global::NGC.Droid.Resource.Dimension.notification_large_icon_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Dimension.notification_subtext_size = global::NGC.Droid.Resource.Dimension.notification_subtext_size;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::NGC.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_borderless_material = global::NGC.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_check_material = global::NGC.Droid.Resource.Drawable.abc_btn_check_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::NGC.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::NGC.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_colored_material = global::NGC.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::NGC.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_radio_material = global::NGC.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::NGC.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::NGC.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::NGC.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::NGC.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::NGC.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_cab_background_top_material = global::NGC.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_control_background_material = global::NGC.Droid.Resource.Drawable.abc_control_background_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_edit_text_material = global::NGC.Droid.Resource.Drawable.abc_edit_text_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::NGC.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_item_background_holo_dark = global::NGC.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_item_background_holo_light = global::NGC.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_focused_holo = global::NGC.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_longpressed_holo = global::NGC.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::NGC.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_list_selector_holo_light = global::NGC.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::NGC.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::NGC.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::NGC.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_ratingbar_small_material = global::NGC.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::NGC.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::NGC.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::NGC.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_seekbar_track_material = global::NGC.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::NGC.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::NGC.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_switch_thumb_material = global::NGC.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_tab_indicator_material = global::NGC.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_text_cursor_material = global::NGC.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::NGC.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.abc_textfield_search_material = global::NGC.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.design_fab_background = global::NGC.Droid.Resource.Drawable.design_fab_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.design_snackbar_background = global::NGC.Droid.Resource.Drawable.design_snackbar_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.ic_audiotrack_light = global::NGC.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::NGC.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.mr_dialog_material_background_light = global::NGC.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Drawable.notification_template_icon_bg = global::NGC.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action0 = global::NGC.Droid.Resource.Id.action0;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar = global::NGC.Droid.Resource.Id.action_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar_activity_content = global::NGC.Droid.Resource.Id.action_bar_activity_content;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar_container = global::NGC.Droid.Resource.Id.action_bar_container;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar_root = global::NGC.Droid.Resource.Id.action_bar_root;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar_spinner = global::NGC.Droid.Resource.Id.action_bar_spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar_subtitle = global::NGC.Droid.Resource.Id.action_bar_subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_bar_title = global::NGC.Droid.Resource.Id.action_bar_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_context_bar = global::NGC.Droid.Resource.Id.action_context_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_divider = global::NGC.Droid.Resource.Id.action_divider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_menu_divider = global::NGC.Droid.Resource.Id.action_menu_divider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_menu_presenter = global::NGC.Droid.Resource.Id.action_menu_presenter;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_mode_bar = global::NGC.Droid.Resource.Id.action_mode_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_mode_bar_stub = global::NGC.Droid.Resource.Id.action_mode_bar_stub;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.action_mode_close_button = global::NGC.Droid.Resource.Id.action_mode_close_button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.activity_chooser_view_content = global::NGC.Droid.Resource.Id.activity_chooser_view_content;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.alertTitle = global::NGC.Droid.Resource.Id.alertTitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.always = global::NGC.Droid.Resource.Id.always;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.beginning = global::NGC.Droid.Resource.Id.beginning;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.bottom = global::NGC.Droid.Resource.Id.bottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.buttonPanel = global::NGC.Droid.Resource.Id.buttonPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.cancel_action = global::NGC.Droid.Resource.Id.cancel_action;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.center = global::NGC.Droid.Resource.Id.center;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.center_horizontal = global::NGC.Droid.Resource.Id.center_horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.center_vertical = global::NGC.Droid.Resource.Id.center_vertical;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.checkbox = global::NGC.Droid.Resource.Id.checkbox;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.chronometer = global::NGC.Droid.Resource.Id.chronometer;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.clip_horizontal = global::NGC.Droid.Resource.Id.clip_horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.clip_vertical = global::NGC.Droid.Resource.Id.clip_vertical;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.collapseActionView = global::NGC.Droid.Resource.Id.collapseActionView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.contentPanel = global::NGC.Droid.Resource.Id.contentPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.custom = global::NGC.Droid.Resource.Id.custom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.customPanel = global::NGC.Droid.Resource.Id.customPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.decor_content_parent = global::NGC.Droid.Resource.Id.decor_content_parent;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.default_activity_button = global::NGC.Droid.Resource.Id.default_activity_button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.design_bottom_sheet = global::NGC.Droid.Resource.Id.design_bottom_sheet;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.design_menu_item_action_area = global::NGC.Droid.Resource.Id.design_menu_item_action_area;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.design_menu_item_action_area_stub = global::NGC.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.design_menu_item_text = global::NGC.Droid.Resource.Id.design_menu_item_text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.design_navigation_view = global::NGC.Droid.Resource.Id.design_navigation_view;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.disableHome = global::NGC.Droid.Resource.Id.disableHome;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.edit_query = global::NGC.Droid.Resource.Id.edit_query;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.end = global::NGC.Droid.Resource.Id.end;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.end_padder = global::NGC.Droid.Resource.Id.end_padder;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.enterAlways = global::NGC.Droid.Resource.Id.enterAlways;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.enterAlwaysCollapsed = global::NGC.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.exitUntilCollapsed = global::NGC.Droid.Resource.Id.exitUntilCollapsed;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.expand_activities_button = global::NGC.Droid.Resource.Id.expand_activities_button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.expanded_menu = global::NGC.Droid.Resource.Id.expanded_menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.fill = global::NGC.Droid.Resource.Id.fill;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.fill_horizontal = global::NGC.Droid.Resource.Id.fill_horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.fill_vertical = global::NGC.Droid.Resource.Id.fill_vertical;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.@fixed = global::NGC.Droid.Resource.Id.@fixed;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.home = global::NGC.Droid.Resource.Id.home;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.homeAsUp = global::NGC.Droid.Resource.Id.homeAsUp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.icon = global::NGC.Droid.Resource.Id.icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.ifRoom = global::NGC.Droid.Resource.Id.ifRoom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.image = global::NGC.Droid.Resource.Id.image;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.info = global::NGC.Droid.Resource.Id.info;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.item_touch_helper_previous_elevation = global::NGC.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.left = global::NGC.Droid.Resource.Id.left;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.line1 = global::NGC.Droid.Resource.Id.line1;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.line3 = global::NGC.Droid.Resource.Id.line3;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.listMode = global::NGC.Droid.Resource.Id.listMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.list_item = global::NGC.Droid.Resource.Id.list_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.media_actions = global::NGC.Droid.Resource.Id.media_actions;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.middle = global::NGC.Droid.Resource.Id.middle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mini = global::NGC.Droid.Resource.Id.mini;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_art = global::NGC.Droid.Resource.Id.mr_art;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_chooser_list = global::NGC.Droid.Resource.Id.mr_chooser_list;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_chooser_route_desc = global::NGC.Droid.Resource.Id.mr_chooser_route_desc;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_chooser_route_icon = global::NGC.Droid.Resource.Id.mr_chooser_route_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_chooser_route_name = global::NGC.Droid.Resource.Id.mr_chooser_route_name;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_close = global::NGC.Droid.Resource.Id.mr_close;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_control_divider = global::NGC.Droid.Resource.Id.mr_control_divider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_control_subtitle = global::NGC.Droid.Resource.Id.mr_control_subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_control_title = global::NGC.Droid.Resource.Id.mr_control_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_control_title_container = global::NGC.Droid.Resource.Id.mr_control_title_container;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_custom_control = global::NGC.Droid.Resource.Id.mr_custom_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_default_control = global::NGC.Droid.Resource.Id.mr_default_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_dialog_area = global::NGC.Droid.Resource.Id.mr_dialog_area;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_expandable_area = global::NGC.Droid.Resource.Id.mr_expandable_area;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_group_expand_collapse = global::NGC.Droid.Resource.Id.mr_group_expand_collapse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_media_main_control = global::NGC.Droid.Resource.Id.mr_media_main_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_name = global::NGC.Droid.Resource.Id.mr_name;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_playback_control = global::NGC.Droid.Resource.Id.mr_playback_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_title_bar = global::NGC.Droid.Resource.Id.mr_title_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_volume_control = global::NGC.Droid.Resource.Id.mr_volume_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_volume_group_list = global::NGC.Droid.Resource.Id.mr_volume_group_list;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_volume_item_icon = global::NGC.Droid.Resource.Id.mr_volume_item_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.mr_volume_slider = global::NGC.Droid.Resource.Id.mr_volume_slider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.multiply = global::NGC.Droid.Resource.Id.multiply;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.navigation_header_container = global::NGC.Droid.Resource.Id.navigation_header_container;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.never = global::NGC.Droid.Resource.Id.never;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.none = global::NGC.Droid.Resource.Id.none;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.normal = global::NGC.Droid.Resource.Id.normal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.parallax = global::NGC.Droid.Resource.Id.parallax;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.parentPanel = global::NGC.Droid.Resource.Id.parentPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.pin = global::NGC.Droid.Resource.Id.pin;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.progress_circular = global::NGC.Droid.Resource.Id.progress_circular;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.progress_horizontal = global::NGC.Droid.Resource.Id.progress_horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.radio = global::NGC.Droid.Resource.Id.radio;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.right = global::NGC.Droid.Resource.Id.right;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.screen = global::NGC.Droid.Resource.Id.screen;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.scroll = global::NGC.Droid.Resource.Id.scroll;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.scrollIndicatorDown = global::NGC.Droid.Resource.Id.scrollIndicatorDown;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.scrollIndicatorUp = global::NGC.Droid.Resource.Id.scrollIndicatorUp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.scrollView = global::NGC.Droid.Resource.Id.scrollView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.scrollable = global::NGC.Droid.Resource.Id.scrollable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_badge = global::NGC.Droid.Resource.Id.search_badge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_bar = global::NGC.Droid.Resource.Id.search_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_button = global::NGC.Droid.Resource.Id.search_button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_close_btn = global::NGC.Droid.Resource.Id.search_close_btn;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_edit_frame = global::NGC.Droid.Resource.Id.search_edit_frame;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_go_btn = global::NGC.Droid.Resource.Id.search_go_btn;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_mag_icon = global::NGC.Droid.Resource.Id.search_mag_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_plate = global::NGC.Droid.Resource.Id.search_plate;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_src_text = global::NGC.Droid.Resource.Id.search_src_text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.search_voice_btn = global::NGC.Droid.Resource.Id.search_voice_btn;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.select_dialog_listview = global::NGC.Droid.Resource.Id.select_dialog_listview;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.shortcut = global::NGC.Droid.Resource.Id.shortcut;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.showCustom = global::NGC.Droid.Resource.Id.showCustom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.showHome = global::NGC.Droid.Resource.Id.showHome;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.showTitle = global::NGC.Droid.Resource.Id.showTitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.snackbar_action = global::NGC.Droid.Resource.Id.snackbar_action;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.snackbar_text = global::NGC.Droid.Resource.Id.snackbar_text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.snap = global::NGC.Droid.Resource.Id.snap;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.spacer = global::NGC.Droid.Resource.Id.spacer;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.split_action_bar = global::NGC.Droid.Resource.Id.split_action_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.src_atop = global::NGC.Droid.Resource.Id.src_atop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.src_in = global::NGC.Droid.Resource.Id.src_in;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.src_over = global::NGC.Droid.Resource.Id.src_over;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.start = global::NGC.Droid.Resource.Id.start;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.status_bar_latest_event_content = global::NGC.Droid.Resource.Id.status_bar_latest_event_content;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.submit_area = global::NGC.Droid.Resource.Id.submit_area;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.tabMode = global::NGC.Droid.Resource.Id.tabMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.text = global::NGC.Droid.Resource.Id.text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.text2 = global::NGC.Droid.Resource.Id.text2;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.textSpacerNoButtons = global::NGC.Droid.Resource.Id.textSpacerNoButtons;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.time = global::NGC.Droid.Resource.Id.time;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.title = global::NGC.Droid.Resource.Id.title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.title_template = global::NGC.Droid.Resource.Id.title_template;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.top = global::NGC.Droid.Resource.Id.top;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.topPanel = global::NGC.Droid.Resource.Id.topPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.touch_outside = global::NGC.Droid.Resource.Id.touch_outside;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.up = global::NGC.Droid.Resource.Id.up;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.useLogo = global::NGC.Droid.Resource.Id.useLogo;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.view_offset_helper = global::NGC.Droid.Resource.Id.view_offset_helper;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.volume_item_container = global::NGC.Droid.Resource.Id.volume_item_container;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.withText = global::NGC.Droid.Resource.Id.withText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Id.wrap_content = global::NGC.Droid.Resource.Id.wrap_content;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.abc_config_activityDefaultDur = global::NGC.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.abc_config_activityShortDur = global::NGC.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.bottom_sheet_slide_duration = global::NGC.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.cancel_button_image_alpha = global::NGC.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.design_snackbar_text_max_lines = global::NGC.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::NGC.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::NGC.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::NGC.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::NGC.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::NGC.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::NGC.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_action_bar_title_item = global::NGC.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_action_bar_up_container = global::NGC.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_action_menu_item_layout = global::NGC.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_action_menu_layout = global::NGC.Droid.Resource.Layout.abc_action_menu_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_action_mode_bar = global::NGC.Droid.Resource.Layout.abc_action_mode_bar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_action_mode_close_item_material = global::NGC.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_activity_chooser_view = global::NGC.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::NGC.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::NGC.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_alert_dialog_material = global::NGC.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_dialog_title_material = global::NGC.Droid.Resource.Layout.abc_dialog_title_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_expanded_menu_layout = global::NGC.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::NGC.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_list_menu_item_icon = global::NGC.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_list_menu_item_layout = global::NGC.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_list_menu_item_radio = global::NGC.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_popup_menu_item_layout = global::NGC.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_screen_content_include = global::NGC.Droid.Resource.Layout.abc_screen_content_include;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_screen_simple = global::NGC.Droid.Resource.Layout.abc_screen_simple;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::NGC.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_screen_toolbar = global::NGC.Droid.Resource.Layout.abc_screen_toolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::NGC.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_search_view = global::NGC.Droid.Resource.Layout.abc_search_view;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.abc_select_dialog_material = global::NGC.Droid.Resource.Layout.abc_select_dialog_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_bottom_sheet_dialog = global::NGC.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_layout_snackbar = global::NGC.Droid.Resource.Layout.design_layout_snackbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_layout_snackbar_include = global::NGC.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_layout_tab_icon = global::NGC.Droid.Resource.Layout.design_layout_tab_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_layout_tab_text = global::NGC.Droid.Resource.Layout.design_layout_tab_text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_menu_item_action_area = global::NGC.Droid.Resource.Layout.design_menu_item_action_area;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_navigation_item = global::NGC.Droid.Resource.Layout.design_navigation_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_navigation_item_header = global::NGC.Droid.Resource.Layout.design_navigation_item_header;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_navigation_item_separator = global::NGC.Droid.Resource.Layout.design_navigation_item_separator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_navigation_item_subheader = global::NGC.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_navigation_menu = global::NGC.Droid.Resource.Layout.design_navigation_menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.design_navigation_menu_item = global::NGC.Droid.Resource.Layout.design_navigation_menu_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.mr_chooser_dialog = global::NGC.Droid.Resource.Layout.mr_chooser_dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.mr_chooser_list_item = global::NGC.Droid.Resource.Layout.mr_chooser_list_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.mr_controller_material_dialog_b = global::NGC.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.mr_controller_volume_item = global::NGC.Droid.Resource.Layout.mr_controller_volume_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.mr_playback_control = global::NGC.Droid.Resource.Layout.mr_playback_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.mr_volume_control = global::NGC.Droid.Resource.Layout.mr_volume_control;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_media_action = global::NGC.Droid.Resource.Layout.notification_media_action;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_media_cancel_action = global::NGC.Droid.Resource.Layout.notification_media_cancel_action;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_template_big_media = global::NGC.Droid.Resource.Layout.notification_template_big_media;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_template_big_media_narrow = global::NGC.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_template_media = global::NGC.Droid.Resource.Layout.notification_template_media;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_template_part_chronometer = global::NGC.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.notification_template_part_time = global::NGC.Droid.Resource.Layout.notification_template_part_time;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.select_dialog_item_material = global::NGC.Droid.Resource.Layout.select_dialog_item_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.select_dialog_multichoice_material = global::NGC.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.select_dialog_singlechoice_material = global::NGC.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::NGC.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.ApplicationName = global::NGC.Droid.Resource.String.ApplicationName;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.Hello = global::NGC.Droid.Resource.String.Hello;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_action_bar_home_description = global::NGC.Droid.Resource.String.abc_action_bar_home_description;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_action_bar_up_description = global::NGC.Droid.Resource.String.abc_action_bar_up_description;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_action_menu_overflow_description = global::NGC.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_action_mode_done = global::NGC.Droid.Resource.String.abc_action_mode_done;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_activity_chooser_view_see_all = global::NGC.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_activitychooserview_choose_application = global::NGC.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_capital_off = global::NGC.Droid.Resource.String.abc_capital_off;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_capital_on = global::NGC.Droid.Resource.String.abc_capital_on;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_search_hint = global::NGC.Droid.Resource.String.abc_search_hint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_searchview_description_clear = global::NGC.Droid.Resource.String.abc_searchview_description_clear;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_searchview_description_query = global::NGC.Droid.Resource.String.abc_searchview_description_query;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_searchview_description_search = global::NGC.Droid.Resource.String.abc_searchview_description_search;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_searchview_description_submit = global::NGC.Droid.Resource.String.abc_searchview_description_submit;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_searchview_description_voice = global::NGC.Droid.Resource.String.abc_searchview_description_voice;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_shareactionprovider_share_with = global::NGC.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::NGC.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.abc_toolbar_collapse_description = global::NGC.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.appbar_scrolling_view_behavior = global::NGC.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.bottom_sheet_behavior = global::NGC.Droid.Resource.String.bottom_sheet_behavior;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.character_counter_pattern = global::NGC.Droid.Resource.String.character_counter_pattern;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_button_content_description = global::NGC.Droid.Resource.String.mr_button_content_description;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_chooser_searching = global::NGC.Droid.Resource.String.mr_chooser_searching;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_chooser_title = global::NGC.Droid.Resource.String.mr_chooser_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_casting_screen = global::NGC.Droid.Resource.String.mr_controller_casting_screen;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_close_description = global::NGC.Droid.Resource.String.mr_controller_close_description;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_collapse_group = global::NGC.Droid.Resource.String.mr_controller_collapse_group;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_disconnect = global::NGC.Droid.Resource.String.mr_controller_disconnect;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_expand_group = global::NGC.Droid.Resource.String.mr_controller_expand_group;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_no_info_available = global::NGC.Droid.Resource.String.mr_controller_no_info_available;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_no_media_selected = global::NGC.Droid.Resource.String.mr_controller_no_media_selected;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_pause = global::NGC.Droid.Resource.String.mr_controller_pause;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_play = global::NGC.Droid.Resource.String.mr_controller_play;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_controller_stop = global::NGC.Droid.Resource.String.mr_controller_stop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_system_route_name = global::NGC.Droid.Resource.String.mr_system_route_name;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.mr_user_route_category_name = global::NGC.Droid.Resource.String.mr_user_route_category_name;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.String.status_bar_notification_info_overflow = global::NGC.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.AlertDialog_AppCompat = global::NGC.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::NGC.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Animation_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::NGC.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::NGC.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::NGC.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::NGC.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_CardView = global::NGC.Droid.Resource.Style.Base_CardView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::NGC.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::NGC.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NGC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NGC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NGC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::NGC.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NGC.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::NGC.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.CardView = global::NGC.Droid.Resource.Style.CardView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.CardView_Dark = global::NGC.Droid.Resource.Style.CardView_Dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.CardView_Light = global::NGC.Droid.Resource.Style.CardView_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_AppCompat = global::NGC.Droid.Resource.Style.Platform_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::NGC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::NGC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_V11_AppCompat = global::NGC.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_V14_AppCompat = global::NGC.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::NGC.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::NGC.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::NGC.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::NGC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::NGC.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::NGC.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::NGC.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_Counter = global::NGC.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::NGC.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_Error = global::NGC.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_Hint = global::NGC.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::NGC.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Design_Tab = global::NGC.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NGC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NGC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::NGC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat = global::NGC.Droid.Resource.Style.Theme_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::NGC.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Dialog = global::NGC.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::NGC.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NGC.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::NGC.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_Design = global::NGC.Droid.Resource.Style.Theme_Design;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::NGC.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_Design_Light = global::NGC.Droid.Resource.Style.Theme_Design_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::NGC.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::NGC.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_Design_NoActionBar = global::NGC.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_MediaRouter = global::NGC.Droid.Resource.Style.Theme_MediaRouter;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_MediaRouter_Light = global::NGC.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::NGC.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::NGC.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.ThemeOverlay_AppCompat = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::NGC.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Button = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::NGC.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::NGC.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::NGC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::NGC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::NGC.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::NGC.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_EditText = global::NGC.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ListView = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::NGC.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::NGC.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::NGC.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::NGC.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::NGC.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::NGC.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::NGC.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_SearchView = global::NGC.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Spinner = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::NGC.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::NGC.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::NGC.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::NGC.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_AppBarLayout = global::NGC.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::NGC.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::NGC.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::NGC.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::NGC.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_NavigationView = global::NGC.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::NGC.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_Snackbar = global::NGC.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_TabLayout = global::NGC.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_Design_TextInputLayout = global::NGC.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::NGC.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::NGC.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar = global::NGC.Droid.Resource.Styleable.ActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_background = global::NGC.Droid.Resource.Styleable.ActionBar_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::NGC.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::NGC.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::NGC.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::NGC.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_displayOptions = global::NGC.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_divider = global::NGC.Droid.Resource.Styleable.ActionBar_divider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_elevation = global::NGC.Droid.Resource.Styleable.ActionBar_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_height = global::NGC.Droid.Resource.Styleable.ActionBar_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::NGC.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::NGC.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_homeLayout = global::NGC.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_icon = global::NGC.Droid.Resource.Styleable.ActionBar_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::NGC.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_itemPadding = global::NGC.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_logo = global::NGC.Droid.Resource.Styleable.ActionBar_logo;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_navigationMode = global::NGC.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_popupTheme = global::NGC.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::NGC.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::NGC.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_subtitle = global::NGC.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::NGC.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_title = global::NGC.Droid.Resource.Styleable.ActionBar_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::NGC.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBarLayout = global::NGC.Droid.Resource.Styleable.ActionBarLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::NGC.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMenuItemView = global::NGC.Droid.Resource.Styleable.ActionMenuItemView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::NGC.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMenuView = global::NGC.Droid.Resource.Styleable.ActionMenuView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode = global::NGC.Droid.Resource.Styleable.ActionMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode_background = global::NGC.Droid.Resource.Styleable.ActionMode_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::NGC.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::NGC.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode_height = global::NGC.Droid.Resource.Styleable.ActionMode_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::NGC.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::NGC.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActivityChooserView = global::NGC.Droid.Resource.Styleable.ActivityChooserView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::NGC.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::NGC.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog = global::NGC.Droid.Resource.Styleable.AlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog_android_layout = global::NGC.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog_listLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::NGC.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppBarLayout = global::NGC.Droid.Resource.Styleable.AppBarLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppBarLayout_android_background = global::NGC.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppBarLayout_elevation = global::NGC.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppBarLayout_expanded = global::NGC.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatImageView = global::NGC.Droid.Resource.Styleable.AppCompatImageView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatImageView_android_src = global::NGC.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::NGC.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTextView = global::NGC.Droid.Resource.Styleable.AppCompatTextView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::NGC.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::NGC.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::NGC.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::NGC.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::NGC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::NGC.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::NGC.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::NGC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::NGC.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::NGC.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::NGC.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::NGC.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ButtonBarLayout = global::NGC.Droid.Resource.Styleable.ButtonBarLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::NGC.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView = global::NGC.Droid.Resource.Styleable.CardView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_android_minHeight = global::NGC.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_android_minWidth = global::NGC.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::NGC.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_cardCornerRadius = global::NGC.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_cardElevation = global::NGC.Droid.Resource.Styleable.CardView_cardElevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_cardMaxElevation = global::NGC.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::NGC.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::NGC.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_contentPadding = global::NGC.Droid.Resource.Styleable.CardView_contentPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_contentPaddingRight = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CardView_contentPaddingTop = global::NGC.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::NGC.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CompoundButton = global::NGC.Droid.Resource.Styleable.CompoundButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CompoundButton_android_button = global::NGC.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CompoundButton_buttonTint = global::NGC.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::NGC.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CoordinatorLayout = global::NGC.Droid.Resource.Styleable.CoordinatorLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::NGC.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DesignTheme = global::NGC.Droid.Resource.Styleable.DesignTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::NGC.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::NGC.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DesignTheme_textColorError = global::NGC.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_color = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::NGC.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton = global::NGC.Droid.Resource.Styleable.FloatingActionButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::NGC.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::NGC.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::NGC.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_elevation = global::NGC.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::NGC.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::NGC.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::NGC.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::NGC.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ForegroundLinearLayout = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::NGC.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::NGC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ListPopupWindow = global::NGC.Droid.Resource.Styleable.ListPopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NGC.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NGC.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MediaRouteButton = global::NGC.Droid.Resource.Styleable.MediaRouteButton;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::NGC.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::NGC.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::NGC.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup = global::NGC.Droid.Resource.Styleable.MenuGroup;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NGC.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup_android_enabled = global::NGC.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup_android_id = global::NGC.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::NGC.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::NGC.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuGroup_android_visible = global::NGC.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem = global::NGC.Droid.Resource.Styleable.MenuItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_actionLayout = global::NGC.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::NGC.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_actionViewClass = global::NGC.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::NGC.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_checkable = global::NGC.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_checked = global::NGC.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_enabled = global::NGC.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_icon = global::NGC.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_id = global::NGC.Droid.Resource.Styleable.MenuItem_android_id;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::NGC.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::NGC.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_onClick = global::NGC.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::NGC.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_title = global::NGC.Droid.Resource.Styleable.MenuItem_android_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::NGC.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_android_visible = global::NGC.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuItem_showAsAction = global::NGC.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView = global::NGC.Droid.Resource.Styleable.MenuView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_headerBackground = global::NGC.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::NGC.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_itemBackground = global::NGC.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::NGC.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::NGC.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::NGC.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::NGC.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::NGC.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView = global::NGC.Droid.Resource.Styleable.NavigationView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_android_background = global::NGC.Droid.Resource.Styleable.NavigationView_android_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::NGC.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::NGC.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_elevation = global::NGC.Droid.Resource.Styleable.NavigationView_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_headerLayout = global::NGC.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_itemBackground = global::NGC.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_itemIconTint = global::NGC.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::NGC.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_itemTextColor = global::NGC.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.NavigationView_menu = global::NGC.Droid.Resource.Styleable.NavigationView_menu;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.PopupWindow = global::NGC.Droid.Resource.Styleable.PopupWindow;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::NGC.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::NGC.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.PopupWindowBackgroundState = global::NGC.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::NGC.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.RecyclerView = global::NGC.Droid.Resource.Styleable.RecyclerView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.RecyclerView_android_orientation = global::NGC.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.RecyclerView_layoutManager = global::NGC.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::NGC.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.RecyclerView_spanCount = global::NGC.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::NGC.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::NGC.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::NGC.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView = global::NGC.Droid.Resource.Styleable.SearchView;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_android_focusable = global::NGC.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_android_imeOptions = global::NGC.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_android_inputType = global::NGC.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_android_maxWidth = global::NGC.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_closeIcon = global::NGC.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_commitIcon = global::NGC.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::NGC.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_goIcon = global::NGC.Droid.Resource.Styleable.SearchView_goIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::NGC.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_layout = global::NGC.Droid.Resource.Styleable.SearchView_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_queryBackground = global::NGC.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_queryHint = global::NGC.Droid.Resource.Styleable.SearchView_queryHint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_searchHintIcon = global::NGC.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_searchIcon = global::NGC.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_submitBackground = global::NGC.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::NGC.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SearchView_voiceIcon = global::NGC.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SnackbarLayout = global::NGC.Droid.Resource.Styleable.SnackbarLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::NGC.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SnackbarLayout_elevation = global::NGC.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::NGC.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Spinner = global::NGC.Droid.Resource.Styleable.Spinner;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::NGC.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Spinner_android_entries = global::NGC.Droid.Resource.Styleable.Spinner_android_entries;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Spinner_android_popupBackground = global::NGC.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Spinner_android_prompt = global::NGC.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Spinner_popupTheme = global::NGC.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat = global::NGC.Droid.Resource.Styleable.SwitchCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::NGC.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::NGC.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::NGC.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_showText = global::NGC.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::NGC.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::NGC.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::NGC.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::NGC.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::NGC.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.SwitchCompat_track = global::NGC.Droid.Resource.Styleable.SwitchCompat_track;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabItem = global::NGC.Droid.Resource.Styleable.TabItem;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabItem_android_icon = global::NGC.Droid.Resource.Styleable.TabItem_android_icon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabItem_android_layout = global::NGC.Droid.Resource.Styleable.TabItem_android_layout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabItem_android_text = global::NGC.Droid.Resource.Styleable.TabItem_android_text;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout = global::NGC.Droid.Resource.Styleable.TabLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabBackground = global::NGC.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabContentStart = global::NGC.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabGravity = global::NGC.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::NGC.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::NGC.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::NGC.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::NGC.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabMode = global::NGC.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabPadding = global::NGC.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::NGC.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::NGC.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::NGC.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TabLayout_tabTextColor = global::NGC.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance = global::NGC.Droid.Resource.Styleable.TextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::NGC.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_textColor = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_textSize = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::NGC.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_android_typeface = global::NGC.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::NGC.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout = global::NGC.Droid.Resource.Styleable.TextInputLayout;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_android_hint = global::NGC.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::NGC.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::NGC.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::NGC.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar = global::NGC.Droid.Resource.Styleable.Toolbar;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_android_gravity = global::NGC.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_android_minHeight = global::NGC.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::NGC.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_collapseIcon = global::NGC.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::NGC.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_logo = global::NGC.Droid.Resource.Styleable.Toolbar_logo;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_logoDescription = global::NGC.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::NGC.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::NGC.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_navigationIcon = global::NGC.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_popupTheme = global::NGC.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_subtitle = global::NGC.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::NGC.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::NGC.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_title = global::NGC.Droid.Resource.Styleable.Toolbar_title;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::NGC.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleMargins = global::NGC.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::NGC.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.Toolbar_titleTextColor = global::NGC.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.View = global::NGC.Droid.Resource.Styleable.View;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.View_android_focusable = global::NGC.Droid.Resource.Styleable.View_android_focusable;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.View_android_theme = global::NGC.Droid.Resource.Styleable.View_android_theme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.View_paddingEnd = global::NGC.Droid.Resource.Styleable.View_paddingEnd;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.View_paddingStart = global::NGC.Droid.Resource.Styleable.View_paddingStart;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.View_theme = global::NGC.Droid.Resource.Styleable.View_theme;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewBackgroundHelper = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::NGC.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat = global::NGC.Droid.Resource.Styleable.ViewStubCompat;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat_android_id = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::NGC.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::NGC.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::NGC.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteBorderColor = global::NGC.Droid.Resource.Attribute.autocompleteBorderColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowBorder = global::NGC.Droid.Resource.Attribute.autocompleteShowBorder;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowClearButton = global::NGC.Droid.Resource.Attribute.autocompleteShowClearButton;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteText = global::NGC.Droid.Resource.Attribute.autocompleteText;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTextColor = global::NGC.Droid.Resource.Attribute.autocompleteTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTextSize = global::NGC.Droid.Resource.Attribute.autocompleteTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteWatermark = global::NGC.Droid.Resource.Attribute.autocompleteWatermark;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteWatermarkColor = global::NGC.Droid.Resource.Attribute.autocompleteWatermarkColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.layoutManager = global::NGC.Droid.Resource.Attribute.layoutManager;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.reverseLayout = global::NGC.Droid.Resource.Attribute.reverseLayout;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.spanCount = global::NGC.Droid.Resource.Attribute.spanCount;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.stackFromEnd = global::NGC.Droid.Resource.Attribute.stackFromEnd;
+			global::Com.Syncfusion.Autocomplete.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NGC.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Com.Syncfusion.Autocomplete.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NGC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Com.Syncfusion.Autocomplete.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NGC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Com.Syncfusion.Autocomplete.Resource.Drawable.sfclosebutton = global::NGC.Droid.Resource.Drawable.sfclosebutton;
+			global::Com.Syncfusion.Autocomplete.Resource.Drawable.styleinfo = global::NGC.Droid.Resource.Drawable.styleinfo;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.Itemname = global::NGC.Droid.Resource.Id.Itemname;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.icon = global::NGC.Droid.Resource.Id.icon;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.item_touch_helper_previous_elevation = global::NGC.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView = global::NGC.Droid.Resource.Layout.CustomizedView;
+			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView1 = global::NGC.Droid.Resource.Layout.CustomizedView1;
+			global::Com.Syncfusion.Autocomplete.Resource.Layout.sfautocomplete_layout = global::NGC.Droid.Resource.Layout.sfautocomplete_layout;
+			global::Com.Syncfusion.Autocomplete.Resource.String.library_name = global::NGC.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView = global::NGC.Droid.Resource.Styleable.RecyclerView;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_android_descendantFocusability = global::NGC.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_android_orientation = global::NGC.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_layoutManager = global::NGC.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_reverseLayout = global::NGC.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_spanCount = global::NGC.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_stackFromEnd = global::NGC.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete = global::NGC.Droid.Resource.Styleable.SfAutoComplete;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteBorderColor = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteBorderColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowBorder = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowBorder;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowClearButton = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowClearButton;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteText = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteText;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextColor = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextSize = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermark = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermark;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor = global::NGC.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::NGC.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::NGC.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::NGC.Droid.Resource.String.Load_More;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::NGC.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2362,6 +6127,30 @@ namespace NGC.Droid
 			
 			// aapt resource value: 0x7f010050
 			public const int autoSizeTextType = 2130772048;
+			
+			// aapt resource value: 0x7f010177
+			public const int autocompleteBorderColor = 2130772343;
+			
+			// aapt resource value: 0x7f010173
+			public const int autocompleteShowBorder = 2130772339;
+			
+			// aapt resource value: 0x7f010174
+			public const int autocompleteShowClearButton = 2130772340;
+			
+			// aapt resource value: 0x7f010179
+			public const int autocompleteText = 2130772345;
+			
+			// aapt resource value: 0x7f010176
+			public const int autocompleteTextColor = 2130772342;
+			
+			// aapt resource value: 0x7f01017a
+			public const int autocompleteTextSize = 2130772346;
+			
+			// aapt resource value: 0x7f010178
+			public const int autocompleteWatermark = 2130772344;
+			
+			// aapt resource value: 0x7f010175
+			public const int autocompleteWatermarkColor = 2130772341;
 			
 			// aapt resource value: 0x7f01002e
 			public const int background = 2130772014;
@@ -4458,692 +8247,710 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020133
-			public const int avd_hide_password_1 = 2130837811;
+			// aapt resource value: 0x7f020139
+			public const int avd_hide_password_1 = 2130837817;
 			
-			// aapt resource value: 0x7f020134
-			public const int avd_hide_password_2 = 2130837812;
+			// aapt resource value: 0x7f02013a
+			public const int avd_hide_password_2 = 2130837818;
 			
-			// aapt resource value: 0x7f020135
-			public const int avd_hide_password_3 = 2130837813;
+			// aapt resource value: 0x7f02013b
+			public const int avd_hide_password_3 = 2130837819;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020136
-			public const int avd_show_password_1 = 2130837814;
+			// aapt resource value: 0x7f02013c
+			public const int avd_show_password_1 = 2130837820;
 			
-			// aapt resource value: 0x7f020137
-			public const int avd_show_password_2 = 2130837815;
+			// aapt resource value: 0x7f02013d
+			public const int avd_show_password_2 = 2130837821;
 			
-			// aapt resource value: 0x7f020138
-			public const int avd_show_password_3 = 2130837816;
+			// aapt resource value: 0x7f02013e
+			public const int avd_show_password_3 = 2130837822;
 			
 			// aapt resource value: 0x7f020055
-			public const int design_bottom_navigation_item_background = 2130837589;
+			public const int baseline_close_black_24 = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int baseline_search_black_24 = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_ic_visibility = 2130837591;
+			public const int design_bottom_navigation_item_background = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility_off = 2130837592;
+			public const int design_fab_background = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_password_eye = 2130837593;
+			public const int design_ic_visibility = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_snackbar_background = 2130837594;
+			public const int design_ic_visibility_off = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_audiotrack_dark = 2130837595;
+			public const int design_password_eye = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_light = 2130837596;
+			public const int design_snackbar_background = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_dialog_close_dark = 2130837597;
+			public const int ic_audiotrack_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_light = 2130837598;
+			public const int ic_audiotrack_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_group_collapse_00 = 2130837599;
+			public const int ic_dialog_close_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_01 = 2130837600;
+			public const int ic_dialog_close_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_02 = 2130837601;
+			public const int ic_group_collapse_00 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_03 = 2130837602;
+			public const int ic_group_collapse_01 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_04 = 2130837603;
+			public const int ic_group_collapse_02 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_05 = 2130837604;
+			public const int ic_group_collapse_03 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_06 = 2130837605;
+			public const int ic_group_collapse_04 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_07 = 2130837606;
+			public const int ic_group_collapse_05 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_08 = 2130837607;
+			public const int ic_group_collapse_06 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_09 = 2130837608;
+			public const int ic_group_collapse_07 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_10 = 2130837609;
+			public const int ic_group_collapse_08 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_11 = 2130837610;
+			public const int ic_group_collapse_09 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_12 = 2130837611;
+			public const int ic_group_collapse_10 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_13 = 2130837612;
+			public const int ic_group_collapse_11 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_14 = 2130837613;
+			public const int ic_group_collapse_12 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_15 = 2130837614;
+			public const int ic_group_collapse_13 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_expand_00 = 2130837615;
+			public const int ic_group_collapse_14 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_01 = 2130837616;
+			public const int ic_group_collapse_15 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_02 = 2130837617;
+			public const int ic_group_expand_00 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_03 = 2130837618;
+			public const int ic_group_expand_01 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_04 = 2130837619;
+			public const int ic_group_expand_02 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_05 = 2130837620;
+			public const int ic_group_expand_03 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_06 = 2130837621;
+			public const int ic_group_expand_04 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_07 = 2130837622;
+			public const int ic_group_expand_05 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_08 = 2130837623;
+			public const int ic_group_expand_06 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_09 = 2130837624;
+			public const int ic_group_expand_07 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_10 = 2130837625;
+			public const int ic_group_expand_08 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_11 = 2130837626;
+			public const int ic_group_expand_09 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_12 = 2130837627;
+			public const int ic_group_expand_10 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_13 = 2130837628;
+			public const int ic_group_expand_11 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_14 = 2130837629;
+			public const int ic_group_expand_12 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_15 = 2130837630;
+			public const int ic_group_expand_13 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_media_pause_dark = 2130837631;
+			public const int ic_group_expand_14 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_light = 2130837632;
+			public const int ic_group_expand_15 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_play_dark = 2130837633;
+			public const int ic_media_pause_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_light = 2130837634;
+			public const int ic_media_pause_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_stop_dark = 2130837635;
+			public const int ic_media_play_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_light = 2130837636;
+			public const int ic_media_play_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_mr_button_connected_00_dark = 2130837637;
+			public const int ic_media_stop_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_light = 2130837638;
+			public const int ic_media_stop_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_01_dark = 2130837639;
+			public const int ic_mr_button_connected_00_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_light = 2130837640;
+			public const int ic_mr_button_connected_00_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_02_dark = 2130837641;
+			public const int ic_mr_button_connected_01_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_light = 2130837642;
+			public const int ic_mr_button_connected_01_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_03_dark = 2130837643;
+			public const int ic_mr_button_connected_02_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_light = 2130837644;
+			public const int ic_mr_button_connected_02_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_04_dark = 2130837645;
+			public const int ic_mr_button_connected_03_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_light = 2130837646;
+			public const int ic_mr_button_connected_03_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_05_dark = 2130837647;
+			public const int ic_mr_button_connected_04_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_light = 2130837648;
+			public const int ic_mr_button_connected_04_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_06_dark = 2130837649;
+			public const int ic_mr_button_connected_05_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_light = 2130837650;
+			public const int ic_mr_button_connected_05_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_07_dark = 2130837651;
+			public const int ic_mr_button_connected_06_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_light = 2130837652;
+			public const int ic_mr_button_connected_06_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_08_dark = 2130837653;
+			public const int ic_mr_button_connected_07_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_light = 2130837654;
+			public const int ic_mr_button_connected_07_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_09_dark = 2130837655;
+			public const int ic_mr_button_connected_08_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_light = 2130837656;
+			public const int ic_mr_button_connected_08_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_10_dark = 2130837657;
+			public const int ic_mr_button_connected_09_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_light = 2130837658;
+			public const int ic_mr_button_connected_09_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_11_dark = 2130837659;
+			public const int ic_mr_button_connected_10_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_light = 2130837660;
+			public const int ic_mr_button_connected_10_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_12_dark = 2130837661;
+			public const int ic_mr_button_connected_11_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_light = 2130837662;
+			public const int ic_mr_button_connected_11_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_13_dark = 2130837663;
+			public const int ic_mr_button_connected_12_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_light = 2130837664;
+			public const int ic_mr_button_connected_12_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_14_dark = 2130837665;
+			public const int ic_mr_button_connected_13_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_light = 2130837666;
+			public const int ic_mr_button_connected_13_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_15_dark = 2130837667;
+			public const int ic_mr_button_connected_14_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_light = 2130837668;
+			public const int ic_mr_button_connected_14_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_16_dark = 2130837669;
+			public const int ic_mr_button_connected_15_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_light = 2130837670;
+			public const int ic_mr_button_connected_15_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_17_dark = 2130837671;
+			public const int ic_mr_button_connected_16_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_light = 2130837672;
+			public const int ic_mr_button_connected_16_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_18_dark = 2130837673;
+			public const int ic_mr_button_connected_17_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_light = 2130837674;
+			public const int ic_mr_button_connected_17_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_19_dark = 2130837675;
+			public const int ic_mr_button_connected_18_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_light = 2130837676;
+			public const int ic_mr_button_connected_18_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_20_dark = 2130837677;
+			public const int ic_mr_button_connected_19_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_light = 2130837678;
+			public const int ic_mr_button_connected_19_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_21_dark = 2130837679;
+			public const int ic_mr_button_connected_20_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_light = 2130837680;
+			public const int ic_mr_button_connected_20_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_22_dark = 2130837681;
+			public const int ic_mr_button_connected_21_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_light = 2130837682;
+			public const int ic_mr_button_connected_21_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_23_dark = 2130837683;
+			public const int ic_mr_button_connected_22_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_23_light = 2130837684;
+			public const int ic_mr_button_connected_22_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_24_dark = 2130837685;
+			public const int ic_mr_button_connected_23_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_24_light = 2130837686;
+			public const int ic_mr_button_connected_23_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_25_dark = 2130837687;
+			public const int ic_mr_button_connected_24_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_25_light = 2130837688;
+			public const int ic_mr_button_connected_24_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_26_dark = 2130837689;
+			public const int ic_mr_button_connected_25_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_26_light = 2130837690;
+			public const int ic_mr_button_connected_25_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_27_dark = 2130837691;
+			public const int ic_mr_button_connected_26_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_27_light = 2130837692;
+			public const int ic_mr_button_connected_26_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_28_dark = 2130837693;
+			public const int ic_mr_button_connected_27_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_28_light = 2130837694;
+			public const int ic_mr_button_connected_27_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_29_dark = 2130837695;
+			public const int ic_mr_button_connected_28_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_29_light = 2130837696;
+			public const int ic_mr_button_connected_28_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_30_dark = 2130837697;
+			public const int ic_mr_button_connected_29_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_30_light = 2130837698;
+			public const int ic_mr_button_connected_29_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_00_dark = 2130837699;
+			public const int ic_mr_button_connected_30_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_00_light = 2130837700;
+			public const int ic_mr_button_connected_30_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_01_dark = 2130837701;
+			public const int ic_mr_button_connecting_00_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_01_light = 2130837702;
+			public const int ic_mr_button_connecting_00_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_02_dark = 2130837703;
+			public const int ic_mr_button_connecting_01_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_02_light = 2130837704;
+			public const int ic_mr_button_connecting_01_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_03_dark = 2130837705;
+			public const int ic_mr_button_connecting_02_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_03_light = 2130837706;
+			public const int ic_mr_button_connecting_02_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_04_dark = 2130837707;
+			public const int ic_mr_button_connecting_03_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_04_light = 2130837708;
+			public const int ic_mr_button_connecting_03_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_05_dark = 2130837709;
+			public const int ic_mr_button_connecting_04_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_05_light = 2130837710;
+			public const int ic_mr_button_connecting_04_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_06_dark = 2130837711;
+			public const int ic_mr_button_connecting_05_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_06_light = 2130837712;
+			public const int ic_mr_button_connecting_05_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_07_dark = 2130837713;
+			public const int ic_mr_button_connecting_06_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_07_light = 2130837714;
+			public const int ic_mr_button_connecting_06_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_08_dark = 2130837715;
+			public const int ic_mr_button_connecting_07_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_08_light = 2130837716;
+			public const int ic_mr_button_connecting_07_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_09_dark = 2130837717;
+			public const int ic_mr_button_connecting_08_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_09_light = 2130837718;
+			public const int ic_mr_button_connecting_08_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_10_dark = 2130837719;
+			public const int ic_mr_button_connecting_09_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_10_light = 2130837720;
+			public const int ic_mr_button_connecting_09_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_11_dark = 2130837721;
+			public const int ic_mr_button_connecting_10_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_11_light = 2130837722;
+			public const int ic_mr_button_connecting_10_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_12_dark = 2130837723;
+			public const int ic_mr_button_connecting_11_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_12_light = 2130837724;
+			public const int ic_mr_button_connecting_11_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_13_dark = 2130837725;
+			public const int ic_mr_button_connecting_12_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_13_light = 2130837726;
+			public const int ic_mr_button_connecting_12_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_14_dark = 2130837727;
+			public const int ic_mr_button_connecting_13_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_14_light = 2130837728;
+			public const int ic_mr_button_connecting_13_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_15_dark = 2130837729;
+			public const int ic_mr_button_connecting_14_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_15_light = 2130837730;
+			public const int ic_mr_button_connecting_14_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_16_dark = 2130837731;
+			public const int ic_mr_button_connecting_15_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_16_light = 2130837732;
+			public const int ic_mr_button_connecting_15_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_17_dark = 2130837733;
+			public const int ic_mr_button_connecting_16_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_17_light = 2130837734;
+			public const int ic_mr_button_connecting_16_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_18_dark = 2130837735;
+			public const int ic_mr_button_connecting_17_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_18_light = 2130837736;
+			public const int ic_mr_button_connecting_17_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_19_dark = 2130837737;
+			public const int ic_mr_button_connecting_18_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_19_light = 2130837738;
+			public const int ic_mr_button_connecting_18_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_20_dark = 2130837739;
+			public const int ic_mr_button_connecting_19_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_20_light = 2130837740;
+			public const int ic_mr_button_connecting_19_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_21_dark = 2130837741;
+			public const int ic_mr_button_connecting_20_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_21_light = 2130837742;
+			public const int ic_mr_button_connecting_20_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_22_dark = 2130837743;
+			public const int ic_mr_button_connecting_21_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_22_light = 2130837744;
+			public const int ic_mr_button_connecting_21_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_23_dark = 2130837745;
+			public const int ic_mr_button_connecting_22_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_23_light = 2130837746;
+			public const int ic_mr_button_connecting_22_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_24_dark = 2130837747;
+			public const int ic_mr_button_connecting_23_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_24_light = 2130837748;
+			public const int ic_mr_button_connecting_23_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_25_dark = 2130837749;
+			public const int ic_mr_button_connecting_24_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_25_light = 2130837750;
+			public const int ic_mr_button_connecting_24_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_26_dark = 2130837751;
+			public const int ic_mr_button_connecting_25_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_26_light = 2130837752;
+			public const int ic_mr_button_connecting_25_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_27_dark = 2130837753;
+			public const int ic_mr_button_connecting_26_dark = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_27_light = 2130837754;
+			public const int ic_mr_button_connecting_26_light = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_28_dark = 2130837755;
+			public const int ic_mr_button_connecting_27_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_28_light = 2130837756;
+			public const int ic_mr_button_connecting_27_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_29_dark = 2130837757;
+			public const int ic_mr_button_connecting_28_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_29_light = 2130837758;
+			public const int ic_mr_button_connecting_28_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_30_dark = 2130837759;
+			public const int ic_mr_button_connecting_29_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_30_light = 2130837760;
+			public const int ic_mr_button_connecting_29_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_disabled_dark = 2130837761;
+			public const int ic_mr_button_connecting_30_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_disabled_light = 2130837762;
+			public const int ic_mr_button_connecting_30_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_disconnected_dark = 2130837763;
+			public const int ic_mr_button_disabled_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disconnected_light = 2130837764;
+			public const int ic_mr_button_disabled_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_grey = 2130837765;
+			public const int ic_mr_button_disconnected_dark = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_vol_type_speaker_dark = 2130837766;
+			public const int ic_mr_button_disconnected_light = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_vol_type_speaker_group_dark = 2130837767;
+			public const int ic_mr_button_grey = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_vol_type_speaker_group_light = 2130837768;
+			public const int ic_vol_type_speaker_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_vol_type_speaker_light = 2130837769;
+			public const int ic_vol_type_speaker_group_dark = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_tv_dark = 2130837770;
+			public const int ic_vol_type_speaker_group_light = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_tv_light = 2130837771;
+			public const int ic_vol_type_speaker_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int mr_button_connected_dark = 2130837772;
+			public const int ic_vol_type_tv_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int mr_button_connected_light = 2130837773;
+			public const int ic_vol_type_tv_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int mr_button_connecting_dark = 2130837774;
+			public const int inputlayout_togglecollapseicon = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int mr_button_connecting_light = 2130837775;
+			public const int inputlayout_togglevisibleicon = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int mr_button_dark = 2130837776;
+			public const int mr_button_connected_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int mr_button_light = 2130837777;
+			public const int mr_button_connected_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int mr_dialog_close_dark = 2130837778;
+			public const int mr_button_connecting_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_dialog_close_light = 2130837779;
+			public const int mr_button_connecting_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_dialog_material_background_dark = 2130837780;
+			public const int mr_button_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_dialog_material_background_light = 2130837781;
+			public const int mr_button_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_group_collapse = 2130837782;
+			public const int mr_dialog_close_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_group_expand = 2130837783;
+			public const int mr_dialog_close_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_media_pause_dark = 2130837784;
+			public const int mr_dialog_material_background_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_media_pause_light = 2130837785;
+			public const int mr_dialog_material_background_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_media_play_dark = 2130837786;
+			public const int mr_group_collapse = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_media_play_light = 2130837787;
+			public const int mr_group_expand = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_media_stop_dark = 2130837788;
+			public const int mr_media_pause_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_media_stop_light = 2130837789;
+			public const int mr_media_pause_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_vol_type_audiotrack_dark = 2130837790;
+			public const int mr_media_play_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_vol_type_audiotrack_light = 2130837791;
+			public const int mr_media_play_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int navigation_empty_icon = 2130837792;
+			public const int mr_media_stop_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int notification_action_background = 2130837793;
+			public const int mr_media_stop_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int notification_bg = 2130837794;
+			public const int mr_vol_type_audiotrack_dark = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int notification_bg_low = 2130837795;
+			public const int mr_vol_type_audiotrack_light = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int notification_bg_low_normal = 2130837796;
+			public const int navigation_empty_icon = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int notification_bg_low_pressed = 2130837797;
+			public const int notification_action_background = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int notification_bg_normal = 2130837798;
+			public const int notification_bg = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int notification_bg_normal_pressed = 2130837799;
+			public const int notification_bg_low = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int notification_icon_background = 2130837800;
-			
-			// aapt resource value: 0x7f020131
-			public const int notification_template_icon_bg = 2130837809;
-			
-			// aapt resource value: 0x7f020132
-			public const int notification_template_icon_low_bg = 2130837810;
+			public const int notification_bg_low_normal = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_tile_bg = 2130837801;
+			public const int notification_bg_low_pressed = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notify_panel_notification_icon_bg = 2130837802;
+			public const int notification_bg_normal = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int segmented_control_background = 2130837803;
+			public const int notification_bg_normal_pressed = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int segmented_control_first_background = 2130837804;
+			public const int notification_icon_background = 2130837804;
+			
+			// aapt resource value: 0x7f020137
+			public const int notification_template_icon_bg = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int notification_template_icon_low_bg = 2130837816;
 			
 			// aapt resource value: 0x7f02012d
-			public const int segmented_control_last_background = 2130837805;
+			public const int notification_tile_bg = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int tooltip_frame_dark = 2130837806;
+			public const int notify_panel_notification_icon_bg = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int tooltip_frame_light = 2130837807;
+			public const int segmented_control_background = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int xamarin_logo = 2130837808;
+			public const int segmented_control_first_background = 2130837808;
+			
+			// aapt resource value: 0x7f020131
+			public const int segmented_control_last_background = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int sfclosebutton = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int styleinfo = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int tooltip_frame_dark = 2130837812;
+			
+			// aapt resource value: 0x7f020135
+			public const int tooltip_frame_light = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int xamarin_logo = 2130837814;
 			
 			static Drawable()
 			{
@@ -5167,6 +8974,9 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090034
 			public const int FUNCTION = 2131296308;
 			
+			// aapt resource value: 0x7f09008b
+			public const int Itemname = 2131296395;
+			
 			// aapt resource value: 0x7f090035
 			public const int META = 2131296309;
 			
@@ -5176,11 +8986,11 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090037
 			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int SegControl = 2131296454;
+			// aapt resource value: 0x7f0900c7
+			public const int SegControl = 2131296455;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int action0 = 2131296438;
+			// aapt resource value: 0x7f0900b7
+			public const int action0 = 2131296439;
 			
 			// aapt resource value: 0x7f09007c
 			public const int action_bar = 2131296380;
@@ -5203,17 +9013,17 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09005a
 			public const int action_bar_title = 2131296346;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int action_container = 2131296435;
+			// aapt resource value: 0x7f0900b4
+			public const int action_container = 2131296436;
 			
 			// aapt resource value: 0x7f09007d
 			public const int action_context_bar = 2131296381;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int action_divider = 2131296442;
+			// aapt resource value: 0x7f0900bb
+			public const int action_divider = 2131296443;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int action_image = 2131296436;
+			// aapt resource value: 0x7f0900b5
+			public const int action_image = 2131296437;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -5230,11 +9040,11 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09005c
 			public const int action_mode_close_button = 2131296348;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int action_text = 2131296437;
+			// aapt resource value: 0x7f0900b6
+			public const int action_text = 2131296438;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int actions = 2131296451;
+			// aapt resource value: 0x7f0900c4
+			public const int actions = 2131296452;
 			
 			// aapt resource value: 0x7f09005d
 			public const int activity_chooser_view_content = 2131296349;
@@ -5269,8 +9079,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090063
 			public const int buttonPanel = 2131296355;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int cancel_action = 2131296439;
+			// aapt resource value: 0x7f0900b8
+			public const int cancel_action = 2131296440;
 			
 			// aapt resource value: 0x7f090045
 			public const int center = 2131296325;
@@ -5284,8 +9094,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090073
 			public const int checkbox = 2131296371;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int chronometer = 2131296447;
+			// aapt resource value: 0x7f0900c0
+			public const int chronometer = 2131296448;
 			
 			// aapt resource value: 0x7f09004e
 			public const int clip_horizontal = 2131296334;
@@ -5296,14 +9106,14 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090039
 			public const int collapseActionView = 2131296313;
 			
-			// aapt resource value: 0x7f09008d
-			public const int container = 2131296397;
+			// aapt resource value: 0x7f09008e
+			public const int container = 2131296398;
 			
 			// aapt resource value: 0x7f090066
 			public const int contentPanel = 2131296358;
 			
-			// aapt resource value: 0x7f09008e
-			public const int coordinator = 2131296398;
+			// aapt resource value: 0x7f09008f
+			public const int coordinator = 2131296399;
 			
 			// aapt resource value: 0x7f09006d
 			public const int custom = 2131296365;
@@ -5317,20 +9127,20 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090060
 			public const int default_activity_button = 2131296352;
 			
-			// aapt resource value: 0x7f090090
-			public const int design_bottom_sheet = 2131296400;
+			// aapt resource value: 0x7f090091
+			public const int design_bottom_sheet = 2131296401;
+			
+			// aapt resource value: 0x7f090098
+			public const int design_menu_item_action_area = 2131296408;
 			
 			// aapt resource value: 0x7f090097
-			public const int design_menu_item_action_area = 2131296407;
+			public const int design_menu_item_action_area_stub = 2131296407;
 			
 			// aapt resource value: 0x7f090096
-			public const int design_menu_item_action_area_stub = 2131296406;
+			public const int design_menu_item_text = 2131296406;
 			
 			// aapt resource value: 0x7f090095
-			public const int design_menu_item_text = 2131296405;
-			
-			// aapt resource value: 0x7f090094
-			public const int design_navigation_view = 2131296404;
+			public const int design_navigation_view = 2131296405;
 			
 			// aapt resource value: 0x7f090020
 			public const int disableHome = 2131296288;
@@ -5341,8 +9151,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090030
 			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int end_padder = 2131296453;
+			// aapt resource value: 0x7f0900c6
+			public const int end_padder = 2131296454;
 			
 			// aapt resource value: 0x7f09003f
 			public const int enterAlways = 2131296319;
@@ -5386,8 +9196,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090062
 			public const int icon = 2131296354;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int icon_group = 2131296452;
+			// aapt resource value: 0x7f0900c5
+			public const int icon_group = 2131296453;
 			
 			// aapt resource value: 0x7f09003a
 			public const int ifRoom = 2131296314;
@@ -5395,8 +9205,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09005f
 			public const int image = 2131296351;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int info = 2131296448;
+			// aapt resource value: 0x7f0900c1
+			public const int info = 2131296449;
 			
 			// aapt resource value: 0x7f090059
 			public const int italic = 2131296345;
@@ -5404,8 +9214,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f09008c
-			public const int largeLabel = 2131296396;
+			// aapt resource value: 0x7f09008d
+			public const int largeLabel = 2131296397;
 			
 			// aapt resource value: 0x7f090049
 			public const int left = 2131296329;
@@ -5422,14 +9232,14 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int masked = 2131296459;
+			// aapt resource value: 0x7f0900cc
+			public const int masked = 2131296460;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int media_actions = 2131296441;
+			// aapt resource value: 0x7f0900ba
+			public const int media_actions = 2131296442;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int message = 2131296457;
+			// aapt resource value: 0x7f0900ca
+			public const int message = 2131296458;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -5437,86 +9247,86 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090053
 			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int mr_art = 2131296421;
-			
-			// aapt resource value: 0x7f09009a
-			public const int mr_chooser_list = 2131296410;
-			
-			// aapt resource value: 0x7f09009d
-			public const int mr_chooser_route_desc = 2131296413;
+			// aapt resource value: 0x7f0900a6
+			public const int mr_art = 2131296422;
 			
 			// aapt resource value: 0x7f09009b
-			public const int mr_chooser_route_icon = 2131296411;
-			
-			// aapt resource value: 0x7f09009c
-			public const int mr_chooser_route_name = 2131296412;
-			
-			// aapt resource value: 0x7f090099
-			public const int mr_chooser_title = 2131296409;
-			
-			// aapt resource value: 0x7f0900a2
-			public const int mr_close = 2131296418;
-			
-			// aapt resource value: 0x7f0900a8
-			public const int mr_control_divider = 2131296424;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int mr_control_playback_ctrl = 2131296430;
-			
-			// aapt resource value: 0x7f0900b1
-			public const int mr_control_subtitle = 2131296433;
-			
-			// aapt resource value: 0x7f0900b0
-			public const int mr_control_title = 2131296432;
-			
-			// aapt resource value: 0x7f0900af
-			public const int mr_control_title_container = 2131296431;
-			
-			// aapt resource value: 0x7f0900a3
-			public const int mr_custom_control = 2131296419;
-			
-			// aapt resource value: 0x7f0900a4
-			public const int mr_default_control = 2131296420;
-			
-			// aapt resource value: 0x7f09009f
-			public const int mr_dialog_area = 2131296415;
+			public const int mr_chooser_list = 2131296411;
 			
 			// aapt resource value: 0x7f09009e
-			public const int mr_expandable_area = 2131296414;
+			public const int mr_chooser_route_desc = 2131296414;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int mr_group_expand_collapse = 2131296434;
+			// aapt resource value: 0x7f09009c
+			public const int mr_chooser_route_icon = 2131296412;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int mr_media_main_control = 2131296422;
+			// aapt resource value: 0x7f09009d
+			public const int mr_chooser_route_name = 2131296413;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int mr_name = 2131296417;
+			// aapt resource value: 0x7f09009a
+			public const int mr_chooser_title = 2131296410;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int mr_playback_control = 2131296423;
-			
-			// aapt resource value: 0x7f0900a0
-			public const int mr_title_bar = 2131296416;
+			// aapt resource value: 0x7f0900a3
+			public const int mr_close = 2131296419;
 			
 			// aapt resource value: 0x7f0900a9
-			public const int mr_volume_control = 2131296425;
+			public const int mr_control_divider = 2131296425;
+			
+			// aapt resource value: 0x7f0900af
+			public const int mr_control_playback_ctrl = 2131296431;
+			
+			// aapt resource value: 0x7f0900b2
+			public const int mr_control_subtitle = 2131296434;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int mr_control_title = 2131296433;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int mr_control_title_container = 2131296432;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int mr_custom_control = 2131296420;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int mr_default_control = 2131296421;
+			
+			// aapt resource value: 0x7f0900a0
+			public const int mr_dialog_area = 2131296416;
+			
+			// aapt resource value: 0x7f09009f
+			public const int mr_expandable_area = 2131296415;
+			
+			// aapt resource value: 0x7f0900b3
+			public const int mr_group_expand_collapse = 2131296435;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int mr_media_main_control = 2131296423;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int mr_name = 2131296418;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int mr_playback_control = 2131296424;
+			
+			// aapt resource value: 0x7f0900a1
+			public const int mr_title_bar = 2131296417;
 			
 			// aapt resource value: 0x7f0900aa
-			public const int mr_volume_group_list = 2131296426;
+			public const int mr_volume_control = 2131296426;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int mr_volume_item_icon = 2131296428;
+			// aapt resource value: 0x7f0900ab
+			public const int mr_volume_group_list = 2131296427;
 			
 			// aapt resource value: 0x7f0900ad
-			public const int mr_volume_slider = 2131296429;
+			public const int mr_volume_item_icon = 2131296429;
+			
+			// aapt resource value: 0x7f0900ae
+			public const int mr_volume_slider = 2131296430;
 			
 			// aapt resource value: 0x7f090028
 			public const int multiply = 2131296296;
 			
-			// aapt resource value: 0x7f090093
-			public const int navigation_header_container = 2131296403;
+			// aapt resource value: 0x7f090094
+			public const int navigation_header_container = 2131296404;
 			
 			// aapt resource value: 0x7f09003b
 			public const int never = 2131296315;
@@ -5527,14 +9337,14 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09001e
 			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int notification_background = 2131296450;
+			// aapt resource value: 0x7f0900c3
+			public const int notification_background = 2131296451;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int notification_main_column = 2131296445;
 			
 			// aapt resource value: 0x7f0900bc
-			public const int notification_main_column = 2131296444;
-			
-			// aapt resource value: 0x7f0900bb
-			public const int notification_main_column_container = 2131296443;
+			public const int notification_main_column_container = 2131296444;
 			
 			// aapt resource value: 0x7f09004c
 			public const int parallax = 2131296332;
@@ -5560,11 +9370,11 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09004a
 			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int right_icon = 2131296449;
+			// aapt resource value: 0x7f0900c2
+			public const int right_icon = 2131296450;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int right_side = 2131296445;
+			// aapt resource value: 0x7f0900be
+			public const int right_side = 2131296446;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -5626,8 +9436,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09008a
 			public const int select_dialog_listview = 2131296394;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int shape_id = 2131296460;
+			// aapt resource value: 0x7f0900cd
+			public const int shape_id = 2131296461;
 			
 			// aapt resource value: 0x7f090074
 			public const int shortcut = 2131296372;
@@ -5641,17 +9451,17 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090025
 			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int sliding_tabs = 2131296455;
+			// aapt resource value: 0x7f0900c8
+			public const int sliding_tabs = 2131296456;
 			
-			// aapt resource value: 0x7f09008b
-			public const int smallLabel = 2131296395;
+			// aapt resource value: 0x7f09008c
+			public const int smallLabel = 2131296396;
+			
+			// aapt resource value: 0x7f090093
+			public const int snackbar_action = 2131296403;
 			
 			// aapt resource value: 0x7f090092
-			public const int snackbar_action = 2131296402;
-			
-			// aapt resource value: 0x7f090091
-			public const int snackbar_text = 2131296401;
+			public const int snackbar_text = 2131296402;
 			
 			// aapt resource value: 0x7f090043
 			public const int snap = 2131296323;
@@ -5674,8 +9484,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09004b
 			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int status_bar_latest_event_content = 2131296440;
+			// aapt resource value: 0x7f0900b9
+			public const int status_bar_latest_event_content = 2131296441;
 			
 			// aapt resource value: 0x7f090076
 			public const int submenuarrow = 2131296374;
@@ -5701,8 +9511,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
 			
-			// aapt resource value: 0x7f090098
-			public const int text_input_password_toggle = 2131296408;
+			// aapt resource value: 0x7f090099
+			public const int text_input_password_toggle = 2131296409;
 			
 			// aapt resource value: 0x7f090014
 			public const int textinput_counter = 2131296276;
@@ -5710,8 +9520,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900be
-			public const int time = 2131296446;
+			// aapt resource value: 0x7f0900bf
+			public const int time = 2131296447;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -5722,8 +9532,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09006f
 			public const int title_template = 2131296367;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int toolbar = 2131296456;
+			// aapt resource value: 0x7f0900c9
+			public const int toolbar = 2131296457;
 			
 			// aapt resource value: 0x7f09003e
 			public const int top = 2131296318;
@@ -5731,8 +9541,8 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f09006e
 			public const int topPanel = 2131296366;
 			
-			// aapt resource value: 0x7f09008f
-			public const int touch_outside = 2131296399;
+			// aapt resource value: 0x7f090090
+			public const int touch_outside = 2131296400;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -5761,11 +9571,11 @@ namespace NGC.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int visible = 2131296458;
+			// aapt resource value: 0x7f0900cb
+			public const int visible = 2131296459;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int volume_item_container = 2131296427;
+			// aapt resource value: 0x7f0900ac
+			public const int volume_item_container = 2131296428;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
@@ -5936,136 +9746,145 @@ namespace NGC.Droid
 			public const int abc_select_dialog_material = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int design_bottom_navigation_item = 2130968602;
+			public const int CustomizedView = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_sheet_dialog = 2130968603;
+			public const int CustomizedView1 = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_layout_snackbar = 2130968604;
+			public const int design_bottom_navigation_item = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar_include = 2130968605;
+			public const int design_bottom_sheet_dialog = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_tab_icon = 2130968606;
+			public const int design_layout_snackbar = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_text = 2130968607;
+			public const int design_layout_snackbar_include = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_menu_item_action_area = 2130968608;
+			public const int design_layout_tab_icon = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_navigation_item = 2130968609;
+			public const int design_layout_tab_text = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item_header = 2130968610;
+			public const int design_menu_item_action_area = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_separator = 2130968611;
+			public const int design_navigation_item = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_subheader = 2130968612;
+			public const int design_navigation_item_header = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_menu = 2130968613;
+			public const int design_navigation_item_separator = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu_item = 2130968614;
+			public const int design_navigation_item_subheader = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_text_input_password_icon = 2130968615;
+			public const int design_navigation_menu = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int mr_chooser_dialog = 2130968616;
+			public const int design_navigation_menu_item = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int mr_chooser_list_item = 2130968617;
+			public const int design_text_input_password_icon = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int mr_controller_material_dialog_b = 2130968618;
+			public const int mr_chooser_dialog = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int mr_controller_volume_item = 2130968619;
+			public const int mr_chooser_list_item = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mr_playback_control = 2130968620;
+			public const int mr_controller_material_dialog_b = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_volume_control = 2130968621;
+			public const int mr_controller_volume_item = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_action = 2130968622;
+			public const int mr_playback_control = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_action_tombstone = 2130968623;
+			public const int mr_volume_control = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_media_action = 2130968624;
+			public const int notification_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_media_cancel_action = 2130968625;
+			public const int notification_action_tombstone = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media = 2130968626;
+			public const int notification_media_action = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_custom = 2130968627;
+			public const int notification_media_cancel_action = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_big_media_narrow = 2130968628;
+			public const int notification_template_big_media = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_big_media_narrow_custom = 2130968629;
+			public const int notification_template_big_media_custom = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_custom_big = 2130968630;
+			public const int notification_template_big_media_narrow = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_icon_group = 2130968631;
+			public const int notification_template_big_media_narrow_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_lines_media = 2130968632;
+			public const int notification_template_custom_big = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_media = 2130968633;
+			public const int notification_template_icon_group = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_media_custom = 2130968634;
+			public const int notification_template_lines_media = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_part_chronometer = 2130968635;
+			public const int notification_template_media = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_part_time = 2130968636;
+			public const int notification_template_media_custom = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int RadioButton = 2130968637;
+			public const int notification_template_part_chronometer = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int RadioGroup = 2130968638;
+			public const int notification_template_part_time = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_item_material = 2130968639;
+			public const int RadioButton = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int select_dialog_multichoice_material = 2130968640;
+			public const int RadioGroup = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int select_dialog_singlechoice_material = 2130968641;
+			public const int select_dialog_item_material = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int support_simple_spinner_dropdown_item = 2130968642;
+			public const int select_dialog_multichoice_material = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int Tabbar = 2130968643;
+			public const int select_dialog_singlechoice_material = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int Toolbar = 2130968644;
+			public const int sfautocomplete_layout = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int tooltip = 2130968645;
+			public const int support_simple_spinner_dropdown_item = 2130968645;
+			
+			// aapt resource value: 0x7f040046
+			public const int Tabbar = 2130968646;
+			
+			// aapt resource value: 0x7f040047
+			public const int Toolbar = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int tooltip = 2130968648;
 			
 			static Layout()
 			{
@@ -6107,6 +9926,9 @@ namespace NGC.Droid
 			
 			// aapt resource value: 0x7f0a003c
 			public const int Hello = 2131361852;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int Load_More = 2131361854;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;
@@ -6203,6 +10025,9 @@ namespace NGC.Droid
 			
 			// aapt resource value: 0x7f0a0035
 			public const int character_counter_pattern = 2131361845;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int library_name = 2131361855;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
@@ -9173,6 +12998,40 @@ namespace NGC.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
+			
+			public static int[] SfAutoComplete = new int[] {
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346};
+			
+			// aapt resource value: 4
+			public const int SfAutoComplete_autocompleteBorderColor = 4;
+			
+			// aapt resource value: 0
+			public const int SfAutoComplete_autocompleteShowBorder = 0;
+			
+			// aapt resource value: 1
+			public const int SfAutoComplete_autocompleteShowClearButton = 1;
+			
+			// aapt resource value: 6
+			public const int SfAutoComplete_autocompleteText = 6;
+			
+			// aapt resource value: 3
+			public const int SfAutoComplete_autocompleteTextColor = 3;
+			
+			// aapt resource value: 7
+			public const int SfAutoComplete_autocompleteTextSize = 7;
+			
+			// aapt resource value: 5
+			public const int SfAutoComplete_autocompleteWatermark = 5;
+			
+			// aapt resource value: 2
+			public const int SfAutoComplete_autocompleteWatermarkColor = 2;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,

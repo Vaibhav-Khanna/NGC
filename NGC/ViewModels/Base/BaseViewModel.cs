@@ -7,6 +7,8 @@ using Xamarin.Forms;
 using FreshMvvm;
 using NGC.Models;
 using NGC.Services;
+using NGC.Helpers.PopUps;
+using NGC.Helpers;
 
 namespace NGC.ViewModels
 {
@@ -14,7 +16,14 @@ namespace NGC.ViewModels
     public class BaseViewModel : FreshBasePageModel
     {
 
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public BaseViewModel()
+        {
+            ToastService = new ToastService();
+        }
+
+        public IDataStore<BaseDataObject> DataStore => DependencyService.Get<IDataStore<BaseDataObject>>() ?? new MockDataStore();
+
+        protected IToastService ToastService { get; set; }
 
         public bool IsRefreshing { get; set; }
 

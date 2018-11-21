@@ -123,8 +123,28 @@
     </data>
     <data name="More" xml:space="preserve">
         <value>Plus</value>
-    </data>
-    
-    
+    </data>  
+   
+    <data name="Filter" xml:space="preserve">
+        <value>Filtrer</value>
+    </data>  
+     <data name="More" xml:space="preserve">
+        <value>Plus</value>
+    </data>  
+     <data name="More" xml:space="preserve">
+        <value>Plus</value>
+    </data>  
+     <data name="More" xml:space="preserve">
+        <value>Plus</value>
+    </data>  
+     <data name="More" xml:space="preserve">
+        <value>Plus</value>
+    </data>  
+     <data name="More" xml:space="preserve">
+        <value>Plus</value>
+    </data>  
+     <data name="More" xml:space="preserve">
+        <value>Plus</value>
+    </data> 
     
 </root>

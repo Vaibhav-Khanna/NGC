@@ -6,7 +6,13 @@
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
     Title="{resources:Translate Opportunities}">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Icon="plus.png" Priority="1" />
+    </base:BasePage.ToolbarItems>
+    
     <base:BasePage.Content>
         
     </base:BasePage.Content>
+    
 </base:BasePage>

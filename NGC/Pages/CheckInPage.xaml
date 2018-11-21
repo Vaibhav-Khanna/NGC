@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
+    xmlns:resources="clr-namespace:NGC" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="NGC.Pages.CheckInPage"
+    Title="Check In">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Priority="0" Icon="close.png" Command="{Binding BackCommand}" />
+    </base:BasePage.ToolbarItems>
+    
+    <base:BasePage.Content>
+        <StackLayout Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand" >
+            <ListView x:Name="list" ItemsSource="{Binding Items}" ItemTapped="Handle_ItemTapped" SeparatorVisibility="Default" SeparatorColor="#c8c7cc" HasUnevenRows="true" CachingStrategy="RecycleElement"  >
+                <ListView.Footer>
+                    <BoxView Color="Transparent"/>
+                </ListView.Footer>
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="White" Padding="21,18" >
+                                <Label Text="{Binding .}" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" TextColor="#4A4A4A" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>

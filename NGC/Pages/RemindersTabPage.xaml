@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="NGC.Pages.RemindersTabPage"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     xmlns:resources="clr-namespace:NGC">
       
@@ -13,7 +14,7 @@
     </base:BasePage.ToolbarItems>
     
     <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">          
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="10">          
             <controls:SegmentedControl x:Name="SegControl" ValueChanged="Handle_ValueChanged" WidthRequest="180" TintColor="White" SelectedTextColor="{StaticResource Primary}" SelectedSegment="0"> 
                 <controls:SegmentedControl.Children> 
                     <controls:SegmentedControlOption Text="{resources:Translate InProgress}" /> 
@@ -25,6 +26,69 @@
     
     
     <base:BasePage.Content>
-        
+        <StackLayout x:Name="root" Spacing="0" Padding="0" Orientation="Vertical">
+            
+             <!-- SearchBar Area-->
+            <StackLayout BackgroundColor="{StaticResource Primary}" VerticalOptions="Start" Padding="16,5,16,12" >
+               <SearchBar Text="{Binding SearchText,Mode=TwoWay}" BackgroundColor="{StaticResource Primary}" CancelButtonColor="White" Placeholder="{resources:Translate Search}" PlaceholderColor="#8e8e93" HeightRequest="38" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="17" FontFamily="SFProText-Regular" />    
+            </StackLayout>
+            
+            <!-- Listview Area-->
+            <syncfusion:SfListView ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
+                <syncfusion:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        
+                    <!-- Listview ItemTemplate Area-->
+                    <Grid Padding="21,15,16,22" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <Label Text="Manuel Owens" Grid.Row="0" Grid.Column="0" LineBreakMode="WordWrap" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
+                        
+                        <Label Text="Envoi devis Urgent" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" LineBreakMode="WordWrap" FontFamily="SFUIDisplay-Regular" FontSize="14" FontAttributes="None" TextColor="#4A4A4A" />
+                        
+                        <Frame Grid.Row="0" Grid.Column="1" Padding="5,0,5,0" VerticalOptions="Start" HorizontalOptions="End" HasShadow="false" HeightRequest="20" BackgroundColor="#f5a623" CornerRadius="2"> 
+                            <Label Text="Saturday 21 August" VerticalTextAlignment="Center" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#FFFFFF" /> 
+                        </Frame>
+                        
+                    </Grid>
+                   
+                   </DataTemplate>
+                </syncfusion:SfListView.ItemTemplate>
+                
+                <syncfusion:SfListView.RightSwipeTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" Padding="10,0,0,0" HeightRequest="76" BackgroundColor="#FFFF6565">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.ModifyItemCommand}" CommandParameter="{Binding .}"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image HeightRequest="15" WidthRequest="15" Source="edit.png" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Label Text="Modifier" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
+                        </StackLayout>
+                    </DataTemplate>
+                </syncfusion:SfListView.RightSwipeTemplate>
+                
+                <syncfusion:SfListView.LeftSwipeTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" Padding="10,0,0,0" HeightRequest="76" BackgroundColor="#7ed321">
+                             <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.EndItemCommand}" CommandParameter="{Binding .}"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image HeightRequest="15" WidthRequest="15" Source="ok.png" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Label Text="Terminé" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
+                        </StackLayout>
+                    </DataTemplate>
+                </syncfusion:SfListView.LeftSwipeTemplate>
+                
+            </syncfusion:SfListView>
+           
+                
+        </StackLayout>
     </base:BasePage.Content>
 </base:BasePage>

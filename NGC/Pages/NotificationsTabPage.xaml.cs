@@ -11,5 +11,10 @@ namespace NGC.Pages
         {
             InitializeComponent();
         }
+
+        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+           
+        }
     }
 }

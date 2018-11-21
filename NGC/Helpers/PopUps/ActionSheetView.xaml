@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="NGC.Helpers.PopUps.ActionSheetView"
+    xmlns:effects="clr-namespace:NGC.Effects;assembly=NGC"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    HasSystemPadding="true" InputTransparent="false"
+    CloseWhenBackgroundIsClicked="true">
+    <pages:PopupPage.Animation>
+    <animations:ScaleAnimation 
+      PositionIn="Bottom"
+      PositionOut="Bottom"
+      ScaleIn="1"
+      ScaleOut="1"
+      DurationIn="200"
+      DurationOut="200"
+      EasingIn="SinInOut"
+      EasingOut="SinInOut"
+      HasBackgroundAnimation="true"/>
+  </pages:PopupPage.Animation>
+    
+    <pages:PopupPage.Content>
+        <StackLayout  VerticalOptions="End" Margin="0" Orientation="Vertical" BackgroundColor="#e9e9e9" Opacity="0.95" >
+            
+            <Label x:Name="lbHeader" Margin="10,12,10,12" LineBreakMode="WordWrap" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontFamily="SFUIDisplay-Medium" FontSize="16" FontAttributes="None" TextColor="#4A4A4A" />
+            
+            <StackLayout x:Name="container" Orientation="Vertical" Margin="0" VerticalOptions="Start">
+                
+            </StackLayout> 
+             
+            <Button x:Name="lbCancel" Clicked="Handle_Clicked" BorderRadius="0" VerticalOptions="End" HeightRequest="49" BackgroundColor="White" FontFamily="SFUIDisplay-Regular" FontSize="18" TextColor="#4a90e2" HorizontalOptions="FillAndExpand" Margin="7,8,7,11" />
+            
+        </StackLayout>
+    </pages:PopupPage.Content>
+    
+</pages:PopupPage>

@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using SegmentedControl.FormsPlugin.iOS;
+using SuaveControls.FloatingActionButton.iOS.Renderers;
+using Syncfusion.ListView.XForms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
@@ -24,8 +26,15 @@ namespace NGC.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            Rg.Plugins.Popup.Popup.Init();
+
+            var s = new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
 
             global::Xamarin.Forms.Forms.Init();
+
+            SfListViewRenderer.Init();
+
+            FloatingActionButtonRenderer.InitRenderer();
 
             SegmentedControlRenderer.Init();
 

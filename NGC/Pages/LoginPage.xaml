@@ -9,9 +9,7 @@
     <base:BasePage.Content> 
         <StackLayout Padding="23,98,23,0">
             
-            
-           
-  
+             
             <Image WidthRequest="130" HorizontalOptions="Center" HeightRequest="47" Source="logo.png" />
                
             <Label Text="{resources:Translate PageTitle}" Margin="0,9,0,0" HorizontalOptions="CenterAndExpand" TextColor="#181f31" FontSize="14" FontFamily="Roboto-Light" />

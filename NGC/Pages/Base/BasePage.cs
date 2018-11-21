@@ -9,7 +9,7 @@ namespace NGC.Pages
     {
         public BasePage()
         {
-           
+            BackgroundColor = Color.White;
         }
 
 

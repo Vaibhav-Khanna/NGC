@@ -64,7 +64,15 @@ namespace NGC.Helpers
         internal Page CreateContainerPageSafe(Page page)
         {
             if (page is NavigationPage || page is MasterDetailPage || page is Xamarin.Forms.TabbedPage)
+            {
+                if(page is NavigationPage)
+                {
+                    ((NavigationPage)page).BarBackgroundColor = (Color)App.Current.Resources["Primary"];
+                    ((NavigationPage)page).BarTextColor = Color.White;
+                }
+
                 return page;
+            }
 
             return CreateContainerPage(page);
         }
@@ -89,7 +97,7 @@ namespace NGC.Helpers
         public System.Threading.Tasks.Task PopPage(bool modal = false, bool animate = true)
         {
             if (modal)
-                return this.CurrentPage.Navigation.PopModalAsync(Device.RuntimePlatform == Device.iOS);
+                return this.Navigation.PopModalAsync(Device.RuntimePlatform == Device.iOS);
 
             return this.CurrentPage.Navigation.PopAsync(animate);
         }

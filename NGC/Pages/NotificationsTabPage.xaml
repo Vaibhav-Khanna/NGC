@@ -7,6 +7,47 @@
     xmlns:resources="clr-namespace:NGC"
     Title="{resources:Translate Notifications}">
     <base:BasePage.Content>
-        
+        <StackLayout Orientation="Vertical">
+            
+            <ListView x:Name="list" ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                           
+                            <Grid ColumnSpacing="15" RowSpacing="4" Padding="15,17,15,22">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="16"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="65" />
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <Button Text="A répondu" BackgroundColor="#0dab15" BorderRadius="3" BorderWidth="0" FontSize="11" FontFamily="Roboto-Bold" TextColor="White" WidthRequest="65" HeightRequest="17" VerticalOptions="Center" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" />
+                                
+                                <Label Text="Patrick Hull à répondu à votre mail" FontSize="16" FontAttributes="Bold" FontFamily="SFUIDisplay-Semibold" TextColor="#4a4a4a" LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1" />
+                                
+                                <Label Text="Mercredi 20 Juin à 19h44" FontSize="12" FontFamily="SFUIDisplay-Regular" TextColor="#9b9b9b" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
+                                
+                            </Grid>
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="#f9f9f9" HeightRequest="41" Padding="15,19,0,6" >
+                                <Label Text="{Binding Key}" FontSize="14" FontFamily="SFUIDisplay-Regular" TextColor="#9b9b9b" LineBreakMode="TailTruncation" VerticalOptions="End" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+            </ListView>
+            
+        </StackLayout>
     </base:BasePage.Content>
 </base:BasePage>

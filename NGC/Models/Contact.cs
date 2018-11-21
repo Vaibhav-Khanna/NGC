@@ -2,10 +2,8 @@
 
 namespace NGC.Models
 {
-    public class Contact
+    public class Contact : BaseDataObject
     {
-        public Contact()
-        {
-        }
+
     }
 }
