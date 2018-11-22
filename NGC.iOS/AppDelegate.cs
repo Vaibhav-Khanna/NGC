@@ -32,6 +32,7 @@ namespace NGC.iOS
 
             global::Xamarin.Forms.Forms.Init();
 
+
             SfListViewRenderer.Init();
 
             FloatingActionButtonRenderer.InitRenderer();

@@ -20,6 +20,7 @@
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.3.0.29" />
     <PackageReference Include="Xamarin.Forms.EntryAutoComplete" Version="1.0.0" />
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="16.3.0.29" />
+    <PackageReference Include="Xamarin.CustomControls.RepeaterView" Version="1.2.2" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\NewItemPage.xaml" />

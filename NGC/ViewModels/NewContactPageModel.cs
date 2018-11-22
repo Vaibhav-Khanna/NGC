@@ -13,6 +13,10 @@ namespace NGC.ViewModels
 
         }
 
+        public ObservableCollection<string> CompanyDetails { get; set; } = new ObservableCollection<string>();
+
+        public ObservableCollection<string> ContactNumbers { get; set; } = new ObservableCollection<string>(){ "sdsd" };
+
         public bool IsProfessional { get; set; }
 
         public bool IsContactTab { get; set; } = true;
@@ -28,12 +32,34 @@ namespace NGC.ViewModels
             await CoreMethods.PopPageModel(null, true);
         });
 
+        public Command AddCommand => new Command(() =>
+        {
+            ContactNumbers.Add("sdsd");
+        });
 
         public override void Init(object initData)
         {
             base.Init(initData);
 
             IsProfessional = (bool)initData;
+
+            //mockdata
+
+            CompanyDetails.Add("Adresse postale");
+            CompanyDetails.Add("Email");
+            CompanyDetails.Add("Tel. Bureau");
+            CompanyDetails.Add("Tel. Mobile");
+            CompanyDetails.Add("Web");
+            CompanyDetails.Add("Siret");
+            CompanyDetails.Add("Statut juridique");
+            CompanyDetails.Add("APE");
+            CompanyDetails.Add("APE libéllé");
+            CompanyDetails.Add("APE sous classe");
+            CompanyDetails.Add("Effectifs");
+           
+
+            //
+
         }
 
         public void TabSelectedChanged(int index)

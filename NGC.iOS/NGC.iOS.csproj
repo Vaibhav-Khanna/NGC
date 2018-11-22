@@ -210,6 +210,15 @@
     <BundleResource Include="Resources\add.png" />
     <BundleResource Include="Resources\add%402x.png" />
     <BundleResource Include="Resources\add%403x.png" />
+    <BundleResource Include="Resources\account.png" />
+    <BundleResource Include="Resources\account%402x.png" />
+    <BundleResource Include="Resources\account%403x.png" />
+    <BundleResource Include="Resources\map.png" />
+    <BundleResource Include="Resources\map%402x.png" />
+    <BundleResource Include="Resources\map%403x.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\settings%402x.png" />
+    <BundleResource Include="Resources\settings%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -245,6 +254,9 @@
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
       <Version>16.3.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.CustomControls.RepeaterView">
+      <Version>1.2.2</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
