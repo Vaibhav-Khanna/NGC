@@ -27,6 +27,8 @@ namespace NGC.Droid
             SegmentedControlRenderer.Init();
 
             LoadApplication(new App());
+
+            throw new Exception();
         }
     }
 }
