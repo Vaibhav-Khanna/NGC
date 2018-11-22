@@ -82,6 +82,9 @@
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
       <Version>16.3.0.29</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.CustomControls.RepeaterView">
+      <Version>1.2.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

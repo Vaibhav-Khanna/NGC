@@ -5,8 +5,73 @@
     x:Class="NGC.Pages.PlusTabPage"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
-    Title="{resources:Translate More}">
+    Title="{resources:Translate More}"
+    BackgroundColor="#f9f9f9">
     <base:BasePage.Content>
         
+        <ScrollView VerticalOptions="FillAndExpand" Orientation="Vertical">
+        <StackLayout Spacing="0" VerticalOptions="FillAndExpand" Padding="0,15,0,40" Orientation="Vertical">
+            
+            <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+           
+            <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding MapCommand}"/>
+                    </StackLayout.GestureRecognizers>
+                <Image Source="map.png"  />
+                <Label Text="Prospection terrain" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+            </StackLayout>
+            
+             <BoxView Margin="0,0,0,10" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+            
+                 <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+           
+            <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
+                <Image Source="account.png"  />
+                <Label Text="Mon compte" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+            </StackLayout>
+          
+            
+                 <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+           
+            <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
+                <Image Source="settings.png"  />
+                <Label Text="Paramètres" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+            </StackLayout>
+            
+             <BoxView Margin="0,0,0,10" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+            
+                
+                <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+           
+            <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
+               
+                <Label Text="CGU" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+            </StackLayout>
+            
+                <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+           
+            <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
+               
+                <Label Text="Contact" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+            </StackLayout>
+            
+             <BoxView Margin="0,0,0,100" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+            
+                
+                <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+           
+            <StackLayout BackgroundColor="White" Padding="15" Spacing="20" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding LogOutCommand}"/>
+                    </StackLayout.GestureRecognizers>
+                <Label Text="Déconnexion" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalOptions="Center" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#ff6565" />
+            </StackLayout>
+            
+             <BoxView Margin="0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
+            
+
+        </StackLayout>
+        </ScrollView>
     </base:BasePage.Content>
 </base:BasePage>
