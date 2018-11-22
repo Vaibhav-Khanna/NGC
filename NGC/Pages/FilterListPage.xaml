@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="NGC.Pages.FilterListPage"
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    Title="{resources:Translate Filter}">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Text="Appliquer" Priority="1" Command="{Binding ApplyCommand}" />
+        <ToolbarItem Text="Effacer" Priority="0" Command="{Binding BackCommand}" />
+    </base:BasePage.ToolbarItems>
+    
+    <base:BasePage.Content>
+        <StackLayout>
+            
+            <ListView x:Name="list" ItemTapped="Handle_ItemTapped" HasUnevenRows="true" ItemsSource="{Binding Filters}" >
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            
+                            <StackLayout Padding="21,18,21,18" Spacing="10" Orientation="Horizontal" >
+                                
+                                <Label Text="{Binding CategoryName}" VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" /> 
+                                
+                                <Label IsVisible="{Binding IsSelected}" Text="{Binding FilterText}" FontFamily="SFUIDisplay-Regular" FontSize="12" TextColor="#9b9b9b" VerticalOptions="Center" HorizontalOptions="End" />
+                                
+                                <Image Source="next.png" WidthRequest="6" HeightRequest="16" Margin="20,0,0,0" VerticalOptions="Center" HorizontalOptions="End" />
+                                
+                            </StackLayout>
+                        
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+                <ListView.Footer>
+                    <BoxView BackgroundColor="Transparent" />
+                </ListView.Footer>
+                
+            </ListView>        
+            
+        </StackLayout>
+    </base:BasePage.Content>
+    
+</base:BasePage>

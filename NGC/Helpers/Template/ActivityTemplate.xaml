@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTemplate xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NGC.Helpers.Template.ActivityTemplate">
+   
+       
+          
+         <ViewCell>
+            
+            <Grid BackgroundColor="White" ColumnSpacing="10" RowSpacing="10" Padding="20,15,20,15" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="24"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Source="bell.png" WidthRequest="17" HeightRequest="24" VerticalOptions="Center" />
+                
+                 <StackLayout Spacing="0" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    
+                    <Label Text="Checké en SAV" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
+                                  
+                 </StackLayout>
+                
+            <StackLayout Spacing="10" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                
+               <Label Text="Mercredi 6 Juin | John Doe" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#9B9B9B" />
+                
+            </StackLayout>
+                
+            </Grid>
+        
+        </ViewCell>
+       
+    
+</DataTemplate>

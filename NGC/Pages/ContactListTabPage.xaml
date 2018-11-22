@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="NGC.Pages.ContactListTabPage"
+    Title="{resources:Translate Contacts}">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Priority="0" Icon="filters.png" Command="{Binding FilterCommand}" />
+        <ToolbarItem Priority="1" Icon="plus.png" Command="{Binding AddCommand}" />
+    </base:BasePage.ToolbarItems>
+    
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="10">          
+            <controls:SegmentedControl x:Name="SegControl" ValueChanged="Handle_ValueChanged" WidthRequest="180" TintColor="White" SelectedTextColor="{StaticResource Primary}" SelectedSegment="0"> 
+                <controls:SegmentedControl.Children> 
+                    <controls:SegmentedControlOption Text="{resources:Translate Contact}" /> 
+                    <controls:SegmentedControlOption Text="{resources:Translate Company}" /> 
+                </controls:SegmentedControl.Children>
+            </controls:SegmentedControl>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <base:BasePage.Content>
+        <StackLayout x:Name="root" Spacing="0">
+            
+            <!-- SearchBar Area-->
+            <StackLayout BackgroundColor="{StaticResource Primary}" VerticalOptions="Start" Padding="16,5,16,12" >
+              <SearchBar Text="{Binding SearchText,Mode=TwoWay}" BackgroundColor="{StaticResource Primary}" CancelButtonColor="White" Placeholder="{resources:Translate Search}" PlaceholderColor="#8e8e93" HeightRequest="38" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="17" FontFamily="SFProText-Regular" />    
+            </StackLayout>
+            
+             <!-- Filter Area-->
+            <StackLayout IsVisible="{Binding IsFilterActive}" Padding="16,8,16,8" Orientation="Horizontal" BackgroundColor="{StaticResource BottomTabTextTint}">
+                <Image Source="warning.png" WidthRequest="11" HeightRequest="13" VerticalOptions="Center" />
+                <Label Text="Vous avez des filtres activés" TextColor="White" VerticalOptions="Center" FontSize="12" FontFamily="SFUIDisplay-Regular" />
+            </StackLayout>
+            
+            
+            <ListView x:Name="listview" ItemsSource="{Binding Contacts}" ItemTapped="Handle_ItemTapped" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="0">
+                           
+                              <BoxView IsVisible="{Binding Source={x:Reference root}, Path=BindingContext.IsFilterActive}" BackgroundColor="{Binding FilterColor}" VerticalOptions="FillAndExpand" HorizontalOptions="Start" WidthRequest="6" />
+                                                   
+                              <Grid HorizontalOptions="FillAndExpand" RowSpacing="4" Padding="16,14,35,12">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="25" />
+                                </Grid.ColumnDefinitions>
+                                
+                                <Label Grid.Row="0" Grid.Column="0" >
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding FirstName}" FontSize="17" FontAttributes="None" ForegroundColor="Black" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding LastName}" FontSize="17" FontAttributes="Bold" ForegroundColor="Black"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                
+                                <Label Text="{Binding Company}" Grid.Row="1" Grid.Column="0" FontFamily="SFUIText-Regular" FontSize="12" TextColor="#9b9b9b" />
+                                
+                                <Button Text="{Binding Rating}" BackgroundColor="{Binding RatingColor}" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="20" HeightRequest="20" BorderWidth="0" BorderRadius="10" FontFamily="SFUIText-Regular" FontSize="12" TextColor="White" />
+                                
+                            </Grid>                               
+                          </StackLayout>      
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            
+        </StackLayout>
+    </base:BasePage.Content>
+    
+</base:BasePage>

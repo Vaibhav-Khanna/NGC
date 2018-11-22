@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    x:Class="NGC.Pages.LoginPage"
+    BackgroundColor="White">
+    <base:BasePage.Content> 
+        <StackLayout Padding="23,98,23,0">
+            
+             
+            <Image WidthRequest="130" HorizontalOptions="Center" HeightRequest="47" Source="logo.png" />
+               
+            <Label Text="{resources:Translate PageTitle}" Margin="0,9,0,0" HorizontalOptions="CenterAndExpand" TextColor="#181f31" FontSize="14" FontFamily="Roboto-Light" />
+              
+            
+            <Entry x:Name="tbemail" Margin="0,50,0,20" Text="{Binding Email,Mode=TwoWay}" ReturnCommand="{Binding NextCommand}" ReturnType="Next" Keyboard="Email" FontSize="14" PlaceholderColor="#9b9b9b" FontFamily="SFUIText-Regular" HorizontalOptions="FillAndExpand" Placeholder="{resources:Translate Email}" HeightRequest="45" />
+            
+            <Entry x:Name="tbpassword" Text="{Binding Password,Mode=TwoWay}" IsPassword="true" ReturnCommand="{Binding LoginCommand}" ReturnType="Go" HorizontalOptions="FillAndExpand" PlaceholderColor="#9b9b9b" FontFamily="SFUIText-Regular" Placeholder="{resources:Translate Password}" HeightRequest="45" FontSize="14" />
+            
+            
+            <Label Text="{resources:Translate ForgotPassword}" Margin="0,10,0,0" FontSize="14" TextColor="#008489" HorizontalOptions="EndAndExpand" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ForgotCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+            
+            
+            <Button Text="{resources:Translate Login}" FontAttributes="Bold"  Command="{Binding LoginCommand}" Margin="0,36,0,60" BackgroundColor="#ff6565" TextColor="White" FontSize="14" FontFamily="SFUIText-Bold" />
+            
+            <Button Image="iconMicrosoft.png" FontAttributes="Bold" Command="{Binding ConnectMicrosoft}" Text="{resources:Translate ConnectWithMicrosoft}" BackgroundColor="#4a90e2" TextColor="White" FontSize="14" FontFamily="SFUIText-Bold" />
+                                  
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    x:Class="NGC.Pages.NewReminderPage"
+    Title="Nouveau"
+    BackgroundColor="#f9f9f9">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Text="Annuler" Command="{Binding BackCommand}" Priority="0" />
+        <ToolbarItem Text="Modifier" Command="{Binding SaveCommand}" Priority="1" />
+    </base:BasePage.ToolbarItems>
+    
+    <base:BasePage.Content>
+        <StackLayout x:Name="root" Orientation="Vertical" Padding="0" Spacing="0">
+            
+            <StackLayout Padding="10" BackgroundColor="White" >
+                <Editor Text="{Binding Note,Mode=TwoWay}" Placeholder="Note (obligatoire)" BackgroundColor="White" HorizontalOptions="FillAndExpand" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="16" FontFamily="SFUIDisplay-Regular" Keyboard="Text" HeightRequest="104" AutoSize="Disabled" IsSpellCheckEnabled="false" />
+            </StackLayout>
+             
+            <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" Color="#d9d9d9"/>
+                       
+            <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" Margin="20,17,20,12" >
+                 <StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding ContactNumber}" TextColor="#9b9b9b" FontSize="14" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+                    <Image HeightRequest="17" WidthRequest="18" Source="addcontact.png" />
+                </StackLayout>
+            </Frame>
+            
+            <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" Margin="20,0,20,12" >
+                 <StackLayout Spacing="0" Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Handle_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                    <DatePicker x:Name="datepicker" Date="{Binding Date,Mode=TwoWay}" TextColor="Transparent" WidthRequest="0.5"  Opacity="0" />
+                    <Label Text="Date de rappel" TextColor="#9b9b9b" FontSize="14" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+                    <Image HeightRequest="17" WidthRequest="18" Source="addcontact.png" />
+                </StackLayout>
+            </Frame>
+            
+            <StackLayout Margin="20,28,20,16" Spacing="15" Orientation="Horizontal">
+                <Label Text="Cette note contient des données personnelles" LineBreakMode="WordWrap" FontFamily="SFUIText-Regular" FontSize="14" TextColor="#4A4A4A" />    
+                <Switch OnColor="{StaticResource Primary}" IsToggled="{Binding IsToggled}" />
+            </StackLayout>
+            
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="0.5" Margin="20,0,20,0" Color="#9b9b9b" /> 
+            
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>
