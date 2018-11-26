@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             WidthRequest="40" 
+             HeightRequest="40"
+             AnchorX="0.5"
+             AnchorY="1.0"
+             x:Class="NGC.Helpers.MapViews.BindingPinView">
+   
+        <Frame HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="20" BackgroundColor="{Binding Color}" HasShadow="false" Padding="0" >
+    
+        </Frame>
+    
+        <Label x:Name="lb" FontSize="20" TranslationX="13" TranslationY="10" FontAttributes="Bold" TextColor="White" />
+  
+</Grid>

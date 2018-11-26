@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using SegmentedControl.FormsPlugin.iOS;
 using SuaveControls.FloatingActionButton.iOS.Renderers;
@@ -32,8 +32,11 @@ namespace NGC.iOS
 
             global::Xamarin.Forms.Forms.Init();
 
+            Xamarin.FormsGoogleMaps.Init("AIzaSyCkavYT01FceMj7jrEhkOvvMQxNvt-P_cc");
 
             SfListViewRenderer.Init();
+
+            CarouselViewRenderer.Init();
 
             FloatingActionButtonRenderer.InitRenderer();
 

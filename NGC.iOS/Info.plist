@@ -35,5 +35,9 @@
 	<false/>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs to access location for placing client details</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs to access location for placing client details</string>
 </dict>
 </plist>

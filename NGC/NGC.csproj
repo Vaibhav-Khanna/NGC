@@ -21,6 +21,10 @@
     <PackageReference Include="Xamarin.Forms.EntryAutoComplete" Version="1.0.0" />
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="16.3.0.29" />
     <PackageReference Include="Xamarin.CustomControls.RepeaterView" Version="1.2.2" />
+    <PackageReference Include="Xamarin.Forms.GoogleMaps" Version="3.0.4" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+    <PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
+    <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\NewItemPage.xaml" />
@@ -38,6 +42,7 @@
     <Folder Include="Effects\" />
     <Folder Include="Converter\" />
     <Folder Include="Controls\" />
+    <Folder Include="Helpers\MapViews\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resources\AppResources.resx">

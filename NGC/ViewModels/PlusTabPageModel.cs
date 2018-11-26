@@ -18,7 +18,7 @@ namespace NGC.ViewModels
         public Command LogOutCommand => new Command(async() =>
         {
             await CoreMethods.DisplayAlert("Déconnexion", "Êtes-vous sûr de vouloir vous déconnecter ?", "Oui", "Non");
-        });
+        }); 
 
     }
 }
