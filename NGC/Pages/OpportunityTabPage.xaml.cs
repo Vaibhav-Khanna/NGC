@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using NGC.Models;
 using NGC.ViewModels;
 using Xamarin.Forms;
@@ -16,22 +17,51 @@ namespace NGC.Pages
             InitializeComponent();
         }
 
+        protected override void OnBindingContextChanged()
+        {
+            base.OnBindingContextChanged();
+
+            if(BindingContext is OpportunityTabPageModel)
+            {
+                ((OpportunityTabPageModel)BindingContext).PropertyChanged += Handle_PropertyChanged;
+            }
+        }
+
+        void Handle_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            if(e.PropertyName == "ItemSource")
+            {
+                InflateTabs((BindingContext as OpportunityTabPageModel).ItemSource?.Count);
+            }
+        }
+
+        void InflateTabs(int? tabCount)
+        {
+            if (tabCount == null)
+                return;
+
+            container.Children.Clear();
+
+            for (int i = 0; i < tabCount; i++)
+            {
+                var box = new BoxView() { HorizontalOptions = LayoutOptions.FillAndExpand, HeightRequest = 10, BackgroundColor = grey };
+
+                if (i == 0)
+                    box.BackgroundColor = red;
+
+                container.Children.Add(box);
+            }
+        }
+
         void Handle_PositionSelected(object sender, CarouselView.FormsPlugin.Abstractions.PositionSelectedEventArgs e)
         {
-            bx1.BackgroundColor = grey;
-            bx2.BackgroundColor = grey;
-            bx3.BackgroundColor = grey;
-            bx4.BackgroundColor = grey;
+            foreach (var item in container.Children)
+            {
+                item.BackgroundColor = grey;
+            }
 
-            if (e.NewValue == 0)
-                bx1.BackgroundColor = red;
-            if (e.NewValue == 1)
-                bx2.BackgroundColor = red;
-            if (e.NewValue == 2)
-                bx3.BackgroundColor = red;
-            if (e.NewValue == 3)
-                bx4.BackgroundColor = red;
-
+            if (container.Children.Any())
+                container.Children[e.NewValue].BackgroundColor = red;
         }
 
         void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)

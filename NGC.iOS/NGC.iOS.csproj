@@ -220,6 +220,12 @@
     <BundleResource Include="Resources\settings.png" />
     <BundleResource Include="Resources\settings%402x.png" />
     <BundleResource Include="Resources\settings%403x.png" />
+    <BundleResource Include="Resources\zonedisable.png" />
+    <BundleResource Include="Resources\zonedisable%402x.png" />
+    <BundleResource Include="Resources\zonedisable%403x.png" />
+    <BundleResource Include="Resources\zoneenable.png" />
+    <BundleResource Include="Resources\zoneenable%402x.png" />
+    <BundleResource Include="Resources\zoneenable%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

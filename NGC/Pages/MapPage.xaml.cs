@@ -73,6 +73,11 @@ namespace NGC.Pages
                 await popover.TranslateTo(0, 270, 250, Easing.Linear);
         }
 
+        void Handle_Tapped(object sender, System.EventArgs e)
+        {
+            HidePopUp();
+        }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();

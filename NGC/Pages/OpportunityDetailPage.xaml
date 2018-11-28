@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:custom="clr-namespace:NGC.Controls;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+    Title="Opportunité"
+    BackgroundColor="White"
+    x:Class="NGC.Pages.OpportunityDetailPage">
+    
+    <base:BasePage.ToolbarItems>
+        <ToolbarItem Text="Modifier" Priority="1" />
+    </base:BasePage.ToolbarItems>
+    
+    <base:BasePage.Content>
+        <StackLayout Orientation="Vertical" Spacing="0">
+            
+            <StackLayout Padding="13" Spacing="5" >
+                <Label Text="Signature contrat" FontFamily="SFUIDisplay-Bold" FontSize="20" FontAttributes="Bold" TextColor="#4A4A4A" /> 
+                <Label Text="Joris Nuro - Marketcom" FontFamily="SFUIDisplay-Regular" FontSize="14" FontAttributes="None" TextColor="#9B9B9B" />
+             </StackLayout>
+           
+            <Grid Margin="0,0,0,20" ColumnSpacing="0" RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                     <ColumnDefinition Width="Auto" />
+                     <ColumnDefinition Width="Auto" />
+                     <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+               
+                <BoxView Grid.Column="0" HeightRequest="0.5" BackgroundColor="#9b9b9b" HorizontalOptions="FillAndExpand"/> 
+                <BoxView Grid.Column="1" AnchorX="0" Rotation="45" ScaleX="1.45" WidthRequest="20" HeightRequest="0.5" BackgroundColor="#9b9b9b" HorizontalOptions="FillAndExpand"/>
+                <BoxView Grid.Column="2" AnchorX="1"  Rotation="-45" ScaleX="1.45" WidthRequest="20" HeightRequest="0.5" BackgroundColor="#9b9b9b" HorizontalOptions="FillAndExpand"/>
+                <BoxView Grid.Column="3" HeightRequest="0.5" BackgroundColor="#9b9b9b" HorizontalOptions="FillAndExpand"/>
+                
+            </Grid>
+            
+            <custom:TabSlider x:Name="tab" Tabs="{Binding Tabs}" SelectedIndex="{Binding SelectedIndex,Mode=TwoWay}" HorizontalOptions="FillAndExpand" />
+            
+            <StackLayout x:Name="tabContainer" Padding="0,0,0,0" Spacing="5" Orientation="Horizontal" >
+                
+            </StackLayout>
+            
+             <controls:CarouselViewControl AnimateTransition="true" ItemsSource="{Binding Tabs}" PositionSelected="Handle_PositionSelected" Orientation="Horizontal" InterPageSpacing="10" Position="{Binding SelectedIndex,Mode=TwoWay}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                 <controls:CarouselViewControl.ItemTemplate>
+                   <DataTemplate>
+                        <ContentView>
+                            
+                            <Label Text="Dynamic UI View Will appear here" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  />
+                            
+                        </ContentView>
+                    </DataTemplate>
+                </controls:CarouselViewControl.ItemTemplate>>
+            </controls:CarouselViewControl>
+            
+        </StackLayout>
+    </base:BasePage.Content>
+    
+</base:BasePage>

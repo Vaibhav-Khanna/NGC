@@ -24,17 +24,15 @@
                
                 <StackLayout Orientation="Vertical">
                     <StackLayout HorizontalOptions="Fill" Orientation="Horizontal" Spacing="8" >
+                     
                         <Label Text="Milton Aaron" FontFamily="SFUIDisplay-Regular" FontSize="20" FontAttributes="Bold" TextColor="#FF4A4A4A" HorizontalOptions="Start"  />
                         
                       
                         <Button Text="4" WidthRequest="24" VerticalOptions="Center" HorizontalOptions="StartAndExpand" HeightRequest="24" BackgroundColor="#7ed321" CornerRadius="12" FontFamily="SFUIText-Bold" FontSize="12"  FontAttributes="Bold" TextColor="#FFFFFFFF" />
                     
                         
-                        <Image HorizontalOptions="End" BackgroundColor="Gray" WidthRequest="30" HeightRequest="30" Source="arrow.png">
-                            <Image.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding NavigateCommand}" />
-                            </Image.GestureRecognizers>
-                        </Image>
+                        <Button Scale="0.8" Text="X" Padding="0" Clicked="Handle_Tapped" WidthRequest="30" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="30" BackgroundColor="#d9d9d9" CornerRadius="15" FontFamily="SFUIText-Bold" FontSize="18"  TextColor="#FFFFFFFF" />
+                    
                     </StackLayout>
                     
                     <StackLayout Orientation="Horizontal">

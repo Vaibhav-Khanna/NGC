@@ -2,9 +2,11 @@
 using System.Collections.ObjectModel;
 using NGC.Models;
 using Xamarin.Forms;
+using System.Threading.Tasks;
 
 namespace NGC.ViewModels 
 {
+
     public class OpportunityTabPageModel : BaseViewModel
     {
         public ObservableCollection<OpportunityTabModel> ItemSource { get; set; }
@@ -30,9 +32,11 @@ namespace NGC.ViewModels
             }
         }
 
-        public override void Init(object initData)
+        public async override void Init(object initData)
         {
             base.Init(initData);
+
+            await Task.Delay(2000);
 
             var leads = new OpportunityTabModel() { Header = "Lead", Detail = "2 offres - 30.000 €" };
             leads.ItemSource = new ObservableCollection<OpportunityContacts>();
@@ -50,19 +54,28 @@ namespace NGC.ViewModels
             var unknown = new OpportunityTabModel() { Header = "Unknown", Detail = "0 offre - 0 €" };
             unknown.ItemSource = new ObservableCollection<OpportunityContacts>();
 
-            ItemSource = new ObservableCollection<OpportunityTabModel>();
-            ItemSource.Add(leads);
-            ItemSource.Add(contacts);
-            ItemSource.Add(client);
-            ItemSource.Add(unknown);
+            var items = new ObservableCollection<OpportunityTabModel>();
+            items.Add(leads);
+            items.Add(contacts);
+            items.Add(client);
+            items.Add(unknown);
+
+            ItemSource = items;
 
             Position = 0;
         }
 
 
-        public Command NavigateCommand => new Command((obj) =>
+        public Command NavigateCommand => new Command(async(obj) =>
         {
-
+            await CoreMethods.PushPageModel<OpportunityDetailPageModel>();
         });
+
+
+        public Command AddCommand => new Command(async() =>
+        {
+            await CoreMethods.PushPageModel<NewOpportunityPageModel>();
+        });
+
     }
 }

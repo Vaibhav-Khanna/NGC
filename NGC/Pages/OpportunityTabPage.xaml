@@ -10,7 +10,7 @@
     BackgroundColor="#f9f9f9">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Icon="plus.png" Priority="1" />
+        <ToolbarItem Icon="plus.png" Priority="1" Command="{Binding AddCommand}" />
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>
@@ -21,11 +21,8 @@
                 <Label Text="{Binding Detail}" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#FF9B9B9B" />
             </StackLayout>
             
-            <StackLayout Spacing="2" Orientation="Horizontal">
-                <BoxView x:Name="bx1" HeightRequest="10" HorizontalOptions="FillAndExpand" BackgroundColor="#ff6565" />
-                <BoxView x:Name="bx2" HeightRequest="10" HorizontalOptions="FillAndExpand" BackgroundColor="#9b9b9b" />
-                <BoxView x:Name="bx3" HeightRequest="10" HorizontalOptions="FillAndExpand" BackgroundColor="#9b9b9b" />
-                <BoxView x:Name="bx4" HeightRequest="10" HorizontalOptions="FillAndExpand" BackgroundColor="#9b9b9b" />
+            <StackLayout x:Name="container" Spacing="2" Orientation="Horizontal">
+               
             </StackLayout>
             
             <controls:CarouselViewControl AnimateTransition="true" ItemsSource="{Binding ItemSource}" PositionSelected="Handle_PositionSelected" Orientation="Horizontal" InterPageSpacing="10" Position="{Binding Position,Mode=TwoWay}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
