@@ -18,11 +18,11 @@ namespace NGC.Helpers
             var bottomBarPage = new CustomTabbedNavigation() { BarBackgroundColor = (Color)Application.Current.Resources["BottomTabBackground"] };
              
 
-            bottomBarPage.AddTab<ContactListTabPageModel>(AppResources.Contacts, "1.png");
-            bottomBarPage.AddTab<RemindersTabPageModel>(AppResources.Reminders, "2.png");
-            bottomBarPage.AddTab<OpportunityTabPageModel>(AppResources.Opportunities, "3.png");
-            bottomBarPage.AddTab<NotificationsTabPageModel>(AppResources.Notifications, "4.png");
-            bottomBarPage.AddTab<PlusTabPageModel>(AppResources.More, "5.png");
+            bottomBarPage.AddTab<ContactListTabPageModel>(AppResources.Contacts, Device.RuntimePlatform == Device.iOS ? "1.png" : "tab1.png" );
+            bottomBarPage.AddTab<RemindersTabPageModel>(AppResources.Reminders, Device.RuntimePlatform == Device.iOS ? "2.png" : "tab2.png");
+            bottomBarPage.AddTab<OpportunityTabPageModel>(AppResources.Opportunities, Device.RuntimePlatform == Device.iOS ? "3.png" : "tab3.png");
+            bottomBarPage.AddTab<NotificationsTabPageModel>(AppResources.Notifications, Device.RuntimePlatform == Device.iOS ? "4.png" : "tab4.png");
+            bottomBarPage.AddTab<PlusTabPageModel>(AppResources.More, Device.RuntimePlatform == Device.iOS ? "5.png" : "tab5.png");
 
 
             currentPage = new NavigationPage(bottomBarPage){ BarTextColor = Color.White };

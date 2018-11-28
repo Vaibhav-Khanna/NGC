@@ -4,10 +4,11 @@
              WidthRequest="40" 
              HeightRequest="40"
              AnchorX="0.5"
+      
              AnchorY="1.0"
              x:Class="NGC.Helpers.MapViews.BindingPinView">
    
-        <Frame HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="20" BackgroundColor="{Binding Color}" HasShadow="false" Padding="0" >
+        <Frame x:Name="back" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="20" BackgroundColor="Gray" HasShadow="false" Padding="0" >
     
         </Frame>
     

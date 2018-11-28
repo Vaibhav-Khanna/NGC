@@ -12,7 +12,11 @@ namespace NGC.Pages
         {
             InitializeComponent();
 
-           
+            if(Device.RuntimePlatform == Device.Android)
+            {
+                ToolbarItems.Remove(btFilter);
+                imgFilter.IsVisible = true;
+            }
         }
 
         void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)

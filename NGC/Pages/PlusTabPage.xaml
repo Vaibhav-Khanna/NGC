@@ -65,7 +65,7 @@
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding LogOutCommand}"/>
                     </StackLayout.GestureRecognizers>
-                <Label Text="Déconnexion" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalOptions="Center" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#ff6565" />
+                <Label x:Name="lblogout" Text="Déconnexion" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalOptions="Center" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#ff6565" />
             </StackLayout>
             
              <BoxView Margin="0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>

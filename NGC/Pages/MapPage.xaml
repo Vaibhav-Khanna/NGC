@@ -28,7 +28,7 @@
                         <Label Text="Milton Aaron" FontFamily="SFUIDisplay-Regular" FontSize="20" FontAttributes="Bold" TextColor="#FF4A4A4A" HorizontalOptions="Start"  />
                         
                       
-                        <Button Text="4" WidthRequest="24" VerticalOptions="Center" HorizontalOptions="StartAndExpand" HeightRequest="24" BackgroundColor="#7ed321" CornerRadius="12" FontFamily="SFUIText-Bold" FontSize="12"  FontAttributes="Bold" TextColor="#FFFFFFFF" />
+                        <Button Text="4" Padding="0" WidthRequest="24" VerticalOptions="Center" HorizontalOptions="StartAndExpand" HeightRequest="24" BackgroundColor="#7ed321" CornerRadius="12" FontFamily="SFUIText-Bold" FontSize="12"  FontAttributes="Bold" TextColor="#FFFFFFFF" />
                     
                         
                         <Button Scale="0.8" Text="X" Padding="0" Clicked="Handle_Tapped" WidthRequest="30" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="30" BackgroundColor="#d9d9d9" CornerRadius="15" FontFamily="SFUIText-Bold" FontSize="18"  TextColor="#FFFFFFFF" />

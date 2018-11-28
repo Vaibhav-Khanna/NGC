@@ -19,6 +19,7 @@ namespace NGC.Helpers.MapViews
 			BindingContext = this;
 
             lb.Text = display;
+            back.BackgroundColor = color;
 		}
 
         public Color Color

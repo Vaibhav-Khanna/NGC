@@ -9,13 +9,20 @@
     xmlns:resources="clr-namespace:NGC">
       
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Priority="0" Icon="filters.png" Command="{Binding FilterCommand}" />
+        <ToolbarItem x:Name="btFilter" Priority="0" Icon="filters.png" Command="{Binding FilterCommand}" />
         <ToolbarItem Priority="1" Icon="plus.png" Command="{Binding AddCommand}" />
     </base:BasePage.ToolbarItems>
     
     <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="10">          
-            <controls:SegmentedControl x:Name="SegControl" ValueChanged="Handle_ValueChanged" WidthRequest="180" TintColor="White" SelectedTextColor="{StaticResource Primary}" SelectedSegment="0"> 
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="10">          
+           
+            <Image x:Name="imgFilter" Source="filters.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="Start" Margin="0,0,0,0" VerticalOptions="Center" IsVisible="false" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding FilterCommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            
+            <controls:SegmentedControl x:Name="SegControl" ValueChanged="Handle_ValueChanged" HorizontalOptions="CenterAndExpand" WidthRequest="180" TintColor="White" SelectedTextColor="{StaticResource Primary}" SelectedSegment="0"> 
                 <controls:SegmentedControl.Children> 
                     <controls:SegmentedControlOption Text="{resources:Translate InProgress}" /> 
                     <controls:SegmentedControlOption Text="{resources:Translate Ended}" /> 
@@ -30,7 +37,7 @@
             
              <!-- SearchBar Area-->
             <StackLayout BackgroundColor="{StaticResource Primary}" VerticalOptions="Start" Padding="16,5,16,12" >
-               <SearchBar Text="{Binding SearchText,Mode=TwoWay}" BackgroundColor="{StaticResource Primary}" CancelButtonColor="White" Placeholder="{resources:Translate Search}" PlaceholderColor="#8e8e93" HeightRequest="38" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="17" FontFamily="SFProText-Regular" />    
+               <SearchBar Text="{Binding SearchText,Mode=TwoWay}" BackgroundColor="{OnPlatform iOS={StaticResource Primary}, Android={StaticResource Primary}, Default=White}" CancelButtonColor="{OnPlatform iOS=White, Android={StaticResource Primary}, Default=White}" Placeholder="{resources:Translate Search}" PlaceholderColor="#8e8e93" HeightRequest="{OnPlatform iOS=38,Android=50,Default=50}"  VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="17" FontFamily="SFProText-Regular" />    
             </StackLayout>
             
             <!-- Listview Area-->

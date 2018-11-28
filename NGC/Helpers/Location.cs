@@ -14,6 +14,7 @@ namespace NGC.Helpers
             try
             {
                 var locator = CrossGeolocator.Current;
+
                 locator.DesiredAccuracy = 100;
 
                 if (!force)
