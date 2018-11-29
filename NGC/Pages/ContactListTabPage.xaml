@@ -6,21 +6,30 @@
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="NGC.Pages.ContactListTabPage"
+    Icon=""
     Title="{resources:Translate Contacts}">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Priority="0" Icon="filters.png" Command="{Binding FilterCommand}" />
+        <ToolbarItem x:Name="btFilter" Priority="0" Icon="filters.png" Command="{Binding FilterCommand}" />
         <ToolbarItem Priority="1" Icon="plus.png" Command="{Binding AddCommand}" />
     </base:BasePage.ToolbarItems>
     
     <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="10">          
-            <controls:SegmentedControl x:Name="SegControl" ValueChanged="Handle_ValueChanged" WidthRequest="180" TintColor="White" SelectedTextColor="{StaticResource Primary}" SelectedSegment="0"> 
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="10">  
+            
+            <Image x:Name="imgFilter" Source="filters.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="Start" Margin="0,0,0,0" VerticalOptions="Center" IsVisible="false" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding FilterCommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            
+            <controls:SegmentedControl x:Name="SegControl" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" ValueChanged="Handle_ValueChanged" WidthRequest="180" TintColor="White" SelectedTextColor="{StaticResource Primary}" SelectedSegment="0"> 
                 <controls:SegmentedControl.Children> 
                     <controls:SegmentedControlOption Text="{resources:Translate Contact}" /> 
                     <controls:SegmentedControlOption Text="{resources:Translate Company}" /> 
                 </controls:SegmentedControl.Children>
             </controls:SegmentedControl>
+            
         </StackLayout>
     </NavigationPage.TitleView>
     
@@ -29,7 +38,7 @@
             
             <!-- SearchBar Area-->
             <StackLayout BackgroundColor="{StaticResource Primary}" VerticalOptions="Start" Padding="16,5,16,12" >
-              <SearchBar Text="{Binding SearchText,Mode=TwoWay}" BackgroundColor="{StaticResource Primary}" CancelButtonColor="White" Placeholder="{resources:Translate Search}" PlaceholderColor="#8e8e93" HeightRequest="38" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="17" FontFamily="SFProText-Regular" />    
+              <SearchBar Text="{Binding SearchText,Mode=TwoWay}" BackgroundColor="{OnPlatform iOS={StaticResource Primary}, Android={StaticResource Primary}, Default=White}" CancelButtonColor="{OnPlatform iOS=White, Android={StaticResource Primary}, Default=White}" Placeholder="{resources:Translate Search}" PlaceholderColor="#8e8e93" HeightRequest="{OnPlatform iOS=38,Android=50,Default=50}" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="17" FontFamily="SFProText-Regular" />    
             </StackLayout>
             
              <!-- Filter Area-->
@@ -69,7 +78,7 @@
                                 
                                 <Label Text="{Binding Company}" Grid.Row="1" Grid.Column="0" FontFamily="SFUIText-Regular" FontSize="12" TextColor="#9b9b9b" />
                                 
-                                <Button Text="{Binding Rating}" BackgroundColor="{Binding RatingColor}" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="20" HeightRequest="20" BorderWidth="0" BorderRadius="10" FontFamily="SFUIText-Regular" FontSize="12" TextColor="White" />
+                                <Button Text="{Binding Rating}" Padding="0" BackgroundColor="{Binding RatingColor}" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="20" HeightRequest="20" BorderWidth="0" BorderRadius="10" FontFamily="SFUIText-Regular" FontSize="12" TextColor="White" />
                                 
                             </Grid>                               
                           </StackLayout>      

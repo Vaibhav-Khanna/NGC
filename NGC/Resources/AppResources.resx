@@ -128,23 +128,110 @@
     <data name="Filter" xml:space="preserve">
         <value>Filtrer</value>
     </data>  
-     <data name="More" xml:space="preserve">
-        <value>Plus</value>
+     <data name="CheckIn" xml:space="preserve">
+        <value>Check In</value>
     </data>  
-     <data name="More" xml:space="preserve">
-        <value>Plus</value>
+     <data name="Valid" xml:space="preserve">
+        <value>Valider</value>
     </data>  
-     <data name="More" xml:space="preserve">
-        <value>Plus</value>
+     <data name="Apply" xml:space="preserve">
+        <value>Appliquer</value>
     </data>  
-     <data name="More" xml:space="preserve">
-        <value>Plus</value>
+     <data name="Remove" xml:space="preserve">
+        <value>Effacer</value>
     </data>  
-     <data name="More" xml:space="preserve">
-        <value>Plus</value>
+     <data name="ProspectMap" xml:space="preserve">
+        <value>Prospection terrain</value>
     </data>  
-     <data name="More" xml:space="preserve">
-        <value>Plus</value>
+     <data name="ConsultContact" xml:space="preserve">
+        <value>Consulter la fiche contact</value>
     </data> 
+    
+    <data name="Cancel" xml:space="preserve">
+        <value>Annuler</value>
+    </data> 
+    <data name="Save" xml:space="preserve">
+        <value>Enregistrer</value>
+    </data> 
+    <data name="FirstName" xml:space="preserve">
+        <value>Prénom</value>
+    </data> 
+    <data name="LastName" xml:space="preserve">
+        <value>Nom</value>
+    </data> 
+    <data name="Company" xml:space="preserve">
+        <value>Société</value>
+    </data> 
+     <data name="Qualifications" xml:space="preserve">
+        <value>Qualifications</value>
+    </data> 
+    <data name="Tags" xml:space="preserve">
+        <value>Tags</value>
+    </data> 
+    <data name="Weight" xml:space="preserve">
+        <value>Poids</value>
+    </data> 
+    <data name="Function" xml:space="preserve">
+        <value>Fonction</value>
+    </data> 
+    <data name="Email" xml:space="preserve">
+        <value>Email</value>
+    </data> 
+     <data name="Mobile" xml:space="preserve">
+        <value>Mobile</value>
+    </data> 
+    <data name="Telephone" xml:space="preserve">
+        <value>Tél. </value>
+    </data> 
+    <data name="SourceCollection" xml:space="preserve">
+        <value>Source de la collecte</value>
+    </data> 
+    <data name="EnableCheckIn" xml:space="preserve">
+        <value>Activer le check In</value>
+    </data> 
+    <data name="NewNote" xml:space="preserve">
+        <value>Nouvelle Note</value>
+    </data>
+    
+    
+     <data name="NoteRequired" xml:space="preserve">
+        <value>Note (obligatoire)</value>
+    </data> 
+     <data name="DateReminder" xml:space="preserve">
+        <value>Date de rappel</value>
+    </data> 
+     <data name="ContainsPersonalData" xml:space="preserve">
+        <value>Cette note contient des données personnelles</value>
+    </data> 
+     <data name="NewOpportunity" xml:space="preserve">
+        <value>Nouvelle Opportunité</value>
+    </data> 
+     <data name="New" xml:space="preserve">
+        <value>Nouveau</value>
+    </data> 
+     <data name="Opportunity" xml:space="preserve">
+        <value>Opportunité</value>
+    </data> 
+     <data name="NoOpportunity" xml:space="preserve">
+        <value>Aucune Opportunité</value>
+    </data> 
+     <data name="MyAccount" xml:space="preserve">
+        <value>Mon compte</value>
+    </data> 
+     <data name="Settings" xml:space="preserve">
+        <value>Paramètres</value>
+    </data> 
+     <data name="CGU" xml:space="preserve">
+        <value>CGU</value>
+    </data> 
+     <data name="Logout" xml:space="preserve">
+        <value>Déconnexion</value>
+    </data> 
+     <data name="PostalCode" xml:space="preserve">
+        <value>Code postal</value>
+    </data> 
+    
+    
+    
     
 </root>

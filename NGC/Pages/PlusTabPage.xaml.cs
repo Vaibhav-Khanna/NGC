@@ -11,5 +11,13 @@ namespace NGC.Pages
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            lblogout.HorizontalOptions = LayoutOptions.Center;
+            lblogout.HorizontalTextAlignment = TextAlignment.Center;
+        }
     }
 }

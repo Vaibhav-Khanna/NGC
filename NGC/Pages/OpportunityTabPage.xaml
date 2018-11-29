@@ -5,14 +5,57 @@
     x:Class="NGC.Pages.OpportunityTabPage"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
-    Title="{resources:Translate Opportunities}">
+    xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+    Title="{resources:Translate Opportunities}"
+    BackgroundColor="#f9f9f9">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Icon="plus.png" Priority="1" />
+        <ToolbarItem Icon="plus.png" Priority="1" Command="{Binding AddCommand}" />
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>
-        
+        <StackLayout Spacing="0" Orientation="Vertical">
+            
+            <StackLayout Padding="23,13,23,17" Spacing="1" Orientation="Vertical">
+                <Label Text="{Binding Header}" FontFamily="SFUIText-Semibold" FontSize="18" FontAttributes="Bold" TextColor="#FF50585D" />
+                <Label Text="{Binding Detail}" FontFamily="SFUIText-Regular" FontSize="14" FontAttributes="None" TextColor="#FF9B9B9B" />
+            </StackLayout>
+            
+            <StackLayout x:Name="container" Spacing="2" Orientation="Horizontal">
+               
+            </StackLayout>
+            
+            <controls:CarouselViewControl AnimateTransition="true" ItemsSource="{Binding ItemSource}" PositionSelected="Handle_PositionSelected" Orientation="Horizontal" InterPageSpacing="10" Position="{Binding Position,Mode=TwoWay}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                 <controls:CarouselViewControl.ItemTemplate>
+                   <DataTemplate>
+                        <ContentView>
+                            
+                            <ListView SeparatorVisibility="Default" BackgroundColor="#f9f9f9" ItemTapped="Handle_ItemTapped" SeparatorColor="#c8c7cc" ItemsSource="{Binding ItemSource}" CachingStrategy="RecycleElement" HasUnevenRows="true" VerticalOptions="FillAndExpand" >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout BackgroundColor="White" Padding="22" Spacing="10" Orientation="Vertical">
+                                                <Label Text="{Binding Header}" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#FF4A4A4A" />
+                                                <Label Text="{Binding Detail}" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#FF9B9B9B" />
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                                
+                                <ListView.Footer>
+                                    <StackLayout IsVisible="{Binding ShowFooter}" Padding="0,117,0,30">
+                                        <Label Text="{resources:Translate NoOpportunity}" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontFamily="SFUIText-Bold" FontSize="18" FontAttributes="Bold" TextColor="#4A4A4A" />
+                                    </StackLayout>
+                                </ListView.Footer>
+                                
+                            </ListView>
+                            
+                        </ContentView>
+                    </DataTemplate>
+                </controls:CarouselViewControl.ItemTemplate>>
+            </controls:CarouselViewControl>
+            
+        </StackLayout>  
     </base:BasePage.Content>
     
 </base:BasePage>

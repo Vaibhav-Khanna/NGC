@@ -30,7 +30,7 @@
                 
             </StackLayout> 
              
-            <Button x:Name="lbCancel" Clicked="Handle_Clicked" BorderRadius="0" VerticalOptions="End" HeightRequest="49" BackgroundColor="White" FontFamily="SFUIDisplay-Regular" FontSize="18" TextColor="#4a90e2" HorizontalOptions="FillAndExpand" Margin="7,8,7,11" />
+            <Button x:Name="lbCancel" Clicked="Handle_Clicked" BorderRadius="0" VerticalOptions="End" HeightRequest="49" BackgroundColor="White" FontFamily="SFUIDisplay-Regular" FontSize="18" TextColor="{StaticResource BottomTabTextTint}" HorizontalOptions="FillAndExpand" Margin="7,8,7,11" />
             
         </StackLayout>
     </pages:PopupPage.Content>

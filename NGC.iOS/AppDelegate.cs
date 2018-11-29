@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using SegmentedControl.FormsPlugin.iOS;
+using Social;
 using SuaveControls.FloatingActionButton.iOS.Renderers;
 using Syncfusion.ListView.XForms.iOS;
 using UIKit;
@@ -30,10 +31,14 @@ namespace NGC.iOS
 
             var s = new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
 
+
             global::Xamarin.Forms.Forms.Init();
 
+            Xamarin.FormsGoogleMaps.Init("AIzaSyCkavYT01FceMj7jrEhkOvvMQxNvt-P_cc");
 
             SfListViewRenderer.Init();
+
+            CarouselViewRenderer.Init();
 
             FloatingActionButtonRenderer.InitRenderer();
 
@@ -42,8 +47,14 @@ namespace NGC.iOS
             LoadApplication(new App());
 
 
-            UITabBar.Appearance.TintColor = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["BottomTabTextTint"]).ToUIColor();
+            var tint = ((Xamarin.Forms.Color)Xamarin.Forms.Application.Current.Resources["BottomTabTextTint"]).ToUIColor();
 
+            UIView.AppearanceWhenContainedIn(typeof(UIAlertController)).TintColor = tint;
+            UIView.AppearanceWhenContainedIn(typeof(UIActivityViewController)).TintColor = tint;
+            UIView.AppearanceWhenContainedIn(typeof(SLComposeViewController)).TintColor = tint;
+
+
+            UITabBar.Appearance.TintColor = tint;
 
             var result = base.FinishedLaunching(app, options);
 

@@ -7,7 +7,7 @@
     xmlns:resources="clr-namespace:NGC" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="NGC.Pages.CheckInPage"
-    Title="Check In">
+    Title="{resources:Translate CheckIn}">
     
     <base:BasePage.ToolbarItems>
         <ToolbarItem Priority="0" Icon="close.png" Command="{Binding BackCommand}" />

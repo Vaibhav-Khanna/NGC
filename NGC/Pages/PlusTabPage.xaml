@@ -19,7 +19,7 @@
                         <TapGestureRecognizer Command="{Binding MapCommand}"/>
                     </StackLayout.GestureRecognizers>
                 <Image Source="map.png"  />
-                <Label Text="Prospection terrain" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+                <Label Text="{resources:Translate ProspectMap}" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
             </StackLayout>
             
              <BoxView Margin="0,0,0,10" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
@@ -28,7 +28,7 @@
            
             <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
                 <Image Source="account.png"  />
-                <Label Text="Mon compte" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+                <Label Text="{resources:Translate MyAccount}" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
             </StackLayout>
           
             
@@ -36,7 +36,7 @@
            
             <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
                 <Image Source="settings.png"  />
-                <Label Text="Paramètres" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+                <Label Text="{resources:Translate Settings}" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
             </StackLayout>
             
              <BoxView Margin="0,0,0,10" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
@@ -46,14 +46,14 @@
            
             <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
                
-                <Label Text="CGU" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+                <Label Text="{resources:Translate CGU}" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
             </StackLayout>
             
                 <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
            
             <StackLayout BackgroundColor="White" Padding="15" Spacing="20" Orientation="Horizontal">
                
-                <Label Text="Contact" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
+                <Label Text="{resources:Translate Contact}" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#FF4A4A4A" />
             </StackLayout>
             
              <BoxView Margin="0,0,0,100" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>
@@ -65,7 +65,7 @@
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding LogOutCommand}"/>
                     </StackLayout.GestureRecognizers>
-                <Label Text="Déconnexion" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalOptions="Center" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#ff6565" />
+                <Label x:Name="lblogout" Text="{resources:Translate Logout}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalOptions="Center" FontFamily="SFUIDisplay-Regular" FontSize="18" FontAttributes="None" TextColor="#ff6565" />
             </StackLayout>
             
              <BoxView Margin="0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" BackgroundColor="#d9d9d9"/>

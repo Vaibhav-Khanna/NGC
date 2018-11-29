@@ -10,6 +10,12 @@ namespace NGC.Pages
         public RemindersTabPage()
         {
             InitializeComponent();
+
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                ToolbarItems.Remove(btFilter);
+                imgFilter.IsVisible = true;
+            }
         }
 
         void Handle_ValueChanged(object sender, SegmentedControl.FormsPlugin.Abstractions.ValueChangedEventArgs e)

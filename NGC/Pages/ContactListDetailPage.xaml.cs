@@ -12,5 +12,11 @@ namespace NGC.Pages
             InitializeComponent();
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            btAdd.IsVisible = true;
+        }
     }
 }

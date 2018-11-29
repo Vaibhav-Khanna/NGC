@@ -48,13 +48,13 @@
                     
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Grid.Row="0" Spacing="7" >
                         <Label Text="Milton Aaron" FontSize="20" FontFamily="SFUIDisplay-Semibold" FontAttributes="Bold" TextColor="#4a4a4a" HorizontalOptions="Start" LineBreakMode="TailTruncation" />           
-                        <Button Text="3" TextColor="White" FontFamily="SFUIText-Bold" FontAttributes="Bold" FontSize="12" HeightRequest="24" WidthRequest="24" BorderRadius="12" BackgroundColor="Red" />
+                        <Button Text="3" Padding="0" TextColor="White" FontFamily="SFUIText-Bold" FontAttributes="Bold" FontSize="12" HeightRequest="24" WidthRequest="24" BorderRadius="12" BackgroundColor="Red" />
                     </StackLayout>
                     
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Grid.Row="1" Spacing="7" >
                         <Label Text="Softech |" FontSize="14" FontFamily="SFUIDisplay-Regular" TextColor="#656565" HorizontalOptions="Start" LineBreakMode="TailTruncation" VerticalOptions="Center" />           
-                        <Button Text="Lead" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Padding="8,2,8,2" TextColor="White" FontFamily="SFUIDisplay-Regular" FontSize="12" HeightRequest="17" BorderRadius="2" BackgroundColor="#008489" />
-                        <Switch IsToggled="true" OnColor="{StaticResource Primary}" HorizontalOptions="End" VerticalOptions="Center" />
+                        <Button Text="Lead" VerticalOptions="Center" HorizontalOptions="Start" Padding="0,0,0,0" TextColor="White" FontFamily="SFUIDisplay-Regular" FontSize="12" HeightRequest="17" BorderRadius="2" BackgroundColor="#008489" />
+                        <Switch IsToggled="true" OnColor="{StaticResource Primary}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
                     </StackLayout>
                     
                        
@@ -96,7 +96,7 @@
             
             
             
-      <controls:FloatingActionButton Command="{Binding AddCommand}" Scale="1.2" ButtonColor="{StaticResource BottomTabTextTint}" VerticalOptions="End" Margin="25" HorizontalOptions="Center" Image="plus.png" />
+      <controls:FloatingActionButton x:Name="btAdd" Command="{Binding AddCommand}" IsVisible="{OnPlatform iOS=true,Android=false,Default=true}" Scale="1.2" ButtonColor="{StaticResource BottomTabTextTint}" VerticalOptions="End" Margin="25" HorizontalOptions="CenterAndExpand" Image="plus.png" />
                 
             
       </Grid>

@@ -58,6 +58,9 @@ namespace NGC.ViewModels
                 case "Note":
                     await CoreMethods.PushPageModel<NewNotePageModel>(null, true);
                     break;
+                case "Opportunité":
+                    await CoreMethods.PushPageModel<NewOpportunityPageModel>(null, false);
+                    break;
                 default:
                     break;
             }
