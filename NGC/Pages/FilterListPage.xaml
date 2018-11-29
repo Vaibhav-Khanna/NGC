@@ -8,8 +8,8 @@
     Title="{resources:Translate Filter}">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Text="Appliquer" Priority="1" Command="{Binding ApplyCommand}" />
-        <ToolbarItem Text="Effacer" Priority="0" Command="{Binding BackCommand}" />
+        <ToolbarItem Text="{resources:Translate Apply}" Priority="1" Command="{Binding ApplyCommand}" />
+        <ToolbarItem Text="{resources:Translate Remove}" Priority="0" Command="{Binding BackCommand}" />
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>

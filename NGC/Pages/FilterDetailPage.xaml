@@ -8,7 +8,7 @@
     Title="{Binding Title}">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Text="Valider" Priority="1" Command="{Binding ValidateCommand}" />   
+        <ToolbarItem Text="{resources:Translate Valid}" Priority="1" Command="{Binding ValidateCommand}" />   
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>

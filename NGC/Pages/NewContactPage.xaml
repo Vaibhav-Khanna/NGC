@@ -13,8 +13,8 @@
     BackgroundColor="#f9f9f9">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Text="Annuler" Command="{Binding BackCommand}" Priority="0" />
-        <ToolbarItem Text="Enregistrer" Command="{Binding SaveCommand}" Priority="1" />
+        <ToolbarItem Text="{resources:Translate Cancel}" Command="{Binding BackCommand}" Priority="0" />
+        <ToolbarItem Text="{resources:Translate Save}" Command="{Binding SaveCommand}" Priority="1" />
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>
@@ -38,17 +38,17 @@
                     <StackLayout IsVisible="{Binding IsContactTab}" Orientation="Vertical" Spacing="7" Padding="0,0,0,40" Margin="0">
                         
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry  Placeholder="Prénom" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry  Placeholder="{resources:Translate FirstName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Placeholder="Nom" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Placeholder="{resources:Translate LastName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <Frame HeightRequest="45" IsVisible="{Binding IsProfessional}" Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="building.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Placeholder="Société" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Placeholder="{resources:Translate Company}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </StackLayout> 
                         </Frame>
                     
@@ -56,21 +56,21 @@
                     
                          <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="Qualifications" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
                         
                         <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="Tags" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
                         
                     </StackLayout> 
                     
-                    <Label Text="Poids" FontFamily="SFUIDisplay-Regular" Margin="0,7,0,0" FontSize="14" FontAttributes="None" TextColor="#4A4A4A" />
+                    <Label Text="{resources:Translate Weight}" FontFamily="SFUIDisplay-Regular" Margin="0,7,0,0" FontSize="14" FontAttributes="None" TextColor="#4A4A4A" />
                     
                     <StackLayout Spacing="11" Margin="0,0,0,8" Orientation="Horizontal">
                        
@@ -87,13 +87,13 @@
                     </StackLayout>
                     
                         <Frame HeightRequest="45" IsVisible="{Binding IsProfessional}" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry  Placeholder="Fonction" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry  Placeholder="{resources:Translate Function}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                     
                        <Frame HeightRequest="45"  Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="mail.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Placeholder="Email" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Email"  />
+                            <customControl:BorderlessEntry Placeholder="{resources:Translate Email}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Email"  />
                         </StackLayout> 
                         </Frame>
                     
@@ -105,7 +105,7 @@
                               
                                             <Frame HeightRequest="45" HorizontalOptions="Start" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="Mobile" TextColor="#9b9b9b" HorizontalOptions="Start" FontSize="14"  />
+                                <customControl:BorderlessPicker Title="{resources:Translate Mobile}" TextColor="#9b9b9b" HorizontalOptions="Start" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                             </Frame>
@@ -113,7 +113,7 @@
                                             <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="phone.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Placeholder="Tél."  PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Telephone"  />
+                            <customControl:BorderlessEntry Placeholder="{resources:Translate Telephone}"  PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Telephone"  />
                         </StackLayout> 
                         </Frame>
                                 
@@ -131,11 +131,11 @@
                         
                    
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Placeholder="Source de la collecte" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Placeholder="{resources:Translate SourceCollection}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <StackLayout Margin="0,18,0,0" Orientation="Horizontal">
-                            <Label Text="Activer le check In" FontFamily="SFUIDisplay-Regular" VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontSize="15" FontAttributes="None" TextColor="#FF656565" />
+                            <Label Text="{resources:Translate EnableCheckIn}" FontFamily="SFUIDisplay-Regular" VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontSize="15" FontAttributes="None" TextColor="#FF656565" />
                            
                             <Switch OnColor="{StaticResource Primary}" VerticalOptions="Center" HorizontalOptions="End" />
                         </StackLayout>
@@ -150,7 +150,7 @@
                       
                          <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="Société" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker Title="{resources:Translate Company}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>

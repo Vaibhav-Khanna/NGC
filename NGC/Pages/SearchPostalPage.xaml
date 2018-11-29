@@ -15,7 +15,7 @@
         <StackLayout Orientation="Vertical">
             
             <StackLayout BackgroundColor="White" Padding="20,12,20,12" >
-                <autocomplete:SfAutoComplete Watermark="Code postal" WatermarkColor="#9b9b9b" IndicatorTextSize="14" TextSize="14" Text="{Binding SearchText}" TextColor="Black" SelectedItem="{Binding Selected}" ItemsSource="{Binding ItemSource}" HeightRequest="40" x:Name="autoComplete"/>              
+                <autocomplete:SfAutoComplete Watermark="{resources:Translate PostalCode}" WatermarkColor="#9b9b9b" IndicatorTextSize="14" TextSize="14" Text="{Binding SearchText}" TextColor="Black" SelectedItem="{Binding Selected}" ItemsSource="{Binding ItemSource}" HeightRequest="40" x:Name="autoComplete"/>              
             </StackLayout>
             
         </StackLayout>

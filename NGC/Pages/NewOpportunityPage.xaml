@@ -6,11 +6,11 @@
     xmlns:resources="clr-namespace:NGC"
     xmlns:custom="clr-namespace:NGC.Controls;assembly=NGC"
     xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
-    Title="Nouvelle Opportunité"
+    Title="{resources:Translate NewOpportunity}"
     x:Class="NGC.Pages.NewOpportunityPage">
     
     <base:BasePage.ToolbarItems>
-        <ToolbarItem Text="Enregistrer" Priority="1" />
+        <ToolbarItem Text="{resources:Translate Save}" Priority="1" />
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>

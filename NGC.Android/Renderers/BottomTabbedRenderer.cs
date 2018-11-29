@@ -16,13 +16,15 @@ using Android.Support.Design.Internal;
 using Xamarin.Forms.Platform.Android.AppCompat;
 using View = Android.Views.View;
 using NGC.Droid.Renderers;
+using static System.Console;
 
 [assembly: ExportRenderer(typeof(TabbedPage), typeof(BottomTabbedRenderer))]
 namespace NGC.Droid.Renderers
 {
     public class BottomTabbedRenderer : TabbedPageRenderer
     {
-        private bool _isShiftModeSet;
+       
+         private bool _isShiftModeSet;
 
         public BottomTabbedRenderer(Context context)
             : base(context)
@@ -41,16 +43,21 @@ namespace NGC.Droid.Renderers
 
                     if (children.SingleOrDefault(x => x is BottomNavigationView) is BottomNavigationView bottomNav)
                     {
-                        bottomNav.SetShiftMode(false, false);
+                       
+                        bottomNav.Elevation = 60;
+                      
+                         bottomNav.SetShiftMode(false, false);
                         _isShiftModeSet = true;
                     }
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Error setting ShiftMode: {e}");
+                WriteLine($"Error setting ShiftMode: {e}");
             }
         }
+
+
 
         private List<View> GetAllChildViews(View view)
         {
@@ -104,9 +111,8 @@ namespace NGC.Droid.Renderers
                     if (item == null)
                         continue;
 
-                    item.SetShiftingMode(enableItemShiftMode);
+                    item.SetShiftingMode(enableShiftMode);
                     item.SetChecked(item.ItemData.IsChecked);
-
                 }
 
                 menuView.UpdateMenuView();

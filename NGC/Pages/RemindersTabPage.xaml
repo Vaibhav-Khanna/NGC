@@ -76,7 +76,7 @@
                                 <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.ModifyItemCommand}" CommandParameter="{Binding .}"/>
                             </StackLayout.GestureRecognizers>
                             <Image HeightRequest="15" WidthRequest="15" Source="edit.png" VerticalOptions="Center" HorizontalOptions="End" />
-                            <Label Text="Modifier" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
+                            <Label Text="{resources:Translate Modify}" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
                         </StackLayout>
                     </DataTemplate>
                 </syncfusion:SfListView.RightSwipeTemplate>
@@ -88,7 +88,7 @@
                                 <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.EndItemCommand}" CommandParameter="{Binding .}"/>
                             </StackLayout.GestureRecognizers>
                             <Image HeightRequest="15" WidthRequest="15" Source="ok.png" VerticalOptions="Center" HorizontalOptions="End" />
-                            <Label Text="Terminé" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
+                            <Label Text="{resources:Translate Ended}" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
                         </StackLayout>
                     </DataTemplate>
                 </syncfusion:SfListView.LeftSwipeTemplate>

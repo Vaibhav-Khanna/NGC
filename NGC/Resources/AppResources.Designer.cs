@@ -166,5 +166,191 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("Filter", resourceCulture);
             }
         }
+        
+        internal static string CheckIn {
+            get {
+                return ResourceManager.GetString("CheckIn", resourceCulture);
+            }
+        }
+        
+        internal static string Valid {
+            get {
+                return ResourceManager.GetString("Valid", resourceCulture);
+            }
+        }
+        
+        internal static string Apply {
+            get {
+                return ResourceManager.GetString("Apply", resourceCulture);
+            }
+        }
+        
+        internal static string Remove {
+            get {
+                return ResourceManager.GetString("Remove", resourceCulture);
+            }
+        }
+        
+        internal static string ProspectMap {
+            get {
+                return ResourceManager.GetString("ProspectMap", resourceCulture);
+            }
+        }
+        
+        internal static string ConsultContact {
+            get {
+                return ResourceManager.GetString("ConsultContact", resourceCulture);
+            }
+        }
+        
+        internal static string Cancel {
+            get {
+                return ResourceManager.GetString("Cancel", resourceCulture);
+            }
+        }
+        
+        internal static string Save {
+            get {
+                return ResourceManager.GetString("Save", resourceCulture);
+            }
+        }
+        
+        internal static string FirstName {
+            get {
+                return ResourceManager.GetString("FirstName", resourceCulture);
+            }
+        }
+        
+        internal static string LastName {
+            get {
+                return ResourceManager.GetString("LastName", resourceCulture);
+            }
+        }
+        
+        internal static string Qualifications {
+            get {
+                return ResourceManager.GetString("Qualifications", resourceCulture);
+            }
+        }
+        
+        internal static string Tags {
+            get {
+                return ResourceManager.GetString("Tags", resourceCulture);
+            }
+        }
+        
+        internal static string Weight {
+            get {
+                return ResourceManager.GetString("Weight", resourceCulture);
+            }
+        }
+        
+        internal static string Function {
+            get {
+                return ResourceManager.GetString("Function", resourceCulture);
+            }
+        }
+        
+        internal static string Mobile {
+            get {
+                return ResourceManager.GetString("Mobile", resourceCulture);
+            }
+        }
+        
+        internal static string Telephone {
+            get {
+                return ResourceManager.GetString("Telephone", resourceCulture);
+            }
+        }
+        
+        internal static string SourceCollection {
+            get {
+                return ResourceManager.GetString("SourceCollection", resourceCulture);
+            }
+        }
+        
+        internal static string EnableCheckIn {
+            get {
+                return ResourceManager.GetString("EnableCheckIn", resourceCulture);
+            }
+        }
+        
+        internal static string NewNote {
+            get {
+                return ResourceManager.GetString("NewNote", resourceCulture);
+            }
+        }
+        
+        internal static string NoteRequired {
+            get {
+                return ResourceManager.GetString("NoteRequired", resourceCulture);
+            }
+        }
+        
+        internal static string DateReminder {
+            get {
+                return ResourceManager.GetString("DateReminder", resourceCulture);
+            }
+        }
+        
+        internal static string ContainsPersonalData {
+            get {
+                return ResourceManager.GetString("ContainsPersonalData", resourceCulture);
+            }
+        }
+        
+        internal static string NewOpportunity {
+            get {
+                return ResourceManager.GetString("NewOpportunity", resourceCulture);
+            }
+        }
+        
+        internal static string New {
+            get {
+                return ResourceManager.GetString("New", resourceCulture);
+            }
+        }
+        
+        internal static string Opportunity {
+            get {
+                return ResourceManager.GetString("Opportunity", resourceCulture);
+            }
+        }
+        
+        internal static string NoOpportunity {
+            get {
+                return ResourceManager.GetString("NoOpportunity", resourceCulture);
+            }
+        }
+        
+        internal static string MyAccount {
+            get {
+                return ResourceManager.GetString("MyAccount", resourceCulture);
+            }
+        }
+        
+        internal static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        internal static string CGU {
+            get {
+                return ResourceManager.GetString("CGU", resourceCulture);
+            }
+        }
+        
+        internal static string Logout {
+            get {
+                return ResourceManager.GetString("Logout", resourceCulture);
+            }
+        }
+        
+        internal static string PostalCode {
+            get {
+                return ResourceManager.GetString("PostalCode", resourceCulture);
+            }
+        }
     }
 }

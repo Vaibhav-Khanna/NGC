@@ -44,7 +44,7 @@
                                 
                                 <ListView.Footer>
                                     <StackLayout IsVisible="{Binding ShowFooter}" Padding="0,117,0,30">
-                                        <Label Text="Aucune Opportunité" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontFamily="SFUIText-Bold" FontSize="18" FontAttributes="Bold" TextColor="#4A4A4A" />
+                                        <Label Text="{resources:Translate NoOpportunity}" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontFamily="SFUIText-Bold" FontSize="18" FontAttributes="Bold" TextColor="#4A4A4A" />
                                     </StackLayout>
                                 </ListView.Footer>
                                 
