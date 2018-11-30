@@ -20,23 +20,48 @@ namespace NGC.Helpers
 
         #region Setting Constants
 
-        private const string SettingsKey = "settings_key";
-        private static readonly string SettingsDefault = string.Empty;
+        private static readonly string stringDefault = string.Empty;
+
+        private const string Token = "Token";
+        private const string userId = "UserId";
+        private const string role = "Role";
+
 
         #endregion
 
-
-        public static string GeneralSettings
+        public static string AuthToken
         {
-            get
-            {
-                return AppSettings.GetValueOrDefault(SettingsKey, SettingsDefault);
-            }
+            get { return AppSettings.GetValueOrDefault(Token, stringDefault); }
+            set { AppSettings.AddOrUpdateValue(Token, value); }
+        }
+
+        public static string UserId
+        {
+            get { return AppSettings.GetValueOrDefault(userId, stringDefault); }
+            set { AppSettings.AddOrUpdateValue(userId, value); }
+        }
+
+        public static string Role
+        {
+            get { return AppSettings.GetValueOrDefault(role, stringDefault); }
+            set { AppSettings.AddOrUpdateValue(role, value); }
+        }
+
+        const string DatabaseIdKey = "azure_database";
+        static readonly int DatabaseIdDefault = 0;
+
+        public static int DatabaseId
+        {
+            get { return AppSettings.GetValueOrDefault(DatabaseIdKey, DatabaseIdDefault); }
             set
             {
-                AppSettings.AddOrUpdateValue(SettingsKey, value);
+                AppSettings.AddOrUpdateValue(DatabaseIdKey, value);
             }
         }
 
+        public static int UpdateDatabaseId()
+        {
+            return DatabaseId++;
+        }
     }
 }

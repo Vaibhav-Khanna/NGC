@@ -27,6 +27,9 @@
     <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
     <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.0.2" />
     <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="0.11.0-preview" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client.SQLiteStore" Version="4.0.2" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="2.5.0-preview" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\NewItemPage.xaml" />
@@ -45,8 +48,7 @@
     <Folder Include="Converter\" />
     <Folder Include="Controls\" />
     <Folder Include="Helpers\MapViews\" />
-    <Folder Include="DataStore\Abstraction\Stores\" />
-    <Folder Include="DataStore\Implementation\Stores\" />
+    <Folder Include="Models\DataObjects\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resources\AppResources.resx">
@@ -61,6 +63,8 @@
     <Compile Remove="Helpers\PopUps\ToastLayout.xaml.cs" />
     <Compile Remove="DataStore\Abstraction\Stores\IMeditationStore.cs" />
     <Compile Remove="DataStore\Implementation\Stores\MeditationStore.cs" />
+    <Compile Remove="DataStore\Abstraction\Stores\IApartmentStore.cs" />
+    <Compile Remove="DataStore\Implementation\Stores\ApartmentStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\AppResources.Designer.cs">
