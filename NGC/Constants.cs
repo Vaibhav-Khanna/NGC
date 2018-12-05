@@ -7,8 +7,8 @@ namespace NGC
 
 
 #if DEBUG
-        public static string ApplicationURL = @"https://mindurry-dev.azurewebsites.net/api";
-         public static string NgcApp = @"https://ngc-app-dev.azurewebsites.net/web/auth/callback#id_token=";
+        public static string ApplicationURL = @"https://ngc-app-dev.azurewebsites.net/api";
+        public static string NgcApp = @"https://ngc-app-dev.azurewebsites.net/web/auth/callback#id_token=";
 
 #elif UAT
         public static string ApplicationURL = @"https://mindurry-uat.azurewebsites.net/api";

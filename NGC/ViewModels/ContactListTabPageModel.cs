@@ -14,57 +14,37 @@ namespace NGC.ViewModels
     public class ContactListTabPageModel : BaseViewModel
     {
 
+        int TabIndex { get; set; } = 0;
+
         public bool IsFilterActive { get; set; }
 
         string _searchtext;
         [PropertyChanged.DoNotNotify]
         public string SearchText { get { return _searchtext; } set { _searchtext = value; Search(); RaisePropertyChanged(); } }
 
+
+        ObservableCollection<ObservableGroupCollection<ContactModel>> AllContacts;
         public ObservableCollection<ObservableGroupCollection<ContactModel>> Contacts { get; set; }
 
-        private List<FilterCategoryModel> Filters { get; set; }
+        ObservableCollection<ObservableGroupCollection<CompanyModel>> AllCompanies;
+        public ObservableCollection<ObservableGroupCollection<CompanyModel>> Companies { get; set; }
+
+        List<FilterCategoryModel> Filters { get; set; }
 
 
-        public override void Init(object initData)
+        public async override void Init(object initData)
         {
             base.Init(initData);
 
             GetFilterData();
 
-            Contacts = new ObservableCollection<ObservableGroupCollection<ContactModel>>();
+            IsLoading = true;
 
-            //Mock Data
-            var a = new ObservableGroupCollection<ContactModel>() { Key = "A" };
-            a.Add(new ContactModel());
-            a.Add(new ContactModel());
-            a.Add(new ContactModel());
-
-            var b = new ObservableGroupCollection<ContactModel>() { Key = "B" };
-            b.Add(new ContactModel());
-            b.Add(new ContactModel());
-            b.Add(new ContactModel());
-
-            var c = new ObservableGroupCollection<ContactModel>() { Key = "C" };
-            c.Add(new ContactModel());
-            c.Add(new ContactModel());
-
-            var d = new ObservableGroupCollection<ContactModel>() { Key = "D" };
-            d.Add(new ContactModel());
-            d.Add(new ContactModel());
-            d.Add(new ContactModel());
-
-            var e = new ObservableGroupCollection<ContactModel>() { Key = "E" };
-            e.Add(new ContactModel());
-            e.Add(new ContactModel());
-            e.Add(new ContactModel());
-
-            Contacts.Add(a);
-            Contacts.Add(b);
-            Contacts.Add(c);
-            Contacts.Add(d);
-            Contacts.Add(e);
-            //Mock Data
+            await GetData();
+           
+            IsLoading = false;
         }
+
 
         public override void ReverseInit(object returnedData)
         {
@@ -88,7 +68,7 @@ namespace NGC.ViewModels
 
         public Command RefreshCommand => new Command(async() =>
         {
-            await Task.Delay(3000);
+            await GetData();
 
             IsRefreshing = false;
         });
@@ -99,6 +79,10 @@ namespace NGC.ViewModels
             await CoreMethods.PushPageModel<ContactListDetailPageModel>();
         });
 
+        public Command CompanySelectedCommand => new Command(async(obj) =>
+        {
+            await CoreMethods.PushPageModel<CompanyDetailPageModel>(obj);
+        });
 
         public Command AddCommand => new Command(async() =>
         {
@@ -117,15 +101,62 @@ namespace NGC.ViewModels
         });
 
 
+        public Command LoadMoreCommand => new Command(async(obj) =>
+        {
+            if (TabIndex == 0)
+            {
+                var contacts_data = await StoreManager.ContactStore.GetNextItemsAsync(Contacts.Count);
+
+                if (contacts_data != null && contacts_data.Any())
+                {
+
+                }
+            }
+        });
+
         public void TabSelectedChanged(int index)
         {
-            
+            TabIndex = index;
+
+            Search();      
         }
 
 
         void Search()
         {
+            if (TabIndex == 0)
+            {
+                if (!string.IsNullOrWhiteSpace(SearchText))
+                {
+                    List<ContactModel> search_results = new List<ContactModel>();
 
+                    foreach (var item in AllContacts)
+                    {
+                        var res = item.Where((arg) => arg.Name.ToLower().Contains(SearchText.ToLower()));
+                        search_results.AddRange(res);
+                    }
+
+                    Contacts = new ObservableCollection<ObservableGroupCollection<ContactModel>>();
+
+                    foreach (var item in search_results.GroupBy((arg) => arg.LastName?.First()).OrderBy((arg) => arg.Key))
+                    {
+                        var group = new ObservableGroupCollection<ContactModel>() { Key = item.Key?.ToString()?.ToUpper() };
+
+                        foreach (var x in item)
+                        {
+                            group.Add(x);
+                        }
+
+                        Contacts.Add(group);
+                    }
+                }
+                else
+                    Contacts = AllContacts;
+            }
+            else
+            {
+
+            }
         }
 
 
@@ -146,6 +177,61 @@ namespace NGC.ViewModels
             Filters.Add(ft5);
         }
 
+        async Task GetData()
+        {
+            var contacts_data = await StoreManager.ContactStore.GetItemsAsync(true,false);
+
+            #region Contacts
+
+            Contacts = new ObservableCollection<ObservableGroupCollection<ContactModel>>();
+
+            foreach (var item in contacts_data.GroupBy((arg) => arg.Lastname?.First()).OrderBy((arg) => arg.Key))
+            {
+                var group = new ObservableGroupCollection<ContactModel>() { Key = item.Key?.ToString()?.ToUpper() };
+
+                foreach (var x in item)
+                {
+                    ContactModel t;
+                    group.Add(t = new ContactModel(x));
+                }
+
+                Contacts.Add(group);
+            }
+
+            #endregion
+
+            #region Comapnies
+
+            Companies = new ObservableCollection<ObservableGroupCollection<CompanyModel>>();
+
+            foreach (var item in contacts_data.Where((arg) => !string.IsNullOrWhiteSpace(arg.CompanyName) ).DistinctBy((arg) => arg.CompanyName ).GroupBy((arg) => arg.CompanyName?.First() ).OrderBy((arg) => arg.Key) )
+            {
+                var group = new ObservableGroupCollection<CompanyModel>() { Key = item.Key?.ToString()?.ToUpper() };
+
+                foreach (var x in item)
+                {
+                    var comp_data = contacts_data.Where((arg) => arg.CompanyName == x.CompanyName);
+                    List<ContactModel> temp = new List<ContactModel>();
+
+                    foreach (var y in comp_data)
+                    {
+                        temp.Add(new ContactModel(y));
+                    }
+
+                    group.Add(new CompanyModel() { CompanyName = x.CompanyName, Contacts = new ObservableCollection<ContactModel>(temp) });
+                }
+
+                Companies.Add(group);
+            }
+
+            #endregion
+
+            AllContacts = Contacts;
+
+            AllCompanies = Companies;
+
+            TabSelectedChanged(TabIndex);
+        }
 
 
         protected override void ViewIsAppearing(object sender, EventArgs e)

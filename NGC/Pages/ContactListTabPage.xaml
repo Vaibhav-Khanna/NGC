@@ -2,6 +2,8 @@
 <base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
+    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
@@ -45,10 +47,12 @@
             <StackLayout IsVisible="{Binding IsFilterActive}" Padding="16,8,16,8" Orientation="Horizontal" BackgroundColor="{StaticResource BottomTabTextTint}">
                 <Image Source="warning.png" WidthRequest="11" HeightRequest="13" VerticalOptions="Center" />
                 <Label Text="Vous avez des filtres activés" TextColor="White" VerticalOptions="Center" FontSize="12" FontFamily="SFUIDisplay-Regular" />
-            </StackLayout>
+            </StackLayout> 
             
             
-            <ListView x:Name="listview" ItemsSource="{Binding Contacts}" ItemTapped="Handle_ItemTapped" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
+            <StackLayout IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" Orientation="Vertical" Spacing="0">
+                
+              <ListView x:Name="listview" ItemAppearing="Handle_ItemAppearing" IsVisible="true" ItemsSource="{Binding Contacts}" ItemTapped="Handle_ItemTapped" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -85,8 +89,49 @@
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                    
+                    <ListView.Footer>
+                        <BoxView HeightRequest="2" Color="Transparent" />
+                    </ListView.Footer>
+                    
             </ListView>
+                
+                 <ListView x:Name="listview_Company" IsVisible="false" ItemsSource="{Binding Companies}" ItemTapped="Handle_ItemTapped_1" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                                
+                            <StackLayout Orientation="Horizontal" Spacing="0">
+                           
+                              <Grid HorizontalOptions="FillAndExpand" RowSpacing="4" Padding="16" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                              
+                                <Label Text="{Binding CompanyName}" Grid.Row="0" Grid.Column="0" FontFamily="SFUIText-Regular" FontSize="17" TextColor="Black" />
+                                        
+                            </Grid>                               
+                          </StackLayout>      
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                    
+                    <ListView.Footer>
+                        <BoxView HeightRequest="2" Color="Transparent" />
+                    </ListView.Footer>
+                    
+            </ListView>
+                
+                
+            </StackLayout>
+           
             
+            <control:Loader />
+           
             
         </StackLayout>
     </base:BasePage.Content>

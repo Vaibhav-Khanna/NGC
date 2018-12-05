@@ -218,14 +218,17 @@ namespace NGC.DataStore.Implementation
             {
                 await InitializeAsync();
             }
+           
             bool success = false;
+           
             try
             {
                 await MobileService.LogoutAsync();
 
-                Settings.AuthToken = string.Empty;
-                Settings.UserId = string.Empty;
-                Settings.Role = string.Empty;
+                //Settings.AuthToken = string.Empty;
+                //Settings.UserId = string.Empty;
+                //Settings.Role = string.Empty;
+
                 success = true;
             }
             catch (Exception ex)
@@ -328,7 +331,7 @@ namespace NGC.DataStore.Implementation
                 try
                 {
                     if (!string.IsNullOrEmpty(Settings.AuthToken) && JwtUtility.GetTokenExpiration(Settings.AuthToken) > DateTime.UtcNow)
-                    {
+                    { 
                         MobileService.CurrentUser = new MobileServiceUser(Settings.UserId);
                         MobileService.CurrentUser.MobileServiceAuthenticationToken = Settings.AuthToken;
                     }
@@ -347,20 +350,21 @@ namespace NGC.DataStore.Implementation
             if (!IsInitialized)
                 await InitializeAsync();
 
-            var taskList = new List<Task<bool>>();
-
+    here:   var taskList = new List<Task<bool>>();
           
             taskList.Add(ContactCustomFieldSourceEntryStore.SyncAsync());
             taskList.Add(ContactCustomFieldSourceStore.SyncAsync());
             taskList.Add(ContactCustomFieldStore.SyncAsync());
             taskList.Add(ContactStore.SyncAsync());
-            taskList.Add(ContactSequenceStore.SyncAsync());
-           
+            taskList.Add(ContactSequenceStore.SyncAsync());     
             taskList.Add(UserStore.SyncAsync());
 
             bool[] successes;
 
             successes = await Task.WhenAll(taskList);
+
+            if (successes.Any(x => x == false))
+                goto here;
 
             if (syncUserSpecific)
             {

@@ -352,5 +352,47 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("PostalCode", resourceCulture);
             }
         }
+        
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        internal static string ErrorLogin {
+            get {
+                return ResourceManager.GetString("ErrorLogin", resourceCulture);
+            }
+        }
+        
+        internal static string Ok {
+            get {
+                return ResourceManager.GetString("Ok", resourceCulture);
+            }
+        }
+        
+        internal static string LoginCredentialsEmpty {
+            get {
+                return ResourceManager.GetString("LoginCredentialsEmpty", resourceCulture);
+            }
+        }
+        
+        internal static string PasswordSent {
+            get {
+                return ResourceManager.GetString("PasswordSent", resourceCulture);
+            }
+        }
+        
+        internal static string Alert {
+            get {
+                return ResourceManager.GetString("Alert", resourceCulture);
+            }
+        }
+        
+        internal static string Details {
+            get {
+                return ResourceManager.GetString("Details", resourceCulture);
+            }
+        }
     }
 }

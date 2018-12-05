@@ -231,7 +231,27 @@
         <value>Code postal</value>
     </data> 
     
-    
+    <data name="Error" xml:space="preserve">
+        <value>Erreur</value>
+    </data> 
+    <data name="ErrorLogin" xml:space="preserve">
+        <value>Un problème est survenu lors de la connexion. Veuillez vérifier vos informations d'identification. Assurez-vous d'avoir une connexion Internet active.</value>
+    </data> 
+    <data name="Ok" xml:space="preserve">
+        <value>Ok</value>
+    </data> 
+    <data name="LoginCredentialsEmpty" xml:space="preserve">
+        <value>Veuillez entrer des informations d'identification valides pour continuer.</value>
+    </data> 
+    <data name="PasswordSent" xml:space="preserve">
+        <value>Un email avec un lien pour réinitialiser le mot de passe a été envoyé à l'identifiant de mail fourni.</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
+      <data name="Details" xml:space="preserve">
+        <value>Détails</value>
+    </data> 
     
     
 </root>

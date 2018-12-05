@@ -1,23 +1,41 @@
 ﻿using System;
-using NGC.Models;
+using NGC.Models.DataObjects;
 
 namespace NGC.DataModels
 {
     [PropertyChanged.AddINotifyPropertyChangedInterface]
     public class ContactModel
     {
-        public ContactModel(Contact contact=null)
+        public ContactModel(Contact contact)
         {
             Contact = contact;
+             
+            FirstName = contact.Firstname;
+            LastName = contact.Lastname;
+            Company = contact.CompanyName;
+            Rating = contact.Weight.ToString();
 
-            //mock data
-            FirstName = "Milton";
-            LastName = "Aaron";
-            Company = "Fresh Food";
-            Rating = "3";
-            RatingColor = "#f5a623";
-            FilterColor = "#ec1414";
-            //
+            GetCheckinColor();
+
+            FilterColor = "#ec1414"; 
+        }
+
+
+        void GetCheckinColor()
+        {
+            if (!Contact.AllowCheckin)
+                RatingColor = "#656565";
+            else
+            {
+                var diff = DateTime.Now.Subtract(Contact.LastCheckinAt.DateTime).Days;
+
+                if (diff >= 0 && diff <= Contact.FirstCheckinDuration)
+                    RatingColor = "#7ed321";  //green
+                else if (diff > Contact.FirstCheckinDuration && diff <= Contact.SecondCheckinDuration)
+                    RatingColor = "#f5a623"; //orange
+                else if (diff > Contact.SecondCheckinDuration)
+                    RatingColor = "#ec1414"; //red
+            }
         }
 
         public Contact Contact { get; set; }

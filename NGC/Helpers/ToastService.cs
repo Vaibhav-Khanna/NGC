@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using NGC.Helpers.PopUps;
 using Rg.Plugins.Popup.Services;
@@ -10,7 +11,26 @@ namespace NGC.Helpers
     public class ToastService : IToastService
     {
 
-       
+        public async void ShowLoading(string text = null)
+        {
+            var popupPage = new DialogLayout(text);
+
+            if (PopupNavigation.Instance.PopupStack.Any())
+            {
+                await PopupNavigation.Instance.PopAllAsync();
+            }
+
+            await PopupNavigation.Instance.PushAsync(popupPage, false);
+        }
+
+
+        public async void HideLoading()
+        {
+            if (PopupNavigation.Instance.PopupStack.Any())
+            {
+                await PopupNavigation.Instance.PopAllAsync();
+            }
+        }
 
 
         public async Task<string> ShowActionSheet(string Title, IEnumerable<Tuple<string, string>> Buttons, string Cancel)

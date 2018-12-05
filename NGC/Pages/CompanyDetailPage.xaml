@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
+    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
+    xmlns:resources="clr-namespace:NGC"
+    xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
+    x:Class="NGC.Pages.CompanyDetailPage"
+    Title="{resources:Translate Details}" >
+    
+    <base:BasePage.Content>
+    
+        <StackLayout Orientation="Vertical">
+         
+            <ListView x:Name="listview" GroupDisplayBinding="{Binding Key}" ItemTapped="Handle_ItemTapped" HasUnevenRows="true" CachingStrategy="RecycleElement" ItemsSource="{Binding Contacts}" IsGroupingEnabled="true" >
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                        
+                                             
+                              <Grid HorizontalOptions="FillAndExpand" RowSpacing="4" Padding="16,14,35,12">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="25" />
+                                </Grid.ColumnDefinitions>
+                                
+                                <Label Grid.Row="0" Grid.Column="0" >
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding FirstName}" FontSize="17" FontAttributes="None" ForegroundColor="Black" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding LastName}" FontSize="17" FontAttributes="Bold" ForegroundColor="Black"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                
+                                <Label Text="{Binding Company}" Grid.Row="1" Grid.Column="0" FontFamily="SFUIText-Regular" FontSize="12" TextColor="#9b9b9b" />
+                                
+                                <Button Text="{Binding Rating}" Padding="0" BackgroundColor="{Binding RatingColor}" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="20" HeightRequest="20" BorderWidth="0" BorderRadius="10" FontFamily="SFUIText-Regular" FontSize="12" TextColor="White" />
+                                
+                            </Grid>                               
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+                <ListView.Header>
+                    <StackLayout Padding="16,16,0,20" Spacing="10">
+                        
+                        <Label Text="Matsiya" FontFamily="SFUIDisplay-Bold" FontSize="25" FontAttributes="Bold" TextColor="#FF4A4A4A" />
+                      
+                        <Label Text="41 allée du moura, 64200 Biarritz" TextDecorations="Underline" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" TextColor="#FF6565" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding MapCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        
+                        <BoxView HeightRequest="0.5" Color="#c8c7cc" HorizontalOptions="FillAndExpand" Margin="15,14,0,14" />
+                        
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Siret :" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
+                                    <Span Text="44461158600066" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        
+                         <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Statut juridique :" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
+                                    <Span Text="Société à responsabilité limitée" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        
+                         <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="APE :" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
+                                    <Span Text="622089ER" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        
+                         <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="APE libbelé :" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
+                                    <Span Text="Informatique" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        
+                         <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="APE sous-classe :" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
+                                    <Span Text="Informatique" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        
+                         <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Effectifs :" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
+                                    <Span Text="03 - 6 à 9 salariés" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        
+                    </StackLayout>
+                </ListView.Header>
+                
+                <ListView.Footer>
+                    <BoxView Color="Transparent" HeightRequest="2" />
+                </ListView.Footer>
+                
+            </ListView>
+        </StackLayout>
+         
+    </base:BasePage.Content>
+    
+</base:BasePage>

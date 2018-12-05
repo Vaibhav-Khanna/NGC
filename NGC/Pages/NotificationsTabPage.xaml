@@ -3,13 +3,17 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="NGC.Pages.NotificationsTabPage" 
+    xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
     Title="{resources:Translate Notifications}">
     <base:BasePage.Content>
         <StackLayout Orientation="Vertical">
             
-            <ListView x:Name="list" ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
+            <control:Loader />
+            
+            <ListView x:Name="list" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>

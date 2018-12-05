@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+    x:Class="NGC.Controls.Loader" IsVisible="{Binding IsLoading}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <ContentView.Content>
+        <StackLayout Spacing="10" Orientation="Vertical">
+             
+            <forms:AnimationView 
+    x:Name="animationView" 
+    Animation="animation3.json" 
+    Loop="true"
+    Scale="2.5"
+    AutoPlay="true" 
+    HeightRequest="180"
+    Margin="0"
+    WidthRequest="180"
+    HorizontalOptions="Center" 
+    VerticalOptions="Center"
+            />
+
+                <Label x:Name="textLb" Text="{Binding LoadingText}" TextColor="Black" FontAttributes="Bold" FontSize="16" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" WidthRequest="120" LineBreakMode="WordWrap" /> 
+                
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
