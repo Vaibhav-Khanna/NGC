@@ -51,7 +51,12 @@ namespace NGC.ViewModels
             FreshIOC.Container.Register<IStoreManager, StoreManager>();
 
             FreshIOC.Container.Register<IUserStore, UserStore>();
+            FreshIOC.Container.Register<IOpportunityStore, OpportunityStore>();
+            FreshIOC.Container.Register<ICompanyStore, CompanyStore>();
             FreshIOC.Container.Register<IContactStore, ContactStore>();
+            FreshIOC.Container.Register<INoteStore, NoteStore>();
+            FreshIOC.Container.Register<ICheckinTypeStore, CheckinTypeStore>();
+            FreshIOC.Container.Register<ICheckinStore, CheckinStore>();
             FreshIOC.Container.Register<IContactCustomFieldSourceEntryStore, ContactCustomFieldSourceEntryStore>();
             FreshIOC.Container.Register<IContactCustomFieldSourceStore, ContactCustomFieldSourceStore>();
             FreshIOC.Container.Register<IContactCustomFieldStore, ContactCustomFieldStore>();

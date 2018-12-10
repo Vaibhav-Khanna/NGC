@@ -54,7 +54,7 @@ namespace NGC.Pages
 
         void Handle_ItemAppearing(object sender, Xamarin.Forms.ItemVisibilityEventArgs e)
         {
-            if ((e.Item as ContactModel)?.Contact == (this.BindingContext as ContactListTabPageModel).Contacts.Last().LastOrDefault().Contact)
+            if ((e.Item as ContactModel)?.Contact == (this.BindingContext as ContactListTabPageModel).Contacts?.Last()?.LastOrDefault()?.Contact)
             {
                 (BindingContext as ContactListTabPageModel).LoadMoreCommand.Execute(null);
             }

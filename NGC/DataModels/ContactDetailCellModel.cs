@@ -1,4 +1,5 @@
 ﻿using System;
+using NGC.Models;
 
 namespace NGC.DataModels
 {
@@ -6,10 +7,14 @@ namespace NGC.DataModels
     public class ContactDetailCellModel
     {
 
-        public ContactDetailCellModel()
+        public ContactDetailCellModel(ContactDetailCellModelType type, BaseDataObject model)
         {
+            CellModelType = type;
 
+            Model = model;
         }
+
+        public object Model { get; set; }
 
         public ContactDetailCellModelType CellModelType { get; set; }
 
@@ -19,6 +24,6 @@ namespace NGC.DataModels
 
     public enum ContactDetailCellModelType
     {
-        Action, Opportunity, Activity
+        Action, Opportunity, Activity, Empty
     }
 }

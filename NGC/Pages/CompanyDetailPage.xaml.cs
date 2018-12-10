@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using NGC.ViewModels;
 using Xamarin.Forms;
 
 namespace NGC.Pages
@@ -14,6 +14,8 @@ namespace NGC.Pages
 
         void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
+            (BindingContext as CompanyDetailPageModel).ContactDetailCommand.Execute(e.Item);
+
             listview.SelectedItem = null;
         }
     }

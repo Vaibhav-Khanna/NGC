@@ -253,5 +253,44 @@
         <value>Détails</value>
     </data> 
     
+     <data name="Siret" xml:space="preserve">
+        <value>Siret : </value>
+    </data> 
+     <data name="StatutJuridique" xml:space="preserve">
+        <value>Statut juridique : </value>
+    </data> 
+     <data name="APE" xml:space="preserve">
+        <value>APE : </value>
+    </data> 
+     <data name="APELabel" xml:space="preserve">
+        <value>APE libbelé : </value>
+    </data> 
+     <data name="APEClass" xml:space="preserve">
+        <value>APE sous-classe : </value>
+    </data> 
+     <data name="Effectifs" xml:space="preserve">
+        <value>Effectifs : </value>
+    </data> 
+     <data name="LocationNotFound" xml:space="preserve">
+        <value>The address cannot be located on the map.</value>
+    </data> 
+     <data name="SearchCompany" xml:space="preserve">
+        <value>Rechercher une société</value>
+    </data> 
+     <data name="ResultsOpenData" xml:space="preserve">
+        <value>résultat trouvé dans open data</value>
+    </data> 
+     <data name="NotAvailable" xml:space="preserve">
+        <value>Non Disponible</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
     
 </root>

@@ -6,6 +6,7 @@ namespace NGC.DataModels
     [PropertyChanged.AddINotifyPropertyChangedInterface]
     public class ContactModel
     {
+      
         public ContactModel(Contact contact)
         {
             Contact = contact;
@@ -14,6 +15,9 @@ namespace NGC.DataModels
             LastName = contact.Lastname;
             Company = contact.CompanyName;
             Rating = contact.Weight.ToString();
+            Email = contact.Email;
+            Mobile = contact.Mobile;
+            JobTitle = contact.JobTitle;
 
             GetCheckinColor();
 
@@ -38,6 +42,7 @@ namespace NGC.DataModels
             }
         }
 
+
         public Contact Contact { get; set; }
 
         public string FirstName { get; set; }
@@ -48,10 +53,17 @@ namespace NGC.DataModels
 
         public string Company { get; set; }
 
+        public string Email { get; set; }
+
+        public string JobTitle { get; set; }
+
         public string Rating { get; set; } 
+
+        public string Mobile { get; set; }
 
         public string RatingColor { get; set; }
 
         public string FilterColor { get; set; }
+
     }
 }

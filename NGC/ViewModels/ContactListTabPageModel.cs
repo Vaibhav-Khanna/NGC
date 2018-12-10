@@ -76,7 +76,7 @@ namespace NGC.ViewModels
 
         public Command SelectedCommand => new Command(async(obj) =>
         {
-            await CoreMethods.PushPageModel<ContactListDetailPageModel>();
+            await CoreMethods.PushPageModel<ContactListDetailPageModel>(obj);
         });
 
         public Command CompanySelectedCommand => new Command(async(obj) =>
@@ -89,9 +89,9 @@ namespace NGC.ViewModels
             var response = await ToastService.ShowActionSheet("Ajouter", new List<Tuple<string, string>>() { new Tuple<string, string>("iconparticulier.png", "Particulier"), new Tuple<string, string>("iconpro.png", "Professionnel") }, "Annuler");
 
             if (response == "Particulier")
-                await CoreMethods.PushPageModel<NewContactPageModel>(false,true,true);
+                await CoreMethods.PushPageModel<NewContactPageModel>(new Tuple<bool, bool, object>(false, true, null), true,true);
             else if (response == "Professionnel")
-                await CoreMethods.PushPageModel<NewContactPageModel>(true, true,true);
+                await CoreMethods.PushPageModel<NewContactPageModel>(new Tuple<bool, bool, object>(true, true, null), true,true);
         });
 
 
@@ -155,7 +155,32 @@ namespace NGC.ViewModels
             }
             else
             {
+                if (!string.IsNullOrWhiteSpace(SearchText))
+                {
+                    List<CompanyModel> search_results = new List<CompanyModel>();
 
+                    foreach (var item in AllCompanies)
+                    {
+                        var res = item.Where((arg) => arg.CompanyName.ToLower().Contains(SearchText.ToLower()));
+                        search_results.AddRange(res);
+                    }
+
+                    Companies = new ObservableCollection<ObservableGroupCollection<CompanyModel>>();
+
+                    foreach (var item in search_results.GroupBy((arg) => arg.CompanyName?.First()).OrderBy((arg) => arg.Key))
+                    {
+                        var group = new ObservableGroupCollection<CompanyModel>() { Key = item.Key?.ToString()?.ToUpper() };
+
+                        foreach (var x in item)
+                        {
+                            group.Add(x);
+                        }
+
+                        Companies.Add(group);
+                    }
+                }
+                else
+                    Companies = AllCompanies;
             }
         }
 
@@ -179,7 +204,8 @@ namespace NGC.ViewModels
 
         async Task GetData()
         {
-            var contacts_data = await StoreManager.ContactStore.GetItemsAsync(true,false);
+            var contacts_data = await StoreManager.ContactStore.GetItemsAsync(true,true);
+            var company_data = await StoreManager.CompanyStore.GetItemsAsync(true, true);
 
             #region Contacts
 
@@ -202,24 +228,21 @@ namespace NGC.ViewModels
 
             #region Comapnies
 
+
             Companies = new ObservableCollection<ObservableGroupCollection<CompanyModel>>();
 
-            foreach (var item in contacts_data.Where((arg) => !string.IsNullOrWhiteSpace(arg.CompanyName) ).DistinctBy((arg) => arg.CompanyName ).GroupBy((arg) => arg.CompanyName?.First() ).OrderBy((arg) => arg.Key) )
+            foreach (var item in company_data?.Where((arg) => arg.Name != null).OrderBy((arg) => arg.Name))
             {
-                var group = new ObservableGroupCollection<CompanyModel>() { Key = item.Key?.ToString()?.ToUpper() };
+                var group = new ObservableGroupCollection<CompanyModel>() { Key = item.Name?.First().ToString()?.ToUpper() };
 
-                foreach (var x in item)
+                List<ContactModel> contacts = new List<ContactModel>();
+
+                foreach (var x in Contacts)
                 {
-                    var comp_data = contacts_data.Where((arg) => arg.CompanyName == x.CompanyName);
-                    List<ContactModel> temp = new List<ContactModel>();
-
-                    foreach (var y in comp_data)
-                    {
-                        temp.Add(new ContactModel(y));
-                    }
-
-                    group.Add(new CompanyModel() { CompanyName = x.CompanyName, Contacts = new ObservableCollection<ContactModel>(temp) });
+                   contacts.AddRange(x.Where((arg) => arg.Contact.CompanyId == item.Id));
                 }
+
+                group.Add(new CompanyModel(item){ Contacts = new ObservableCollection<ContactModel>(contacts) });
 
                 Companies.Add(group);
             }

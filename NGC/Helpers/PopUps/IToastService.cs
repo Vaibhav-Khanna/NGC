@@ -11,5 +11,7 @@ namespace NGC.Helpers.PopUps
         void ShowLoading(string text = null);
 
         void HideLoading();
+
+        Task<object> ShowSearchCompany();
     }
 }

@@ -55,6 +55,29 @@ namespace NGC.Helpers
             return popupPage.Result;
         }
 
+        public async Task<object> ShowSearchCompany()
+        {
 
+            var popupPage = new SearchCompanyPage() { BindingContext = new SearchCompanyPageModel() }; 
+
+            if (PopupNavigation.Instance.PopupStack.Count > 0)
+            {
+                await PopupNavigation.Instance.PopAllAsync();
+            }
+
+
+            await PopupNavigation.Instance.PushAsync(popupPage);
+
+
+            await Task.Run(async () =>
+            {
+                while (popupPage.Result == null)
+                {
+                    await Task.Delay(500);
+                }
+            });
+
+            return popupPage.Result;
+        }
     }
 }

@@ -14,6 +14,11 @@ namespace NGC.DataStore.Abstraction
         IContactCustomFieldSourceStore ContactCustomFieldSourceStore { get; }
         IContactCustomFieldStore ContactCustomFieldStore { get; }
         IContactStore ContactStore { get; }
+        ICheckinStore CheckinStore { get; }
+        ICheckinTypeStore CheckinTypeStore { get; }
+        INoteStore NoteStore { get; }
+        ICompanyStore CompanyStore { get; }
+        IOpportunityStore OpportunityStore { get; }
         IContactSequenceStore ContactSequenceStore { get; } 
         IUserStore UserStore { get; }
 

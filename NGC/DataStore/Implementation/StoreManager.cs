@@ -44,12 +44,24 @@ namespace NGC.DataStore.Implementation
 
         IContactStore contactStore;
         public IContactStore ContactStore => contactStore ?? (contactStore = FreshIOC.Container.Resolve<IContactStore>());
-
-      
+         
         IUserStore userStore;
         public IUserStore UserStore => userStore ?? (userStore = FreshIOC.Container.Resolve<IUserStore>());
 
-       
+        ICompanyStore companyStore;
+        public ICompanyStore CompanyStore => companyStore ?? (companyStore = FreshIOC.Container.Resolve<ICompanyStore>());
+
+        IOpportunityStore opportunityStore;
+        public IOpportunityStore OpportunityStore => opportunityStore ?? (opportunityStore = FreshIOC.Container.Resolve<IOpportunityStore>());
+
+        ICheckinStore checkinStore;
+        public ICheckinStore CheckinStore => checkinStore ?? (checkinStore = FreshIOC.Container.Resolve<ICheckinStore>());
+
+        ICheckinTypeStore checkinTypeStore;
+        public ICheckinTypeStore CheckinTypeStore => checkinTypeStore ?? (checkinTypeStore = FreshIOC.Container.Resolve<ICheckinTypeStore>());
+
+        INoteStore noteStore;
+        public INoteStore NoteStore => noteStore ?? (noteStore = FreshIOC.Container.Resolve<INoteStore>());
 
         public async Task<bool> LoginAsync(string username, string password)
         {
@@ -271,8 +283,12 @@ namespace NGC.DataStore.Implementation
             await ContactCustomFieldStore.DropTable();
             await ContactStore.DropTable();
             await ContactSequenceStore.DropTable();
-          
+            await CompanyStore.DropTable();
             await UserStore.DropTable();
+            await NoteStore.DropTable();
+            await CheckinStore.DropTable();
+
+            await OpportunityStore.DropTable();
            
 
             IsInitialized = false;
@@ -314,6 +330,11 @@ namespace NGC.DataStore.Implementation
                 store.DefineTable<ContactCustomFieldSource>();
                 store.DefineTable<ContactCustomFieldSourceEntry>();
                 store.DefineTable<Contact>();
+                store.DefineTable<Company>();
+                store.DefineTable<Checkin>();
+                store.DefineTable<Note>();
+                store.DefineTable<CheckinType>();
+                store.DefineTable<Opportunity>();
                 store.DefineTable<ContactSequence>();
                
                 store.DefineTable<User>();
@@ -356,6 +377,11 @@ namespace NGC.DataStore.Implementation
             taskList.Add(ContactCustomFieldSourceStore.SyncAsync());
             taskList.Add(ContactCustomFieldStore.SyncAsync());
             taskList.Add(ContactStore.SyncAsync());
+            taskList.Add(OpportunityStore.SyncAsync());
+            taskList.Add(CompanyStore.SyncAsync());
+            taskList.Add(CheckinTypeStore.SyncAsync());
+            taskList.Add(NoteStore.SyncAsync());
+            taskList.Add(CheckinStore.SyncAsync());
             taskList.Add(ContactSequenceStore.SyncAsync());     
             taskList.Add(UserStore.SyncAsync());
 

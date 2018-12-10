@@ -56,10 +56,8 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal" Spacing="0">
-                           
-                              <BoxView IsVisible="{Binding Source={x:Reference root}, Path=BindingContext.IsFilterActive}" BackgroundColor="{Binding FilterColor}" VerticalOptions="FillAndExpand" HorizontalOptions="Start" WidthRequest="6" />
-                                                   
+                            
+                                             
                               <Grid HorizontalOptions="FillAndExpand" RowSpacing="4" Padding="16,14,35,12">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />
@@ -85,7 +83,7 @@
                                 <Button Text="{Binding Rating}" Padding="0" BackgroundColor="{Binding RatingColor}" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="20" HeightRequest="20" BorderWidth="0" BorderRadius="10" FontFamily="SFUIText-Regular" FontSize="12" TextColor="White" />
                                 
                             </Grid>                               
-                          </StackLayout>      
+                         
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
