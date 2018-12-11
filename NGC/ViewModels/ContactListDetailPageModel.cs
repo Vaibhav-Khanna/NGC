@@ -76,24 +76,28 @@ namespace NGC.ViewModels
         {
             IsLoading = true;
 
+
             var checkins = await StoreManager.CheckinStore.GetCheckinsByContactId(Contact.Contact.Id);
 
             var opportunities = await StoreManager.OpportunityStore.GetOpportunitiesByContactId(Contact.Contact.Id);
+
+            var notes = await StoreManager.NoteStore.GetRemindersByContactId(Contact.Contact.Id);
 
 
             DetailSource = new ObservableCollection<ObservableGroupCollection<ContactDetailCellModel>>();
 
             var actions = new ObservableGroupCollection<ContactDetailCellModel>() { Key = "Actions à venir" };
          
-            // if (checkins != null && checkins.Any())
-            //    foreach (var item in checkins)
-            //    {
-            //        actions.Add(new ContactDetailCellModel(ContactDetailCellModelType.Activity, item) { CellModelType = ContactDetailCellModelType.Activity });
-            //    }
-            //else
+             if (notes != null && notes.Any())
+                foreach (var item in notes)
+                {
+                    actions.Add(new ContactDetailCellModel(ContactDetailCellModelType.Activity, item) { CellModelType = ContactDetailCellModelType.Activity });
+                }
+            else
             {
                 actions.Add(new ContactDetailCellModel(ContactDetailCellModelType.Empty, null));
             }
+
 
             var opportunity = new ObservableGroupCollection<ContactDetailCellModel>() { Key = "Opportunités", Detail = "" };
 
@@ -101,10 +105,15 @@ namespace NGC.ViewModels
             {
                 opportunity.Detail = $"{opportunities.Count()} opportunités";
 
+                long Total = 0;
+
                 foreach (var item in opportunities)
                 {
                     opportunity.Add(new ContactDetailCellModel(ContactDetailCellModelType.Opportunity, item) { TagColor = "#ff6565" });
+                    Total += item.Amount;
                 }
+
+                opportunity.Detail += $" - {Total} €";
             }
             else
             {
@@ -117,6 +126,14 @@ namespace NGC.ViewModels
             if (checkins != null && checkins.Any())
                 foreach (var item in checkins)
                 {
+                    var user = await StoreManager.UserStore.GetItemAsync(item.UserId);
+                    var checkinType = await StoreManager.CheckinTypeStore.GetItemAsync(item.CheckinTypeId);
+
+                    if (user != null)
+                        item.UserName = user.Name;
+                    if (checkinType != null)
+                        item.Subject = checkinType.Name;
+
                     activity.Add(new ContactDetailCellModel(ContactDetailCellModelType.Activity, item) { CellModelType = ContactDetailCellModelType.Activity });
                 }
             else
@@ -127,8 +144,6 @@ namespace NGC.ViewModels
             DetailSource.Add(actions);
             DetailSource.Add(opportunity);
             DetailSource.Add(activity);
-
-            await Task.Delay(1000);
 
             IsLoading = false;
         }

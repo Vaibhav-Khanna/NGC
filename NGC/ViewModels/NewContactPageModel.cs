@@ -23,6 +23,12 @@ namespace NGC.ViewModels
 
         public string CompanyLabel { get; set; }
 
+        private bool IsNewCreation;
+
+        private bool IsCompany;
+
+        public object Model { get; set; }
+
         #endregion
 
 
@@ -80,10 +86,38 @@ namespace NGC.ViewModels
                 if (((Tuple<bool, bool, object>)initData).Item2)
                     IsContactTab = ((Tuple<bool, bool, object>)initData).Item2;
 
+
                 if (((Tuple<bool, bool, object>)initData).Item3 == null)
+                {
                     Title = $"{AppResources.New} {AppResources.Contact}";
+                    IsNewCreation = true;
+                }
                 else
+                {
                     Title = $"{AppResources.Contact}";
+                    IsNewCreation = false;
+                }
+
+                if (IsNewCreation)
+                {
+                    if (IsContactTab)
+                    {
+                        if (IsSegmentVisible)
+                        {
+
+                        }
+                        else
+                        {
+
+                        }
+                    }
+                    else
+                    {
+                       
+                    }
+                }
+
+                GetAdditionalData();
 
                 //mockdata
                 CompanyDetails.Add("Adresse postale");
@@ -99,6 +133,14 @@ namespace NGC.ViewModels
                 CompanyDetails.Add("Effectifs");
                 //
             }
+        }
+
+        async void GetAdditionalData()
+        {
+           var tags = await StoreManager.TagStore.GetItemsAsync();
+          
+
+
         }
 
 

@@ -63,6 +63,10 @@ namespace NGC.DataStore.Implementation
         INoteStore noteStore;
         public INoteStore NoteStore => noteStore ?? (noteStore = FreshIOC.Container.Resolve<INoteStore>());
 
+        ITagStore tagStore;
+        public ITagStore TagStore => tagStore ?? (tagStore = FreshIOC.Container.Resolve<ITagStore>());
+
+
         public async Task<bool> LoginAsync(string username, string password)
         {
             if (!IsInitialized)
@@ -283,6 +287,7 @@ namespace NGC.DataStore.Implementation
             await ContactCustomFieldStore.DropTable();
             await ContactStore.DropTable();
             await ContactSequenceStore.DropTable();
+            await TagStore.DropTable();
             await CompanyStore.DropTable();
             await UserStore.DropTable();
             await NoteStore.DropTable();
@@ -332,6 +337,7 @@ namespace NGC.DataStore.Implementation
                 store.DefineTable<Contact>();
                 store.DefineTable<Company>();
                 store.DefineTable<Checkin>();
+                store.DefineTable<Tag>();
                 store.DefineTable<Note>();
                 store.DefineTable<CheckinType>();
                 store.DefineTable<Opportunity>();
@@ -381,6 +387,7 @@ namespace NGC.DataStore.Implementation
             taskList.Add(CompanyStore.SyncAsync());
             taskList.Add(CheckinTypeStore.SyncAsync());
             taskList.Add(NoteStore.SyncAsync());
+            taskList.Add(TagStore.SyncAsync());
             taskList.Add(CheckinStore.SyncAsync());
             taskList.Add(ContactSequenceStore.SyncAsync());     
             taskList.Add(UserStore.SyncAsync());

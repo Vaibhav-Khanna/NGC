@@ -6,16 +6,16 @@ namespace NGC.Models.DataObjects
     public class Note : BaseDataObject
     {
         [JsonProperty("doneAt")]
-        public DateTimeOffset DoneAt { get; set; }
+        public DateTime DoneAt { get; set; }
 
         [JsonProperty("databaseInsertAt")]
-        public DateTimeOffset DatabaseInsertAt { get; set; }
+        public DateTime DatabaseInsertAt { get; set; }
 
         [JsonProperty("reminderAt")]
-        public DateTimeOffset ReminderAt { get; set; }
+        public DateTime? ReminderAt { get; set; }
 
         [JsonProperty("activityStreamDate")]
-        public DateTimeOffset ActivityStreamDate { get; set; }
+        public DateTime ActivityStreamDate { get; set; }
 
         [JsonProperty("contactId")]
         public string ContactId { get; set; }
@@ -61,5 +61,8 @@ namespace NGC.Models.DataObjects
 
         [JsonProperty("contentHasRGPDData")]
         public bool ContentHasRgpdData { get; set; }
+
+        [JsonIgnore]
+        public string UserName => $"{UserFirstname} {UserLastname}";
     }
 }

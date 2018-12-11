@@ -19,13 +19,13 @@
                 
                  <StackLayout Spacing="0" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                     
-                    <Label Text="Checké en SAV" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
+                    <Label Text="{Binding Model.Subject}" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
                                   
                  </StackLayout>
                 
             <StackLayout Spacing="10" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                 
-               <Label Text="Mercredi 6 Juin | John Doe" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#9B9B9B" />
+               <Label Text="{Binding Model.DoneAtUserName}" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#9B9B9B" />
                 
             </StackLayout>
                 
