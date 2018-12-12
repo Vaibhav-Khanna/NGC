@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace NGC
 {
@@ -44,6 +45,8 @@ namespace NGC
         public static readonly string URLScheme = "mindurry"; // Custom Redirect URI from AD B2C (without ://auth/)
         public static readonly string RedirectUri = $"{URLScheme}://auth"; // Doesn't require editing
 
+
+        public static List<string> StaticQualifications { get; set; } = new List<string>() { "Lead", "Prospect", "Client", "Autres" };
 
     }
 }

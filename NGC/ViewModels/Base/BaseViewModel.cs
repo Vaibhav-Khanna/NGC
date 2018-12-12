@@ -52,6 +52,9 @@ namespace NGC.ViewModels
 
             FreshIOC.Container.Register<IUserStore, UserStore>();
             FreshIOC.Container.Register<IOpportunityStore, OpportunityStore>();
+            FreshIOC.Container.Register<ICollectSourceStore, CollectSourceStore>();
+            FreshIOC.Container.Register<ISalesTeamStore, SalesTeamStore>();
+            FreshIOC.Container.Register<IUserSalesTeamStore,UserSalesTeamStore>();
             FreshIOC.Container.Register<ICompanyStore, CompanyStore>();
             FreshIOC.Container.Register<IContactStore, ContactStore>();
             FreshIOC.Container.Register<INoteStore, NoteStore>();

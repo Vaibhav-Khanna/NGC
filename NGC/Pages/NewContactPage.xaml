@@ -38,11 +38,11 @@
                     <StackLayout IsVisible="{Binding IsContactTab}" Orientation="Vertical" Spacing="7" Padding="0,0,0,40" Margin="0">
                         
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry  Placeholder="{resources:Translate FirstName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding Model.FirstName}"  Placeholder="{resources:Translate FirstName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Placeholder="{resources:Translate LastName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding Model.LastName}" Placeholder="{resources:Translate LastName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <Frame HeightRequest="45" IsVisible="{Binding IsProfessional}" Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
@@ -75,15 +75,15 @@
                     
                     <StackLayout Spacing="11" Margin="0,0,0,8" Orientation="Horizontal">
                        
-                        <Button HeightRequest="45" WidthRequest="45" Text="1" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
+                        <Button x:Name="bt1" Clicked="RatingClicked" Command="{Binding WeightCommand}" CommandParameter="1" HeightRequest="45" WidthRequest="45" Text="1" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
                         
-                        <Button HeightRequest="45" WidthRequest="45" Text="2" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
+                        <Button x:Name="bt2" Clicked="RatingClicked" Command="{Binding WeightCommand}" CommandParameter="2" HeightRequest="45" WidthRequest="45" Text="2" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
                         
-                        <Button HeightRequest="45" WidthRequest="45" Text="3" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
+                        <Button x:Name="bt3" Clicked="RatingClicked" Command="{Binding WeightCommand}" CommandParameter="3" HeightRequest="45" WidthRequest="45" Text="3" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
                         
-                        <Button HeightRequest="45" WidthRequest="45" Text="4" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
+                        <Button x:Name="bt4" Clicked="RatingClicked" Command="{Binding WeightCommand}" CommandParameter="4" HeightRequest="45" WidthRequest="45" Text="4" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
                         
-                        <Button HeightRequest="45" WidthRequest="45" Text="5" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
+                        <Button x:Name="bt5" Clicked="RatingClicked" Command="{Binding WeightCommand}" CommandParameter="5" HeightRequest="45" WidthRequest="45" Text="5" TextColor="#50585d" FontSize="14" FontFamily="SFUIText-Regular" BorderColor="#9b9b9b" BorderWidth="0.5" BorderRadius="3" BackgroundColor="White" />
                         
                     </StackLayout>
                     
@@ -94,7 +94,7 @@
                        <Frame HeightRequest="45"  Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="mail.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Placeholder="{resources:Translate Email}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Email"  />
+                            <customControl:BorderlessEntry Text="{Binding Model.Email}" Placeholder="{resources:Translate Email}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Email"  />
                         </StackLayout> 
                         </Frame>
                     
@@ -132,13 +132,13 @@
                         
                    
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Placeholder="{resources:Translate SourceCollection}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding Model.Source}" Placeholder="{resources:Translate SourceCollection}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <StackLayout Margin="0,18,0,0" Orientation="Horizontal">
                             <Label Text="{resources:Translate EnableCheckIn}" FontFamily="SFUIDisplay-Regular" VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontSize="15" FontAttributes="None" TextColor="#FF656565" />
                            
-                            <Switch OnColor="{StaticResource Primary}" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Switch IsToggled="{Binding Model.ActiveCheckIn}" OnColor="{StaticResource Primary}" VerticalOptions="Center" HorizontalOptions="End" />
                         </StackLayout>
                         
                     </StackLayout>                                       

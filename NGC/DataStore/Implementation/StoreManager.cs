@@ -66,6 +66,16 @@ namespace NGC.DataStore.Implementation
         ITagStore tagStore;
         public ITagStore TagStore => tagStore ?? (tagStore = FreshIOC.Container.Resolve<ITagStore>());
 
+        ICollectSourceStore collectSourceStore;
+        public ICollectSourceStore CollectSourceStore => collectSourceStore ?? (collectSourceStore = FreshIOC.Container.Resolve<ICollectSourceStore>());
+
+        ISalesTeamStore salesTeamStore;
+        public ISalesTeamStore SalesTeamStore => salesTeamStore ?? (salesTeamStore = FreshIOC.Container.Resolve<ISalesTeamStore>());
+
+        IUserSalesTeamStore userSalesTeamStore;
+        public IUserSalesTeamStore UserSalesTeamStore => userSalesTeamStore ?? (userSalesTeamStore = FreshIOC.Container.Resolve<IUserSalesTeamStore>());
+
+
 
         public async Task<bool> LoginAsync(string username, string password)
         {
@@ -290,6 +300,9 @@ namespace NGC.DataStore.Implementation
             await TagStore.DropTable();
             await CompanyStore.DropTable();
             await UserStore.DropTable();
+            await CollectSourceStore.DropTable();
+            await UserSalesTeamStore.DropTable();
+            await SalesTeamStore.DropTable();
             await NoteStore.DropTable();
             await CheckinStore.DropTable();
 
@@ -337,6 +350,9 @@ namespace NGC.DataStore.Implementation
                 store.DefineTable<Contact>();
                 store.DefineTable<Company>();
                 store.DefineTable<Checkin>();
+                store.DefineTable<CollectSource>();
+                store.DefineTable<SalesTeam>();
+                store.DefineTable<UserSalesTeam>();
                 store.DefineTable<Tag>();
                 store.DefineTable<Note>();
                 store.DefineTable<CheckinType>();
@@ -387,6 +403,9 @@ namespace NGC.DataStore.Implementation
             taskList.Add(CompanyStore.SyncAsync());
             taskList.Add(CheckinTypeStore.SyncAsync());
             taskList.Add(NoteStore.SyncAsync());
+            taskList.Add(CollectSourceStore.SyncAsync());
+            taskList.Add(UserSalesTeamStore.SyncAsync());
+            taskList.Add(SalesTeamStore.SyncAsync());
             taskList.Add(TagStore.SyncAsync());
             taskList.Add(CheckinStore.SyncAsync());
             taskList.Add(ContactSequenceStore.SyncAsync());     

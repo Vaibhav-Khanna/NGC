@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using NGC.Models.DataObjects;
 
 namespace NGC.DataModels
@@ -10,16 +11,23 @@ namespace NGC.DataModels
         public ContactModel(Contact contact)
         {
             Contact = contact;
-             
-            FirstName = contact.Firstname;
-            LastName = contact.Lastname;
-            Company = contact.CompanyName;
-            Rating = contact.Weight.ToString();
-            Email = contact.Email;
-            Mobile = contact.Mobile;
-            JobTitle = contact.JobTitle;
 
-            GetCheckinColor();
+            if (contact != null)
+            {
+                FirstName = contact.Firstname;
+                LastName = contact.Lastname;
+                Company = contact.CompanyName;
+                Rating = Convert.ToInt32(contact.Weight);
+                Email = contact.Email;
+                Mobile = contact.Mobile;
+                JobTitle = contact.JobTitle;
+                Qualification = contact.Qualification;
+                Tag = contact.Tags;
+                Source = contact.CollectSourceName;
+                ActiveCheckIn = contact.AllowCheckin;
+
+                GetCheckinColor();
+            }
 
             FilterColor = "#ec1414"; 
         }
@@ -57,13 +65,47 @@ namespace NGC.DataModels
 
         public string JobTitle { get; set; }
 
-        public string Rating { get; set; } 
+        public int Rating { get; set; } 
 
         public string Mobile { get; set; }
 
-        public string RatingColor { get; set; }
+        public string RatingColor { get; set; } = "#656565";
 
         public string FilterColor { get; set; }
+
+
+        public string Qualification { get; set; }
+
+        public string Tag { get; set; }
+
+        public string Source { get; set; }
+
+        public bool ActiveCheckIn { get; set; }
+
+
+        public void SaveToDataObject(string userId, string CompanyId,string salesTeamId)
+        {
+            if (string.IsNullOrEmpty(userId))
+                return;
+
+            if (Contact == null)
+                Contact = new Contact();
+
+            Contact.Firstname = FirstName;
+            Contact.Lastname = LastName;
+            Contact.Email = Email;
+            Contact.Weight = Rating;
+            Contact.CompanyId = CompanyId;
+            Contact.CompanyName = Company;
+            Contact.JobTitle = JobTitle;
+            Contact.Mobile = Mobile;
+            Contact.Qualification = Qualification;
+            Contact.Tags = Tag;
+            Contact.CollectSourceName = Source;
+            Contact.AllowCheckin = ActiveCheckIn;
+            Contact.UserId = userId;
+            Contact.SalesTeamId = salesTeamId;
+        }
 
     }
 }

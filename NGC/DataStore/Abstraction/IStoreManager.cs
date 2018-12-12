@@ -18,6 +18,9 @@ namespace NGC.DataStore.Abstraction
         ICheckinTypeStore CheckinTypeStore { get; }
         INoteStore NoteStore { get; }
         ITagStore TagStore { get; }
+        ICollectSourceStore CollectSourceStore { get; }
+        ISalesTeamStore SalesTeamStore { get; }
+        IUserSalesTeamStore UserSalesTeamStore { get; }
         ICompanyStore CompanyStore { get; }
         IOpportunityStore OpportunityStore { get; }
         IContactSequenceStore ContactSequenceStore { get; } 

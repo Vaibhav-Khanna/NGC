@@ -21,6 +21,5 @@ namespace NGC.DataModels
         public string Address { get; set; }
 
         public ObservableCollection<ContactModel> Contacts { get; set; }
-
     }
 }

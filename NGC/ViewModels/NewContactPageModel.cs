@@ -6,6 +6,7 @@ using System.Linq;
 using NGC.Resources;
 using static NGC.Models.DataObjects.OpenDataResponse;
 using NGC.Models.DataObjects;
+using NGC.DataModels;
 
 namespace NGC.ViewModels
 {
@@ -38,6 +39,7 @@ namespace NGC.ViewModels
 
         public object Model { get; set; }
 
+
         #endregion
 
 
@@ -53,8 +55,18 @@ namespace NGC.ViewModels
 
 
         public Command SaveCommand => new Command(async () =>
-        {
+        {          
+            if (Model != null)
+            {
+                var newContactModel = Model as ContactModel;
+
+                newContactModel.SaveToDataObject(null, null, null); 
+
+
+            }
+
             await CoreMethods.PopPageModel(null, true);
+
         });
 
 
@@ -63,6 +75,10 @@ namespace NGC.ViewModels
             ContactNumbers.Add("sdsd");
         });
 
+        public Command WeightCommand => new Command((obj) =>
+        {
+            (Model as ContactModel).Rating = Convert.ToInt32(obj as string);
+        });
 
         public Command SearchCompanyCommand => new Command(async () =>
         {
@@ -113,16 +129,39 @@ namespace NGC.ViewModels
                     {
                         if (IsSegmentVisible)
                         {
-
+                            // Creating a new Professional Contact
                         }
                         else
                         {
+                            // Creating a regular personal contact
+
+                            Model = new ContactModel(null);
+                        }
+                    }
+                    else
+                    {
+                        // Creating a new professional Company
+                    }
+                }
+                else
+                {
+                    if (IsContactTab)
+                    {
+                        if (IsSegmentVisible)
+                        {
+                            // modifying a Professional Contact
+                        }
+                        else
+                        {
+                            // modifying a regular personal contact
+
+                            Model = ((Tuple<bool, bool, object>)initData).Item3;
 
                         }
                     }
                     else
                     {
-                       
+                        // modifying a professional Company
                     }
                 }
 
@@ -148,7 +187,7 @@ namespace NGC.ViewModels
         {
             Tags = new ObservableCollection<Tag>();
 
-            Qualifications = new ObservableCollection<string>() { "Lead", "Prospect", "Client", "Autres" };
+            Qualifications = new ObservableCollection<string>(Constants.StaticQualifications);
 
             var tags = await StoreManager.TagStore.GetItemsAsync();
 
