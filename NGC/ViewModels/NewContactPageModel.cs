@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NGC.Resources;
 using static NGC.Models.DataObjects.OpenDataResponse;
+using NGC.Models.DataObjects;
 
 namespace NGC.ViewModels
 {
@@ -16,6 +17,14 @@ namespace NGC.ViewModels
         public ObservableCollection<string> CompanyDetails { get; set; } = new ObservableCollection<string>();
 
         public ObservableCollection<string> ContactNumbers { get; set; } = new ObservableCollection<string>(){ "sdsd" };
+
+        public ObservableCollection<Tag> Tags { get; set; }
+
+        public ObservableCollection<string> Qualifications { get; set; }
+
+        public string SelectedQualification { get; set; }
+                   
+        public Tag SelectedTag { get; set; }
 
         public bool IsSegmentVisible { get; set; }
      
@@ -137,10 +146,14 @@ namespace NGC.ViewModels
 
         async void GetAdditionalData()
         {
-           var tags = await StoreManager.TagStore.GetItemsAsync();
-          
+            Tags = new ObservableCollection<Tag>();
 
+            Qualifications = new ObservableCollection<string>() { "Lead", "Prospect", "Client", "Autres" };
 
+            var tags = await StoreManager.TagStore.GetItemsAsync();
+
+            if (tags != null && tags.Any())
+                Tags = new ObservableCollection<Tag>(tags);
         }
 
 

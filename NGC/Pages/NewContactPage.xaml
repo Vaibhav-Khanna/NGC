@@ -54,16 +54,17 @@
                     
                         <StackLayout Orientation="Horizontal">
                     
+                            
                          <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedQualification,Mode=TwoWay}" ItemsSource="{Binding Qualifications}" ItemDisplayBinding="{Binding .}" Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
                         
                         <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedTag,Mode=TwoWay}" ItemsSource="{Binding Tags}" ItemDisplayBinding="{Binding Name}" Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
