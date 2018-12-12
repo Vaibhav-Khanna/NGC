@@ -352,5 +352,107 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("PostalCode", resourceCulture);
             }
         }
+        
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        internal static string ErrorLogin {
+            get {
+                return ResourceManager.GetString("ErrorLogin", resourceCulture);
+            }
+        }
+        
+        internal static string Ok {
+            get {
+                return ResourceManager.GetString("Ok", resourceCulture);
+            }
+        }
+        
+        internal static string LoginCredentialsEmpty {
+            get {
+                return ResourceManager.GetString("LoginCredentialsEmpty", resourceCulture);
+            }
+        }
+        
+        internal static string PasswordSent {
+            get {
+                return ResourceManager.GetString("PasswordSent", resourceCulture);
+            }
+        }
+        
+        internal static string Alert {
+            get {
+                return ResourceManager.GetString("Alert", resourceCulture);
+            }
+        }
+        
+        internal static string Details {
+            get {
+                return ResourceManager.GetString("Details", resourceCulture);
+            }
+        }
+        
+        internal static string Siret {
+            get {
+                return ResourceManager.GetString("Siret", resourceCulture);
+            }
+        }
+        
+        internal static string StatutJuridique {
+            get {
+                return ResourceManager.GetString("StatutJuridique", resourceCulture);
+            }
+        }
+        
+        internal static string APE {
+            get {
+                return ResourceManager.GetString("APE", resourceCulture);
+            }
+        }
+        
+        internal static string APELabel {
+            get {
+                return ResourceManager.GetString("APELabel", resourceCulture);
+            }
+        }
+        
+        internal static string APEClass {
+            get {
+                return ResourceManager.GetString("APEClass", resourceCulture);
+            }
+        }
+        
+        internal static string Effectifs {
+            get {
+                return ResourceManager.GetString("Effectifs", resourceCulture);
+            }
+        }
+        
+        internal static string LocationNotFound {
+            get {
+                return ResourceManager.GetString("LocationNotFound", resourceCulture);
+            }
+        }
+        
+        internal static string SearchCompany {
+            get {
+                return ResourceManager.GetString("SearchCompany", resourceCulture);
+            }
+        }
+        
+        internal static string ResultsOpenData {
+            get {
+                return ResourceManager.GetString("ResultsOpenData", resourceCulture);
+            }
+        }
+        
+        internal static string NotAvailable {
+            get {
+                return ResourceManager.GetString("NotAvailable", resourceCulture);
+            }
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace NGC.Pages
         {
             base.OnAppearing();
 
-            lblogout.HorizontalOptions = LayoutOptions.Center;
+            lblogout.HorizontalOptions = LayoutOptions.FillAndExpand;
             lblogout.HorizontalTextAlignment = TextAlignment.Center;
         }
     }

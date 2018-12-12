@@ -5,6 +5,8 @@
     x:Class="NGC.Pages.ContactListDetailPage"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
+    xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
+    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
     xmlns:templates="clr-namespace:NGC.Helpers.Template;assembly=NGC"
     xmlns:controls="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton" 
     Title="{resources:Translate Person}">
@@ -15,8 +17,9 @@
             <templates:ActionsCellTemplate x:Key="actionTemplate" />
             <templates:OpportunitiesTemplate x:Key="OpportunitiesTemplate" />
             <templates:ActivityTemplate x:Key="ActivityTemplate" />
+            <templates:EmptyCellTemplate x:Key="EmptyTemplate" />
             
-            <templates:PersonDetailTemplateSelector x:Key="templateSelector" ActionTemplate="{StaticResource actionTemplate}" OpportunitiesTemplate="{StaticResource OpportunitiesTemplate}" ActivityTemplate="{StaticResource ActivityTemplate}"  />
+            <templates:PersonDetailTemplateSelector x:Key="templateSelector" EmptyTemplate="{StaticResource EmptyTemplate}" ActionTemplate="{StaticResource actionTemplate}" OpportunitiesTemplate="{StaticResource OpportunitiesTemplate}" ActivityTemplate="{StaticResource ActivityTemplate}"  />
         
         </ResourceDictionary>          
     </base:BasePage.Resources>
@@ -26,14 +29,14 @@
     </base:BasePage.ToolbarItems>
     
     <base:BasePage.Content>
-      <Grid VerticalOptions="FillAndExpand"> 
+        <StackLayout Orientation="Vertical">
              
-            <ListView SelectionMode="None" BackgroundColor="Transparent" HasUnevenRows="true" ItemTemplate="{StaticResource templateSelector}" ItemsSource="{Binding DetailSource}" IsGroupingEnabled="true" SeparatorVisibility="Default" CachingStrategy="RecycleElement" >
+      <Grid IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" VerticalOptions="FillAndExpand"> 
+             
+            <ListView  SelectionMode="None" BackgroundColor="Transparent" HasUnevenRows="true" ItemTemplate="{StaticResource templateSelector}" ItemsSource="{Binding DetailSource}" IsGroupingEnabled="true" SeparatorVisibility="Default" CachingStrategy="RecycleElement" >
                     
                <ListView.Header>
-                    
                 
-        
             <!-- Container-->
             <StackLayout BackgroundColor="#f9f9f9" Orientation="Vertical" Spacing="0"> 
             
@@ -47,33 +50,31 @@
                     </Grid.RowDefinitions> 
                     
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Grid.Row="0" Spacing="7" >
-                        <Label Text="Milton Aaron" FontSize="20" FontFamily="SFUIDisplay-Semibold" FontAttributes="Bold" TextColor="#4a4a4a" HorizontalOptions="Start" LineBreakMode="TailTruncation" />           
-                        <Button Text="3" Padding="0" TextColor="White" FontFamily="SFUIText-Bold" FontAttributes="Bold" FontSize="12" HeightRequest="24" WidthRequest="24" BorderRadius="12" BackgroundColor="Red" />
+                        <Label Text="{Binding Contact.Name}" FontSize="20" FontFamily="SFUIDisplay-Semibold" FontAttributes="Bold" TextColor="#4a4a4a" HorizontalOptions="Start" LineBreakMode="TailTruncation" />           
+                        <Button Text="{Binding Contact.Rating}" Padding="0" TextColor="White" FontFamily="SFUIText-Bold" FontAttributes="Bold" FontSize="12" HeightRequest="24" WidthRequest="24" BorderRadius="12" BackgroundColor="{Binding Contact.RatingColor}" />
                     </StackLayout>
                     
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Grid.Row="1" Spacing="7" >
-                        <Label Text="Softech |" FontSize="14" FontFamily="SFUIDisplay-Regular" TextColor="#656565" HorizontalOptions="Start" LineBreakMode="TailTruncation" VerticalOptions="Center" />           
-                        <Button Text="Lead" VerticalOptions="Center" HorizontalOptions="Start" Padding="0,0,0,0" TextColor="White" FontFamily="SFUIDisplay-Regular" FontSize="12" HeightRequest="17" BorderRadius="2" BackgroundColor="#008489" />
-                        <Switch IsToggled="true" OnColor="{StaticResource Primary}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
+                        <Label Text="{Binding Contact.Company}" IsVisible="{Binding Contact.Company,Converter={converter:StringToBoolConverter}}" FontSize="14" FontFamily="SFUIDisplay-Regular" TextColor="#656565" HorizontalOptions="Start" LineBreakMode="TailTruncation" VerticalOptions="Center" />  
+                        <Label Text=" |" IsVisible="{Binding Contact.Company,Converter={converter:StringToBoolConverter}}" FontSize="14" FontFamily="SFUIDisplay-Regular" TextColor="#656565" HorizontalOptions="Start" LineBreakMode="TailTruncation" VerticalOptions="Center" />           
+                        <Button Text="{Binding Contact.Contact.JobTitle}" IsVisible="{Binding Contact.Contact.JobTitle,Converter={converter:StringToBoolConverter}}" VerticalOptions="Center" HorizontalOptions="Start" Padding="8,0,8,0" TextColor="White" FontFamily="SFUIDisplay-Regular" FontSize="12" HeightRequest="17" BorderRadius="2" BackgroundColor="#008489" />
+                        <Switch IsToggled="true"  OnColor="{StaticResource Primary}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
                     </StackLayout>
                     
                        
                         <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Grid.Row="2" Spacing="7" >
-                            <Label Text="gerald.cannon@softech.com" TextDecorations="Underline" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" />
+                            <Label Text="{Binding Contact.Email}" TextDecorations="Underline" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" />
                         </StackLayout>
                         
                         <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Grid.Row="3" Spacing="7" >
-                            <Label Text="07 34 88 21 99" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" />
+                            <Label Text="{Binding Contact.Mobile}" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" />
                         </StackLayout>
 
                 </Grid>
                 
                 <BoxView HeightRequest="0.5" Color="#d9d9d9" HorizontalOptions="FillAndExpand"/>
-                
-                
-                
-            </StackLayout>     
-        
+                               
+            </StackLayout>       
                   
                 </ListView.Header>
                 
@@ -91,15 +92,25 @@
                     </DataTemplate>
                 </ListView.GroupHeaderTemplate>
                 
+                    
+                    <ListView.Footer>
+                        <BoxView HeightRequest="2" Color="Transparent" />
+                    </ListView.Footer>
+                    
             </ListView> 
             
             
-            
+           
             
       <controls:FloatingActionButton x:Name="btAdd" Command="{Binding AddCommand}" IsVisible="{OnPlatform iOS=true,Android=false,Default=true}" Scale="1.2" ButtonColor="{StaticResource BottomTabTextTint}" VerticalOptions="End" Margin="25" HorizontalOptions="CenterAndExpand" Image="plus.png" />
                 
             
       </Grid>
+            
+             <control:Loader />
+        
+    </StackLayout>
+        
     </base:BasePage.Content>
     
 </base:BasePage>

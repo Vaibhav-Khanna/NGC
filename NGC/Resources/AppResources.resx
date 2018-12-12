@@ -231,7 +231,66 @@
         <value>Code postal</value>
     </data> 
     
+    <data name="Error" xml:space="preserve">
+        <value>Erreur</value>
+    </data> 
+    <data name="ErrorLogin" xml:space="preserve">
+        <value>Un problème est survenu lors de la connexion. Veuillez vérifier vos informations d'identification. Assurez-vous d'avoir une connexion Internet active.</value>
+    </data> 
+    <data name="Ok" xml:space="preserve">
+        <value>Ok</value>
+    </data> 
+    <data name="LoginCredentialsEmpty" xml:space="preserve">
+        <value>Veuillez entrer des informations d'identification valides pour continuer.</value>
+    </data> 
+    <data name="PasswordSent" xml:space="preserve">
+        <value>Un email avec un lien pour réinitialiser le mot de passe a été envoyé à l'identifiant de mail fourni.</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
+      <data name="Details" xml:space="preserve">
+        <value>Détails</value>
+    </data> 
     
-    
+     <data name="Siret" xml:space="preserve">
+        <value>Siret : </value>
+    </data> 
+     <data name="StatutJuridique" xml:space="preserve">
+        <value>Statut juridique : </value>
+    </data> 
+     <data name="APE" xml:space="preserve">
+        <value>APE : </value>
+    </data> 
+     <data name="APELabel" xml:space="preserve">
+        <value>APE libbelé : </value>
+    </data> 
+     <data name="APEClass" xml:space="preserve">
+        <value>APE sous-classe : </value>
+    </data> 
+     <data name="Effectifs" xml:space="preserve">
+        <value>Effectifs : </value>
+    </data> 
+     <data name="LocationNotFound" xml:space="preserve">
+        <value>The address cannot be located on the map.</value>
+    </data> 
+     <data name="SearchCompany" xml:space="preserve">
+        <value>Rechercher une société</value>
+    </data> 
+     <data name="ResultsOpenData" xml:space="preserve">
+        <value>résultat trouvé dans open data</value>
+    </data> 
+     <data name="NotAvailable" xml:space="preserve">
+        <value>Non Disponible</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
+     <data name="Alert" xml:space="preserve">
+        <value>Alerte</value>
+    </data> 
     
 </root>

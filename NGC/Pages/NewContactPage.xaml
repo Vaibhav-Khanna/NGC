@@ -9,7 +9,7 @@
     xmlns:repeater="clr-namespace:Xamarin.CustomControls;assembly=Xamarin.CustomControls.RepeaterView"
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     x:Class="NGC.Pages.NewContactPage"
-    Title="Nouveau contact"
+    Title="{Binding Title}"
     BackgroundColor="#f9f9f9">
     
     <base:BasePage.ToolbarItems>
@@ -20,10 +20,10 @@
     <base:BasePage.Content>
         <ScrollView Orientation="Vertical">
              
-        <StackLayout Orientation="Vertical" Spacing="0">
+        <StackLayout Orientation="Vertical" Padding="0,13,0,0"  Spacing="0">
             
             <!-- SegmentedControl-->
-            <controls:SegmentedControl x:Name="SegControl" HorizontalOptions="Center" IsVisible="{Binding IsProfessional}" ValueChanged="Handle_ValueChanged" WidthRequest="180" Margin="0,13,0,0" TintColor="{StaticResource Primary}" SelectedTextColor="White" SelectedSegment="0"> 
+            <controls:SegmentedControl x:Name="SegControl" HorizontalOptions="Center" IsVisible="{Binding IsSegmentVisible}" ValueChanged="Handle_ValueChanged" WidthRequest="180" Margin="0,0,0,0" TintColor="{StaticResource Primary}" SelectedTextColor="White" SelectedSegment="0" > 
                 <controls:SegmentedControl.Children> 
                     <controls:SegmentedControlOption Text="{resources:Translate Contact}" /> 
                     <controls:SegmentedControlOption Text="{resources:Translate Company}" /> 
@@ -54,16 +54,17 @@
                     
                         <StackLayout Orientation="Horizontal">
                     
+                            
                          <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedQualification,Mode=TwoWay}" ItemsSource="{Binding Qualifications}" ItemDisplayBinding="{Binding .}" Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
                         
                         <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedTag,Mode=TwoWay}" ItemsSource="{Binding Tags}" ItemDisplayBinding="{Binding Name}" Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
@@ -148,12 +149,15 @@
                     <StackLayout Grid.Row="0" BackgroundColor="Transparent" Orientation="Vertical" IsVisible="{Binding IsContactTab,Converter={converter:BoolInverseConverter}" >
                    
                       
-                         <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="{resources:Translate Company}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
-                                    <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
-                            </StackLayout>
-                        </Frame>
+                         <Frame  HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
+                           
+                            <customControl:BorderlessEntry InputTransparent="true" IsEnabled="false"  Placeholder="{resources:Translate SearchCompany}" Text="{Binding CompanyLabel}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                                    
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding SearchCompanyCommand}"/>
+                            </Frame.GestureRecognizers>
+                            
+                         </Frame>
                         
                         
                          <repeater:RepeaterView  Spacing="7"  EmptyText="" ShowSeparator="false" ItemsSource="{Binding CompanyDetails}">

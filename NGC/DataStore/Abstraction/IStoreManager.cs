@@ -1,19 +1,36 @@
-﻿using System;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using NGC.DataStore.Abstraction.Stores;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace NGC.DataStore.Abstraction
 {
     public interface IStoreManager
     {
-        Task<object> LoginAsync(string email, string password);
+        bool IsInitialized { get; }
+        Task InitializeAsync();
 
-        void LogoutAsync();
       
-        Task<object> RegisterAsync(string email, string password,string deviceLanguage);
+        IContactCustomFieldSourceEntryStore ContactCustomFieldSourceEntryStore { get; }
+        IContactCustomFieldSourceStore ContactCustomFieldSourceStore { get; }
+        IContactCustomFieldStore ContactCustomFieldStore { get; }
+        IContactStore ContactStore { get; }
+        ICheckinStore CheckinStore { get; }
+        ICheckinTypeStore CheckinTypeStore { get; }
+        INoteStore NoteStore { get; }
+        ITagStore TagStore { get; }
+        ICompanyStore CompanyStore { get; }
+        IOpportunityStore OpportunityStore { get; }
+        IContactSequenceStore ContactSequenceStore { get; } 
+        IUserStore UserStore { get; }
 
-        Task<bool> RequestNewPassword(string username,string password);
-       
-        Task<bool> RegenerateToken();
+        Task<bool> SyncAllAsync(bool syncUserSpecific);
+        Task DropEverythingAsync();
+
+      
+        Task<bool> LoginAsync(string username, string password);
+        Task<bool> ForgotPasswordAsync(string email);
+        Task VerifyTokenAsync();
+
+        Task<bool> LogoutAsync();
     }
 }

@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json;
 
 namespace NGC.DataStore.Implementation
 {
@@ -25,6 +25,7 @@ namespace NGC.DataStore.Implementation
         }
 
 
+
         public static DateTime? GetTokenExpiration(string token)
         {
             IDictionary<string, string> claims = GetClaims(token);
@@ -38,6 +39,7 @@ namespace NGC.DataStore.Implementation
 
             return null;
         }
+
 
 
         private static string GetDecodedPayload(string tokenPayload)
@@ -63,4 +65,3 @@ namespace NGC.DataStore.Implementation
 
     }
 }
-

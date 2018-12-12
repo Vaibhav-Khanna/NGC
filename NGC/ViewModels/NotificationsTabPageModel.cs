@@ -18,6 +18,23 @@ namespace NGC.ViewModels
         {
             base.Init(initData);
 
+           
+        }
+
+        protected override void ViewIsAppearing(object sender, EventArgs e)
+        {
+            base.ViewIsAppearing(sender, e);
+
+            GetData();
+        }
+
+
+        async void GetData()
+        {
+            IsLoading = true;
+
+            await Task.Delay(3000);
+
             Notifications = new ObservableCollection<ObservableGroupCollection<BaseDataObject>>();
 
             //Mock Data
@@ -44,8 +61,9 @@ namespace NGC.ViewModels
             Notifications.Add(b);
             Notifications.Add(c);
             Notifications.Add(d);
-        }
 
+            IsLoading = false;
+        }
 
     }
 }

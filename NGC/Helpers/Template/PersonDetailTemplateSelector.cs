@@ -9,6 +9,7 @@ namespace NGC.Helpers.Template
         public DataTemplate ActionTemplate { get; set; }
         public DataTemplate OpportunitiesTemplate { get; set; }
         public DataTemplate ActivityTemplate { get; set; }
+        public DataTemplate EmptyTemplate { get; set; }
 
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
@@ -20,7 +21,9 @@ namespace NGC.Helpers.Template
                     return ActivityTemplate;
                 case ContactDetailCellModelType.Opportunity:
                     return OpportunitiesTemplate;
-                default: return ActionTemplate;
+                case ContactDetailCellModelType.Empty:
+                    return EmptyTemplate;
+                default: return EmptyTemplate;
             }
         }
     }

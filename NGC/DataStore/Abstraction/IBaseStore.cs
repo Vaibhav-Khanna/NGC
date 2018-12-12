@@ -1,19 +1,24 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace NGC.DataStore.Abstraction
 {
-	public interface IBaseStore<T> where T : IBaseDataObject
+    public interface IBaseStore<T>
     {
-		Task<IEnumerable<T>> GetItemsAsync();
+        Task InitializeStore();
+        
+        Task<T> GetItemAsync(string id);
+        Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false, bool AllItems = false);
+        Task<IEnumerable<T>> GetNextItemsAsync(int currentitemCount);
+        Task<bool> InsertAsync(T item);
+        Task<bool> UpdateAsync(T item);
+        Task<bool> RemoveAsync(T item);
+        Task<bool> SyncAsync();
 
-		Task<T> GetItemAsync(string id);
+        Task DropTable();
 
-		Task<T> InsertAsync(T item);
+        string Identifier { get; }
 
-		Task<T> UpdateAsync(T item);
-
-		Task<bool> RemoveAsync(T item); 
     }
+
 }

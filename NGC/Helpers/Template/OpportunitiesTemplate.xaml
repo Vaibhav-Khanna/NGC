@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataTemplate xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NGC.Helpers.Template.OpportunitiesTemplate">
+<DataTemplate xmlns="http://xamarin.com/schemas/2014/forms" 
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
+              x:Class="NGC.Helpers.Template.OpportunitiesTemplate">
     
          <ViewCell>
             
@@ -10,18 +13,18 @@
                 </Grid.RowDefinitions>
                 
                 <StackLayout Spacing="0" Grid.Row="0" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Label Text="Signature contrat" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
+                    <Label Text="{Binding Model.Subject}" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
                     <Label Text=" | " FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
-                    <Label Text="Joris Nuro" FontFamily="SFUIDisplay-Light" FontSize="16" FontAttributes="None" TextColor="#4A4A4A" />
+                    <Label Text="{Binding Model.UserName}" FontFamily="SFUIDisplay-Light" FontSize="16" FontAttributes="None" TextColor="#4A4A4A" />
                 </StackLayout>
                 
             <StackLayout Spacing="10" Grid.Row="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                 
                 <Frame Padding="5,0,5,0" VerticalOptions="Start" HorizontalOptions="Start" HasShadow="false" HeightRequest="20" BackgroundColor="{Binding TagColor}" CornerRadius="2">
-                   <Label Text="Saturday 21 August" VerticalTextAlignment="Center" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#FFFFFF" />
+                   <Label Text="{Binding Model.DatabaseInsertAt,Converter={converter:DateToStringConverter}}" VerticalTextAlignment="Center" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#FFFFFF" />
                 </Frame>
                 
-                <Label Text="10.000 €" FontFamily="SFUIDisplay-Regular" FontSize="12" VerticalOptions="Center" FontAttributes="None" TextColor="#9B9B9B" />
+                <Label Text="{Binding Model.Amount, StringFormat='{0} €'}" FontFamily="SFUIDisplay-Regular" FontSize="12" VerticalOptions="Center" FontAttributes="None" TextColor="#9B9B9B" />
                 
             </StackLayout>
                 
