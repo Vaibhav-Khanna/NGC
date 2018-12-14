@@ -1,5 +1,5 @@
 ﻿using System;
-using NGC.Models;
+using NGC.Models.DataObjects;
 using Xamarin.Forms;
 
 
@@ -21,11 +21,31 @@ namespace NGC.ViewModels
 
         private Contact contact;
 
-        public Command SaveCommand => new Command(() =>
+        public Command SaveCommand => new Command(async() =>
         {
-            if (!string.IsNullOrWhiteSpace(Note) && Date!= DateTime.Now.Date && contact != null)
+            if (!string.IsNullOrWhiteSpace(Note) && Date != DateTime.Now.Date && contact != null)
             {
+                ToastService.ShowLoading();
 
+                var note = new Note()
+                {
+                    Subject = Note,
+                    Content = Note,
+                    ReminderAt = Date,
+                    ContactId = contact.Id,
+                    ContentHasRgpdData = IsToggled,
+                    Kind = "note"
+                };
+
+                await StoreManager.NoteStore.InsertAsync(note);
+
+                ToastService.HideLoading();
+
+                await CoreMethods.PopPageModel(true, true);
+            }
+            else
+            {
+            // warning 
             }
         });
 
@@ -39,6 +59,15 @@ namespace NGC.ViewModels
         public Command ContactCommand => new Command(async() =>
         {
            var result = await ToastService.ShowSearchContact();
+
+            if (result == null)
+                ContactNumber = "Contact associé";
+            else
+            {
+                ContactNumber = result.Name;
+                contact = result;
+            }
+
         });
 
     }

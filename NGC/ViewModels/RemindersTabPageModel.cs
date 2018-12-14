@@ -108,8 +108,7 @@ namespace NGC.ViewModels
             if (Filters != null)
                 IsFilterActive = Filters.Any((arg) => arg.IsSelected);
 
-            if (Reminders == null)
-                GetData();
+            GetData();
         }
 
     }
