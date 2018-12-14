@@ -283,8 +283,8 @@
      <data name="NotAvailable" xml:space="preserve">
         <value>Non Disponible</value>
     </data> 
-     <data name="Alert" xml:space="preserve">
-        <value>Alerte</value>
+     <data name="At" xml:space="preserve">
+        <value>à</value>
     </data> 
      <data name="Alert" xml:space="preserve">
         <value>Alerte</value>

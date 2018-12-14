@@ -1,5 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace NGC.Models.DataObjects
 {
@@ -87,6 +88,23 @@ namespace NGC.Models.DataObjects
         public string Effectif { get; set; }
 
         [JsonIgnore]
-        public string Address { get {  string s = $"{Street1} {Street2} {City} {State} {Country} {ZipCode}"; return string.IsNullOrWhiteSpace(s) ? "N.A" : s; } }
+        public string Address
+        {
+            get
+            {
+                string s = $"{Street1} {Street2} {City} {State} {Country} {ZipCode}";
+                return string.IsNullOrWhiteSpace(s) ? "N.A" : s;
+            }
+            set
+            {
+                var char_sets = value?.Trim().Split(',');
+
+                if (char_sets!=null && char_sets.Any())
+                {
+
+                }
+            }
+        }
+
     }
 }

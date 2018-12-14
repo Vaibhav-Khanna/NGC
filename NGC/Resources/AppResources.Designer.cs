@@ -454,5 +454,11 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("NotAvailable", resourceCulture);
             }
         }
+        
+        internal static string At {
+            get {
+                return ResourceManager.GetString("At", resourceCulture);
+            }
+        }
     }
 }

@@ -27,6 +27,11 @@
                     <Label Text="{Binding ContactNumber}" TextColor="#9b9b9b" FontSize="14" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
                     <Image HeightRequest="17" WidthRequest="18" Source="addcontact.png" />
                 </StackLayout>
+                
+                <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ContactCommand}" />
+                </Frame.GestureRecognizers>
+                
             </Frame>
             
             <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" Margin="20,0,20,12" >

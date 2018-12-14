@@ -5,10 +5,9 @@ using System.Collections.Generic;
 
 namespace NGC.DataStore.Abstraction.Stores
 {
-    public interface INoteStore : IBaseStore<Note>
+    public interface INotificationStore : IBaseStore<Notification>
     {
-        Task<IEnumerable<Note>> GetRemindersByContactId(string id);
 
-        Task<IEnumerable<Note>> GetAllReminders();
+        Task<IEnumerable<Notification>> GetNotificationsByUserId(string id);
     }
 }

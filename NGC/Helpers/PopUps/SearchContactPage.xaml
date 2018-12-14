@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+     xmlns:base="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    x:Class="NGC.Helpers.PopUps.SearchContactPage"
+    xmlns:resources="clr-namespace:NGC"
+    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
+    xmlns:customControl="clr-namespace:NGC.Controls;assembly=NGC"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    HasSystemPadding="true" InputTransparent="false"
+    CloseWhenBackgroundIsClicked="true">
+     <base:PopupPage.Animation>
+     <animations:ScaleAnimation 
+      PositionIn="Bottom"
+      PositionOut="Bottom"
+      ScaleIn="1"
+      ScaleOut="1"
+      DurationIn="200"
+      DurationOut="200"
+      EasingIn="SinInOut"
+      EasingOut="SinInOut"
+      HasBackgroundAnimation="true"/>
+    </base:PopupPage.Animation>
+    <base:PopupPage.Content>
+        <StackLayout  VerticalOptions="FillAndExpand" Spacing="0" Margin="0,150,0,0" Orientation="Vertical" BackgroundColor="White" Opacity="0.9" >
+           
+            <Frame HeightRequest="50" Padding="10,2,10,2" Margin="15,15,15,10" BorderColor="#d9d9d9" HasShadow="false" >    
+                <customControl:BorderlessEntry x:Name="entry" Text="{Binding SearchText,Mode=TwoWay}" Placeholder="{resources:Translate SearchCompany}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+            </Frame>
+            
+            <ListView x:Name="list" RowHeight="45" ItemTapped="Handle_ItemTapped" ItemsSource="{Binding ItemSource}" VerticalOptions="StartAndExpand" SeparatorColor="#c8c7cc" >
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding fields.nomen_long}" TextColor="Black" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+                <ListView.Footer>
+                    <BoxView Color="Transparent" HeightRequest="2" />
+                </ListView.Footer>
+                
+                <ListView.Header>
+                    <StackLayout IsVisible="{Binding IsHeaderVisible}">
+                        
+                        <Label IsVisible="{Binding IsResultAvailable}" Margin="15" Text="{Binding CountText}" FontFamily="SFUIDisplay-Medium" FontSize="14" FontAttributes="None" TextColor="#FF4A4A4A" />
+                        
+                        <StackLayout Padding="20,30,20,10" IsVisible="{Binding IsResultAvailable,Converter={converter:BoolInverseConverter}}" Spacing="38">
+                            <Label  Text="Votre recherche n’a donné aucun résultat" FontFamily="SFUIDisplay-Medium" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" FontSize="14" FontAttributes="None" TextColor="#FF4A4A4A" />
+                            
+                            <Button Clicked="Handle_Clicked" HorizontalOptions="Center" Text="Ajouter manuellement cette société" CornerRadius="5" BackgroundColor="#ff6565" TextColor="White" FontSize="15" FontFamily="SFUIText-Regular" HeightRequest="38" Padding="5,0,5,0" />
+                        </StackLayout>
+                        
+                    </StackLayout>
+                </ListView.Header>
+            </ListView>
+            
+        </StackLayout>
+    </base:PopupPage.Content>
+</base:PopupPage>

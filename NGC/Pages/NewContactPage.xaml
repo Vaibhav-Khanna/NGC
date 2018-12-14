@@ -168,7 +168,7 @@
                                     <ViewCell>
                                         
                                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                                            <customControl:BorderlessEntry Placeholder="{Binding .}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  /> 
+                                            <customControl:BorderlessEntry Text="{Binding Text}" Placeholder="{Binding Placeholder}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  /> 
                                         </Frame>
                                         
                                     </ViewCell>

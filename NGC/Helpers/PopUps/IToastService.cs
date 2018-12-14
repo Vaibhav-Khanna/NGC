@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using NGC.Models.DataObjects;
 
 namespace NGC.Helpers.PopUps
 {
@@ -13,5 +14,7 @@ namespace NGC.Helpers.PopUps
         void HideLoading();
 
         Task<object> ShowSearchCompany();
+
+        Task<Contact> ShowSearchContact();
     }
 }

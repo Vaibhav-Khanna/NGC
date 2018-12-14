@@ -9,6 +9,9 @@ namespace NGC.DataStore.Abstraction.Stores
 {
     public interface IContactStore : IBaseStore<Contact>
     {
+
+        Task<IEnumerable<Contact>> SearchCompany(string query);
+
         // Task<IEnumerable<Contact>> GetItemsByFilterAsync(string Filter, string SortName, bool SortValue, bool forceRefresh = false);
 
         //Task<IEnumerable<Contact>> GetItemsFilterAsync(string Filter = null, bool forceRefresh = false);

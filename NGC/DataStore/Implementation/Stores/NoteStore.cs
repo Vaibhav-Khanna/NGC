@@ -10,6 +10,24 @@ namespace NGC.DataStore.Implementation.Stores
     {
         public override string Identifier => "Note";
 
+        public async Task<IEnumerable<Note>> GetAllReminders()
+        {
+            try
+            {
+                await InitializeStore().ConfigureAwait(false);
+
+                await PullLatestAsync().ConfigureAwait(false);
+
+                return await Table.Where(arg => arg.Kind == "note" && arg.ReminderAt != null).IncludeTotalCount().ToEnumerableAsync().ConfigureAwait(false);
+            }
+            catch (Exception)
+            {
+
+            }
+
+            return null;
+        }
+
         public async Task<IEnumerable<Note>> GetRemindersByContactId(string id)
         {
             try

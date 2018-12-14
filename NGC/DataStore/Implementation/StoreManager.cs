@@ -75,7 +75,8 @@ namespace NGC.DataStore.Implementation
         IUserSalesTeamStore userSalesTeamStore;
         public IUserSalesTeamStore UserSalesTeamStore => userSalesTeamStore ?? (userSalesTeamStore = FreshIOC.Container.Resolve<IUserSalesTeamStore>());
 
-
+        INotificationStore notificationStore;
+        public INotificationStore NotificationStore => notificationStore ?? (notificationStore = FreshIOC.Container.Resolve<INotificationStore>());
 
         public async Task<bool> LoginAsync(string username, string password)
         {
@@ -108,6 +109,8 @@ namespace NGC.DataStore.Implementation
                     MobileServiceUser user = new MobileServiceUser(User.UserId) { MobileServiceAuthenticationToken = User.Token };
 
                     MobileService.CurrentUser = user;
+
+                   
 
                     CacheToken(user, User);
 
@@ -251,9 +254,9 @@ namespace NGC.DataStore.Implementation
             {
                 await MobileService.LogoutAsync();
 
-                //Settings.AuthToken = string.Empty;
-                //Settings.UserId = string.Empty;
-                //Settings.Role = string.Empty;
+                Settings.AuthToken = string.Empty;
+                Settings.UserId = string.Empty;
+                Settings.Role = string.Empty;
 
                 success = true;
             }
@@ -299,6 +302,7 @@ namespace NGC.DataStore.Implementation
             await ContactSequenceStore.DropTable();
             await TagStore.DropTable();
             await CompanyStore.DropTable();
+            await NotificationStore.DropTable();
             await UserStore.DropTable();
             await CollectSourceStore.DropTable();
             await UserSalesTeamStore.DropTable();
@@ -354,6 +358,7 @@ namespace NGC.DataStore.Implementation
                 store.DefineTable<SalesTeam>();
                 store.DefineTable<UserSalesTeam>();
                 store.DefineTable<Tag>();
+                store.DefineTable<Notification>();
                 store.DefineTable<Note>();
                 store.DefineTable<CheckinType>();
                 store.DefineTable<Opportunity>();
@@ -403,6 +408,7 @@ namespace NGC.DataStore.Implementation
             taskList.Add(CompanyStore.SyncAsync());
             taskList.Add(CheckinTypeStore.SyncAsync());
             taskList.Add(NoteStore.SyncAsync());
+            taskList.Add(NotificationStore.SyncAsync());
             taskList.Add(CollectSourceStore.SyncAsync());
             taskList.Add(UserSalesTeamStore.SyncAsync());
             taskList.Add(SalesTeamStore.SyncAsync());

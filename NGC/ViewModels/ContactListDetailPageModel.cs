@@ -67,7 +67,7 @@ namespace NGC.ViewModels
 
         public override void ReverseInit(object returnedData)
         {
-            base.ReverseInit(returnedData);
+            base.ReverseInit(returnedData);   
 
 
         }
@@ -87,8 +87,8 @@ namespace NGC.ViewModels
             DetailSource = new ObservableCollection<ObservableGroupCollection<ContactDetailCellModel>>();
 
             var actions = new ObservableGroupCollection<ContactDetailCellModel>() { Key = "Actions à venir" };
-         
-             if (notes != null && notes.Any())
+
+            if (notes != null && notes.Any())
                 foreach (var item in notes)
                 {
                     actions.Add(new ContactDetailCellModel(ContactDetailCellModelType.Activity, item) { CellModelType = ContactDetailCellModelType.Activity });

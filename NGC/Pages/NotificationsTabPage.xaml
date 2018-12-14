@@ -25,15 +25,15 @@
                                     <RowDefinition Height="16"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="65" />
+                                    <ColumnDefinition Width="85" />
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
                                 
-                                <Button Text="A répondu" Padding="0" BackgroundColor="#0dab15" BorderRadius="3" BorderWidth="0" FontSize="11" FontFamily="Roboto-Bold" TextColor="White" HeightRequest="17" VerticalOptions="Center" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" />
+                                <Button Text="{Binding Tag}" Padding="0" BackgroundColor="{Binding TagColor}" BorderRadius="3" BorderWidth="0" FontSize="11" FontFamily="Roboto-Bold" TextColor="White" HeightRequest="17" VerticalOptions="Center" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" />
                                 
-                                <Label Text="Patrick Hull à répondu à votre mail" FontSize="16" FontAttributes="Bold" FontFamily="SFUIDisplay-Semibold" TextColor="#4a4a4a" LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1" />
+                                <Label Text="{Binding Content}" FontSize="16" FontAttributes="Bold" FontFamily="SFUIDisplay-Semibold" TextColor="#4a4a4a" LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1" />
                                 
-                                <Label Text="Mercredi 20 Juin à 19h44" FontSize="12" FontFamily="SFUIDisplay-Regular" TextColor="#9b9b9b" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
+                                <Label Text="{Binding DateTime}" FontSize="12" FontFamily="SFUIDisplay-Regular" TextColor="#9b9b9b" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
                                 
                             </Grid>
                             

@@ -5,13 +5,14 @@ using NGC.Helpers;
 using NGC.Models;
 using Xamarin.Forms;
 using System.Threading.Tasks;
+using NGC.DataModels;
 
 namespace NGC.ViewModels
 {
     public class NotificationsTabPageModel : BaseViewModel
     {
     
-        public ObservableCollection<ObservableGroupCollection<BaseDataObject>> Notifications { get; set; }
+        public ObservableCollection<ObservableGroupCollection<NotificationModel>> Notifications { get; set; }
 
 
         public override void Init(object initData)
@@ -33,34 +34,50 @@ namespace NGC.ViewModels
         {
             IsLoading = true;
 
-            await Task.Delay(3000);
+            var noti_data = await StoreManager.NotificationStore.GetNotificationsByUserId(Settings.UserId);
 
-            Notifications = new ObservableCollection<ObservableGroupCollection<BaseDataObject>>();
+            Notifications = new ObservableCollection<ObservableGroupCollection<NotificationModel>>();
 
-            //Mock Data
-            var a = new ObservableGroupCollection<BaseDataObject>() { Key = "Aujourd’hui" };
-            a.Add(new BaseDataObject());
-            a.Add(new BaseDataObject());
-            a.Add(new BaseDataObject());
+           
+            var a = new ObservableGroupCollection<NotificationModel>() { Key = "Aujourd’hui" };
 
-            var b = new ObservableGroupCollection<BaseDataObject>() { Key = "Hier" };
-            b.Add(new BaseDataObject());
-            b.Add(new BaseDataObject());
-            b.Add(new BaseDataObject());
+            foreach (var item in noti_data.Where((arg) => arg.DatabaseInsertAt.Date == DateTime.Now.Date))
+            {
+                a.Add(new NotificationModel(item));
+            }
 
-            var c = new ObservableGroupCollection<BaseDataObject>() { Key = "Avril" };
-            c.Add(new BaseDataObject());
-            c.Add(new BaseDataObject());
 
-            var d = new ObservableGroupCollection<BaseDataObject>() { Key = "Mars" };
-            d.Add(new BaseDataObject());
-            d.Add(new BaseDataObject());
-            d.Add(new BaseDataObject());
+            var b = new ObservableGroupCollection<NotificationModel>() { Key = "Hier" };
 
+            foreach (var item in noti_data.Where((arg) => arg.DatabaseInsertAt.Date == DateTime.Now.Date.AddDays(-1).Date) )
+            {
+                b.Add(new NotificationModel(item));
+            }
+
+            if(a.Any())
             Notifications.Add(a);
+
+            if(b.Any())
             Notifications.Add(b);
-            Notifications.Add(c);
-            Notifications.Add(d);
+
+           
+            var leftOverNotifications = noti_data.Where((arg) => arg.DatabaseInsertAt.Date != DateTime.Now.Date.AddDays(-1).Date && arg.DatabaseInsertAt.Date != DateTime.Now.Date);
+
+
+            var grouped = leftOverNotifications.OrderByDescending((arg) => arg.DatabaseInsertAt.Month).GroupBy((arg) => arg.DatabaseInsertAtMonth);
+
+            foreach (var item in grouped)
+            {
+                var c = new ObservableGroupCollection<NotificationModel>() { Key = item.Key };
+
+                foreach (var x in item)
+                {
+                    c.Add(new NotificationModel(x));
+                }
+
+                Notifications.Add(c);
+            }
+
 
             IsLoading = false;
         }

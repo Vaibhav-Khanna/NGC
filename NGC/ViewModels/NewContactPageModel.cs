@@ -61,12 +61,9 @@ namespace NGC.ViewModels
                 var newContactModel = Model as ContactModel;
 
                 newContactModel.SaveToDataObject(null, null, null); 
-
-
             }
 
             await CoreMethods.PopPageModel(null, true);
-
         });
 
 
@@ -112,10 +109,13 @@ namespace NGC.ViewModels
                     IsContactTab = ((Tuple<bool, bool, object>)initData).Item2;
 
 
+
                 if (((Tuple<bool, bool, object>)initData).Item3 == null)
                 {
                     Title = $"{AppResources.New} {AppResources.Contact}";
                     IsNewCreation = true;
+
+
                 }
                 else
                 {
@@ -130,17 +130,19 @@ namespace NGC.ViewModels
                         if (IsSegmentVisible)
                         {
                             // Creating a new Professional Contact
+                            Model = new ContactModel(null, null);
                         }
                         else
                         {
                             // Creating a regular personal contact
 
-                            Model = new ContactModel(null);
+                            Model = new ContactModel(null,null);
                         }
                     }
                     else
                     {
                         // Creating a new professional Company
+                        Model = new ContactModel(null, null);
                     }
                 }
                 else

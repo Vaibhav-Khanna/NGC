@@ -8,30 +8,17 @@ namespace NGC.DataModels
     public class ContactModel
     {
       
+
         public ContactModel(Contact contact)
         {
-            Contact = contact;
-
-            if (contact != null)
-            {
-                FirstName = contact.Firstname;
-                LastName = contact.Lastname;
-                Company = contact.CompanyName;
-                Rating = Convert.ToInt32(contact.Weight);
-                Email = contact.Email;
-                Mobile = contact.Mobile;
-                JobTitle = contact.JobTitle;
-                Qualification = contact.Qualification;
-                Tag = contact.Tags;
-                Source = contact.CollectSourceName;
-                ActiveCheckIn = contact.AllowCheckin;
-
-                GetCheckinColor();
-            }
-
-            FilterColor = "#ec1414"; 
+            RefreshData(contact,null);
         }
 
+
+        public ContactModel(Contact contact, Company company)
+        {
+            RefreshData(contact,company);
+        }
 
         void GetCheckinColor()
         {
@@ -50,6 +37,10 @@ namespace NGC.DataModels
             }
         }
 
+
+        #region ContactProperties
+
+        public Company CompanyObject { get; set; }
 
         public Contact Contact { get; set; }
 
@@ -73,7 +64,6 @@ namespace NGC.DataModels
 
         public string FilterColor { get; set; }
 
-
         public string Qualification { get; set; }
 
         public string Tag { get; set; }
@@ -82,15 +72,43 @@ namespace NGC.DataModels
 
         public bool ActiveCheckIn { get; set; }
 
+        #endregion
+
+        #region CompanyProperties
+
+        public string CompanyAddress { get; set; }
+
+        public string CompanyEmail { get; set; }
+
+        public string CompanyTelephone { get; set; }
+
+        public string CompanyMobile { get; set; }
+
+        public string CompanyWebsite { get; set; }
+
+        public string CompanySiret { get; set; }
+
+        public string CompanyStatusJuridique { get; set; }
+
+        public string CompanyAPE { get; set; }
+
+        public string CompanyAPELabel { get; set; }
+
+        public string CompanyAPEClass { get; set; }
+
+        public string CompanyEffectifs { get; set; }
+
+        #endregion
 
         public void SaveToDataObject(string userId, string CompanyId,string salesTeamId)
-        {
-            if (string.IsNullOrEmpty(userId))
-                return;
-
+        { 
             if (Contact == null)
                 Contact = new Contact();
 
+            if (CompanyObject == null)
+                CompanyObject = new Company();
+
+            // contact properties set
             Contact.Firstname = FirstName;
             Contact.Lastname = LastName;
             Contact.Email = Email;
@@ -105,6 +123,55 @@ namespace NGC.DataModels
             Contact.AllowCheckin = ActiveCheckIn;
             Contact.UserId = userId;
             Contact.SalesTeamId = salesTeamId;
+            //
+
+            //Company Properties Set
+
+            CompanyObject.Address = CompanyAddress;
+
+            //
+        }
+
+        public void RefreshData(Contact contact,Company company)
+        {
+            Contact = contact;
+
+            if (contact != null)
+            {
+                FirstName = contact.Firstname;
+                LastName = contact.Lastname;
+                Company = contact.CompanyName;
+                Rating = Convert.ToInt32(contact.Weight);
+                Email = contact.Email;
+                Mobile = contact.Mobile;
+                JobTitle = contact.JobTitle;
+                Qualification = contact.Qualification;
+                Tag = contact.Tags;
+                Source = contact.CollectSourceName;
+                ActiveCheckIn = contact.AllowCheckin;
+
+                GetCheckinColor();
+            }
+
+            FilterColor = "#ec1414";
+
+            CompanyObject = company;
+
+            if (CompanyObject != null)
+            {
+                CompanyAddress = company.Address;
+                CompanyEmail = company.Email;
+                CompanyWebsite = company.Web;
+                CompanyAPE = company.Ape;
+                CompanyAPELabel = company.ApeLibelle;
+                CompanyAPEClass = company.ApeSousClasse;
+                CompanySiret = company.Siret;
+                CompanyMobile = company.Mobile;
+                CompanyTelephone = company.Phone;
+                CompanyStatusJuridique = company.StatutJuridique;
+                CompanyEffectifs = company.Effectif;
+            }
+
         }
 
     }

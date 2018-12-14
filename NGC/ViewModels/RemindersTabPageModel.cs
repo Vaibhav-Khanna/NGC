@@ -9,21 +9,22 @@ namespace NGC.ViewModels
 {
     public class RemindersTabPageModel : BaseViewModel
     {
-        public ObservableCollection<string> Reminders { get; set; }
+        public ObservableCollection<RemindersModel> Reminders { get; set; }
+
         public bool IsFilterActive { get; set; }
+
         List<FilterCategoryModel> Filters { get; set; }
 
         string _searchtext;
         [PropertyChanged.DoNotNotify]
         public string SearchText { get { return _searchtext; } set { _searchtext = value; Search(); RaisePropertyChanged(); } }
 
+
         public override void Init(object initData)
         {
             base.Init(initData);
 
             GetFilterData();
-
-            Reminders = new ObservableCollection<string>(){ "sdsds","dsdsd","Ds","sdsd"};
         }
 
 
@@ -81,12 +82,34 @@ namespace NGC.ViewModels
             Filters.Add(ft5);
         }
 
+        async void GetData()
+        {
+            IsLoading = true;
+
+            var reminders_data = await StoreManager.NoteStore.GetAllReminders();
+
+            Reminders = new ObservableCollection<RemindersModel>();
+
+            if (reminders_data != null && reminders_data.Any())
+            {
+                foreach (var item in reminders_data)
+                {
+                    Reminders.Add(new RemindersModel(item));
+                }
+            }
+
+            IsLoading = false;
+        }
+
         protected override void ViewIsAppearing(object sender, EventArgs e)
         {
             base.ViewIsAppearing(sender, e);
 
             if (Filters != null)
                 IsFilterActive = Filters.Any((arg) => arg.IsSelected);
+
+            if (Reminders == null)
+                GetData();
         }
 
     }

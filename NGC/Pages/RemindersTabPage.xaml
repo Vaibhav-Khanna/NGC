@@ -2,7 +2,9 @@
 <base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
     x:Class="NGC.Pages.RemindersTabPage"
+    xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
     xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
@@ -41,7 +43,7 @@
             </StackLayout>
             
             <!-- Listview Area-->
-            <syncfusion:SfListView ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
+            <syncfusion:SfListView IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
                 <syncfusion:SfListView.ItemTemplate>
                     <DataTemplate>
                         
@@ -56,12 +58,12 @@
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
                         
-                        <Label Text="Manuel Owens" Grid.Row="0" Grid.Column="0" LineBreakMode="WordWrap" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
+                        <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="0" LineBreakMode="WordWrap" FontFamily="SFUIDisplay-Semibold" FontSize="16" FontAttributes="Bold" TextColor="#4A4A4A" />
                         
-                        <Label Text="Envoi devis Urgent" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" LineBreakMode="WordWrap" FontFamily="SFUIDisplay-Regular" FontSize="14" FontAttributes="None" TextColor="#4A4A4A" />
+                        <Label Text="{Binding Content}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" LineBreakMode="WordWrap" FontFamily="SFUIDisplay-Regular" FontSize="14" FontAttributes="None" TextColor="#4A4A4A" />
                         
-                        <Frame Grid.Row="0" Grid.Column="1" Padding="5,0,5,0" VerticalOptions="Start" HorizontalOptions="End" HasShadow="false" HeightRequest="20" BackgroundColor="#f5a623" CornerRadius="2"> 
-                            <Label Text="Saturday 21 August" VerticalTextAlignment="Center" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#FFFFFF" /> 
+                        <Frame Grid.Row="0" Grid.Column="1" Padding="5,0,5,0" VerticalOptions="Start" HorizontalOptions="End" HasShadow="false" HeightRequest="20" BackgroundColor="{Binding ColorDate}" CornerRadius="2"> 
+                            <Label Text="{Binding DateTime}" VerticalTextAlignment="Center" FontFamily="SFUIDisplay-Regular" FontSize="12" FontAttributes="None" TextColor="#FFFFFF" /> 
                         </Frame>
                         
                     </Grid>
@@ -95,6 +97,7 @@
                 
             </syncfusion:SfListView>
            
+            <control:Loader />
                 
         </StackLayout>
     </base:BasePage.Content>

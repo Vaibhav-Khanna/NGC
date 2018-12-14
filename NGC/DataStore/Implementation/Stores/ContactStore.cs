@@ -49,6 +49,25 @@ namespace NGC.DataStore.Implementation.Stores
             }
         }
 
+        public async Task<IEnumerable<Contact>> SearchCompany(string query)
+        {
+            try
+            {
+                await InitializeStore().ConfigureAwait(false);
+
+                if (!String.IsNullOrWhiteSpace(query))
+                {
+                    return await Table.Where(x => x.Firstname.ToLower().Contains(query.ToLower()) || x.Lastname.ToLower().Contains(query.ToLower())).IncludeTotalCount().ToEnumerableAsync().ConfigureAwait(false);
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+
+            return null;
+        }
+
         //public async Task<IEnumerable<Contact>> GetNextItemsFilterAsync(int currentitemCount, string Filter = null, bool forceRefresh = false)
         //{
 
@@ -77,7 +96,7 @@ namespace NGC.DataStore.Implementation.Stores
         //    if (!String.IsNullOrEmpty(Filter))
         //    {
         //        return await Table.Where(x => (((x.Firstname.ToLower().Contains(Filter)) || (x.Lastname.ToLower().Contains(Filter)) || (x.Email.ToLower().Contains(Filter)) || (x.Phone.ToLower().Contains(Filter))) && (x.Qualification == ContactType))).OrderBy(x => x.Lastname).Skip(currentitemCount).Take(50).IncludeTotalCount().ToEnumerableAsync().ConfigureAwait(false);
- 
+
         //    }
         //    else
         //    {
@@ -153,7 +172,7 @@ namespace NGC.DataStore.Implementation.Stores
         //                {
         //                    query += " or userId eq '" + SelectedCommercials[i].Id.ToString() + "'";
         //                }
-               
+
         //            }
         //            query += ")";
         //        }
@@ -203,7 +222,7 @@ namespace NGC.DataStore.Implementation.Stores
         //        }
         //        query += "&$top=50&$inlinecount=allpages";
         //        JToken contactList = await Table.ReadAsync(query);
-               
+
         //        var result = contactList.ToObject<JObjectManualQuery>();
 
         //        return result;
@@ -214,7 +233,7 @@ namespace NGC.DataStore.Implementation.Stores
         //        return null;
         //        Debug.WriteLine(e);
         //    }
-           
+
         //}
 
         //    public async Task<JObjectManualQuery> GetNextItemsByCommercialFilterAsync(int currentitemCount,string ContactType, List<CheckBoxItem> SelectedCommercials = null, List<CheckBoxItem> SelectedResidences = null, bool forceRefresh = false)
@@ -294,7 +313,7 @@ namespace NGC.DataStore.Implementation.Stores
         //        }
         //        query += "&$skip(" + currentitemCount + ")&$top=50&$inlinecount=allpages";
         //        JToken contactList = await Table.ReadAsync(query);
-               
+
         //        var result = contactList.ToObject<JObjectManualQuery>();
 
         //        return result;
@@ -506,7 +525,7 @@ namespace NGC.DataStore.Implementation.Stores
 
         //            customs += contactCustomFieldSource.InternalName + "=" + customsFields[i].ContactCustomFieldSourceEntryId + ",";
         //        }
-                
+
         //        return customs;
         //    }
         //    else return null;
