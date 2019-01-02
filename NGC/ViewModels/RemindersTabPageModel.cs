@@ -4,16 +4,23 @@ using System.Collections.ObjectModel;
 using System.Collections.Generic;
 using NGC.DataModels;
 using System.Linq;
+using System.Threading.Tasks;
+using NGC.Resources;
 
 namespace NGC.ViewModels
 {
     public class RemindersTabPageModel : BaseViewModel
     {
+
+        private List<RemindersModel> AllReminders { get; set; }
+
         public ObservableCollection<RemindersModel> Reminders { get; set; }
 
         public bool IsFilterActive { get; set; }
 
         List<FilterCategoryModel> Filters { get; set; }
+
+        private int TabIndex = 0;
 
         string _searchtext;
         [PropertyChanged.DoNotNotify]
@@ -45,24 +52,87 @@ namespace NGC.ViewModels
 
         });
 
-        public Command ModifyItemCommand => new Command((obj) =>
+        public Command ModifyItemCommand => new Command(async(obj) =>
         {
+            if (obj is RemindersModel)
+            {
+                var reminder = obj as RemindersModel;
 
+                if (!reminder.Reminder.DoneAt.HasValue)
+                {
+                    await CoreMethods.PushPageModel<NewReminderPageModel>(reminder, true);
+                }
+
+                await FreshData();
+            }
         });
 
-        public Command EndItemCommand => new Command((obj) =>
+        public Command EndItemCommand => new Command(async(obj) =>
         {
+            if (obj is RemindersModel)
+            {
+                var reminder = obj as RemindersModel;
 
+                if (!reminder.Reminder.DoneAt.HasValue)
+                {
+                    reminder.Reminder.DoneAt = DateTime.Now;
+
+                    ToastService.ShowLoading();
+
+                    var updated = await StoreManager.NoteStore.UpdateAsync(reminder.Reminder);
+
+                    if (updated)
+                    {
+                        await FreshData();
+                    }
+                    else
+                    {
+                        await CoreMethods.DisplayAlert(AppResources.Alert, AppResources.Error, AppResources.Ok);
+                    }
+
+                    ToastService.HideLoading();
+                }
+            }
         });
 
         void Search()
         {
+            if (!string.IsNullOrWhiteSpace(SearchText))
+            {
+                TabSelectedChanged(TabIndex);
 
+                var temp_Filtered_reminders = Reminders.ToList();
+
+                Reminders = new ObservableCollection<RemindersModel>(temp_Filtered_reminders.Where((arg) => arg.Name.ToLower().Contains(SearchText.ToLower()) || arg.Content.ToLower().Contains(SearchText.ToLower())));
+            }
+            else
+            {
+                TabSelectedChanged(TabIndex);
+            }
         }
 
         public void TabSelectedChanged(int index)
         {
+            if (TabIndex != index)
+            {
+                _searchtext = null;
+                RaisePropertyChanged("SearchText");
+            }
 
+            TabIndex = index;
+
+            if(!IsLoading)
+            if (AllReminders != null && AllReminders.Any())
+            {
+                if (index == 0) // show only active reminders
+                {
+                    Reminders = new ObservableCollection<RemindersModel>(AllReminders.Where((arg) => !arg.Reminder.DoneAt.HasValue));
+                }
+                else // Show terminated reminders
+                {
+                    Reminders = new ObservableCollection<RemindersModel>(AllReminders.Where((arg) => arg.Reminder.DoneAt.HasValue));
+                }
+            }
         }
 
         void GetFilterData()
@@ -86,7 +156,19 @@ namespace NGC.ViewModels
         {
             IsLoading = true;
 
+            await FreshData();
+
+            IsLoading = false;
+
+            TabSelectedChanged(TabIndex);
+        }
+
+
+        public async Task FreshData()
+        {
             var reminders_data = await StoreManager.NoteStore.GetAllReminders();
+
+            AllReminders = new List<RemindersModel>();
 
             Reminders = new ObservableCollection<RemindersModel>();
 
@@ -94,11 +176,9 @@ namespace NGC.ViewModels
             {
                 foreach (var item in reminders_data)
                 {
-                    Reminders.Add(new RemindersModel(item));
+                    AllReminders.Add(new RemindersModel(item));
                 }
             }
-
-            IsLoading = false;
         }
 
         protected override void ViewIsAppearing(object sender, EventArgs e)

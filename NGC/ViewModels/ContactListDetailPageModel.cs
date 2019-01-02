@@ -35,13 +35,13 @@ namespace NGC.ViewModels
             switch (handler)
             {
                 case "Rappel":
-                    await CoreMethods.PushPageModel<NewReminderPageModel>(null,true);
+                    await CoreMethods.PushPageModel<NewReminderPageModel>(Contact,true);
                     break;
                 case "Check In":
-                    await CoreMethods.PushPageModel<CheckInPageModel>(null, true);
+                    await CoreMethods.PushPageModel<CheckInPageModel>(Contact, true);
                     break;
                 case "Note":
-                    await CoreMethods.PushPageModel<NewNotePageModel>(null, true);
+                    await CoreMethods.PushPageModel<NewNotePageModel>(Contact, true);
                     break;
                 case "Opportunité":
                     await CoreMethods.PushPageModel<NewOpportunityPageModel>(null, false);
@@ -67,9 +67,12 @@ namespace NGC.ViewModels
 
         public override void ReverseInit(object returnedData)
         {
-            base.ReverseInit(returnedData);   
+            base.ReverseInit(returnedData);
 
-
+            if (returnedData != null)
+            {
+                GetData();
+            }
         }
 
         async void GetData() 
@@ -91,7 +94,7 @@ namespace NGC.ViewModels
             if (notes != null && notes.Any())
                 foreach (var item in notes)
                 {
-                    actions.Add(new ContactDetailCellModel(ContactDetailCellModelType.Activity, item) { CellModelType = ContactDetailCellModelType.Activity });
+                    actions.Add(new ContactDetailCellModel(ContactDetailCellModelType.Action, item) { CellModelType = ContactDetailCellModelType.Action });
                 }
             else
             {

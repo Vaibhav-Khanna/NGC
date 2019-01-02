@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using NGC.Helpers;
 using NGC.Helpers.MapViews;
+using NGC.Models.DataObjects;
 using NGC.ViewModels;
 using Plugin.Geolocator.Abstractions;
 using Xamarin.Forms;
@@ -40,9 +41,13 @@ namespace NGC.Pages
 
         void Handle_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if(e.PropertyName == "Pins")
+            if (e.PropertyName == "Pins")
             {
                 PlotPins();
+            }
+            else if (e.PropertyName == "AllContacts")
+            {
+                context.FilterVisibleRegion(map.VisibleRegion);
             }
         }
 
@@ -58,7 +63,19 @@ namespace NGC.Pages
 
         void Map_PinClicked(object sender, PinClickedEventArgs e)
         {
-            ShowPopup();
+            if (e.Pin.Type == PinType.Generic)
+            {
+                ShowPopup();
+
+                context.SelectedContact = e?.Pin?.BindingContext as Contact;
+
+                if (context.SelectedContact != null)
+                    bt.BackgroundColor = GetCheckinColor(context.SelectedContact);
+            }
+            else 
+            {
+                HidePopUp(); 
+            }
         }
 
         async void ShowPopup()
@@ -89,12 +106,12 @@ namespace NGC.Pages
         {
             currentLocation = await Location.GetCurrentLocation(true);
 
-            if(currentLocation!=null)
+            if (currentLocation != null)
             {
                 if (currentPin != null && map.Pins.Contains(currentPin))
                     map.Pins.Remove(currentPin);
 
-                map.Pins.Add(currentPin = new Pin(){ Label = "Me", Position = new Xamarin.Forms.GoogleMaps.Position(currentLocation.Latitude,currentLocation.Longitude), Icon = BitmapDescriptorFactory.FromView(new BindingPinView("2", Color.Green)) });
+                map.Pins.Add(currentPin = new Pin() { Label = "Me", Position = new Xamarin.Forms.GoogleMaps.Position(currentLocation.Latitude, currentLocation.Longitude), Type = PinType.Place });
 
                 await map.MoveCamera(CameraUpdateFactory.NewPositionZoom(new Xamarin.Forms.GoogleMaps.Position(currentLocation.Latitude, currentLocation.Longitude), 12d));
             }
@@ -110,9 +127,41 @@ namespace NGC.Pages
 
             foreach (var item in context.Pins)
             {
-                map.Pins.Add(item);
+                var pin = new Pin()
+                { 
+                    Label = item.Name,
+                    Address = item.Address,
+                    Position = new Xamarin.Forms.GoogleMaps.Position(item.Latitude, item.Longitude),
+                    Icon = BitmapDescriptorFactory.FromView(new BindingPinView(item.Weight.ToString(), GetCheckinColor(item) )),
+                    BindingContext = item,
+                    Type = PinType.Generic
+                };
+
+                map.Pins.Add(pin);
             }
         }
 
+        void Handle_CameraIdled(object sender, Xamarin.Forms.GoogleMaps.CameraIdledEventArgs e)
+        {
+            context.FilterVisibleRegion(map.VisibleRegion);
+        }
+
+        Color GetCheckinColor(Contact contact)
+        {
+            if (!contact.AllowCheckin)
+                return Color.FromHex("656565");
+            else
+            {
+                var diff = DateTime.Now.Subtract(contact.LastCheckinAt.DateTime).Days;
+
+                if (diff >= 0 && diff <= contact.FirstCheckinDuration)
+                    return Color.FromHex("7ed321");  //green
+                else if (diff > contact.FirstCheckinDuration && diff <= contact.SecondCheckinDuration)
+                    return Color.FromHex("f5a623"); //orange
+                else if (diff > contact.SecondCheckinDuration)
+                    return Color.FromHex("ec1414"); //red   
+                    else return Color.FromHex("ec1414"); //red        
+            }
+        }
     }
 }

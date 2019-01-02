@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using Xamarin.Essentials;
 using NGC.Models.DataObjects;
 using NGC.Resources;
+using Map = Xamarin.Essentials.Map;
 
 namespace NGC.ViewModels
 {
@@ -52,7 +53,7 @@ namespace NGC.ViewModels
                 await CoreMethods.DisplayAlert(AppResources.Error, AppResources.LocationNotFound, AppResources.Ok);
             }
             else
-                await Maps.OpenAsync(Company.Company.Latitude, Company.Company.Longitude);
+                await Map.OpenAsync(Company.Company.Latitude, Company.Company.Longitude);
         });
 
         public Command ModifyCommand => new Command(async () =>

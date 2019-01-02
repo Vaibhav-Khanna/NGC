@@ -286,8 +286,8 @@
      <data name="At" xml:space="preserve">
         <value>à</value>
     </data> 
-     <data name="Alert" xml:space="preserve">
-        <value>Alerte</value>
+     <data name="EnterAllDetails" xml:space="preserve">
+        <value>S'il vous plaît entrer tous les détails.</value>
     </data> 
      <data name="Alert" xml:space="preserve">
         <value>Alerte</value>

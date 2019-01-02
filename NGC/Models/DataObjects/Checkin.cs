@@ -26,5 +26,6 @@ namespace NGC.Models.DataObjects
         public string UserName { get; set; }
 
         public string DoneAtUserName => $"{new DateToStringConverter().Convert(DoneAt,typeof(string),null,AppResources.Culture)} | {UserName}";
+
     }
 }

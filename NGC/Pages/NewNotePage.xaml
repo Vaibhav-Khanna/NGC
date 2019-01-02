@@ -29,7 +29,7 @@
                         <TapGestureRecognizer Tapped="Handle_Tapped"/>
                     </StackLayout.GestureRecognizers>
                     <DatePicker x:Name="datepicker" Date="{Binding Date,Mode=TwoWay}" TextColor="Transparent" WidthRequest="0.5"  Opacity="0" />
-                    <Label Text="{resources:Translate DateReminder}" TextColor="#9b9b9b" FontSize="14" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+                    <Label x:Name="lbDate" Text="{resources:Translate DateReminder}" TextColor="#9b9b9b" FontSize="14" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
                     <Image HeightRequest="17" WidthRequest="18" Source="addcontact.png" />
                 </StackLayout>
             </Frame>

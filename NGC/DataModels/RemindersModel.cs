@@ -16,8 +16,12 @@ namespace NGC.DataModels
 
             DateTime = reminder.ReminderAt.Value.ToString("dddd, dd MMMM");
 
-            ColorDate = "#f5a623";
+            if (!reminder.DoneAt.HasValue)
+                ColorDate = ConvertDateToColor(reminder.ReminderAt.Value);
+            else
+                ColorDate = "#7CFC00"; // green
         }
+
 
         public Note Reminder { get; private set; }
 
@@ -28,5 +32,21 @@ namespace NGC.DataModels
         public string DateTime { get; set; }
 
         public string ColorDate { get; set; }
+
+
+        private string ConvertDateToColor(DateTime date)
+        {
+            var differnce = date.Date.Subtract(System.DateTime.Now.Date).Days;
+
+            if (differnce < 0)
+                return "#ff6565"; // Red
+            else if (differnce >= 0 && differnce <= 7)
+                return "#f5a623"; // orange
+            else if (differnce > 7)
+                return "#c69f00"; // yellow
+            else return "#d9d9d9";
+
+        }
+
     }
 }

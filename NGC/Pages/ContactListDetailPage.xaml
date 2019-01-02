@@ -63,7 +63,7 @@
                     
                        
                         <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Grid.Row="2" Spacing="7" >
-                            <Label Text="{Binding Contact.Email}" TextDecorations="Underline" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" />
+                            <Label Text="{Binding Contact.Email}" FontFamily="SFUIDisplay-Regular" FontSize="16" TextColor="#4a4a4a" />
                         </StackLayout>
                         
                         <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Grid.Row="3" Spacing="7" >

@@ -24,7 +24,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout BackgroundColor="White" Padding="21,18" >
-                                <Label Text="{Binding .}" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" TextColor="#4A4A4A" />
+                                <Label Text="{Binding Name}" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" TextColor="#4A4A4A" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

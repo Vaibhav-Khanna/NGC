@@ -460,5 +460,11 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("At", resourceCulture);
             }
         }
+        
+        internal static string EnterAllDetails {
+            get {
+                return ResourceManager.GetString("EnterAllDetails", resourceCulture);
+            }
+        }
     }
 }

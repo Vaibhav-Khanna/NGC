@@ -10,6 +10,7 @@ namespace NGC.DataStore.Implementation.Stores
     {
         public override string Identifier => "Opportunity";
 
+
         public async Task<IEnumerable<Opportunity>> GetOpportunitiesByContactId(string id)
         {
             try

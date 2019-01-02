@@ -28,13 +28,23 @@ namespace NGC.DataModels
 
         public FilterCategoryModel()
         {
-            CategoryItemSource = new ObservableCollection<FilterItemModel>() {  };
+            CategoryItemSource = new ObservableCollection<FilterItemModel>();
+        }
 
-            CategoryItemSource.Add(new FilterItemModel() { PropertyName = "Tous" });
-            CategoryItemSource.Add(new FilterItemModel() { PropertyName = "Contact" });
-            CategoryItemSource.Add(new FilterItemModel() { PropertyName = "Lead" });
-            CategoryItemSource.Add(new FilterItemModel() { PropertyName = "Poids" });
 
+        public void AddFilterCategory(string Category)
+        {
+            CategoryItemSource.Add(new FilterItemModel() { PropertyName = Category, });
+        }
+
+
+        public void AddFilterCategory(IEnumerable<string> Categories)
+        {
+            if (Categories != null)
+                foreach (var item in Categories)
+                {
+                    CategoryItemSource.Add(new FilterItemModel() { PropertyName = item });
+                }
         }
 
     }

@@ -3,12 +3,14 @@ using System.Collections.ObjectModel;
 using NGC.Models;
 using Xamarin.Forms;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace NGC.ViewModels 
 {
 
     public class OpportunityTabPageModel : BaseViewModel
     {
+
         public ObservableCollection<OpportunityTabModel> ItemSource { get; set; }
         public string Header { get; set; }
         public string Detail { get; set; }
@@ -22,7 +24,7 @@ namespace NGC.ViewModels
             {
                 _position = value;
 
-                if(ItemSource!=null)
+                if(ItemSource!=null && ItemSource.Any())
                 {
                     Header = ItemSource[Position].Header;
                     Detail = ItemSource[Position].Detail;
@@ -36,35 +38,45 @@ namespace NGC.ViewModels
         {
             base.Init(initData);
 
-            await Task.Delay(2000);
+            IsLoading = true;
 
-            var leads = new OpportunityTabModel() { Header = "Lead", Detail = "2 offres - 30.000 €" };
-            leads.ItemSource = new ObservableCollection<OpportunityContacts>();
-            leads.ItemSource.Add(new OpportunityContacts() { Header = "Signature contrat", Detail = "Chris Grut - 10.000 €" });
-            leads.ItemSource.Add(new OpportunityContacts() { Header = "Audit Softech", Detail = "Quentin Hulo - 20.000 €" });
+            await GetData();
 
-
-            var contacts = new OpportunityTabModel() { Header = "Contact", Detail = "1 offre - 9.000 €" };
-            contacts.ItemSource = new ObservableCollection<OpportunityContacts>();
-            contacts.ItemSource.Add(new OpportunityContacts() { Header = "Facture relance", Detail = "Ben Cobra - 9.000 €" });
-
-            var client = new OpportunityTabModel() { Header = "Client", Detail = "0 offre - 0 €" };
-            client.ItemSource = new ObservableCollection<OpportunityContacts>();
-
-            var unknown = new OpportunityTabModel() { Header = "Unknown", Detail = "0 offre - 0 €" };
-            unknown.ItemSource = new ObservableCollection<OpportunityContacts>();
-
-            var items = new ObservableCollection<OpportunityTabModel>();
-            items.Add(leads);
-            items.Add(contacts);
-            items.Add(client);
-            items.Add(unknown);
-
-            ItemSource = items;
+            IsLoading = false;
 
             Position = 0;
         }
 
+        async Task GetData()
+        {
+            var opportunity_data = await StoreManager.OpportunityStore.GetItemsAsync(true, true);
+
+            var items = new ObservableCollection<OpportunityTabModel>();
+
+            if (opportunity_data != null && opportunity_data.Any())
+            {
+                var grouping_data = opportunity_data.GroupBy((arg) => arg.OpportunityStepName);
+
+                foreach (var item in grouping_data)
+                {
+                    var group = new OpportunityTabModel() { Header = item.Key };
+
+                    group.ItemSource = new ObservableCollection<OpportunityContacts>();
+
+                    foreach (var x in item)
+                    {
+                        group.ItemSource.Add(new OpportunityContacts(x));
+                    }
+
+                    group.Detail = $"{group.ItemSource.Count} offre - {group.ItemSource.Select((arg) => arg.Amount).Sum()} €";
+
+                    items.Add(group);
+                }
+            }
+
+          
+            ItemSource = items;
+        }
 
         public Command NavigateCommand => new Command(async(obj) =>
         {

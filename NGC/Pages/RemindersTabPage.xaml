@@ -6,6 +6,7 @@
     x:Class="NGC.Pages.RemindersTabPage"
     xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
+    xmlns:pullToRefresh="clr-namespace:Syncfusion.SfPullToRefresh.XForms;assembly=Syncfusion.SfPullToRefresh.XForms"
     xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     xmlns:resources="clr-namespace:NGC">
@@ -43,11 +44,13 @@
             </StackLayout>
             
             <!-- Listview Area-->
-            <syncfusion:SfListView IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
+          
+            <syncfusion:SfListView x:Name="listview" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
                 <syncfusion:SfListView.ItemTemplate>
                     <DataTemplate>
                         
                     <!-- Listview ItemTemplate Area-->
+                   <StackLayout Spacing="0" Orientation="Vertical">
                     <Grid Padding="21,15,16,22" >
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
@@ -67,7 +70,8 @@
                         </Frame>
                         
                     </Grid>
-                   
+                    <BoxView HeightRequest="0.5" HorizontalOptions="FillAndExpand" Color="#d9d9d9" />
+                    </StackLayout>
                    </DataTemplate>
                 </syncfusion:SfListView.ItemTemplate>
                 
@@ -75,7 +79,7 @@
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal" Padding="10,0,0,0" HeightRequest="76" BackgroundColor="#FFFF6565">
                             <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.ModifyItemCommand}" CommandParameter="{Binding .}"/>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.ModifyItemCommand}" Tapped="Modify" CommandParameter="{Binding .}"/>
                             </StackLayout.GestureRecognizers>
                             <Image HeightRequest="15" WidthRequest="15" Source="edit.png" VerticalOptions="Center" HorizontalOptions="End" />
                             <Label Text="{resources:Translate Modify}" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
@@ -87,7 +91,7 @@
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal" Padding="10,0,0,0" HeightRequest="76" BackgroundColor="#7ed321">
                              <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.EndItemCommand}" CommandParameter="{Binding .}"/>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.EndItemCommand}" Tapped="Terminate" CommandParameter="{Binding .}"/>
                             </StackLayout.GestureRecognizers>
                             <Image HeightRequest="15" WidthRequest="15" Source="ok.png" VerticalOptions="Center" HorizontalOptions="End" />
                             <Label Text="{resources:Translate Ended}" LineBreakMode="NoWrap" FontFamily="SFUIDisplay-Regular" FontSize="16" FontAttributes="None" VerticalOptions="Center" HorizontalOptions="Start" TextColor="#FFFFFFFF" />
@@ -96,7 +100,8 @@
                 </syncfusion:SfListView.LeftSwipeTemplate>
                 
             </syncfusion:SfListView>
-           
+        
+            
             <control:Loader />
                 
         </StackLayout>

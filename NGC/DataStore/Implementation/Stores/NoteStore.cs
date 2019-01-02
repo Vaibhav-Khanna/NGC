@@ -18,7 +18,7 @@ namespace NGC.DataStore.Implementation.Stores
 
                 await PullLatestAsync().ConfigureAwait(false);
 
-                return await Table.Where(arg => arg.Kind == "note" && arg.ReminderAt != null).IncludeTotalCount().ToEnumerableAsync().ConfigureAwait(false);
+                return await Table.Where(arg => arg.Kind == "note" && arg.ReminderAt != null).OrderBy( arg => arg.ReminderAt ).IncludeTotalCount().ToEnumerableAsync().ConfigureAwait(false);
             }
             catch (Exception)
             {

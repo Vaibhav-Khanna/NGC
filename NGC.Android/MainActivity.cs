@@ -9,6 +9,7 @@ using Android.OS;
 using SegmentedControl.FormsPlugin.Android;
 using Plugin.CurrentActivity;
 using CarouselView.FormsPlugin.Android;
+using Syncfusion.SfPullToRefresh.XForms.Android;
 using SuaveControls.FloatingActionButton.Droid.Renderers;
 
 namespace NGC.Droid

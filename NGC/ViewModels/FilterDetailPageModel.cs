@@ -47,6 +47,26 @@ namespace NGC.ViewModels
             var item = obj as FilterItemModel;
 
             item.IsSelected = !item.IsSelected;
+
+            if (item.PropertyName == "Tous" && item.IsSelected)
+            {
+               var tobeChanged = Filters.Where((arg) => arg.PropertyName != "Tous");
+
+                foreach (var i in tobeChanged)
+                {
+                    i.IsSelected = false;
+                }
+            }
+
+            if (item.PropertyName != "Tous" && item.IsSelected)
+            {
+                var toChange = Filters.Where((arg) => arg.PropertyName == "Tous");
+
+                if (toChange != null && toChange.Any())
+                {
+                    toChange.First().IsSelected = false;
+                }
+            }
         });
 
 

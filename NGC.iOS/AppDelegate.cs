@@ -6,6 +6,7 @@ using Foundation;
 using SegmentedControl.FormsPlugin.iOS;
 using Social;
 using SuaveControls.FloatingActionButton.iOS.Renderers;
+using Syncfusion.SfPullToRefresh.XForms.iOS;
 using Syncfusion.ListView.XForms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
@@ -31,10 +32,11 @@ namespace NGC.iOS
 
             var s = new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
 
-
             global::Xamarin.Forms.Forms.Init();
 
             Xamarin.FormsGoogleMaps.Init("AIzaSyCkavYT01FceMj7jrEhkOvvMQxNvt-P_cc");
+
+            SfPullToRefreshRenderer.Init();
 
             SfListViewRenderer.Init();
 

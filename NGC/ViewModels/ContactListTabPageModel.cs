@@ -121,7 +121,6 @@ namespace NGC.ViewModels
             Search();      
         }
 
-
         void Search()
         {
             if (TabIndex == 0)
@@ -190,9 +189,18 @@ namespace NGC.ViewModels
             Filters = new List<FilterCategoryModel>();
 
             var ft1 = new FilterCategoryModel() { CategoryName = "Statut", IsMultipleSelector = true };
+            ft1.AddFilterCategory(new string[] { "Tous", "Lead", "Contact", "Client" });
+
             var ft2 = new FilterCategoryModel() { CategoryName = "Check In", IsMultipleSelector = true };
+            ft2.AddFilterCategory(new string[] { "Tous","Rouge", "Orange", "Vert", "Noir" });
+
             var ft3 = new FilterCategoryModel() { CategoryName = "Poids", IsMultipleSelector = true };
+            ft3.AddFilterCategory(new string[] { "0", "1", "2", "3", "4", "5" });
+
             var ft4 = new FilterCategoryModel() { CategoryName = "Tags", IsMultipleSelector = true };
+            ft4.AddFilterCategory(new string[] { "Tous","Admin", "Assistant","Patron","Consultant" });
+
+
             var ft5 = new FilterCategoryModel() { CategoryName = "Code postal", FilterType = FilterType.SearchCode, IsMultipleSelector = true };
 
             Filters.Add(ft1);
@@ -205,6 +213,7 @@ namespace NGC.ViewModels
         async Task GetData()
         {
             var contacts_data = await StoreManager.ContactStore.GetItemsAsync(true,true);
+           
             var company_data = await StoreManager.CompanyStore.GetItemsAsync(true, true);
 
             #region Contacts
@@ -254,7 +263,9 @@ namespace NGC.ViewModels
             AllCompanies = Companies;
 
             TabSelectedChanged(TabIndex);
+
         }
+
 
 
         protected override void ViewIsAppearing(object sender, EventArgs e)
@@ -263,6 +274,47 @@ namespace NGC.ViewModels
 
             if(Filters!=null)
                 IsFilterActive = Filters.Any((arg) => arg.IsSelected);
+
+            FilterData();
+        }
+
+
+        void FilterData()
+        {
+            if (!IsFilterActive)
+                return;
+       
+            var dataToFilter = AllContacts?.ToList();
+
+            List<ContactModel> temp_list = new List<ContactModel>();
+
+            foreach (var category in Filters)
+            {
+                if (category.ActiveFilters > 0)
+                {              
+                    switch (category.CategoryName)
+                    {
+                        case "Statut":
+                            {
+                                foreach (var selected_filter in category.SelectedFilters)
+                                {
+                                    if (selected_filter.PropertyName == "Tous")
+                                    {
+
+                                    }
+                                    else
+                                    {
+
+                                    }
+                                }
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+
         }
 
 

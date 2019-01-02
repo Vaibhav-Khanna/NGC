@@ -1,7 +1,9 @@
 ﻿using System;
 using NGC.Models.DataObjects;
 using Xamarin.Forms;
-
+using NGC.Resources;
+using NGC.Helpers;
+using NGC.DataModels;
 
 namespace NGC.ViewModels
 {
@@ -9,11 +11,12 @@ namespace NGC.ViewModels
     {
         public NewReminderPageModel()
         {
+
         }
 
         public string Note { get; set; }
 
-        public DateTime Date { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now.AddDays(1);
 
         public bool IsToggled { get; set; }
 
@@ -21,31 +24,82 @@ namespace NGC.ViewModels
 
         private Contact contact;
 
+        private RemindersModel Reminder { get; set; }
+
+
+        public async override void Init(object initData)
+        {
+            base.Init(initData);
+
+            if (initData is RemindersModel)
+            {
+                Reminder = ((RemindersModel)initData);
+
+                Note = Reminder.Content;
+
+                Date = Reminder.Reminder.ReminderAt.Value;
+
+                ContactNumber = Reminder.Name;
+
+                IsToggled = Reminder.Reminder.ContentHasRgpdData;
+
+                contact = await StoreManager.ContactStore.GetItemAsync(Reminder.Reminder.ContactId);
+            }
+            else if (initData is ContactModel)
+            {
+                contact = ((ContactModel)initData).Contact;
+
+                ContactNumber = contact.Name;
+            }
+        }
+
+
         public Command SaveCommand => new Command(async() =>
         {
             if (!string.IsNullOrWhiteSpace(Note) && Date != DateTime.Now.Date && contact != null)
             {
                 ToastService.ShowLoading();
 
-                var note = new Note()
+                if (Reminder == null)
                 {
-                    Subject = Note,
-                    Content = Note,
-                    ReminderAt = Date,
-                    ContactId = contact.Id,
-                    ContentHasRgpdData = IsToggled,
-                    Kind = "note"
-                };
+                    var note = new Note()
+                    {
+                        Subject = Note,
+                        Content = Note,
+                        ReminderAt = Date,
+                        ContactId = contact.Id,
+                        ContactFirstname = contact.Firstname,
+                        ContactLastname = contact.Lastname,
+                        UserId = Settings.UserId,
+                        DoneAt = null,
+                        ContentHasRgpdData = IsToggled,
+                        Kind = "note"
+                    };
 
-                await StoreManager.NoteStore.InsertAsync(note);
+                    await StoreManager.NoteStore.InsertAsync(note);
+                }
+                else
+                {
+                    Reminder.Reminder.Subject = Note;
+                    Reminder.Reminder.Content = Note;
+                    Reminder.Reminder.ReminderAt = Date;
+                    Reminder.Reminder.ContactId = contact.Id;
+                    Reminder.Reminder.ContactFirstname = contact.Firstname;
+                    Reminder.Reminder.ContactLastname = contact.Lastname;
+                    Reminder.Reminder.DoneAt = null;
+                    Reminder.Reminder.ContentHasRgpdData = IsToggled;
+                    Reminder.Reminder.Kind = "note";
+
+                    await StoreManager.NoteStore.UpdateAsync(Reminder.Reminder);
+                }
 
                 ToastService.HideLoading();
 
-                await CoreMethods.PopPageModel(true, true);
+                await CoreMethods.PopPageModel(contact,true, true);
             }
             else
             {
-            // warning 
+               await CoreMethods.DisplayAlert(AppResources.Alert, AppResources.EnterAllDetails, AppResources.Ok);
             }
         });
 

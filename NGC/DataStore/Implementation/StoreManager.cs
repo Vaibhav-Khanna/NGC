@@ -19,6 +19,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace NGC.DataStore.Implementation
 {
@@ -109,8 +110,6 @@ namespace NGC.DataStore.Implementation
                     MobileServiceUser user = new MobileServiceUser(User.UserId) { MobileServiceAuthenticationToken = User.Token };
 
                     MobileService.CurrentUser = user;
-
-                   
 
                     CacheToken(user, User);
 
@@ -252,7 +251,11 @@ namespace NGC.DataStore.Implementation
            
             try
             {
+                await SyncAllAsync(true);
+
                 await MobileService.LogoutAsync();
+
+                await DropEverythingAsync();
 
                 Settings.AuthToken = string.Empty;
                 Settings.UserId = string.Empty;
@@ -309,7 +312,6 @@ namespace NGC.DataStore.Implementation
             await SalesTeamStore.DropTable();
             await NoteStore.DropTable();
             await CheckinStore.DropTable();
-
             await OpportunityStore.DropTable();
            
 
@@ -398,6 +400,8 @@ namespace NGC.DataStore.Implementation
             if (!IsInitialized)
                 await InitializeAsync();
 
+            int retries = 0;
+
     here:   var taskList = new List<Task<bool>>();
           
             taskList.Add(ContactCustomFieldSourceEntryStore.SyncAsync());
@@ -421,8 +425,13 @@ namespace NGC.DataStore.Implementation
 
             successes = await Task.WhenAll(taskList);
 
-            if (successes.Any(x => x == false))
-                goto here;
+            retries += 1;
+
+            if (successes.Any(x => x == false) && retries <= 5)
+            {
+                if (Connectivity.NetworkAccess == NetworkAccess.Internet || Connectivity.NetworkAccess == NetworkAccess.ConstrainedInternet)
+                    goto here;
+            }
 
             if (syncUserSpecific)
             {

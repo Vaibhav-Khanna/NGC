@@ -6,7 +6,7 @@ namespace NGC.Models.DataObjects
     public class Note : BaseDataObject
     {
         [JsonProperty("doneAt")]
-        public DateTime DoneAt { get; set; }
+        public DateTime? DoneAt { get; set; }
 
         [JsonProperty("databaseInsertAt")]
         public DateTime DatabaseInsertAt { get; set; }

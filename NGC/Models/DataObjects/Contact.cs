@@ -180,5 +180,15 @@ namespace NGC.Models.DataObjects
         [JsonIgnore]
         public string Name => $"{Firstname} {Lastname}";
 
+        [JsonIgnore]
+        public string Address
+        {
+            get
+            {
+                string s = $"{Street1} {Street2} {City} {State} {Country} {ZipCode}";
+                return string.IsNullOrWhiteSpace(s) ? "N.A" : s;
+            }   
+        }
+
     }
 }

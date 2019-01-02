@@ -64,11 +64,13 @@ namespace NGC.Pages
                 container.Children[e.NewValue].BackgroundColor = red;
         }
 
+
         void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
             (this.BindingContext as OpportunityTabPageModel).NavigateCommand.Execute(new Tuple<OpportunityTabModel, OpportunityContacts>((sender as ListView).BindingContext as OpportunityTabModel,e.Item as OpportunityContacts));
          
             (sender as ListView).SelectedItem = null;
         }
+
     }
 }
