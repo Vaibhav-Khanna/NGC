@@ -35,7 +35,7 @@
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding fields.nomen_long}" TextColor="Black" />
+                        <TextCell Text="{Binding Name}" TextColor="Black" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
                 

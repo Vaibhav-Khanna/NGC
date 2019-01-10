@@ -79,6 +79,8 @@ namespace NGC.ViewModels
             }
 
 
+            IsEmpty = !Notifications.Any();
+
             IsLoading = false;
         }
 

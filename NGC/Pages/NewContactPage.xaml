@@ -38,17 +38,17 @@
                     <StackLayout IsVisible="{Binding IsContactTab}" Orientation="Vertical" Spacing="7" Padding="0,0,0,40" Margin="0">
                         
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Text="{Binding Model.FirstName}"  Placeholder="{resources:Translate FirstName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding FirstName}"  Placeholder="{resources:Translate FirstName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Text="{Binding Model.LastName}" Placeholder="{resources:Translate LastName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding LastName}" Placeholder="{resources:Translate LastName}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <Frame HeightRequest="45" IsVisible="{Binding IsProfessional}" Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="building.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Placeholder="{resources:Translate Company}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding Company}" Placeholder="{resources:Translate Company}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </StackLayout> 
                         </Frame>
                     
@@ -57,14 +57,14 @@
                             
                          <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedQualification,Mode=TwoWay}" ItemsSource="{Binding Qualifications}" ItemDisplayBinding="{Binding .}" Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding Qualification,Mode=TwoWay}" ItemsSource="{Binding Qualifications}" ItemDisplayBinding="{Binding .}" Title="{resources:Translate Qualifications}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
                         
                         <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedTag,Mode=TwoWay}" ItemsSource="{Binding Tags}" ItemDisplayBinding="{Binding Name}" Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding Tag,Mode=TwoWay}" ItemsSource="{Binding Tags}" ItemDisplayBinding="{Binding Name}" Title="{resources:Translate Tags}" TextColor="#9b9b9b" HorizontalOptions="FillAndExpand" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                         </Frame>
@@ -88,13 +88,13 @@
                     </StackLayout>
                     
                         <Frame HeightRequest="45" IsVisible="{Binding IsProfessional}" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry  Placeholder="{resources:Translate Function}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding Function}" Placeholder="{resources:Translate Function}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                     
                        <Frame HeightRequest="45"  Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="mail.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Text="{Binding Model.Email}" Placeholder="{resources:Translate Email}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Email"  />
+                            <customControl:BorderlessEntry Text="{Binding Email}" Placeholder="{resources:Translate Email}" PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Email"  />
                         </StackLayout> 
                         </Frame>
                     
@@ -132,13 +132,13 @@
                         
                    
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                            <customControl:BorderlessEntry Text="{Binding Model.Source}" Placeholder="{resources:Translate SourceCollection}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
+                            <customControl:BorderlessEntry Text="{Binding Source}" Placeholder="{resources:Translate SourceCollection}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  />
                         </Frame>
                         
                         <StackLayout Margin="0,18,0,0" Orientation="Horizontal">
                             <Label Text="{resources:Translate EnableCheckIn}" FontFamily="SFUIDisplay-Regular" VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontSize="15" FontAttributes="None" TextColor="#FF656565" />
                            
-                            <Switch IsToggled="{Binding Model.ActiveCheckIn}" OnColor="{StaticResource Primary}" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Switch IsToggled="{Binding ActiveCheckIn}" OnColor="{StaticResource Primary}" VerticalOptions="Center" HorizontalOptions="End" />
                         </StackLayout>
                         
                     </StackLayout>                                       
@@ -168,7 +168,7 @@
                                     <ViewCell>
                                         
                                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
-                                            <customControl:BorderlessEntry Text="{Binding Text}" Placeholder="{Binding Placeholder}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="Text"  /> 
+                                            <customControl:BorderlessEntry Text="{Binding Text}" Placeholder="{Binding Placeholder}" PlaceholderColor="#9b9b9b" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center" IsSpellCheckEnabled="false" Keyboard="{Binding Keyboard}" /> 
                                         </Frame>
                                         
                                     </ViewCell>

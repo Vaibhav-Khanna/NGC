@@ -39,13 +39,13 @@ namespace NGC.Pages
         {
             if (e.NewValue == 0)
             {
-                listview.IsVisible = true;
-                listview_Company.IsVisible = false;
+                lt.IsVisible = true;
+                ltCompany.IsVisible = false;
             }
             else
             {
-                listview.IsVisible = false;
-                listview_Company.IsVisible = true;
+                lt.IsVisible = false;
+                ltCompany.IsVisible = true;
             }
 
              (BindingContext as ContactListTabPageModel).TabSelectedChanged(e.NewValue);

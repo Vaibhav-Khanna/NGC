@@ -11,9 +11,11 @@
     <base:BasePage.Content>
         <StackLayout Orientation="Vertical">
             
-            <control:Loader />
+           <control:Loader />
             
-            <ListView x:Name="list" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
+           <StackLayout VerticalOptions="FillAndExpand" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" Spacing="0">
+           
+            <ListView x:Name="list" IsVisible="{Binding IsEmpty,Converter={converter:BoolInverseConverter}}"  ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -51,7 +53,11 @@
                     </DataTemplate>
                 </ListView.GroupHeaderTemplate>
             </ListView>
-            
+                      
+           <control:EmptyView VerticalOptions="CenterAndExpand" />
+                
+           </StackLayout>
+             
         </StackLayout>
     </base:BasePage.Content>
 </base:BasePage>

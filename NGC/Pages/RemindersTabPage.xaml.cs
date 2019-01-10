@@ -7,17 +7,15 @@ namespace NGC.Pages
 {
     public partial class RemindersTabPage : BasePage
     {
-
         public RemindersTabPage()
         {
             InitializeComponent();
 
             if (Device.RuntimePlatform == Device.Android)
             {
-                ToolbarItems.Remove(btFilter);
-                imgFilter.IsVisible = true;
+                //ToolbarItems.Remove(btFilter);
+                //imgFilter.IsVisible = true;
             }
-
         }
 
         protected override void OnBindingContextChanged()

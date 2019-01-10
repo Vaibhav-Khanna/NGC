@@ -64,5 +64,6 @@ namespace NGC.Pages
             if (tabContainer.Children.Any())
                 tabContainer.Children[e.NewValue].BackgroundColor = red;
         }
+
     }
 }

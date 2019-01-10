@@ -23,17 +23,29 @@ namespace NGC.DataModels
         void GetCheckinColor()
         {
             if (!Contact.AllowCheckin)
+            {
                 RatingColor = "#656565";
+                RatingColorFrenchText = "Noir";
+            }
             else
             {
                 var diff = DateTime.Now.Subtract(Contact.LastCheckinAt.DateTime).Days;
 
                 if (diff >= 0 && diff <= Contact.FirstCheckinDuration)
+                {
                     RatingColor = "#7ed321";  //green
+                    RatingColorFrenchText = "Vert";
+                }
                 else if (diff > Contact.FirstCheckinDuration && diff <= Contact.SecondCheckinDuration)
+                {
                     RatingColor = "#f5a623"; //orange
+                    RatingColorFrenchText = "Orange";
+                }
                 else if (diff > Contact.SecondCheckinDuration)
+                {
                     RatingColor = "#ec1414"; //red
+                    RatingColorFrenchText = "Rouge";
+                }
             }
         }
 
@@ -61,6 +73,8 @@ namespace NGC.DataModels
         public string Mobile { get; set; }
 
         public string RatingColor { get; set; } = "#656565";
+
+        public string RatingColorFrenchText { get; set; }
 
         public string FilterColor { get; set; }
 

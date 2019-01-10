@@ -16,8 +16,8 @@ namespace NGC
          public static string NgcApp = @"https://ngc-app-uat.azurewebsites.net/web/dashboard";
 
 #elif RELEASE
-        public static string ApplicationURL = @"https://mindurry-dev.azurewebsites.net/api";
-        public static string NgcApp = @"https://ngc-app-dev.azurewebsites.net/web/dashboard";
+        public static string ApplicationURL = @"https://ngc-app-dev.azurewebsites.net/api";
+        public static string NgcApp = @"https://ngc-app-dev.azurewebsites.net/web/auth/callback#id_token=";
 
 #else
         public static string ApplicationURL = @"https://mindurry-uat.azurewebsites.net/api";

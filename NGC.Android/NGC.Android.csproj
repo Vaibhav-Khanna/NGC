@@ -256,6 +256,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\splash_android.9.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\splash_android.9.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\splash_android.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\docsIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\docsIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\docsIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
@@ -270,6 +273,9 @@
       <Project>{1D82E9E0-7ADA-4ACE-BCF7-80B3A5C48490}</Project>
       <Name>NGC</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\animation3.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

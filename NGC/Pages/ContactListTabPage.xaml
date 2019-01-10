@@ -52,12 +52,15 @@
             
             <StackLayout IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" Orientation="Vertical" Spacing="0">
                 
-              <ListView x:Name="listview" ItemAppearing="Handle_ItemAppearing" IsVisible="true" ItemsSource="{Binding Contacts}" ItemTapped="Handle_ItemTapped" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
+                 <StackLayout x:Name="lt" IsVisible="true" >
+                            
+                 <control:EmptyView Padding="0,40,0,0" VerticalOptions="Center" /> 
+                       
+              <ListView x:Name="listview" ItemAppearing="Handle_ItemAppearing" IsVisible="{Binding IsEmpty,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Contacts}" ItemTapped="Handle_ItemTapped" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            
-                                             
+                                                                         
                               <Grid HorizontalOptions="FillAndExpand" RowSpacing="4" Padding="16,14,35,12">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />
@@ -92,9 +95,16 @@
                         <BoxView HeightRequest="2" Color="Transparent" />
                     </ListView.Footer>
                     
+                   
             </ListView>
                 
-                 <ListView x:Name="listview_Company" IsVisible="false" ItemsSource="{Binding Companies}" ItemTapped="Handle_ItemTapped_1" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
+                     </StackLayout>
+                    
+               <StackLayout x:Name="ltCompany" IsVisible="false" >
+                            
+               <control:EmptyView Padding="0,40,0,0" VerticalOptions="Center"  /> 
+                       
+               <ListView x:Name="listview_Company" IsVisible="{Binding IsEmpty,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Companies}" ItemTapped="Handle_ItemTapped_1" IsPullToRefreshEnabled="true" IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshCommand}" HasUnevenRows="true" CachingStrategy="RecycleElement" SeparatorColor="#c8c7cc" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Key}" GroupShortNameBinding="{Binding Key}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -124,6 +134,7 @@
                     
             </ListView>
                 
+            </StackLayout>
                 
             </StackLayout>
            

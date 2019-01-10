@@ -133,6 +133,11 @@ namespace NGC.ViewModels
                     Reminders = new ObservableCollection<RemindersModel>(AllReminders.Where((arg) => arg.Reminder.DoneAt.HasValue));
                 }
             }
+
+            if (Reminders != null)
+                IsEmpty = !Reminders.Any();
+            else
+                IsEmpty = true;
         }
 
         void GetFilterData()

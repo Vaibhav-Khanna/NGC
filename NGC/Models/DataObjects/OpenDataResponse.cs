@@ -27,6 +27,7 @@ namespace NGC.Models.DataObjects
 
         public class Fields
         {
+           
 
             [JsonProperty("efetcent")]
             public string efetcent { get; set; }
@@ -356,6 +357,9 @@ namespace NGC.Models.DataObjects
 
             [JsonProperty("fields")]
             public Fields fields { get; set; }
+
+            [JsonIgnore]
+            public string Name { get { return fields.nomen_long; } }
 
             [JsonProperty("geometry")]
             public Geometry geometry { get; set; }

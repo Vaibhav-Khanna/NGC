@@ -46,5 +46,24 @@ namespace NGC.DataStore.Implementation.Stores
 
             return null;
         }
+
+        public async Task<IEnumerable<Company>> SearchCompany(string searchText)
+        {
+            if (string.IsNullOrWhiteSpace(searchText))
+                return null;
+
+            try
+            {
+                var result = await Table.Where(arg => arg.Name.ToLower().Contains(searchText.ToLower())).ToEnumerableAsync().ConfigureAwait(false);
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return null;
+        }
     }
 }

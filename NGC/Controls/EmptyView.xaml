@@ -4,12 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
     x:Class="NGC.Controls.EmptyView"
-    IsVisible="{Binding IsEmpty}">
+    IsVisible="{Binding IsEmpty}"
+    VerticalOptions="Center">
     <ContentView.Content>
         
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
             
-            <Image HeightRequest="100" HorizontalOptions="Center" Aspect="AspectFit" />
+            <Image Source="docsIcon.png" TranslationX="15" HeightRequest="130" WidthRequest="114" HorizontalOptions="Center" />
             
             <Label x:Name="lbT" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontSize="16" TextColor="Gray" Margin="20" />
             

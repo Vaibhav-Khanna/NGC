@@ -12,16 +12,17 @@
     xmlns:resources="clr-namespace:NGC">
       
     <base:BasePage.ToolbarItems>
-        <ToolbarItem x:Name="btFilter" Priority="0" Icon="filters.png" Command="{Binding FilterCommand}" />
+        <ToolbarItem x:Name="btFilter" Priority="0" Icon="" Text="      " Command="{Binding FilterCommand}" />
         <ToolbarItem Priority="1" Icon="plus.png" Command="{Binding AddCommand}" />
     </base:BasePage.ToolbarItems>
     
     <NavigationPage.TitleView>
+        
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="10">          
            
-            <Image x:Name="imgFilter" Source="filters.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="Start" Margin="0,0,0,0" VerticalOptions="Center" IsVisible="false" >
+            <Image x:Name="imgFilter"  WidthRequest="25" HeightRequest="25" HorizontalOptions="Start" Margin="0,0,0,0" VerticalOptions="Center" IsVisible="false" >
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding FilterCommand}"/>
+                    <TapGestureRecognizer />
                 </Image.GestureRecognizers>
             </Image>
             
@@ -31,7 +32,9 @@
                     <controls:SegmentedControlOption Text="{resources:Translate Ended}" /> 
                 </controls:SegmentedControl.Children>
             </controls:SegmentedControl>
+            
         </StackLayout>
+   
     </NavigationPage.TitleView>
     
     
@@ -45,7 +48,10 @@
             
             <!-- Listview Area-->
           
-            <syncfusion:SfListView x:Name="listview" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
+            <StackLayout VerticalOptions="FillAndExpand" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" Spacing="0">
+                
+           
+            <syncfusion:SfListView x:Name="listview" IsVisible="{Binding IsEmpty,Converter={converter:BoolInverseConverter}}"  ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
                 <syncfusion:SfListView.ItemTemplate>
                     <DataTemplate>
                         
@@ -101,6 +107,9 @@
                 
             </syncfusion:SfListView>
         
+            <control:EmptyView VerticalOptions="CenterAndExpand" />
+                
+            </StackLayout>
             
             <control:Loader />
                 

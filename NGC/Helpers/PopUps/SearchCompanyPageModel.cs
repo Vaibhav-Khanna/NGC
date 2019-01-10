@@ -11,7 +11,8 @@ namespace NGC.Helpers.PopUps
 {
     public class SearchCompanyPageModel : BaseViewModel
     {
-        public ObservableCollection<Record> ItemSource { get; set; }
+
+        public ObservableCollection<object> ItemSource { get; set; }
 
         public bool IsResultAvailable { get; set; } = false;
 
@@ -36,7 +37,7 @@ namespace NGC.Helpers.PopUps
             set
             {
                 _search = value;
-                ItemSource = new ObservableCollection<Record>();
+                ItemSource = new ObservableCollection<object>();
                 Search();
                 RaisePropertyChanged();
             }
@@ -50,21 +51,36 @@ namespace NGC.Helpers.PopUps
             if (string.IsNullOrWhiteSpace(SearchText))
             {
                 IsHeaderVisible = false;
-                ItemSource = new ObservableCollection<Record>();
+                ItemSource = new ObservableCollection<object>();
                 return;
             }
+
+            var azure_results = await StoreManager.CompanyStore.SearchCompany(SearchText);
 
             var results = await StoreManager.CompanyStore.SearchCompanyFromOpenData(SearchText);
 
             IsHeaderVisible = true;
 
-            if (results != null && results.Any())
+            if (azure_results != null && azure_results.Any())
+            {
+                IsResultAvailable = true;
+
+                CountText = $"{azure_results.Count()}";
+
+                ItemSource = new ObservableCollection<object>();
+
+                foreach (var item in azure_results)
+                {
+                    ItemSource.Add(item);
+                }
+            }
+            else if (results != null && results.Any())
             {
                 IsResultAvailable = true;
 
                 CountText = $"{results.Count()} {AppResources.ResultsOpenData}";
 
-                ItemSource = new ObservableCollection<Record>();
+                ItemSource = new ObservableCollection<object>();
 
                 foreach (var item in results)
                 {

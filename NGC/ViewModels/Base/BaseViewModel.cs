@@ -36,6 +36,8 @@ namespace NGC.ViewModels
 
         public string LoadingText { get; set; }
 
+        public bool IsEmpty { get; set; }
+
         public bool IsBusy
         {
             get; set;

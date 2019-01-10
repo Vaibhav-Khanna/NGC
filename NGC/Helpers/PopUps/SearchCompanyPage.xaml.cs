@@ -10,6 +10,7 @@ namespace NGC.Helpers.PopUps
     {
         public object Result;
 
+
         public SearchCompanyPage()
         {
             InitializeComponent();

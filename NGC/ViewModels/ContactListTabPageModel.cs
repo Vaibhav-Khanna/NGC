@@ -7,7 +7,7 @@ using Xamarin.Forms;
 using System.Threading.Tasks;
 using NGC.DataModels;
 using System.Collections.Generic;
-
+using NGC.Models.DataObjects;
 
 namespace NGC.ViewModels
 {
@@ -21,7 +21,6 @@ namespace NGC.ViewModels
         string _searchtext;
         [PropertyChanged.DoNotNotify]
         public string SearchText { get { return _searchtext; } set { _searchtext = value; Search(); RaisePropertyChanged(); } }
-
 
         ObservableCollection<ObservableGroupCollection<ContactModel>> AllContacts;
         public ObservableCollection<ObservableGroupCollection<ContactModel>> Contacts { get; set; }
@@ -60,6 +59,12 @@ namespace NGC.ViewModels
                 {
                     IsFilterActive = false;
                 }
+            }
+            else if(returnedData is Contact)
+            {
+                IsRefreshing = true;
+
+                RefreshCommand.Execute(null);
             }
 
             base.ReverseInit(returnedData);
@@ -115,10 +120,12 @@ namespace NGC.ViewModels
         });
 
         public void TabSelectedChanged(int index)
-        {
+        {     
             TabIndex = index;
 
-            Search();      
+            Search();
+
+            IsEmpty = !(index == 0 ? Contacts != null && Contacts.Any() : Companies != null && Companies.Any());
         }
 
         void Search()
@@ -181,6 +188,8 @@ namespace NGC.ViewModels
                 else
                     Companies = AllCompanies;
             }
+
+            FilterData();
         }
 
 
@@ -279,32 +288,105 @@ namespace NGC.ViewModels
         }
 
 
+        void GroupContacts(IEnumerable<ContactModel> list)
+        {
+            Contacts = new ObservableCollection<ObservableGroupCollection<ContactModel>>();
+
+            foreach (var item in list.GroupBy((arg) => arg.LastName?.First()).OrderBy((arg) => arg.Key))
+            {
+                var group = new ObservableGroupCollection<ContactModel>() { Key = item.Key?.ToString()?.ToUpper() };
+
+                foreach (var x in item)
+                {
+                    group.Add(x);
+                }
+
+                Contacts.Add(group);
+            }
+        }
+
+
         void FilterData()
         {
-            if (!IsFilterActive)
-                return;
-       
-            var dataToFilter = AllContacts?.ToList();
+            List<ContactModel> dataToFilter = new List<ContactModel>();
 
-            List<ContactModel> temp_list = new List<ContactModel>();
+            if(AllContacts!=null)
+            foreach (var item in AllContacts)
+            {
+                foreach (var x in item)
+                {
+                    dataToFilter.Add(x);
+                }
+            }
+
+            if (!IsFilterActive)
+            {
+                if(AllContacts != null && AllContacts.Any() )
+                GroupContacts(dataToFilter);
+
+                return;
+            }
+
+            var temp_list = new List<ContactModel>();
 
             foreach (var category in Filters)
-            {
+            {           
                 if (category.ActiveFilters > 0)
-                {              
+                {
+                    temp_list.Clear();
+
                     switch (category.CategoryName)
                     {
                         case "Statut":
                             {
                                 foreach (var selected_filter in category.SelectedFilters)
                                 {
-                                    if (selected_filter.PropertyName == "Tous")
+                                    if (selected_filter.PropertyName != "Tous")
                                     {
-
+                                        temp_list.AddRange(dataToFilter.Where((arg) => arg.Contact.State == selected_filter.PropertyName));
                                     }
                                     else
                                     {
+                                        temp_list.AddRange(dataToFilter);
+                                    }
+                                }
 
+                                break;
+                            }
+                        case "Check In":
+                            {
+                                foreach (var selected_filter in category.SelectedFilters)
+                                {
+                                    if (selected_filter.PropertyName != "Tous")
+                                    {
+                                        temp_list.AddRange(dataToFilter.Where((arg) => arg.RatingColorFrenchText == selected_filter.PropertyName));
+                                    }
+                                    else
+                                    {
+                                        temp_list.AddRange(dataToFilter);
+                                    }
+                                }
+                            }
+                            break;
+                        case "Poids":
+                            {
+                                foreach (var selected_filter in category.SelectedFilters)
+                                {
+                                    temp_list.AddRange(dataToFilter.Where((arg) => arg.Rating.ToString() == selected_filter.PropertyName ));
+                                }
+                            }
+                            break;
+                        case "Tags":
+                            {
+                                foreach (var selected_filter in category.SelectedFilters)
+                                {
+                                    if (selected_filter.PropertyName != "Tous")
+                                    {
+                                        temp_list.AddRange(dataToFilter.Where((arg) => arg.JobTitle == selected_filter.PropertyName));
+                                    }
+                                    else
+                                    {
+                                        temp_list.AddRange(dataToFilter);
                                     }
                                 }
                             }
@@ -312,8 +394,12 @@ namespace NGC.ViewModels
                         default:
                             break;
                     }
+
+                    dataToFilter = temp_list.ToList();
                 }
             }
+
+            GroupContacts(temp_list.Distinct());
 
         }
 

@@ -60,6 +60,7 @@ namespace NGC.Controls
             InitView();
         }
 
+
         void Tabs_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)  // handle change of tabviews
         {
             if (Tabs == null)
