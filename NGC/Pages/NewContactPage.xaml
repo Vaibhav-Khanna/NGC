@@ -98,15 +98,15 @@
                         </StackLayout> 
                         </Frame>
                     
-                        <repeater:RepeaterView x:Name="MainRepeater" Spacing="7"  EmptyText="" ShowSeparator="false" ItemsSource="{Binding ContactNumbers}">
+                       <!-- <repeater:RepeaterView x:Name="MainRepeater" Spacing="7"  EmptyText="" ShowSeparator="false" ItemsSource="{Binding ContactNumbers}">
                         <repeater:RepeaterView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Padding="0,0,6,0" Spacing="11" Orientation="Horizontal" >
+                            <ViewCell>-->
+                                <StackLayout Padding="0,0,0,0" Spacing="11" Orientation="Horizontal" >
                               
                                             <Frame HeightRequest="45" HorizontalOptions="Start" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                             <StackLayout Orientation="Horizontal">
-                                <customControl:BorderlessPicker Title="{resources:Translate Mobile}" TextColor="#9b9b9b" HorizontalOptions="Start" FontSize="14"  />
+                                <customControl:BorderlessPicker SelectedItem="{Binding SelectedCountry,Mode=TwoWay}" ItemsSource="{Binding CountryCodes}" ItemDisplayBinding="{Binding PickerDisplay}" Title="{resources:Translate Mobile}" TextColor="#9b9b9b" HorizontalOptions="Start" FontSize="14"  />
                                     <Image Source="select.png" VerticalOptions="Center" HorizontalOptions="End"/>
                             </StackLayout>
                             </Frame>
@@ -114,21 +114,21 @@
                                             <Frame HeightRequest="45" HorizontalOptions="FillAndExpand" Padding="15,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >
                         <StackLayout HorizontalOptions="FillAndExpand" Spacing="13" Orientation="Horizontal">
                             <Image Source="phone.png" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="22" />
-                            <customControl:BorderlessEntry Placeholder="{resources:Translate Telephone}"  PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Telephone"  />
+                            <customControl:BorderlessEntry Text="{Binding Mobile}" Placeholder="{resources:Translate Telephone}"  PlaceholderColor="#9b9b9b" HorizontalOptions="FillAndExpand" TextColor="Black" FontSize="14" FontFamily="SFUIText-Regular" VerticalOptions="Center"  IsSpellCheckEnabled="false" Keyboard="Telephone"  />
                         </StackLayout> 
                         </Frame>
                                 
-                                            <Image Source="add.png" WidthRequest="18" HeightRequest="22" VerticalOptions="Center" HorizontalOptions="End">
+                                           <!-- <Image Source="add.png" WidthRequest="18" HeightRequest="22" VerticalOptions="Center" HorizontalOptions="End">
                                                 <Image.GestureRecognizers>
                                                     <TapGestureRecognizer Command="{Binding Source={x:Reference MainRepeater}, Path=BindingContext.AddCommand}" />
                                                 </Image.GestureRecognizers>
-                                            </Image>
+                                            </Image>-->
                                             
                                 </StackLayout>
-                            </ViewCell>
+                            <!--</ViewCell>
                          </DataTemplate>
                        </repeater:RepeaterView.ItemTemplate>
-                   </repeater:RepeaterView>
+                   </repeater:RepeaterView>-->
                         
                    
                         <Frame HeightRequest="45" Padding="10,2,10,2" BorderColor="#d9d9d9" HasShadow="false" >

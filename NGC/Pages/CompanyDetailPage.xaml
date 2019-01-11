@@ -71,7 +71,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{resources:Translate Siret}" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
-                                    <Span Text="{Binding Company.Siret}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                    <Span Text="{Binding Company.Company.Siret}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
@@ -80,7 +80,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{resources:Translate StatutJuridique}" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
-                                    <Span Text="{Binding Company.StatutJuridique}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                    <Span Text="{Binding Company.Company.StatutJuridique}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
@@ -89,7 +89,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{resources:Translate APE}" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
-                                    <Span Text="{Binding Company.Ape}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                    <Span Text="{Binding Company.Company.Ape}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
@@ -98,7 +98,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{resources:Translate APELabel}" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
-                                    <Span Text="{Binding Company.ApeLibelle}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                    <Span Text="{Binding Company.Company.ApeLibelle}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
@@ -107,7 +107,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{resources:Translate APEClass}" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
-                                    <Span Text="{Binding Company.ApeSousClasse}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                    <Span Text="{Binding Company.Company.ApeSousClasse}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
@@ -116,7 +116,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{resources:Translate Effectifs}" FontSize="16" FontAttributes="Bold" TextColor="#4a4a4a" FontFamily="SFUIDisplay-Semibold" />
-                                    <Span Text="{Binding Effectif}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
+                                    <Span Text="{Binding Company.Company.Effectif}" FontSize="16" TextColor="#9b9b9b" FontFamily="SFUIDisplay-Regular" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>

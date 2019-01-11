@@ -65,7 +65,7 @@ namespace NGC.Helpers.PopUps
             {
                 IsResultAvailable = true;
 
-                CountText = $"{azure_results.Count()}";
+                CountText = $"{azure_results.Count()} {AppResources.ResultsOpenData}";
 
                 ItemSource = new ObservableCollection<object>();
 

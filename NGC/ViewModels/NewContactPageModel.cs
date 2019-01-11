@@ -8,6 +8,10 @@ using static NGC.Models.DataObjects.OpenDataResponse;
 using NGC.Models.DataObjects;
 using NGC.DataModels;
 using System.Threading.Tasks;
+using System.IO;
+using System.Reflection;
+using Newtonsoft.Json;
+using NGC.Models;
 
 namespace NGC.ViewModels
 {
@@ -22,6 +26,7 @@ namespace NGC.ViewModels
 
         public ObservableCollection<string> Qualifications { get; set; }
 
+        public ObservableCollection<CountryCode> CountryCodes { get; set; }
 
         public bool IsSegmentVisible { get; set; }
      
@@ -29,6 +34,9 @@ namespace NGC.ViewModels
 
         private bool IsNewCreation;
 
+        public CountryCode SelectedCountry { get; set; }
+
+        public Contact ExistingContact { get; set; }
 
         #endregion
 
@@ -46,6 +54,8 @@ namespace NGC.ViewModels
 
         public string Function { get; set; }
 
+        public string Mobile { get; set; }
+
         public int Rating { get; set; }
 
         public string Qualification { get; set; }
@@ -55,7 +65,6 @@ namespace NGC.ViewModels
         public string Source { get; set; }
 
         public bool ActiveCheckIn { get; set; }
-
 
         #endregion
 
@@ -93,6 +102,7 @@ namespace NGC.ViewModels
                     Lastname = LastName,
                     Email = Email,
                     AllowCheckin = ActiveCheckIn,
+                    Mobile = string.IsNullOrWhiteSpace(Mobile) ? "" : SelectedCountry.DialCode + "-" + Mobile,
                     CollectSourceName = Source,
                     Qualification = Qualification,
                     Tags = Tag?.Name,
@@ -120,7 +130,8 @@ namespace NGC.ViewModels
                     Firstname = FirstName,
                     Lastname = LastName,
                     Email = Email,
-                    CompanyName = CompanyLabel,
+                    CompanyName = Company,
+                    Mobile = string.IsNullOrWhiteSpace(Mobile) ? "" : SelectedCountry.DialCode + "-" + Mobile,
                     AllowCheckin = ActiveCheckIn,
                     CollectSourceName = Source,
                     JobTitle = Function,
@@ -129,55 +140,27 @@ namespace NGC.ViewModels
                     Weight = Rating,
                 };
 
-                if (CompanyObject != null)
+                var iscreated = await CreateCompany();
+
+                if (!iscreated)
+                    return;
+
+                if (CompanyObject is Company)
                 {
+                    var obj = CompanyObject as Company;
 
-                    if (CompanyObject is Record)
-                    {
-                        // Create a new company and insert it
-                        var obj = CompanyObject as Record;
-
-                        var company = new Company()
-                        {
-                            Name = obj.Name,
-                            Siret = CompanyDetails[5].Text,
-                            Email = CompanyDetails[1].Text,
-                        };
-
-                        ToastService.ShowLoading("Creating Company");
-
-                        var isadded = await StoreManager.CompanyStore.InsertAsync(company);
-
-                        ToastService.HideLoading();
-
-                        if (isadded)
-                            CompanyObject = company;
-                        else
-                        {
-                            ShowErrorMessage();
-                            return;
-                        } 
-                         
-                        //
-                    }
-
-                    if (CompanyObject is Company)
-                    {
-                        var obj = CompanyObject as Company;
-
-                        contact.CompanyId = obj.Id;
-                        contact.CompanyName = Company;
-                        contact.CompanyCity = obj.City;
-                        contact.CompanyState = obj.State;
-                        contact.CompanyCountry = obj.Country;
-                        contact.CompanyStreet1 = obj.Street1;
-                        contact.CompanyStreet2 = obj.Street2;
-                        contact.CompanyZipCode = obj.ZipCode;
-                        contact.CompanyLatitude = obj.Latitude;
-                        contact.CompanyLongitude = obj.Longitude;
-                    }
-
+                    contact.CompanyId = obj.Id;
+                    contact.CompanyName = Company;
+                    contact.CompanyCity = obj.City;
+                    contact.CompanyState = obj.State;
+                    contact.CompanyCountry = obj.Country;
+                    contact.CompanyStreet1 = obj.Street1;
+                    contact.CompanyStreet2 = obj.Street2;
+                    contact.CompanyZipCode = obj.ZipCode;
+                    contact.CompanyLatitude = obj.Latitude;
+                    contact.CompanyLongitude = obj.Longitude;
                 }
+
 
                 ToastService.ShowLoading(AppResources.Save);
 
@@ -192,16 +175,85 @@ namespace NGC.ViewModels
             }
             else if (!IsNewCreation && IsContactTab && !IsSegmentVisible) // Modify exisiting normal contact
             {
-                ShowErrorMessage();
+                var contact = ExistingContact;
+
+                contact.Firstname = FirstName;
+                contact.Lastname = LastName;
+                contact.Email = Email;
+                contact.CompanyName = Company;
+                contact.Mobile = string.IsNullOrWhiteSpace(Mobile) ? "" : SelectedCountry.DialCode + "-" + Mobile;
+                contact.AllowCheckin = ActiveCheckIn;
+                contact.CollectSourceName = Source;
+                contact.JobTitle = Function;
+                contact.Qualification = Qualification;
+                contact.Tags = Tag?.Name;
+                contact.Weight = Rating;
+
+                ToastService.ShowLoading(AppResources.Save);
+
+                var isCreated = await StoreManager.ContactStore.UpdateAsync(contact);
+
+                ToastService.HideLoading();
+
+                if (isCreated)
+                    await CoreMethods.PopPageModel(contact, true);
+                else
+                    ShowErrorMessage();
+
             }
             else if (!IsNewCreation && IsContactTab && IsSegmentVisible) // Modify a professional contact 
             {
-                ShowErrorMessage();
+                var contact = ExistingContact;
+
+                contact.Firstname = FirstName;
+                contact.Lastname = LastName;
+                contact.Email = Email;
+                contact.CompanyName = Company;
+                contact.Mobile = string.IsNullOrWhiteSpace(Mobile) ? "" : SelectedCountry.DialCode + "-" + Mobile;
+                contact.AllowCheckin = ActiveCheckIn;
+                contact.CollectSourceName = Source;
+                contact.JobTitle = Function;
+                contact.Qualification = Qualification;
+                contact.Tags = Tag?.Name;
+                contact.Weight = Rating;
+
+                var iscreated = await CreateCompany();
+
+                if (!iscreated)
+                    return;
+
+                if (CompanyObject is Company)
+                {
+                    var obj = CompanyObject as Company;
+
+                    contact.CompanyId = obj.Id;
+                    contact.CompanyName = Company;
+                    contact.CompanyCity = obj.City;
+                    contact.CompanyState = obj.State;
+                    contact.CompanyCountry = obj.Country;
+                    contact.CompanyStreet1 = obj.Street1;
+                    contact.CompanyStreet2 = obj.Street2;
+                    contact.CompanyZipCode = obj.ZipCode;
+                    contact.CompanyLatitude = obj.Latitude;
+                    contact.CompanyLongitude = obj.Longitude;
+                }
+
+                ToastService.ShowLoading(AppResources.Save);
+
+                var isCreated = await StoreManager.ContactStore.UpdateAsync(contact);
+
+                ToastService.HideLoading();
+
+                if (isCreated)
+                    await CoreMethods.PopPageModel(contact, true);
+                else
+                    ShowErrorMessage();
             }
-            else if(!IsNewCreation && !IsContactTab && !IsSegmentVisible) // Modifying a company details
+            else if (!IsNewCreation && !IsContactTab && !IsSegmentVisible) // Modifying a company details
             {
                 ShowErrorMessage();
             }
+
         });
 
 
@@ -255,6 +307,22 @@ namespace NGC.ViewModels
                 CompanyDetails[9].Text = obj.ApeSousClasse;
                 CompanyDetails[10].Text = obj.Effectif;
             }
+            else if (CompanyObject is Record)
+            {
+                var obj = CompanyObject as Record;
+
+                //CompanyDetails[0].Text = obj.fields.; // Address
+                //CompanyDetails[1].Text = obj.Email; // email
+                //CompanyDetails[2].Text = obj.Phone; // phone
+                //CompanyDetails[3].Text = obj.Mobile; // mobile
+                //CompanyDetails[4].Text = obj.Web; // web
+                //CompanyDetails[5].Text = obj.fields.siret; // siret
+                //CompanyDetails[6].Text = obj.; //statut juridique
+                //CompanyDetails[7].Text = obj.fields.apet700; // ape
+                //CompanyDetails[8].Text = obj.fields.lib; // apeLibelle
+                //CompanyDetails[9].Text = obj.ApeSousClasse; // ApeSousClasse
+                //CompanyDetails[10].Text = obj.Effectif; // Effectif
+            }
 
         });
 
@@ -293,22 +361,37 @@ namespace NGC.ViewModels
 
                 IsProfessional = IsSegmentVisible;
 
-
-                if (!IsNewCreation && IsContactTab && !IsSegmentVisible) // Modify exisiting normal contact
+              
+                if (!IsNewCreation)
                 {
+                    ExistingContact = (((Tuple<bool, bool, object>)initData).Item3 as ContactModel).Contact;
 
-                }
-                else if (!IsNewCreation && IsContactTab && IsSegmentVisible) // Modify a professional contact 
-                {
+                    FirstName = ExistingContact.Firstname;
+                    LastName = ExistingContact.Lastname;
+                    Email = ExistingContact.Email;
+                    Company = ExistingContact.CompanyName;
+                    Function = ExistingContact.JobTitle;
+                    Mobile = ExistingContact.Mobile?.Split('-')?.Last();
+                    Rating = Convert.ToInt32(ExistingContact.Weight);
+                    Qualification = ExistingContact.Qualification;
+                    Source = ExistingContact.CollectSourceName;
+                    ActiveCheckIn = ExistingContact.AllowCheckin;
 
-                }
-                else if (!IsNewCreation && !IsContactTab && !IsSegmentVisible) // Modifying a company details
-                {
-                   
-                }
-                
-                GetAdditionalData();
+                    if (IsContactTab && !IsSegmentVisible) // Modify exisiting normal contact
+                    {
 
+                    }
+                    else if (IsContactTab && IsSegmentVisible) // Modify a professional contact 
+                    {
+
+                    }
+                    else if (!IsContactTab && !IsSegmentVisible) // Modifying a company details
+                    {
+
+                    }
+                }
+
+               
                 //mockdata
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "Adresse postale" });
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "Email", Keyboard = Keyboard.Email });
@@ -323,14 +406,15 @@ namespace NGC.ViewModels
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "Effectifs" });
                 //
 
+                GetAdditionalData();
             }
         }
 
         async Task<bool> ValidateInput(bool isPro)
         {
-            if (string.IsNullOrWhiteSpace(FirstName) || string.IsNullOrWhiteSpace(LastName) || (IsProfessional && string.IsNullOrWhiteSpace(CompanyLabel)))
+            if (string.IsNullOrWhiteSpace(FirstName) || string.IsNullOrWhiteSpace(LastName) )
             {
-                await CoreMethods.DisplayAlert(AppResources.Alert, AppResources.Error, AppResources.Ok);
+                await CoreMethods.DisplayAlert(AppResources.Alert, AppResources.EnterAllDetails, AppResources.Ok);
                 return false;
             }
 
@@ -339,7 +423,54 @@ namespace NGC.ViewModels
 
         async void ShowErrorMessage()
         {
-            await CoreMethods.DisplayAlert(AppResources.Error, "We could not process this request at this time. Please try again.", AppResources.Ok);
+            await CoreMethods.DisplayAlert(AppResources.Error, AppResources.NotEntertainRequest, AppResources.Ok);
+        }
+
+        async Task<bool> CreateCompany()
+        {
+            if (CompanyObject != null && CompanyObject is Record)
+            {
+                // Create a new company and insert it
+                var obj = CompanyObject as Record;
+
+                var company = new Company()
+                {
+                    Name = obj.Name,
+                    Latitude = obj.geometry.coordinates[0],
+                    Longitude = obj.geometry.coordinates[1],
+                    Email = CompanyDetails[1].Text,
+                    Phone = CompanyDetails[2].Text,
+                    Mobile = CompanyDetails[3].Text,
+                    Web = CompanyDetails[4].Text,
+                    Siret = CompanyDetails[5].Text,
+                    StatutJuridique = CompanyDetails[6].Text,
+                    Ape = CompanyDetails[7].Text,
+                    ApeLibelle = CompanyDetails[8].Text,
+                    ApeSousClasse = CompanyDetails[9].Text,
+                    Effectif = CompanyDetails[10].Text
+                };
+
+                ToastService.ShowLoading(AppResources.CreatingCompany);
+
+                var isadded = await StoreManager.CompanyStore.InsertAsync(company);
+
+                ToastService.HideLoading();
+
+                if (isadded)
+                {
+                    CompanyObject = company;
+                    return true;
+                }
+                else
+                {
+                    ShowErrorMessage();
+                }
+                //
+
+                return false;
+            }
+
+            return true;
         }
 
         // Get Tags and Qualifications for the pickers
@@ -353,6 +484,48 @@ namespace NGC.ViewModels
 
             if (tags != null && tags.Any())
                 Tags = new ObservableCollection<Tag>(tags);
+
+            var list_codes =  ReadJsonFile();
+
+            if (list_codes != null)
+            {
+                CountryCodes = new ObservableCollection<CountryCode>(list_codes);
+
+                SelectedCountry = CountryCodes.First((arg) => arg.Name == "France");
+            }
+
+            if (ExistingContact != null)
+            {
+                Qualification = ExistingContact.Qualification;
+
+                if (!string.IsNullOrEmpty(ExistingContact.Mobile))
+                {
+                    var code = CountryCodes?.Where((arg) => arg.DialCode == ExistingContact?.Mobile?.Split('-')?.First())?.First();
+
+                    if (code != null)
+                        SelectedCountry = code;
+                }
+
+                if (!string.IsNullOrEmpty(ExistingContact.Tags))
+                    Tag = Tags?.Where((arg) => arg.Name == ExistingContact?.Tags)?.First();
+            }
+
+        }
+
+        List<CountryCode> ReadJsonFile()
+        {
+            var assembly = typeof(Pages.NewContactPage).GetTypeInfo().Assembly;
+
+            Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.CountryCodes.json");
+
+            using (var reader = new System.IO.StreamReader(stream))
+            {
+                var json = reader.ReadToEnd();
+
+                var data = JsonConvert.DeserializeObject<List<CountryCode>>(json);
+
+                return data;
+            }
         }
 
 

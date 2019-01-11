@@ -466,5 +466,23 @@ namespace NGC.Resources {
                 return ResourceManager.GetString("EnterAllDetails", resourceCulture);
             }
         }
+        
+        internal static string ResultsOwnData {
+            get {
+                return ResourceManager.GetString("ResultsOwnData", resourceCulture);
+            }
+        }
+        
+        internal static string CreatingCompany {
+            get {
+                return ResourceManager.GetString("CreatingCompany", resourceCulture);
+            }
+        }
+        
+        internal static string NotEntertainRequest {
+            get {
+                return ResourceManager.GetString("NotEntertainRequest", resourceCulture);
+            }
+        }
     }
 }

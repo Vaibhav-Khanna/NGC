@@ -289,8 +289,17 @@
      <data name="EnterAllDetails" xml:space="preserve">
         <value>S'il vous plaît entrer tous les détails.</value>
     </data> 
-     <data name="Alert" xml:space="preserve">
-        <value>Alerte</value>
+     <data name="ResultsOwnData" xml:space="preserve">
+        <value>résultat trouvé dans posséder data</value>
+    </data> 
+     <data name="CreatingCompany" xml:space="preserve">
+        <value>Création d'entreprise</value>
+    </data> 
+     <data name="NotEntertainRequest" xml:space="preserve">
+        <value>Nous n'avons pas pu traiter cette demande pour le moment. Veuillez réessayer</value>
+    </data> 
+     <data name="At" xml:space="preserve">
+        <value>à</value>
     </data> 
     
 </root>

@@ -28,7 +28,6 @@ namespace NGC.Models.DataObjects
         public class Fields
         {
            
-
             [JsonProperty("efetcent")]
             public string efetcent { get; set; }
 

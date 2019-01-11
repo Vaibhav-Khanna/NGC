@@ -43,10 +43,10 @@ namespace NGC.Models.DataObjects
         public string CompanyCountry { get; set; }
 
         [JsonProperty("companyLongitude")]
-        public long CompanyLongitude { get; set; }
+        public double CompanyLongitude { get; set; }
 
         [JsonProperty("companyLatitude")]
-        public long CompanyLatitude { get; set; }
+        public double CompanyLatitude { get; set; }
 
         [JsonProperty("street1")]
         public string Street1 { get; set; }

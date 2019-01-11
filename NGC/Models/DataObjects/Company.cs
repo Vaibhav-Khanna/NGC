@@ -34,10 +34,10 @@ namespace NGC.Models.DataObjects
         public string Country { get; set; }
 
         [JsonProperty("longitude")]
-        public long Longitude { get; set; }
+        public double Longitude { get; set; }
 
         [JsonProperty("latitude")]
-        public long Latitude { get; set; }
+        public double Latitude { get; set; }
 
         [JsonProperty("email")]
         public string Email { get; set; }

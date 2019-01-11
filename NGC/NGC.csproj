@@ -53,6 +53,9 @@
     <Folder Include="Models\DataObjects\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CountryCodes.json" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Update="Resources\AppResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
@@ -72,5 +75,8 @@
     <Compile Update="Resources\AppResources.Designer.cs">
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="CountryCodes.json" />
   </ItemGroup>
 </Project>

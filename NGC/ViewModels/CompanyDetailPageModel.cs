@@ -58,7 +58,7 @@ namespace NGC.ViewModels
 
         public Command ModifyCommand => new Command(async () =>
         {
-            await CoreMethods.PushPageModel<NewContactPageModel>(data:new Tuple<bool, bool, object>(false, false, false), modal:true);
+            await CoreMethods.PushPageModel<NewContactPageModel>(data:new Tuple<bool, bool, object>(false, false, Company.Company ), modal:true);
         });
 
     }
