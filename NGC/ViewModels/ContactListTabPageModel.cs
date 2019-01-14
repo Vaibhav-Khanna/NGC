@@ -47,11 +47,11 @@ namespace NGC.ViewModels
 
         public override void ReverseInit(object returnedData)
         {
-            if(returnedData is IEnumerable<FilterCategoryModel>)
+            if (returnedData is IEnumerable<FilterCategoryModel>)
             {
                 var activeFilters = (IEnumerable<FilterCategoryModel>)returnedData;
 
-                if(activeFilters.Any())
+                if (activeFilters.Any())
                 {
                     IsFilterActive = true;
                 }
@@ -60,7 +60,13 @@ namespace NGC.ViewModels
                     IsFilterActive = false;
                 }
             }
-            else if(returnedData is Contact)
+            else if (returnedData is Contact)
+            {
+                IsRefreshing = true;
+
+                RefreshCommand.Execute(null);
+            }
+            else if (returnedData is Company)
             {
                 IsRefreshing = true;
 

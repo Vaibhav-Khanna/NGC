@@ -251,7 +251,39 @@ namespace NGC.ViewModels
             }
             else if (!IsNewCreation && !IsContactTab && !IsSegmentVisible) // Modifying a company details
             {
-                ShowErrorMessage();
+                if (CompanyObject == null)
+                    return;
+
+                var iscreated = await CreateCompany();
+
+                if (!iscreated)
+                    return;
+
+                var company = CompanyObject as Company;
+
+                company.Name = CompanyLabel;
+
+                company.Email = CompanyDetails[1].Text;
+                company.Phone = CompanyDetails[2].Text;
+                company.Mobile = CompanyDetails[3].Text;
+                company.Web = CompanyDetails[4].Text;
+                company.Siret = CompanyDetails[5].Text;
+                company.StatutJuridique = CompanyDetails[6].Text;
+                company.Ape = CompanyDetails[7].Text;
+                company.ApeLibelle = CompanyDetails[8].Text;
+                company.ApeSousClasse = CompanyDetails[9].Text;
+                company.Effectif = CompanyDetails[10].Text;
+
+                ToastService.ShowLoading(AppResources.Save);
+
+                var isCreated = await StoreManager.CompanyStore.UpdateAsync(company);
+
+                ToastService.HideLoading();
+
+                if (isCreated)
+                    await CoreMethods.PopPageModel(company, true);
+                else
+                    ShowErrorMessage();
             }
 
         });
@@ -331,7 +363,7 @@ namespace NGC.ViewModels
 
         #region Methods
 
-        public override void Init(object initData)
+        public async override void Init(object initData)
         {
 
             base.Init(initData);
@@ -361,37 +393,6 @@ namespace NGC.ViewModels
 
                 IsProfessional = IsSegmentVisible;
 
-              
-                if (!IsNewCreation)
-                {
-                    ExistingContact = (((Tuple<bool, bool, object>)initData).Item3 as ContactModel).Contact;
-
-                    FirstName = ExistingContact.Firstname;
-                    LastName = ExistingContact.Lastname;
-                    Email = ExistingContact.Email;
-                    Company = ExistingContact.CompanyName;
-                    Function = ExistingContact.JobTitle;
-                    Mobile = ExistingContact.Mobile?.Split('-')?.Last();
-                    Rating = Convert.ToInt32(ExistingContact.Weight);
-                    Qualification = ExistingContact.Qualification;
-                    Source = ExistingContact.CollectSourceName;
-                    ActiveCheckIn = ExistingContact.AllowCheckin;
-
-                    if (IsContactTab && !IsSegmentVisible) // Modify exisiting normal contact
-                    {
-
-                    }
-                    else if (IsContactTab && IsSegmentVisible) // Modify a professional contact 
-                    {
-
-                    }
-                    else if (!IsContactTab && !IsSegmentVisible) // Modifying a company details
-                    {
-
-                    }
-                }
-
-               
                 //mockdata
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "Adresse postale" });
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "Email", Keyboard = Keyboard.Email });
@@ -405,6 +406,54 @@ namespace NGC.ViewModels
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "APE sous classe" });
                 CompanyDetails.Add(new CompanyDynamicEntry() { Placeholder = "Effectifs" });
                 //
+
+                if (!IsNewCreation)
+                {
+                    if (((Tuple<bool, bool, object>)initData).Item3 is ContactModel)
+                    {
+                        ExistingContact = (((Tuple<bool, bool, object>)initData).Item3 as ContactModel).Contact;
+
+                        FirstName = ExistingContact.Firstname;
+                        LastName = ExistingContact.Lastname;
+                        Email = ExistingContact.Email;
+                        Company = ExistingContact.CompanyName;
+                        Function = ExistingContact.JobTitle;
+                        Mobile = ExistingContact.Mobile?.Split('-')?.Last();
+                        Rating = Convert.ToInt32(ExistingContact.Weight);
+                        Qualification = ExistingContact.Qualification;
+                        Source = ExistingContact.CollectSourceName;
+                        ActiveCheckIn = ExistingContact.AllowCheckin;
+
+                        if (!string.IsNullOrEmpty(ExistingContact.CompanyId))
+                        {
+                            CompanyObject = await StoreManager.CompanyStore.GetItemAsync(ExistingContact.CompanyId);
+                        }
+                    }
+                    else
+                    {
+                        CompanyObject = (((Tuple<bool, bool, object>)initData).Item3 as Company);
+                    }
+
+                    if (CompanyObject != null)
+                    {
+                        var obj = CompanyObject as Company;
+
+                        CompanyDetails[0].Text = obj.Address; // Address
+                        CompanyDetails[1].Text = obj.Email;
+                        CompanyDetails[2].Text = obj.Phone;
+                        CompanyDetails[3].Text = obj.Mobile;
+                        CompanyDetails[4].Text = obj.Web;
+                        CompanyDetails[5].Text = obj.Siret;
+                        CompanyDetails[6].Text = obj.StatutJuridique;
+                        CompanyDetails[7].Text = obj.Ape;
+                        CompanyDetails[8].Text = obj.ApeLibelle;
+                        CompanyDetails[9].Text = obj.ApeSousClasse;
+                        CompanyDetails[10].Text = obj.Effectif;
+                    }
+
+                  
+                }
+              
 
                 GetAdditionalData();
             }

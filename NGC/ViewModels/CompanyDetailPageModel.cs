@@ -39,6 +39,16 @@ namespace NGC.ViewModels
             }
         }
 
+        public async override void ReverseInit(object returnedData)
+        {
+            base.ReverseInit(returnedData);
+
+            if (returnedData is Company)
+            {
+                await CoreMethods.PopPageModel();
+            }
+        }
+
 
         public Command ContactDetailCommand => new Command(async(obj) =>
         {
