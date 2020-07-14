@@ -8,14 +8,19 @@
     xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
     xmlns:resources="clr-namespace:NGC"
     Title="{resources:Translate Notifications}">
+
+    <base:BasePage.Resources> 
+       <converter:BoolInverseConverter x:Key="BoolInverse"></converter:BoolInverseConverter> 
+    </base:BasePage.Resources> 
+
     <base:BasePage.Content>
         <StackLayout Orientation="Vertical">
             
            <control:Loader />
             
-           <StackLayout VerticalOptions="FillAndExpand" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" Spacing="0">
+           <StackLayout VerticalOptions="FillAndExpand" IsVisible="{Binding IsLoading,Converter={StaticResource BoolInverse}}" Spacing="0">
            
-            <ListView x:Name="list" IsVisible="{Binding IsEmpty,Converter={converter:BoolInverseConverter}}"  ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
+            <ListView x:Name="list" IsVisible="{Binding IsEmpty,Converter={StaticResource BoolInverse}}"  ItemsSource="{Binding Notifications}" CachingStrategy="RecycleElement" ItemTapped="Handle_ItemTapped" IsGroupingEnabled="true" HasUnevenRows="true" SelectionMode="None" SeparatorColor="#c8c7cc" SeparatorVisibility="Default" >
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>

@@ -2,6 +2,7 @@
 using System.Collections;
 using NGC.Models;
 using Xamarin.Forms;
+using Tab = NGC.Models.Tab;
 
 namespace NGC.Controls
 {

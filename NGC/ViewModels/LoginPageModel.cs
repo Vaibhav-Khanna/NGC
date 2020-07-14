@@ -29,7 +29,7 @@ namespace NGC.ViewModels
 
                 ToastService.HideLoading();
 
-                if (status)
+                if (!status)
                 {
                     ToastService.ShowLoading(null);
 
@@ -57,6 +57,7 @@ namespace NGC.ViewModels
 
         });
 
+
         public Command ForgotCommand => new Command(async() =>
         {
             if (!string.IsNullOrWhiteSpace(Email))
@@ -75,6 +76,7 @@ namespace NGC.ViewModels
             else
                 await CoreMethods.DisplayAlert(AppResources.Error, AppResources.LoginCredentialsEmpty, AppResources.Ok);
         });
+
 
         public Command NextCommand => new Command(() =>
         {

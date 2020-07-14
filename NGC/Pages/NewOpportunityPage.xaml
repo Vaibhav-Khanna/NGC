@@ -33,7 +33,7 @@
                             
                         </ContentView>
                     </DataTemplate>
-                </controls:CarouselViewControl.ItemTemplate>>
+                </controls:CarouselViewControl.ItemTemplate>
             </controls:CarouselViewControl>
             
         </StackLayout>

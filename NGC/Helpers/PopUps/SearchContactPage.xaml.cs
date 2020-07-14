@@ -9,7 +9,9 @@ namespace NGC.Helpers.PopUps
 {
     public partial class SearchContactPage : PopupPage
     {
+
         public Contact Result;
+
 
         public SearchContactPage()
         {

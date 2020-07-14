@@ -40,7 +40,7 @@ namespace NGC.iOS
 
             SfListViewRenderer.Init();
 
-            CarouselViewRenderer.Init();
+            CarouselView.FormsPlugin.iOS.CarouselViewRenderer.Init();
 
             FloatingActionButtonRenderer.InitRenderer();
 

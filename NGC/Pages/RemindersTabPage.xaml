@@ -2,7 +2,7 @@
 <base:BasePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:converter="clr-namespace:NGC.Converter;assembly=NGC"
+    xmlns:converter="clr-namespace:NGC.Converter"
     x:Class="NGC.Pages.RemindersTabPage"
     xmlns:control="clr-namespace:NGC.Controls;assembly=NGC"
     xmlns:base="clr-namespace:NGC.Pages;assembly=NGC"
@@ -10,7 +10,11 @@
     xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:controls="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
     xmlns:resources="clr-namespace:NGC">
-      
+
+    <base:BasePage.Resources> 
+       <converter:BoolInverseConverter x:Key="BoolInverse"></converter:BoolInverseConverter> 
+    </base:BasePage.Resources> 
+
     <base:BasePage.ToolbarItems>
         <ToolbarItem x:Name="btFilter" Priority="0" Icon="" Text="      " Command="{Binding FilterCommand}" />
         <ToolbarItem Priority="1" Icon="plus.png" Command="{Binding AddCommand}" />
@@ -48,10 +52,10 @@
             
             <!-- Listview Area-->
           
-            <StackLayout VerticalOptions="FillAndExpand" IsVisible="{Binding IsLoading,Converter={converter:BoolInverseConverter}}" Spacing="0">
+            <StackLayout VerticalOptions="FillAndExpand" IsVisible="{Binding IsLoading,Converter={StaticResource BoolInverse}}" Spacing="0">
                 
            
-            <syncfusion:SfListView x:Name="listview" IsVisible="{Binding IsEmpty,Converter={converter:BoolInverseConverter}}"  ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
+            <syncfusion:SfListView x:Name="listview" IsVisible="{Binding IsEmpty,Converter={StaticResource BoolInverse}}" ItemsSource="{Binding Reminders}" TapCommand="{Binding ItemSelectedCommand}" AutoFitMode="Height" SelectionGesture="Tap" SelectionMode="Single" IsScrollBarVisible="true" SelectionBackgroundColor="Transparent" Margin="0" AllowSwiping="true">
                 <syncfusion:SfListView.ItemTemplate>
                     <DataTemplate>
                         
